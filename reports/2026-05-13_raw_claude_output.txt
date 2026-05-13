@@ -1,0 +1,63 @@
+以下为本次扫描的完整输出（严格 JSON）：
+
+```json
+{
+  "report_md": "# AI Agent 赛道日报 2026-05-13\n\n## 摘要\n今日赛道动态集中于产品功能迭代：阿里 QwenPaw 于 5月12日发布 v1.1.7-beta.1，新增自动内存管理与飞书原生语音气泡；Manus 同日上线「首选浏览器」功能，Browser Operator 可复用已登录的本地浏览器环境；开源 OpenClaw 生态持续活跃，Peekaboo v3 带来桌面截图与交互能力。\n\n## 重大信号\n\n- **[Alibaba / QwenPaw]** v1.1.7-beta.1 发布：自动内存管理、浮窗聊天、飞书原生语音气泡、Qwen-Image 与 Wan 2.7 插件更新。[GitHub Releases](https://github.com/agentscope-ai/QwenPaw/releases)\n- **[Manus]** Browser Operator 新增「首选浏览器」功能：Agent 可使用本地已配置登录态与扩展的浏览器执行 Web 任务，显著提升自动化覆盖范围。[Manus Blog](https://manus.im/blog)\n- **[OpenClaw]** Peekaboo v3 正式发布：OpenClaw 获得桌面截图与按钮点击等交互能力，开发者 Peter 当日三次迭代。[53AI](https://www.53ai.com/news/Openclaw/)\n\n## 阿里 QwenPaw\n\n- **v1.1.7-beta.1**（2026-05-12）：新增自动内存管理、浮窗聊天支持、飞书原生语音气泡、DingTalk 引用消息处理；Qwen-Image、Wan 2.7 插件同步更新。[→](https://github.com/agentscope-ai/QwenPaw/releases)\n- **v1.1.6**（2026-05-09）：Whisper 语音输入替代 Web Speech API、LLM 自动生成会话标题、Token 使用趋势图表、Mermaid 图表渲染、火山引擎 Provider 接入、新增巴西葡萄牙语（pt-BR）支持。[→](https://github.com/agentscope-ai/QwenPaw/releases)\n\n## Manus\n\n- **Preferred Browser 上线**（2026-05-12）：Browser Operator 可指定本地浏览器执行 Web 任务，复用已有登录态、扩展与网络配置，降低 Agent 自动化任务的鉴权门槛。[→](https://manus.im/blog)\n- **WebDev 项目复制功能**（2026-05-11）：支持将已构建网站项目复制为独立会话，便于版本管理与分支迭代。[→](https://manus.im/blog)\n- **Projects 学习机制**（2026-05-06）：Manus 可将有价值的对话内容自动提炼为项目指令的已批准更新，实现跨任务知识积累。[→](https://manus.im/blog)\n- **Connector 智能推荐**（2026-05-05）：任务执行过程中系统自动推荐所需连接器，减少手动配置步骤。[→](https://manus.im/blog)\n\n## 开源 OpenClaw 生态（via 53AI）\n\n- **Peekaboo v3 发布**（2026-05-11）：OpenClaw 获得截图与按钮点击等桌面交互能力，Peter 当日连续三次迭代更新。[→](https://www.53ai.com/news/Openclaw/)\n- **OpenAI 账号集成**（2026-05-07）：支持使用 ChatGPT 账号登录 OpenClaw，订阅套餐互通。[→](https://www.53ai.com/news/Openclaw/)\n- **v2026.5.2 版本**（2026-05-03）：集成 xAI Grok 4.3，修复 300+ Bug。[→](https://www.53ai.com/news/Openclaw/)\n- **社区讨论**（2026-05-12）：《为什么我把一个 Agent 拆成了六个》探讨上下文窗口溢出时的 Agent 拆分策略。[→](https://www.53ai.com/news/Openclaw/)",
+  "signals": [
+    {
+      "title": "QwenPaw v1.1.7-beta.1 发布：自动内存管理 + 飞书原生语音气泡",
+      "vendor": "Alibaba / QwenPaw",
+      "severity": "major",
+      "summary": "2026-05-12 发布，新增自动内存管理功能、浮窗聊天支持、飞书原生语音气泡、DingTalk 引用消息处理，并同步更新 Qwen-Image 与 Wan 2.7 插件。",
+      "source": "https://github.com/agentscope-ai/QwenPaw/releases"
+    },
+    {
+      "title": "Manus Browser Operator 新增「首选浏览器」功能",
+      "vendor": "Manus",
+      "severity": "major",
+      "summary": "2026-05-12 官方博客发布，Browser Operator 现可绑定用户本地已登录浏览器（含扩展与网络配置）执行 Web 自动化任务，大幅降低鉴权配置门槛。",
+      "source": "https://manus.im/blog"
+    },
+    {
+      "title": "OpenClaw Peekaboo v3 发布：桌面截图与交互能力",
+      "vendor": "OpenClaw (Open Source)",
+      "severity": "major",
+      "summary": "2026-05-11 社区开发者 Peter 正式发布 Peekaboo v3，OpenClaw 首次获得桌面截图、按钮点击等原生交互能力，当日连续三次更新迭代。",
+      "source": "https://www.53ai.com/news/Openclaw/"
+    }
+  ],
+  "new_state": {
+    "manus_blog": {
+      "last_seen_summary": "最新文章：2026-05-12「Preferred Browser」上线，Browser Operator 可使用用户指定本地浏览器（含登录态/扩展）执行 Web 任务；2026-05-11 WebDev 项目复制；2026-05-06 Projects 学习机制（对话自动提炼为指令更新）；2026-05-05 Connector 智能推荐。",
+      "fetched_at": "2026-05-13T04:00:00Z"
+    },
+    "53ai_openclaw": {
+      "last_seen_summary": "最新文章：2026-05-12《为什么我把一个 Agent 拆成了六个》；2026-05-11 Peekaboo v3 发布（桌面截图+按钮交互，Peter 当日三更）；2026-05-10 Linux 部署教程；2026-05-07 OpenAI 账号集成；2026-05-03 v2026.5.2（xAI Grok 4.3，修复 300+ Bug）。",
+      "fetched_at": "2026-05-13T04:00:00Z"
+    },
+    "qwenpaw_releases": {
+      "last_seen_summary": "最新 release：v1.1.7-beta.1（2026-05-12），自动内存管理、浮窗聊天、飞书原生语音气泡、DingTalk 引用消息、Qwen-Image/Wan 2.7 插件。v1.1.6（2026-05-09）：Whisper 语音输入、LLM 自动标题、Token 趋势图、Mermaid 渲染、火山引擎接入。",
+      "fetched_at": "2026-05-13T04:00:00Z"
+    },
+    "tencent_cloud_workbuddy": {
+      "last_seen_summary": "搜索"WorkBuddy"返回 0 篇文章，腾讯云开发者社区暂无相关内容。",
+      "fetched_at": "2026-05-13T04:00:00Z"
+    }
+  }
+}
+```
+
+---
+
+**抓取情况说明（供参考，不进报告）：**
+
+| 源 | 状态 | 原因 |
+|---|---|---|
+| `workbuddy_official` | 跳过 | SPA 渲染，仅得到页面标题，无正文内容 |
+| `coze_changelog` | 跳过 | SPA 渲染，仅得到 JS 代码 |
+| `openclaw_releases` | 跳过 | GitHub repo 404 (AnthropicGoCNs/openclaw 不存在) |
+| `geekpark_aiagent` | 跳过 | HTTP 404 |
+| `zhihu_aiagent` | 跳过 | HTTP 403（反爬） |
+| `baidu_operator` | 跳过 | 302 重定向至 baidu.com 首页 |
+
+**3 条重大信号**均已识别，建议推送 Discord 通知。`new_state` 可直接写入 `data/sources_state.json` 作为下次对比基准。

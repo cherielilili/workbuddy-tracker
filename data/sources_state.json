@@ -1,14 +1,18 @@
 {
+  "tencent_cloud_workbuddy": {
+    "last_seen_summary": "腾讯云开发者社区搜索 WorkBuddy 返回 0 篇文章，暂无官方内容",
+    "fetched_at": "2026-05-13T04:00:00Z"
+  },
   "manus_blog": {
-    "last_seen_summary": "最新文章：'Introducing Preferred Browser'（2026-05-12），Browser Operator 支持自定义浏览器携带登录状态；'Make A Copy of your Manus Built Websites'（2026-05-11），WebDev 项目独立复制功能；'New: Projects That Learn From Every Task'（2026-05-06），项目指令持续学习机制；'Manus Now Recommends Connectors For You'（2026-05-05），智能 Connector 推荐。",
+    "last_seen_summary": "最新：Preferred Browser (5/12)、Make A Copy (5/11)、Self-Updating Projects (5/6)",
     "fetched_at": "2026-05-13T04:00:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "最新文章：'为什么我把一个 Agent 拆成了六个'（2026-05-12），多 Agent 拆分实践分析；'OpenClaw Peekaboo v3 发布'（2026-05-11），具备屏幕截图、窗口识别、按钮操作等桌面交互能力；'家用 Linux 系统 OpenClaw 部署教程'（2026-05-10）；'OpenAI 联动 OpenClaw 大升级'（2026-05-07），支持 ChatGPT 账号订阅接入。",
+    "last_seen_summary": "最新文章 2026-04-09 OpenClaw 应对 Anthropic 竞争；含 20+ Agent 横评(2026-03)",
     "fetched_at": "2026-05-13T04:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新版本 v1.1.7-beta.1（2026-05-12），含自动内存管理、异步 Agent 委托、飞书原生语音气泡、技能系统框架、多附件支持；v1.1.6（2026-05-09），含 Whisper 语音输入替换 Web Speech API、LLM 会话标题自动生成、Token 用量趋势图表、火山引擎及阿里云 Token Plan 支持、飞书与企业微信交互审批卡片。",
+    "last_seen_summary": "最新版 v1.1.7-beta.1 (2026-05-12)，含内存管理、异步委派、飞书语音气泡、技能重构",
     "fetched_at": "2026-05-13T04:00:00Z"
   }
 }
