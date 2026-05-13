@@ -1,30 +1,30 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新版本 4.22.10，含专家分类与 Windows 代理支持；4.22.4 新增 DeepSeek V4 与 Kimi K2.6 自定义模型及会话内搜索；4.21.0（2026-04-28）集成腾讯文档",
-    "fetched_at": "2026-05-13T00:00:00Z"
+    "last_seen_summary": "最新版本 4.22.10，含专家分类与 Windows 代理支持；4.22.4 含 DeepSeek V4/Kimi K2.6 及会话内搜索；4.21.0 集成腾讯文档",
+    "fetched_at": "2026-05-13T10:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索 WorkBuddy 返回零结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-05-13T00:00:00Z"
+    "fetched_at": "2026-05-13T10:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新文章：2026-05-12 自定义浏览器绑定；2026-05-11 网站项目复制；2026-05-06 项目学习记忆；2026-05-05 连接器自动推荐",
-    "fetched_at": "2026-05-13T00:00:00Z"
+    "fetched_at": "2026-05-13T10:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新版本 V0.5.1（2025-02-05），含 Python 环境回退、会话检索 API、NATS EventBus 及 SQL 注入防护修复",
-    "fetched_at": "2026-05-13T00:00:00Z"
+    "fetched_at": "2026-05-13T10:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新 beta v1.1.7-beta.1（2026-05-12），含自动记忆管理、异步执行、钉钉引用消息；稳定版 v1.1.6（2026-05-09）含 Whisper 语音输入、Agent Status API",
-    "fetched_at": "2026-05-13T00:00:00Z"
+    "last_seen_summary": "最新 beta v1.1.7-beta.2（2026-05-13），含 OAuth 2.1 PKCE、FastAPI 插件路由、企业微信流式 hooks；稳定版 v1.1.6（2026-05-09）",
+    "fetched_at": "2026-05-13T10:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新 beta v2026.5.12-beta.4（2026-05-13），含 per-sender 工具策略、网关参数扩展、本地模型按需启动、pnpm 11 升级",
-    "fetched_at": "2026-05-13T00:00:00Z"
+    "last_seen_summary": "最新 beta v2026.5.12-beta.5（2026-05-13），含网关流式传输、设备配对审批、媒体大小限制、会话敏感信息脱敏",
+    "fetched_at": "2026-05-13T10:00:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "2026-05-12《为什么我把一个 Agent 拆成了六个》讨论上下文工程与任务拆分；2026-05-11 Peekaboo v3 发布含截图与窗口识别能力",
-    "fetched_at": "2026-05-13T00:00:00Z"
+    "last_seen_summary": "2026-05-12《为什么我把一个 Agent 拆成了六个》讨论上下文工程；2026-05-11 Peekaboo v3；2026-05-10 Linux 部署教程；2026-05-07 OpenAI 联动 OpenClaw 升级",
+    "fetched_at": "2026-05-13T10:00:00Z"
   }
 }

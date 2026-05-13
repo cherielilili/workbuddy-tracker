@@ -97,45 +97,26 @@
     <div class="meta">
       <span>2026-05-13</span>
       <span class="count-major">重大信号 × 0</span>
-      <span class="count-minor">常规更新 × 0</span>
+      <span class="count-minor">常规更新 × 2</span>
     </div>
   </header>
 
   <section class="signals">
     <h2>Signals</h2>
-    
+    <div class="signal pill-minor"><span class="vendor">Alibaba</span><span class="title">QwenPaw v1.1.7-beta.2 发布</span><div class="summary">新增 OAuth 2.1 PKCE 远程 MCP 鉴权、FastAPI 插件路由注册、企业微信流式输出 hooks。</div><a class="src" href="https://github.com/agentscope-ai/QwenPaw/releases">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Open Source</span><span class="title">OpenClaw v2026.5.12-beta.5 发布</span><div class="summary">网关流式传输改进、设备配对审批机制、多平台媒体大小限制、会话敏感信息脱敏等安全与稳定性更新。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div>
   </section>
 
   <main class="report">
     <h1>AI Agent 赛道日报 2026-05-13</h1>
 <h2>摘要</h2>
-<p>今日赛道整体活跃：阿里 QwenPaw 发布 v1.1.7-beta.1，引入自动记忆管理与异步执行能力；OpenClaw 密集迭代，单日推送三个 Beta 版本，新增基于发送者身份的工具访问策略与网关参数扩展；Manus 上线自定义浏览器绑定功能，持续完善自动化工作流生态。</p>
+<p>今日赛道整体节奏平稳，阿里 QwenPaw 与开源项目 OpenClaw 均在当日推出新 beta 版本。QwenPaw 新增 OAuth 2.1 PKCE 远程 MCP 鉴权支持，OpenClaw 则集中强化安全合规与媒体管控能力。其余厂商今日无新动态。</p>
 <h2>阿里 QwenPaw</h2>
 <ul>
-<li><strong>v1.1.7-beta.1</strong>（2026-05-12）发布，核心新特性：</li>
-<li>自动记忆管理（auto-memory management）：Agent 可自主维护跨会话记忆</li>
-<li>异步执行支持（async execution support）</li>
-<li>聊天界面支持多附件同时上传</li>
-<li>Skill 系统架构重构</li>
-<li>钉钉引用消息（DingTalk quoted message）解析优化</li>
-<li>浏览器操作批量执行优化（browser_use batch actions）</li>
-<li>飞书语音气泡支持；新增印尼语（Indonesian）语言包</li>
-<li>来源：https://github.com/agentscope-ai/QwenPaw/releases</li>
+<li><strong>v1.1.7-beta.2</strong>（2026-05-13）：新增通过插件注册 FastAPI APIRouter 实例；支持 OAuth 2.1 PKCE 用于远程 MCP 服务器鉴权；BaseChannel 新增流式输出 hooks 并适配企业微信（WeCom）。来源：https://github.com/agentscope-ai/QwenPaw/releases</li>
 </ul>
 <h2>OpenClaw</h2>
 <ul>
-<li><strong>v2026.5.12-beta.4</strong>（2026-05-13 05:17 UTC）发布，当日第三个 Beta 版本，主要变更：</li>
-<li>网关层新增 max_completion_tokens / max_tokens 参数兼容，覆盖 OpenAI-compatible 及 Azure 服务</li>
-<li>新增基于发送者身份的工具访问策略（per-sender tool policies），支持 per-agent 级别覆盖</li>
-<li>本地模型服务支持按需启动（provider-level on-demand startup）</li>
-<li>pnpm 11 工作区升级；TypeScript 及 lint 配置严格化</li>
-<li>Slack 链接/媒体展开控制；Telegram HTML 标签保留；iMessage 状态过滤</li>
-<li>来源：https://github.com/openclaw/openclaw/releases</li>
-<li>社区文章《为什么我把一个 Agent 拆成了六个》（2026-05-12，53AI）：从上下文工程角度探讨多 Agent 任务拆分实践，核心论点为上下文膨胀是拆分的主要驱动力。来源：https://www.53ai.com/news/Openclaw/</li>
-</ul>
-<h2>Manus</h2>
-<ul>
-<li><strong>Introducing Preferred Browser</strong>（2026-05-12，Academy）：支持为自动化流程绑定指定浏览器，提升端到端工作流执行的可控性与一致性。来源：https://manus.im/blog</li>
+<li><strong>v2026.5.12-beta.5</strong>（2026-05-13）：网关协议改进，支持聊天帧流式传输；修复 GitHub Copilot 图像理解 OAuth Token 交换问题；设备配对新增审批要求（涵盖 setup-code 与浏览器访问）；WhatsApp/飞书/Line 媒体下载强制文件大小限制；Telegram 轮询卡顿检测与 Token 轮换；CLI 与网关均新增会话敏感信息脱敏能力。来源：https://github.com/openclaw/openclaw/releases</li>
 </ul>
   </main>
 
