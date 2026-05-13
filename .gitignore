@@ -1,0 +1,5 @@
+reports/*.html
+!index.html
+data/raw/
+__pycache__/
+*.pyc

@@ -1,0 +1,42 @@
+{
+  "workbuddy_official": {
+    "last_seen_summary": "SPA 动态渲染，仅获取产品名称「WorkBuddy - AI Agent 办公新范式」及 Google Analytics 追踪代码（AW-17806298785），无产品功能描述或版本信息可抓取",
+    "fetched_at": "2026-05-13T04:00:00Z"
+  },
+  "tencent_cloud_workbuddy": {
+    "last_seen_summary": "搜索 WorkBuddy 返回 0 条文章，腾讯云开发者社区无任何 WorkBuddy 相关公开内容",
+    "fetched_at": "2026-05-13T04:00:00Z"
+  },
+  "manus_blog": {
+    "last_seen_summary": "最新文章：2026-05-12《Introducing Preferred Browser》（Browser Operator 支持指定浏览器，继承登录态与扩展）；近期重要发布：Website Duplication(5/11)、Self-Updating Projects(5/6)、Recommended Connectors(5/5)、Cloud Computer Launch(4/30)、GPT Image 2(4/29)、Slack 集成(4/6)；历史重大信号：2025-12-29 加入 Meta",
+    "fetched_at": "2026-05-13T04:00:00Z"
+  },
+  "coze_changelog": {
+    "last_seen_summary": "SPA 渲染，Slardar Web SDK v1.14.4（生产环境，China-North），构建版本 1.0.0.6720，页面标题「扣子 - AI办公助手一站式平台」，功能模块含 AI 写作、PPT、表格、设计、播客、生图，无 changelog 详情可提取",
+    "fetched_at": "2026-05-13T04:00:00Z"
+  },
+  "53ai_openclaw": {
+    "last_seen_summary": "最新文章：2026-05-12「为什么我把一个 Agent 拆成了六个」；重大：2026-05-11 Peekaboo v3 发布（桌面操控）；2026-05-10 Linux 部署教程；2026-05-07 OpenAI 联动；2026-05-03 v2026.5.2（xAI Grok 接入，300+ 修复）；2026-03-03 20+款 Agent 工具横评",
+    "fetched_at": "2026-05-13T04:00:00Z"
+  },
+  "qwenpaw_releases": {
+    "last_seen_summary": "最新版本：v1.1.7-beta.1（2026-05-12），含 Auto-Memory Management、多附件支持、飞书/企微互动审批卡片、Shell 命令配置、外部 Agent 异步委托执行、控制台插件管理、印尼语（id）支持、会话历史稳定性优化；v1.1.6（2026-05-09）含 Whisper 语音、飞书审批卡片、Token 趋势图、Agent 状态 API、GPT Image 2 插件；v1.1.5（2026-04-29）含 CJK 内存搜索分词、ACP agent 重命名/删除",
+    "fetched_at": "2026-05-13T04:00:00Z"
+  },
+  "openclaw_releases": {
+    "last_seen_summary": "GitHub 仓库 AnthropicGoCNs/openclaw 返回 404，URL 配置有误，需更新为实际 repo 地址",
+    "fetched_at": "2026-05-13T04:00:00Z"
+  },
+  "geekpark_aiagent": {
+    "last_seen_summary": "页面返回 404，geekpark.net/category/ai-agent 分类页不存在，需更新为有效 URL",
+    "fetched_at": "2026-05-13T04:00:00Z"
+  },
+  "zhihu_aiagent": {
+    "last_seen_summary": "知乎话题热门页返回 403，遭反爬虫拦截，无法抓取",
+    "fetched_at": "2026-05-13T04:00:00Z"
+  },
+  "baidu_operator": {
+    "last_seen_summary": "chat.baidu.com/operator 返回 302 重定向至 baidu.com 首页，产品页面疑已下线，需更新 URL",
+    "fetched_at": "2026-05-13T04:00:00Z"
+  }
+}
