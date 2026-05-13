@@ -109,15 +109,33 @@
   <main class="report">
     <h1>AI Agent 赛道日报 2026-05-13</h1>
 <h2>摘要</h2>
-<p>今日赛道有少量新动态。Manus 于 5 月 12 日上线 Preferred Browser 自定义浏览器功能，5 月 11 日推出 WebDev 项目复制能力；阿里 QwenPaw 同日（5/12）发布 v1.1.7-beta.1，覆盖内存管理、异步 Agent 委派、飞书语音气泡及技能系统重构等多项升级。</p>
-<h2>Manus</h2>
-<ul>
-<li><strong>【2026-05-12】Preferred Browser</strong> — 新增自定义浏览器集成，用户可为自动化任务指定首选浏览器，进一步强化 Desktop 本地控制能力。<a href="https://manus.im/blog">来源</a></li>
-<li><strong>【2026-05-11】Make A Copy Feature</strong> — 支持独立复制 WebDev 项目，各副本可单独迭代，便于团队并行实验开发。<a href="https://manus.im/blog">来源</a></li>
-</ul>
+<p>今日赛道整体活跃：阿里 QwenPaw 发布 v1.1.7-beta.1，引入自动记忆管理与异步执行能力；OpenClaw 密集迭代，单日推送三个 Beta 版本，新增基于发送者身份的工具访问策略与网关参数扩展；Manus 上线自定义浏览器绑定功能，持续完善自动化工作流生态。</p>
 <h2>阿里 QwenPaw</h2>
 <ul>
-<li><strong>【2026-05-12】v1.1.7-beta.1 发布</strong> — 主要更新：内存管理功能上线、支持异步 Agent 委派、聊天界面支持多附件、飞书新增语音气泡、技能系统完成重构。覆盖飞书、企业微信、微信、QQ 全渠道。<a href="https://github.com/agentscope-ai/QwenPaw/releases">来源</a></li>
+<li><strong>v1.1.7-beta.1</strong>（2026-05-12）发布，核心新特性：</li>
+<li>自动记忆管理（auto-memory management）：Agent 可自主维护跨会话记忆</li>
+<li>异步执行支持（async execution support）</li>
+<li>聊天界面支持多附件同时上传</li>
+<li>Skill 系统架构重构</li>
+<li>钉钉引用消息（DingTalk quoted message）解析优化</li>
+<li>浏览器操作批量执行优化（browser_use batch actions）</li>
+<li>飞书语音气泡支持；新增印尼语（Indonesian）语言包</li>
+<li>来源：https://github.com/agentscope-ai/QwenPaw/releases</li>
+</ul>
+<h2>OpenClaw</h2>
+<ul>
+<li><strong>v2026.5.12-beta.4</strong>（2026-05-13 05:17 UTC）发布，当日第三个 Beta 版本，主要变更：</li>
+<li>网关层新增 max_completion_tokens / max_tokens 参数兼容，覆盖 OpenAI-compatible 及 Azure 服务</li>
+<li>新增基于发送者身份的工具访问策略（per-sender tool policies），支持 per-agent 级别覆盖</li>
+<li>本地模型服务支持按需启动（provider-level on-demand startup）</li>
+<li>pnpm 11 工作区升级；TypeScript 及 lint 配置严格化</li>
+<li>Slack 链接/媒体展开控制；Telegram HTML 标签保留；iMessage 状态过滤</li>
+<li>来源：https://github.com/openclaw/openclaw/releases</li>
+<li>社区文章《为什么我把一个 Agent 拆成了六个》（2026-05-12，53AI）：从上下文工程角度探讨多 Agent 任务拆分实践，核心论点为上下文膨胀是拆分的主要驱动力。来源：https://www.53ai.com/news/Openclaw/</li>
+</ul>
+<h2>Manus</h2>
+<ul>
+<li><strong>Introducing Preferred Browser</strong>（2026-05-12，Academy）：支持为自动化流程绑定指定浏览器，提升端到端工作流执行的可控性与一致性。来源：https://manus.im/blog</li>
 </ul>
   </main>
 
