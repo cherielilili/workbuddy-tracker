@@ -1,30 +1,30 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新版本 4.22.11，修复上下文紧绷查询无响应及模型切换失败问题；4.22.10 含专家分类与 Windows 代理支持",
-    "fetched_at": "2026-05-14T10:00:00Z"
+    "last_seen_summary": "最新版本 4.22.12，新增腾讯会议与企业微信连接器卡片、设置面板网络诊断；4.22.11 修复上下文压缩与模型切换问题",
+    "fetched_at": "2026-05-15T00:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索 WorkBuddy 返回零结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-05-14T10:00:00Z"
+    "fetched_at": "2026-05-15T00:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新文章 2026-05-14《Manus 与 Similarweb 整合》竞品分析；2026-05-13 Mirimim 自闭症教育用户案例；2026-05-12 自定义浏览器绑定",
-    "fetched_at": "2026-05-14T10:00:00Z"
+    "last_seen_summary": "最新文章 2026-05-15《Google Drive 连接器深度解析》自动化工作流；2026-05-14 Similarweb 竞品分析；2026-05-13 自闭症教育案例",
+    "fetched_at": "2026-05-15T00:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新版本 V0.5.1（2025-02-05），含 NATS EventBus、知识库 OpenAPI 及 SQL 注入修复，无新版本",
-    "fetched_at": "2026-05-14T10:00:00Z"
+    "fetched_at": "2026-05-15T00:00:00Z"
   },
   "qwenpaw_releases": {
     "last_seen_summary": "稳定版 v1.1.7（2026-05-14），含浏览器批量操作、多文件附件、企业微信流式输出、收件箱与定时任务日历视图",
-    "fetched_at": "2026-05-14T10:00:00Z"
+    "fetched_at": "2026-05-15T00:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "稳定版 v2026.5.12（2026-05-14），SDK 依赖解耦、持久化自动滚动、Telegram 隔离 Worker 架构、Windows 沙箱加固",
-    "fetched_at": "2026-05-14T10:00:00Z"
+    "last_seen_summary": "稳定版 v2026.5.12；beta 最新 v2026.5.14-beta.2（2026-05-15），WhatsApp emoji 状态、DeepSeek V4 Flash、Telnyx 语音流",
+    "fetched_at": "2026-05-15T00:00:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "2026-05-14 两篇：OpenClaw 分层治理分析（傅宏宇）；核心团队访谈（大公司业务直跑 OpenClaw）",
-    "fetched_at": "2026-05-14T10:00:00Z"
+    "last_seen_summary": "2026-05-15 两篇：分层治理下篇（意图编排与风险）；AgentScope Java 1.1.0 Harness Framework 企业分布式场景发布",
+    "fetched_at": "2026-05-15T00:00:00Z"
   }
 }
