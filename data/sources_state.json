@@ -1,30 +1,30 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新版本4.22.12，含腾讯会议与企业微信连接器卡片、设置面板网络诊断、HTML对话分享、专家团Auto路由；4.22.4含DeepSeek V4与Kimi K2.6支持",
-    "fetched_at": "2026-05-17T00:00:00Z"
+    "last_seen_summary": "最新版本4.22.12，含腾讯会议与企业微信连接器卡片、设置面板网络诊断、HTML对话分享；无新版本发布",
+    "fetched_at": "2026-05-18T00:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索WorkBuddy返回零结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-05-17T00:00:00Z"
+    "fetched_at": "2026-05-18T00:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新文章2026-05-15 Google Drive连接器工作流深度解析；2026-05-14 Similarweb竞品分析增强；2026-05-13自闭症教育App用户故事；2026-05-12自定义浏览器功能上线",
-    "fetched_at": "2026-05-17T00:00:00Z"
+    "last_seen_summary": "最新文章2026-05-18 Scheduled Tasks 2.0发布，支持时间触发与事件驱动自动化；2026-05-15 Google Drive连接器深度解析",
+    "fetched_at": "2026-05-18T00:00:00Z"
   },
   "coze_studio_releases": {
-    "last_seen_summary": "最新版本v0.5.1（2025-02-05），含NATS EventBus、会话检索API、embedding配置优化及SQL注入修复，无新版本",
-    "fetched_at": "2026-05-17T00:00:00Z"
+    "last_seen_summary": "最新版本v0.5.1（2025-02-05），含NATS EventBus、会话检索API、SQL注入修复，无新版本发布",
+    "fetched_at": "2026-05-18T00:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "稳定版v1.1.7（2026-05-14），含浏览器批量操作、文件下载、企业微信流式输出、收件箱Approval标签页、印尼语支持",
-    "fetched_at": "2026-05-17T00:00:00Z"
+    "last_seen_summary": "beta版v1.1.8-beta.1（2026-05-18）含agentscope升级、Matrix E2EE验证、企业微信审批修复；稳定版v1.1.7",
+    "fetched_at": "2026-05-18T00:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "beta最新v2026.5.16-beta.5（2026-05-17），新增子Agent完成移交、defineToolPlugin插件接口、Mac设置卡片布局、fal/OpenRouter音乐生成、QA-Lab覆盖率报告",
-    "fetched_at": "2026-05-17T00:00:00Z"
+    "last_seen_summary": "稳定版v2026.5.18（2026-05-18）新增autoreview/Meme/Python调试技能及浏览器模态支持；beta版v2026.5.18-beta.1同日发布",
+    "fetched_at": "2026-05-18T00:00:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "2026-05-15两篇：OpenClaw分层治理下篇（意图编排与风险）；AgentScope Java 1.1.0 Harness Framework企业分布式发布；2026-05-14分层治理上篇",
-    "fetched_at": "2026-05-17T00:00:00Z"
+    "last_seen_summary": "2026-05-18 GBrain开源三层记忆架构文章；2026-05-15 OpenClaw分层治理下篇及AgentScope Java 1.1.0",
+    "fetched_at": "2026-05-18T00:00:00Z"
   }
 }
