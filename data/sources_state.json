@@ -1,30 +1,30 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新版本4.22.14，新增产物分享至微信与二维码生成；4.22.12含连接器市场、网络诊断、自动化任务增强",
-    "fetched_at": "2026-05-19T04:30:00Z"
+    "last_seen_summary": "最新版本4.22.15，新增MCP连接器请求头/User-Agent支持、HTML产物微信分享、Expert网络环境可见性配置，多项稳定性修复",
+    "fetched_at": "2026-05-20T08:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索WorkBuddy返回零结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-05-19T04:30:00Z"
+    "fetched_at": "2026-05-20T08:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新文章2026-05-19 Higgsfield MCP连接器发布；2026-05-18 Scheduled Tasks 2.0；2026-05-15 Google Drive连接器深度解析",
-    "fetched_at": "2026-05-19T04:30:00Z"
+    "last_seen_summary": "最新文章2026-05-19 Higgsfield MCP连接器发布；2026-05-18 Scheduled Tasks 2.0；2026-05-15 Google Drive连接器及Similarweb竞品分析文章，无新增",
+    "fetched_at": "2026-05-20T08:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新版本v0.5.1（2025-02-05），含NATS EventBus、会话检索API、SQL注入修复，无新版本发布",
-    "fetched_at": "2026-05-19T04:30:00Z"
+    "fetched_at": "2026-05-20T08:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "稳定版v1.1.8（2026-05-19）含官方插件分发、QwenPaw Pet桌面伴侣、CloudPaw阿里云部署、Inbox重设计；beta.2同日发布",
-    "fetched_at": "2026-05-19T04:30:00Z"
+    "last_seen_summary": "最新版v1.1.8.post1（2026-05-20），修复MCP路由、暗色模式，新增OpenCode Go provider集成与后台任务超时支持",
+    "fetched_at": "2026-05-20T08:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "稳定版v2026.5.18（2026-05-18）；beta版v2026.5.19-beta.1含Mac设置重设计、Android实时语音Gateway中继、QA-Lab增强",
-    "fetched_at": "2026-05-19T04:30:00Z"
+    "last_seen_summary": "稳定版v2026.5.19（2026-05-20），新增autoreview/meme-maker/Python调试技能，HTTPS代理支持，QA-Lab扩展含个人Agent基准测试包",
+    "fetched_at": "2026-05-20T08:00:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "2026-05-19两篇新文：OpenClaw Skill数量与描述长度控制机制解析；AI做梦机制(/Dream、DMN)与记忆整合探讨",
-    "fetched_at": "2026-05-19T04:30:00Z"
+    "last_seen_summary": "2026-05-19两篇新文：Skill数量与描述长度控制机制解析；AI做梦机制与记忆整合探讨；2026-05-18 GBrain开源记忆系统介绍",
+    "fetched_at": "2026-05-20T08:00:00Z"
   }
 }
