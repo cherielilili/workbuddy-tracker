@@ -1,30 +1,30 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新版v4.24.1，优化专家团协作调度，修复企业微信/macOS问题；v4.24.0新增自定义专家管理、MCP工具调用进度展示、连接器详情页",
-    "fetched_at": "2026-05-28T06:00:00Z"
+    "last_seen_summary": "最新版v4.24.1，优化专家团协作调度，修复企业微信/macOS问题；v4.24.0新增自定义专家管理、MCP进度展示、连接器详情页",
+    "fetched_at": "2026-05-29T08:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索WorkBuddy返回零结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-05-28T06:00:00Z"
+    "fetched_at": "2026-05-29T08:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新文章2026-05-28 Notion工作流连接器；2026-05-19 Higgsfield MCP连接器；2026-05-18 Scheduled Tasks 2.0",
-    "fetched_at": "2026-05-28T06:00:00Z"
+    "fetched_at": "2026-05-29T08:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新版本v0.5.1（2025-02-05），含NATS EventBus、会话检索API、SQL注入修复，无新版本发布",
-    "fetched_at": "2026-05-28T06:00:00Z"
+    "fetched_at": "2026-05-29T08:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "正式版v1.1.9（2026-05-27），含Tauri 2.x桌面应用、Coding Mode三栏IDE、Skill Market；v1.1.8含CloudPaw与飞书QR码机器人",
-    "fetched_at": "2026-05-28T06:00:00Z"
+    "last_seen_summary": "最新beta v1.1.10-beta.1（2026-05-29），含Open Directory标签页、spawn_subagent工具；稳定版v1.1.9含Tauri 2.x与Skill Market",
+    "fetched_at": "2026-05-29T08:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "稳定版v2026.5.27（2026-05-28），安全增强：group prompt隔离、域名规范化；新增OpenAI兼容嵌入提供商；Codex可靠性提升",
-    "fetched_at": "2026-05-28T06:00:00Z"
+    "last_seen_summary": "最新v2026.5.28-beta.3（2026-05-29），新增Claude Opus 4.8支持、子代理工作区隔离、会话锁超时释放、iOS Pro UI刷新",
+    "fetched_at": "2026-05-29T08:00:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "最新文2026-05-24：李想谈AI价值在生产环境中兑现；2026-05-19：Skill数量与描述长度控制机制解析",
-    "fetched_at": "2026-05-28T06:00:00Z"
+    "last_seen_summary": "最新文2026-05-29 OpenClaw与Hermes架构深度复盘；2026-05-24 李想谈AI生产环境价值",
+    "fetched_at": "2026-05-29T08:00:00Z"
   }
 }
