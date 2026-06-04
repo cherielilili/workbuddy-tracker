@@ -1,19 +1,19 @@
-# AI Agent 赛道 tracker 源列表（起步 10 个）
+# AI Agent 赛道 tracker 源列表（v2 — 优化后）
 # priority: P0 必看 / P1 重要 / P2 补充
 # vendor: 该源主要覆盖的厂商/赛道
 
 sources:
-  - id: workbuddy_official
+  - id: workbuddy_changelog
     priority: P0
     vendor: Tencent / WorkBuddy
-    url: https://copilot.tencent.com/work/
-    note: WorkBuddy 官网 — 看版本号、功能更新、活动
+    url: https://www.codebuddy.cn/docs/workbuddy/Changelog
+    note: WorkBuddy 官方 Changelog（静态文档页，非 SPA）
 
   - id: tencent_cloud_workbuddy
-    priority: P0
+    priority: P1
     vendor: Tencent / WorkBuddy
     url: https://cloud.tencent.com/developer/search/article?q=WorkBuddy
-    note: 腾讯云开发者社区 WorkBuddy 标签 — 官方教程/changelog
+    note: 腾讯云开发者社区 WorkBuddy 搜索（备用）
 
   - id: manus_blog
     priority: P0
@@ -21,11 +21,23 @@ sources:
     url: https://manus.im/blog
     note: Manus Desktop 官方博客
 
-  - id: coze_changelog
+  - id: coze_studio_releases
     priority: P0
     vendor: ByteDance / Coze
-    url: https://www.coze.cn/
-    note: 字节扣子官网 — 看 changelog 链接
+    url: https://github.com/coze-dev/coze-studio/releases
+    note: 字节扣子开源版 Coze Studio releases（官方）
+
+  - id: qwenpaw_releases
+    priority: P0
+    vendor: Alibaba / QwenPaw
+    url: https://github.com/agentscope-ai/QwenPaw/releases
+    note: 阿里 QwenPaw GitHub releases
+
+  - id: openclaw_releases
+    priority: P0
+    vendor: Open Source / OpenClaw
+    url: https://github.com/openclaw/openclaw/releases
+    note: OpenClaw 主 repo releases（180k+ stars）
 
   - id: 53ai_openclaw
     priority: P1
@@ -33,32 +45,14 @@ sources:
     url: https://www.53ai.com/news/Openclaw/
     note: 53AI 行业横评 / 平替对比合集
 
-  - id: qwenpaw_releases
+  - id: stanford_hai_news
     priority: P1
-    vendor: Alibaba / QwenPaw
-    url: https://github.com/agentscope-ai/QwenPaw/releases
-    note: 阿里 QwenPaw GitHub releases
+    vendor: Stanford HAI
+    url: https://hai.stanford.edu/news
+    note: Stanford Human-Centered AI 新闻：新研究/报告/政策简报/课程公告
 
-  - id: openclaw_releases
+  - id: stanford_hai_events
     priority: P1
-    vendor: Open Source / OpenClaw
-    url: https://github.com/AnthropicGoCNs/openclaw
-    note: OpenClaw 开源主 repo (替换为实际 repo 后)
-
-  - id: geekpark_aiagent
-    priority: P2
-    vendor: Industry / Media
-    url: https://www.geekpark.net/category/ai-agent
-    note: 极客公园 AI Agent 分类
-
-  - id: zhihu_aiagent
-    priority: P2
-    vendor: Community
-    url: https://www.zhihu.com/topic/22025896/hot
-    note: 知乎"AI Agent"话题热门
-
-  - id: baidu_operator
-    priority: P2
-    vendor: Baidu / Operator
-    url: https://chat.baidu.com/operator
-    note: 百度红手指 Operator 官网
+    vendor: Stanford HAI
+    url: https://hai.stanford.edu/events
+    note: Stanford HAI 活动日历：公开讲座/研讨会/新课程发布（重点追踪 AI 经济/投资相关）
