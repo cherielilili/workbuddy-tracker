@@ -1,30 +1,30 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新v4.24.8（2026-06-03）修复上下文压缩消息丢失、任务停止异常、沙箱日志报错；v4.24.7修复自动化首次触发卡住",
-    "fetched_at": "2026-06-04T00:00:00Z"
+    "fetched_at": "2026-06-05T00:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索WorkBuddy返回零结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-06-04T00:00:00Z"
+    "fetched_at": "2026-06-05T00:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新2026-06-03 HubSpot+Gmail销售CRM客户案例；2026-05-29两篇k-ID客户故事；2026-05-28 Notion工作流连接器",
-    "fetched_at": "2026-06-04T00:00:00Z"
+    "last_seen_summary": "最新2026-06-05 Airtable批量管理教程；2026-06-04 Alyak Coach健身追踪客户案例（3900用户8周盈利）；2026-06-03 HubSpot+Gmail销售CRM案例",
+    "fetched_at": "2026-06-05T00:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05），含NATS EventBus、会话检索API、SQL注入修复，无新版本发布",
-    "fetched_at": "2026-06-04T00:00:00Z"
+    "fetched_at": "2026-06-05T00:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v1.1.11-beta.1含小米MiMo渠道、飞书群共享会话、Telegram交互键盘；v1.1.10含spawn_subagent、Open Directory、腾讯元宝渠道",
-    "fetched_at": "2026-06-04T00:00:00Z"
+    "last_seen_summary": "最新v1.1.11-beta.1含小米MiMo渠道、飞书群共享会话、Telegram交互键盘；v1.1.10含spawn_subagent、腾讯元宝渠道",
+    "fetched_at": "2026-06-05T00:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新v2026.6.2-beta.1（2026-06-03）插件安装改运营商策略、多平台频道稳定性优化；v2026.6.1正式版含Skill Workshop、MiniMax M3",
-    "fetched_at": "2026-06-04T00:00:00Z"
+    "last_seen_summary": "最新v2026.6.2-beta.1（2026-06-03）插件安装改运营商策略、多平台频道稳定性优化；v2026.6.1含Skill Workshop、MiniMax M3",
+    "fetched_at": "2026-06-05T00:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新文2026-06-01 OpenClaw 5月稳定性解析；2026-05-31 HiClaw企业SRE多Agent实践介绍",
-    "fetched_at": "2026-06-04T00:00:00Z"
+    "fetched_at": "2026-06-05T00:00:00Z"
   }
 }
