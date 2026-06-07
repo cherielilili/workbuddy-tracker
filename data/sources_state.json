@@ -1,30 +1,30 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新v4.24.8（2026-06-03）修复上下文压缩消息丢失、任务停止异常、沙箱日志报错；v4.24.7修复自动化首次触发卡住",
-    "fetched_at": "2026-06-06T08:00:00Z"
+    "last_seen_summary": "最新v4.24.8（2026-06-03）修复上下文压缩消息丢失、Windows沙箱日志过量；v4.24.7修复定时任务卡住；v4.24.6优化内容过滤展示",
+    "fetched_at": "2026-06-07T08:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索WorkBuddy返回零结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-06-06T08:00:00Z"
+    "fetched_at": "2026-06-07T08:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新2026-06-05 Airtable批量管理教程；2026-06-04 Alyak Coach健身追踪客户案例（3900用户8周盈利）；2026-06-03 HubSpot+Gmail销售CRM案例",
-    "fetched_at": "2026-06-06T08:00:00Z"
+    "last_seen_summary": "最新2026-06-05 Airtable批量管理教程；2026-06-04 Alyak Coach健身追踪案例（3900用户8周盈利）；2026-06-03 HubSpot+Gmail销售CRM案例",
+    "fetched_at": "2026-06-07T08:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05），含NATS EventBus、会话检索API、SQL注入修复，无新版本发布",
-    "fetched_at": "2026-06-06T08:00:00Z"
+    "fetched_at": "2026-06-07T08:00:00Z"
   },
   "qwenpaw_releases": {
     "last_seen_summary": "最新v1.1.11-beta.1含小米MiMo渠道、飞书群共享会话、Telegram交互键盘；v1.1.10含spawn_subagent、腾讯元宝渠道",
-    "fetched_at": "2026-06-06T08:00:00Z"
+    "fetched_at": "2026-06-07T08:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新v2026.6.5-beta.1（2026-06-06）含QQBot推理标签过滤、MCP工具结果强制转换、并行网页搜索集成、Matrix语音Thread支持、SQLite持久化认证插件状态",
-    "fetched_at": "2026-06-06T08:00:00Z"
+    "last_seen_summary": "最新v2026.6.5-beta.2（2026-06-07）含QQBot推理剥离、MCP工具类型转换、Anthropic扩展思考缓存恢复、并行Web搜索API Key自动发现、Google Vertex ADC修复",
+    "fetched_at": "2026-06-07T08:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新文2026-06-01 OpenClaw 5月稳定性解析；2026-05-31 HiClaw企业SRE多Agent实践介绍",
-    "fetched_at": "2026-06-06T08:00:00Z"
+    "fetched_at": "2026-06-07T08:00:00Z"
   }
 }
