@@ -1,30 +1,30 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新v5.0.2（2026-06-05）沙箱安全开关、会话列表分组优化、Windows修复；v5.0.0（2026-06-03）大版本含Teams协作、规划板、资产库、腾讯文档深度集成",
-    "fetched_at": "2026-06-08T00:00:00Z"
+    "last_seen_summary": "最新v5.0.3（2026-06-08）腾讯文档个人版导入自动刷新、成长计划入口、Expert代理性能优化；v5.0.0含Teams协作规划板资产库",
+    "fetched_at": "2026-06-09T00:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索WorkBuddy返回零结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-06-08T00:00:00Z"
+    "fetched_at": "2026-06-09T00:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新2026-06-08多账号Gmail/Calendar支持；2026-06-05 Airtable批量管理教程；2026-06-04 Alyak Coach健身追踪案例",
-    "fetched_at": "2026-06-08T00:00:00Z"
+    "last_seen_summary": "最新2026-06-09 Zoom Connector发布（会议内容转工作流）；2026-06-08多账号Gmail/Calendar集成",
+    "fetched_at": "2026-06-09T00:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05）含NATS EventBus、会话检索API、SQL注入修复，无新版本发布",
-    "fetched_at": "2026-06-08T00:00:00Z"
+    "fetched_at": "2026-06-09T00:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v1.1.11-beta.1含ProviderManager fallback、generate_kwargs非标路由、Windows驱动器浏览；v1.1.10含spawn_subagent、腾讯元宝渠道",
-    "fetched_at": "2026-06-08T00:00:00Z"
+    "last_seen_summary": "最新v1.1.11-beta.2含CDP超时参数、MCP工具白名单UI开关、浏览器配置文件隔离、OAuth认证、零配置免费模型",
+    "fetched_at": "2026-06-09T00:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "stable最新v2026.6.1（2026-06-03）含断点工具调用恢复、多渠道投递增强；beta最新v2026.6.5-beta.2（2026-06-07）",
-    "fetched_at": "2026-06-08T00:00:00Z"
+    "last_seen_summary": "stable最新v2026.6.5（2026-06-09）含QQBot推理过滤、MCP结果强制转型、SQLite状态持久化、并行网搜、扩展思维恢复",
+    "fetched_at": "2026-06-09T00:00:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "最新文2026-06-01 OpenClaw 5月稳定性更新解析；2026-05-31 HiClaw企业SRE多Agent实践介绍",
-    "fetched_at": "2026-06-08T00:00:00Z"
+    "last_seen_summary": "最新文2026-06-01 OpenClaw 5月稳定性更新解析；2026-05-31 HiClaw企业SRE多Agent实践，无新文章",
+    "fetched_at": "2026-06-09T00:00:00Z"
   }
 }
