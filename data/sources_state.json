@@ -1,30 +1,34 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新v5.0.3（2026-06-08）腾讯文档个人版导入自动刷新、成长计划入口、Expert代理性能优化；v5.0.0含Teams协作规划板资产库",
-    "fetched_at": "2026-06-10T08:00:00Z"
+    "fetched_at": "2026-06-11T00:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索WorkBuddy返回零结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-06-10T08:00:00Z"
+    "fetched_at": "2026-06-11T00:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新2026-06-09 Zoom Connector发布（会议内容转工作流）；2026-06-08多账号Gmail/Calendar集成",
-    "fetched_at": "2026-06-10T08:00:00Z"
+    "fetched_at": "2026-06-11T00:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05）含NATS EventBus、会话检索API、SQL注入修复，无新版本发布",
-    "fetched_at": "2026-06-10T08:00:00Z"
+    "fetched_at": "2026-06-11T00:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v1.1.11稳定版（2026-06-10）含多路径技能池、小米MiMo模型接入、MCP工具白名单UI；v1.1.10（2026-06-01）含子代理生成工具",
-    "fetched_at": "2026-06-10T08:00:00Z"
+    "last_seen_summary": "最新v1.1.11.post2（2026-06-11）样式微调工具卡片标题；post1修复OpenSSL兼容性及ModelSelector本地provider可见性；v1.1.11含飞书分享、MCP白名单",
+    "fetched_at": "2026-06-11T00:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新预发布v2026.6.6-beta.1（2026-06-10）安全加固transcript/沙箱/宿主环境/MCP stdio；stable最新仍为v2026.6.5",
-    "fetched_at": "2026-06-10T08:00:00Z"
+    "last_seen_summary": "最新预发布v2026.6.6-beta.1（2026-06-10）安全加固transcript/沙箱/MCP stdio；stable最新仍为v2026.6.5",
+    "fetched_at": "2026-06-11T00:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新文2026-06-01 OpenClaw 5月稳定性更新解析；2026-05-31 HiClaw企业SRE多Agent实践，无新文章",
-    "fetched_at": "2026-06-10T08:00:00Z"
+    "fetched_at": "2026-06-11T00:00:00Z"
+  },
+  "stanford_hai_events": {
+    "last_seen_summary": "首次抓取：以常设奖学金项目为主（HAI博士后、Data Science Scholars、SAIL博士后），无近期新活动公告",
+    "fetched_at": "2026-06-11T00:00:00Z"
   }
 }
