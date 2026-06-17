@@ -1,34 +1,38 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新v5.0.5（06-12）修复模型切换记忆丢失；v5.0.4（06-11）数据库恢复；v5.0.3（06-08）腾讯文档导入；v5.0.0（06-03）Teams协作，06-12后无新版本",
-    "fetched_at": "2026-06-16T10:00:00Z"
+    "last_seen_summary": "最新v5.0.5（06-12）修复模型切换记忆丢失；v5.0.0（06-03）Teams协作；06-12后无新版本",
+    "fetched_at": "2026-06-17T08:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索WorkBuddy无结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-06-16T10:00:00Z"
+    "fetched_at": "2026-06-17T08:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新06-12 Canva Connector；06-11 Heicoders客户案例（1.2万学员20人团队）；06-09 Zoom Connector；06-08多Gmail账号；06-05 Airtable连接器，无新文章",
-    "fetched_at": "2026-06-16T10:00:00Z"
+    "last_seen_summary": "最新06-12 Canva Connector；06-11 Heicoders客户案例（1.2万学员20人团队）；06-12后无新文章",
+    "fetched_at": "2026-06-17T08:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05）含NATS EventBus、会话检索API、SQL注入修复，仍无新版本",
-    "fetched_at": "2026-06-16T10:00:00Z"
+    "fetched_at": "2026-06-17T08:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v1.1.12-beta.1（06-16）安全隔离Keychain、越南语、模型页重构、DingTalk看门狗、自适应节流；v1.1.11.post2（06-11）工具卡片截断优化",
-    "fetched_at": "2026-06-16T10:00:00Z"
+    "last_seen_summary": "v1.1.12稳定版（06-17）控制台重构、简洁模式、宽屏、逐轮Token监控、越南语；beta.2同日预发布",
+    "fetched_at": "2026-06-17T08:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新v2026.6.8稳定版（06-16）富文本表格/GLM-5.2/Claude Haiku 4.5/Agent容错；beta.2（06-16）WhatsApp ACP绑定；beta.1（06-14）为前序预发布",
-    "fetched_at": "2026-06-16T10:00:00Z"
+    "last_seen_summary": "v2026.6.8稳定版（06-16）185个PRs，GLM-5.2/Claude Haiku 4.5，Agent容错，WhatsApp结构化文本",
+    "fetched_at": "2026-06-17T08:00:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "最新06-01文章：OpenClaw 5月稳定性更新解析；05-31 Claw Team SRE实践；05-29架构分析，无新文章",
-    "fetched_at": "2026-06-16T10:00:00Z"
+    "last_seen_summary": "最新06-17文章：OpenClaw 6.8 Agent宕机失忆症修复分析；次新06-01 OpenClaw 5月稳定性更新解析",
+    "fetched_at": "2026-06-17T08:00:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "常设奖学金项目为主（HAI博士后/SAIL博士后/Data Science Scholars），无近期新活动公告",
     "fetched_at": "2026-06-16T10:00:00Z"
+  },
+  "stanford_hai_news": {
+    "last_seen_summary": "机构项目为主（SAIL博士后2026秋、AI Index年报、政策创新项目），无带日期的新闻条目可抓取",
+    "fetched_at": "2026-06-17T08:00:00Z"
   }
 }
