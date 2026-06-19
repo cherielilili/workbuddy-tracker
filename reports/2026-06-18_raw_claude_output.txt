@@ -1,0 +1,18 @@
+State file update was not approved — the JSON output above is the complete result. Here's a summary of what was found:
+
+---
+
+**新增内容（较上次状态）：**
+
+| 源 | 新内容 |
+|---|---|
+| WorkBuddy Changelog | v5.1.0（06-13）、v5.1.1（06-14）、v5.1.2（06-17）三个新版本 |
+| Manus Blog | 06-18 Website Builder 商业化用例文章 |
+| QwenPaw | v1.1.12.post1（06-18）补丁 |
+| 53AI | 06-18 OpenClaw MetaSKILLs 系统深度解析 |
+
+**无变化：** Coze Studio（仍 v0.5.1）、OpenClaw（仍 v2026.6.8）、腾讯云开发者社区（仍无文章）
+
+**无法解析：** Stanford HAI news/events（Next.js SPA，内容不可读，已从报告中省略，new_state 保持原有条目不更新）
+
+**重大信号 1 条：** WorkBuddy v5.1.1 微信支付内嵌插件（severity=major）
