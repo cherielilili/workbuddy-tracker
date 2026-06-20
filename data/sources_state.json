@@ -1,31 +1,31 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新v5.1.4（06-18）修复动画残留和空白页；v5.1.1（06-14）微信支付插件；v5.1.0（06-13）Teams文件资产库和deeplink",
-    "fetched_at": "2026-06-19T00:00:00Z"
+    "last_seen_summary": "最新v5.1.4（06-18）修复加载动画残留、空白页、macOS自动更新及token连接器入口问题；v5.1.1含微信支付插件；v5.0.0引入Teams团队协作",
+    "fetched_at": "2026-06-20T00:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索WorkBuddy无结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-06-19T00:00:00Z"
+    "fetched_at": "2026-06-20T00:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新06-18 Website Builder课程业务实战教程（Academy类）；06-12 Canva Connector；06-11 Heicoders案例",
-    "fetched_at": "2026-06-19T00:00:00Z"
+    "last_seen_summary": "最新06-18 Website Builder课程业务实战（Academy类）；06-12 Canva Connector；06-11 Heicoders案例；06-09 Zoom Connector发布",
+    "fetched_at": "2026-06-20T00:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05）含NATS EventBus、会话检索API、SQL注入修复，仍无新版本",
-    "fetched_at": "2026-06-19T00:00:00Z"
+    "fetched_at": "2026-06-20T00:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v1.1.12.post1（06-18）修复ChromaDB命名和缓存污染、新增聊天历史右侧面板；v1.1.12（06-17）模型页重构",
-    "fetched_at": "2026-06-19T00:00:00Z"
+    "last_seen_summary": "最新v1.1.12.post1（06-18）修复ChromaDB命名冲突和缓存污染、新增聊天历史右侧面板；v1.1.12（06-17）模型页重构含越南语支持",
+    "fetched_at": "2026-06-20T00:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新v2026.6.9-beta.1（06-19）Codex集成、npm插件包、Telegram富文本、375 PRs；稳定版v2026.6.8（06-16）",
-    "fetched_at": "2026-06-19T00:00:00Z"
+    "last_seen_summary": "最新v2026.6.9-beta.1（06-19）Telegram富文本、Codex集成、375 PRs；稳定版v2026.6.8（06-16）192 PRs含GLM-5.2和Claude Haiku 4.5支持",
+    "fetched_at": "2026-06-20T00:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新06-18文章：OpenClaw MetaSKILLs系统解析（子技能打包为复用模板，解决Token浪费）；次新06-17 OpenClaw 6.8发布解析",
-    "fetched_at": "2026-06-19T00:00:00Z"
+    "fetched_at": "2026-06-20T00:00:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "常设奖学金项目为主（HAI博士后/SAIL博士后/Data Science Scholars），无近期新活动公告",
