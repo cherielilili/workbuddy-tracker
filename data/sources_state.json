@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新v5.1.7（06-26），修复多项UI和兼容性问题",
-    "fetched_at": "2026-06-28T04:35:00Z"
+    "fetched_at": "2026-06-29T00:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索WorkBuddy无结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-06-26T04:00:00Z"
+    "fetched_at": "2026-06-29T00:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新06-24 Hosting Modes服务器配置匹配（Product）；06-18 Website Builder课程业务实战；06-12 Canva Connector集成",
-    "fetched_at": "2026-06-26T04:00:00Z"
+    "fetched_at": "2026-06-29T00:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05），Python环境回退、会话检索API、SQL注入修复；无新版本发布",
-    "fetched_at": "2026-06-26T04:00:00Z"
+    "fetched_at": "2026-06-29T00:00:00Z"
   },
   "qwenpaw_releases": {
     "last_seen_summary": "v2.0.0-beta.1（06-26）架构迁移至AgentScope 2.0，引入Agent OS Driver、ReMe4记忆、Slack支持、OpenAI Response API集成",
-    "fetched_at": "2026-06-28T04:35:00Z"
+    "fetched_at": "2026-06-29T00:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新v2026.6.11-beta.1（06-24）Slack中继/Mattermost命令/插件外置；稳定版v2026.6.10（06-24）自动快速模式",
-    "fetched_at": "2026-06-28T04:35:00Z"
+    "last_seen_summary": "最新v2026.6.11-beta.2（06-28）Slack中继/Mattermost命令/插件外置；稳定版v2026.6.10（06-24）自动快速模式",
+    "fetched_at": "2026-06-29T00:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新06-21两篇：企业四场景深度实践、OpenClaw API后台引擎集成；次新06-18 MetaSKILLs系统解析",
-    "fetched_at": "2026-06-28T04:35:00Z"
+    "fetched_at": "2026-06-29T00:00:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "常设奖学金项目为主（HAI博士后/SAIL博士后/Data Science Scholars），无近期新活动公告",
-    "fetched_at": "2026-06-16T10:00:00Z"
+    "fetched_at": "2026-06-29T00:00:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "机构项目为主（SAIL博士后2026秋、AI Index年报、政策创新项目），无带日期的新闻条目可抓取",
-    "fetched_at": "2026-06-28T04:35:00Z"
+    "fetched_at": "2026-06-29T00:00:00Z"
   }
 }
