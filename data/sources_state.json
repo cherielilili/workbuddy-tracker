@@ -16,12 +16,12 @@
     "fetched_at": "2026-06-30T23:59:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "v2.0.0-beta.1（06-26）架构迁移至AgentScope 2.0，引入Agent OS Driver、ReMe4记忆、Slack支持、OpenAI Response API集成",
-    "fetched_at": "2026-06-30T23:59:00Z"
+    "last_seen_summary": "最新v2.0.0-beta.2（07-02），引入滚动上下文管理器、cron更新命令、DashScope模型列表更新等",
+    "fetched_at": "2026-07-02T09:02:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新v2026.6.11（06-30）渠道投递可靠性修复；稳定版v2026.6.10（06-24）自动快速模式",
-    "fetched_at": "2026-07-01T00:00:00Z"
+    "last_seen_summary": "最新v2026.7.1-beta.1（07-02），新增GPT-5.6支持、Telegram Codex工作流、事件驱动cron等",
+    "fetched_at": "2026-07-02T07:25:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新06-30两篇：OpenClaw与Cursor移动端原生应用、运维界的OpenClaw；次新06-21企业四场景深度实践",
@@ -32,7 +32,7 @@
     "fetched_at": "2026-06-30T23:59:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "最新06-26学生兴趣小组探索AI社会议题；次新06-08 PsychAdapter个性文本生成；06-03实时新闻AI审计",
-    "fetched_at": "2026-07-01T00:00:00Z"
+    "last_seen_summary": "最新06-26学生兴趣小组探索AI社会议题；新增06-01研究《AI Coding Agents Fail at Teamwork》",
+    "fetched_at": "2026-07-02T00:00:00Z"
   }
 }
