@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新v5.1.7（06-26），修复多项UI和兼容性问题；此前v5.1.6新增财报数据内置技能和Token Plan模型选项",
-    "fetched_at": "2026-07-05T04:35:00Z"
+    "fetched_at": "2026-07-06T10:00:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "搜索WorkBuddy无结果，腾讯云开发者社区暂无相关文章",
-    "fetched_at": "2026-07-05T04:35:00Z"
+    "last_seen_summary": "搜索到多篇用户实操文章，包括续费分析、自动化日报、连接配置等",
+    "fetched_at": "2026-07-06T10:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新06-30 Mobbin connector上线；次新06-24 Hosting Modes服务器配置匹配；06-18 Website Builder课程业务实战",
-    "fetched_at": "2026-07-05T04:35:00Z"
+    "fetched_at": "2026-07-06T10:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05），Python环境回退、会话检索API、SQL注入修复；无新版本发布",
-    "fetched_at": "2026-07-05T04:35:00Z"
+    "fetched_at": "2026-07-06T10:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v2.0.0-beta.2（07-02），引入滚动上下文管理器、cron更新命令、DashScope模型列表更新等",
-    "fetched_at": "2026-07-05T04:35:00Z"
+    "last_seen_summary": "最新v1.1.12.post3（07-06），修复1.x与ACP兼容性；此前v2.0.0-beta.2（07-02）引入滚动上下文管理器、cron更新命令等",
+    "fetched_at": "2026-07-06T10:00:00Z"
   },
   "openclaw_releases": {
     "last_seen_summary": "最新v2026.7.1-beta.2（07-05），新增GPT-5.6支持、Telegram Codex工作流、事件驱动cron、iOS原生应用更新等",
-    "fetched_at": "2026-07-05T04:35:00Z"
+    "fetched_at": "2026-07-06T10:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新06-30两篇：OpenClaw与Cursor移动端原生应用、运维界的OpenClaw；次新06-21企业四场景深度实践",
-    "fetched_at": "2026-07-05T04:35:00Z"
+    "fetched_at": "2026-07-06T10:00:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "常设奖学金项目为主，无近期新活动公告",
-    "fetched_at": "2026-07-05T04:35:00Z"
+    "fetched_at": "2026-07-06T10:00:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "最新06-26学生兴趣小组探索AI社会议题；新增06-01研究《AI Coding Agents Fail at Teamwork》",
-    "fetched_at": "2026-07-05T04:35:00Z"
+    "fetched_at": "2026-07-06T10:00:00Z"
   }
 }
