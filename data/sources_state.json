@@ -16,23 +16,23 @@
     "fetched_at": "2026-07-07T12:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v2.0.0-beta.3（07-07），引入Windows原生沙箱、速率限制增强、记忆后端可禁用等。",
-    "fetched_at": "2026-07-07T12:00:00Z"
+    "last_seen_summary": "最新v2.0.0-beta.4（07-08），增强审批卡片UI、定时任务安全开关，修复多项问题。",
+    "fetched_at": "2026-07-08T13:22:00Z"
   },
   "openclaw_releases": {
     "last_seen_summary": "最新v2026.7.1-beta.2（07-05），新增GPT-5.6支持、Telegram Codex工作流、事件驱动cron、iOS原生应用更新等。",
-    "fetched_at": "2026-07-07T12:00:00Z"
+    "fetched_at": "2026-07-08T09:10:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新06-30两篇：OpenClaw与Cursor移动端原生应用、运维界的OpenClaw；次新06-21企业四场景深度实践。",
-    "fetched_at": "2026-07-07T12:00:00Z"
+    "fetched_at": "2026-07-08T12:00:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "常设奖学金项目为主，无近期新活动公告。",
     "fetched_at": "2026-07-07T12:00:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "最新06-26学生兴趣小组探索AI社会议题；新增06-01研究《AI Coding Agents Fail at Teamwork》。",
-    "fetched_at": "2026-07-07T12:00:00Z"
+    "last_seen_summary": "最新07-08纽约时报报道AI改造纽约州政府系统；06-26学生兴趣小组探索AI社会议题。",
+    "fetched_at": "2026-07-08T12:00:00Z"
   }
 }
