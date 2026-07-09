@@ -8,16 +8,16 @@
     "fetched_at": "2026-07-07T12:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新06-30 Mobbin connector上线；次新06-24 Hosting Modes服务器配置匹配；06-18 Website Builder课程业务实战。",
-    "fetched_at": "2026-07-07T12:00:00Z"
+    "last_seen_summary": "最新 07-09 Branch 功能发布；次新 06-30 Mobbin connector 上线。",
+    "fetched_at": "2026-07-09T14:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05），Python环境回退、会话检索API、SQL注入修复；无新版本发布。",
     "fetched_at": "2026-07-07T12:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v2.0.0-beta.4（07-08），增强审批卡片UI、定时任务安全开关，修复多项问题。",
-    "fetched_at": "2026-07-08T13:22:00Z"
+    "last_seen_summary": "最新 v2.0.0-beta.5（07-09），新增内置搜索工具、Azure Bot 频道插件，修复多项问题。",
+    "fetched_at": "2026-07-09T14:00:00Z"
   },
   "openclaw_releases": {
     "last_seen_summary": "最新v2026.7.1-beta.2（07-05），新增GPT-5.6支持、Telegram Codex工作流、事件驱动cron、iOS原生应用更新等。",
@@ -32,7 +32,7 @@
     "fetched_at": "2026-07-07T12:00:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "最新07-08纽约时报报道AI改造纽约州政府系统；06-26学生兴趣小组探索AI社会议题。",
-    "fetched_at": "2026-07-08T12:00:00Z"
+    "last_seen_summary": "最新 07-09 Biomni AI 实验室伙伴报道；07-08 AI 加速科学发现报道。",
+    "fetched_at": "2026-07-09T14:00:00Z"
   }
 }
