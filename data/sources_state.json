@@ -1,15 +1,15 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新v5.2.3（07-06），新增模型夜间折扣展示，优化腾讯文档授权流程，修复多项UI和兼容性问题。",
-    "fetched_at": "2026-07-10T00:00:00Z"
+    "fetched_at": "2026-07-11T12:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "搜索到多篇用户实操文章，包括续费分析、自动化日报、连接配置等，最新文章发布于07-06。",
-    "fetched_at": "2026-07-10T00:00:00Z"
+    "fetched_at": "2026-07-11T12:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新 07-09 Branch 功能发布；次新 06-30 Mobbin connector 上线。",
-    "fetched_at": "2026-07-10T00:00:00Z"
+    "fetched_at": "2026-07-11T12:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05），Python环境回退、会话检索API、SQL注入修复；无新版本发布。",
@@ -17,22 +17,22 @@
   },
   "qwenpaw_releases": {
     "last_seen_summary": "最新 v2.0.0（07-10），核心架构升级为 Runtime 2.0，引入 Scroll Context、TUI、ReMe v0.4.0 等重大特性。",
-    "fetched_at": "2026-07-10T00:00:00Z"
+    "fetched_at": "2026-07-11T12:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新v2026.7.1-beta.2（07-05），新增GPT-5.6支持、Telegram Codex工作流、事件驱动cron、iOS原生应用更新等。",
-    "fetched_at": "2026-07-10T00:00:00Z"
+    "last_seen_summary": "最新v2026.7.1-beta.5（07-11），新增对话式引导、ClawRouter路由与配额、原生macOS聊天UI、GPT-5.6支持等。",
+    "fetched_at": "2026-07-11T12:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新06-30两篇：OpenClaw与Cursor移动端原生应用、运维界的OpenClaw；次新06-21企业四场景深度实践。",
-    "fetched_at": "2026-07-10T00:00:00Z"
+    "fetched_at": "2026-07-11T12:00:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "常设奖学金项目为主，无近期新活动公告。",
-    "fetched_at": "2026-07-10T00:00:00Z"
+    "fetched_at": "2026-07-11T12:00:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "最新 07-09 Biomni AI 实验室伙伴报道；07-08 AI 加速科学发现报道。",
-    "fetched_at": "2026-07-10T00:00:00Z"
+    "fetched_at": "2026-07-11T12:00:00Z"
   }
 }
