@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新v5.2.3（07-06），新增模型夜间折扣展示，优化腾讯文档授权流程，修复多项UI和兼容性问题。",
-    "fetched_at": "2026-07-12T00:00:00Z"
+    "fetched_at": "2026-07-14T04:35:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "搜索到多篇用户实操文章，包括续费分析、自动化日报、使用心得等，最新文章发布于07-13。",
-    "fetched_at": "2026-07-13T04:35:00Z"
+    "last_seen_summary": "搜索到多篇用户实操文章，包括续费分析、自动化日报、使用心得等，最新文章发布于07-14。",
+    "fetched_at": "2026-07-14T04:35:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新 07-13 Auto-Publish 功能发布；次新 07-09 Branch 功能发布。",
-    "fetched_at": "2026-07-13T04:35:00Z"
+    "last_seen_summary": "最新 07-14 PowerPoint Slides 功能发布；次新 07-13 Auto-Publish 功能发布。",
+    "fetched_at": "2026-07-14T04:35:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05），Python环境回退、会话检索API、SQL注入修复；无新版本发布。",
     "fetched_at": "2026-07-12T00:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新 v2.0.0.post1（07-13），修复多项问题，新增健康检查端点等。",
-    "fetched_at": "2026-07-13T04:35:00Z"
+    "last_seen_summary": "最新 v2.0.0.post2（07-14），新增聊天归档、sudo权限请求、沙箱PATH保留、ReMe记忆系统可靠性提升等。",
+    "fetched_at": "2026-07-14T04:35:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新 v2026.7.1-beta.6（07-13），新增 Featherless 等模型、原生 macOS 聊天 UI、对话式引导、离线移动聊天等。",
-    "fetched_at": "2026-07-13T04:35:00Z"
+    "last_seen_summary": "最新 v2026.7.1（07-13），Control UI重构、引导式设置、官方App更新、GPT-5.6兼容、Tencent Hy3支持等。",
+    "fetched_at": "2026-07-14T04:35:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "最新06-30两篇：OpenClaw与Cursor移动端原生应用、运维界的OpenClaw；次新06-21企业四场景深度实践。",
-    "fetched_at": "2026-07-12T00:00:00Z"
+    "last_seen_summary": "最新07-13网易智企AI Native实践文章；次新06-30运维界OpenClaw和OpenClaw/Cursor移动端原生应用。",
+    "fetched_at": "2026-07-14T04:35:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "常设奖学金项目为主，无近期新活动公告。",
-    "fetched_at": "2026-07-12T00:00:00Z"
+    "fetched_at": "2026-07-14T04:35:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "最新 07-13 AI 心理健康安全测试缺陷研究；07-09 Biomni AI 实验室伙伴报道。",
-    "fetched_at": "2026-07-13T04:35:00Z"
+    "fetched_at": "2026-07-14T04:35:00Z"
   }
 }
