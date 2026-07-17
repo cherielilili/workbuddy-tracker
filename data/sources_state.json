@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新v5.2.3（07-06），新增模型夜间折扣展示，优化腾讯文档授权流程，修复多项UI和兼容性问题。",
-    "fetched_at": "2026-07-16T04:35:00Z"
+    "last_seen_summary": "最新v5.2.6（07-12），新增配额提示、分享跳转、积分消耗提示，修复大量稳定性与兼容性问题",
+    "fetched_at": "2026-07-17T12:00:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "搜索到多篇用户实操文章，包括续费分析、自动化日报、使用心得等，最新文章发布于07-14。",
-    "fetched_at": "2026-07-16T04:35:00Z"
+    "last_seen_summary": "搜索到多篇用户实操文章，最新一篇07-14分享整理邮件联系人等实用场景",
+    "fetched_at": "2026-07-17T12:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新 07-14 PowerPoint Slides 功能发布；次新 07-13 Auto-Publish 功能发布。",
-    "fetched_at": "2026-07-16T04:35:00Z"
+    "last_seen_summary": "最新07-17客户案例《How Manus became 'James'》",
+    "fetched_at": "2026-07-17T12:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05），Python环境回退、会话检索API、SQL注入修复；无新版本发布。",
     "fetched_at": "2026-07-15T23:59:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新 v2.0.0.post2（07-14），新增聊天归档、sudo权限请求、沙箱PATH保留、ReMe记忆系统可靠性提升等。",
-    "fetched_at": "2026-07-16T04:35:00Z"
+    "last_seen_summary": "最新v2.0.0.post3（07-17），修复MCP迁移、记忆系统、沙箱状态等多项问题",
+    "fetched_at": "2026-07-17T12:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新 v2026.7.2-beta.1（07-15），新增远程编码会话、原生自动化移动端、引导式设置、Linux安装包等。",
-    "fetched_at": "2026-07-16T04:35:00Z"
+    "last_seen_summary": "最新v2026.7.2-beta.2（07-17），新增远程编码会话、原生移动端自动化、引导式设置、Linux安装包等",
+    "fetched_at": "2026-07-17T12:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新07-13网易智企AI Native实践文章；次新06-30运维界OpenClaw和OpenClaw/Cursor移动端原生应用。",
     "fetched_at": "2026-07-15T23:59:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "常设奖学金项目为主，无近期新活动公告。",
-    "fetched_at": "2026-07-15T23:59:00Z"
+    "last_seen_summary": "常设奖学金项目为主，无近期新活动公告",
+    "fetched_at": "2026-07-17T12:00:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "最新 07-14 AI主权悖论报告；07-13 AI心理健康安全测试缺陷研究；07-09 Biomni AI实验室伙伴报道。",
-    "fetched_at": "2026-07-16T04:35:00Z"
+    "last_seen_summary": "最新07-08 AI加速科学发现专题文章；07-14 AI主权悖论报告；07-13 AI心理健康安全测试缺陷研究",
+    "fetched_at": "2026-07-17T12:00:00Z"
   }
 }
