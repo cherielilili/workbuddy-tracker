@@ -4,8 +4,8 @@
     "fetched_at": "2026-07-20T00:00:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "搜索到多篇用户实操文章，最新07-20省钱指南和07-04自动化实战",
-    "fetched_at": "2026-07-20T00:00:00Z"
+    "last_seen_summary": "搜索到多篇用户实操文章，最新07-21续费报告攻略和使用感受",
+    "fetched_at": "2026-07-21T00:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新07-17客户案例《How Manus became 'James'》；07-14新增PowerPoint Slides功能；07-13新增Auto-Publish功能",
@@ -16,12 +16,12 @@
     "fetched_at": "2026-07-19T04:35:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v2.0.0.post3（07-17），修复MCP迁移、记忆系统、沙箱状态等多项问题",
-    "fetched_at": "2026-07-20T00:00:00Z"
+    "last_seen_summary": "最新v2.0.1-beta.1（07-21），新增PawApp SDK、可编辑Agent模式，修复MCP迁移、记忆系统等问题",
+    "fetched_at": "2026-07-21T13:26:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新v2026.7.2-beta.3（07-18），新增远程编码会话、移动端自动化、引导式设置、Linux安装包等",
-    "fetched_at": "2026-07-20T00:00:00Z"
+    "last_seen_summary": "最新v2026.7.2-beta.3（07-18），新增远程编码会话、移动端自动化、引导式设置、Linux安装包",
+    "fetched_at": "2026-07-18T23:16:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新07-13网易智企AI Native实践文章；次新06-30运维界OpenClaw和OpenClaw/Cursor移动端原生应用",
@@ -32,7 +32,7 @@
     "fetched_at": "2026-07-19T04:35:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "最新07-14 AI主权悖论报告；07-13 AI心理健康安全测试缺陷研究；07-08 AI加速科学发现专题文章",
-    "fetched_at": "2026-07-20T00:00:00Z"
+    "last_seen_summary": "最新07-20法律AI透明度问题研究；07-14 AI主权悖论报告；07-13 AI心理健康安全测试缺陷研究",
+    "fetched_at": "2026-07-21T00:00:00Z"
   }
 }
