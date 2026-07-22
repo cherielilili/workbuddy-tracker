@@ -4,20 +4,20 @@
     "fetched_at": "2026-07-20T00:00:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "搜索到多篇用户实操文章，最新07-21续费报告攻略和使用感受",
-    "fetched_at": "2026-07-21T00:00:00Z"
+    "last_seen_summary": "搜索到多篇用户实操文章，最新07-22游资系统技能包文章；07-21续费报告攻略、积分赚取、使用感受、省钱指南",
+    "fetched_at": "2026-07-22T12:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新07-17客户案例《How Manus became 'James'》；07-14新增PowerPoint Slides功能；07-13新增Auto-Publish功能",
-    "fetched_at": "2026-07-20T00:00:00Z"
+    "last_seen_summary": "最新07-22发布Plan Mode新功能；07-17客户案例《How Manus became 'James'》；07-14新增PowerPoint Slides功能；07-13新增Auto-Publish功能",
+    "fetched_at": "2026-07-22T12:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05），Python环境回退、会话检索API、SQL注入修复；无新版本发布",
     "fetched_at": "2026-07-19T04:35:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v2.0.1-beta.1（07-21），新增PawApp SDK、可编辑Agent模式，修复MCP迁移、记忆系统等问题",
-    "fetched_at": "2026-07-21T13:26:00Z"
+    "last_seen_summary": "最新v2.0.0.post4（07-22），优化Agent推理减少冗余思考循环和重复工具调用；v2.0.1-beta.1（07-21）新增PawApp SDK、可编辑Agent模式",
+    "fetched_at": "2026-07-22T12:00:00Z"
   },
   "openclaw_releases": {
     "last_seen_summary": "最新v2026.7.2-beta.3（07-18），新增远程编码会话、移动端自动化、引导式设置、Linux安装包",
