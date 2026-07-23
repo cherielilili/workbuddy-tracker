@@ -1,11 +1,11 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新v5.2.6（07-12），新增配额提示、分享跳转、积分消耗提示，修复大量稳定性与兼容性问题",
-    "fetched_at": "2026-07-20T00:00:00Z"
+    "last_seen_summary": "最新v5.3.3（07-21），新增企业智能体、腾讯文档深度集成、PPT生成内置插件、项目计划重构等重大功能，修复大量稳定性问题。",
+    "fetched_at": "2026-07-23T12:00:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "搜索到多篇用户实操文章，最新07-22游资系统技能包文章；07-21续费报告攻略、积分赚取、使用感受、省钱指南",
-    "fetched_at": "2026-07-22T12:00:00Z"
+    "last_seen_summary": "搜索到多篇用户实操文章，最新07-22游资系统技能包文章；07-21续费报告攻略、积分赚取、使用感受、省钱指南。",
+    "fetched_at": "2026-07-23T12:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新07-22发布Plan Mode新功能；07-17客户案例《How Manus became 'James'》；07-14新增PowerPoint Slides功能；07-13新增Auto-Publish功能",
@@ -16,8 +16,8 @@
     "fetched_at": "2026-07-19T04:35:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v2.0.0.post4（07-22），优化Agent推理减少冗余思考循环和重复工具调用；v2.0.1-beta.1（07-21）新增PawApp SDK、可编辑Agent模式",
-    "fetched_at": "2026-07-22T12:00:00Z"
+    "last_seen_summary": "最新v2.0.1-beta.2（07-23），新增桌面端文件拖拽上传，修复多项稳定性问题；v2.0.0.post4（07-22）优化Agent推理减少冗余思考循环。",
+    "fetched_at": "2026-07-23T12:00:00Z"
   },
   "openclaw_releases": {
     "last_seen_summary": "最新v2026.7.2-beta.3（07-18），新增远程编码会话、移动端自动化、引导式设置、Linux安装包",
@@ -28,11 +28,11 @@
     "fetched_at": "2026-07-19T04:35:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "常设奖学金项目为主，无近期新活动公告",
-    "fetched_at": "2026-07-19T04:35:00Z"
+    "last_seen_summary": "常设奖学金项目为主，07-23有Rising Stars信息会议，10月有Empirical Methods和Confronting AI Future会议。",
+    "fetched_at": "2026-07-23T12:00:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "最新07-20法律AI透明度问题研究；07-14 AI主权悖论报告；07-13 AI心理健康安全测试缺陷研究",
-    "fetched_at": "2026-07-21T00:00:00Z"
+    "last_seen_summary": "最新07-23研究：AI帮助政府削减监管繁文缛节；07-20法律AI透明度问题研究；07-14 AI主权悖论报告。",
+    "fetched_at": "2026-07-23T12:00:00Z"
   }
 }
