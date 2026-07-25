@@ -1,11 +1,11 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新v5.3.3（07-21），新增企业智能体、腾讯文档深度集成、PPT生成内置插件、项目计划重构等重大功能，修复大量稳定性问题。",
-    "fetched_at": "2026-07-23T12:00:00Z"
+    "last_seen_summary": "最新v5.3.5（07-25），新增Buddy AI国内升配（订阅计费）、扩展插件Hook代理问题修复",
+    "fetched_at": "2026-07-25T04:35:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "搜索到多篇用户实操文章，最新07-22游资系统技能包文章；07-21续费报告攻略、积分赚取、使用感受、省钱指南。",
-    "fetched_at": "2026-07-23T12:00:00Z"
+    "last_seen_summary": "新增07-25竞争分析文章《WorkBuddy 竞争分析》",
+    "fetched_at": "2026-07-25T04:35:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新07-22发布Plan Mode新功能；07-17客户案例《How Manus became 'James'》；07-14新增PowerPoint Slides功能；07-13新增Auto-Publish功能",
@@ -24,8 +24,8 @@
     "fetched_at": "2026-07-18T23:16:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "最新07-13网易智企AI Native实践文章；次新06-30运维界OpenClaw和OpenClaw/Cursor移动端原生应用",
-    "fetched_at": "2026-07-19T04:35:00Z"
+    "last_seen_summary": "最新07-23文章《别把聊天记录全塞进知识库》",
+    "fetched_at": "2026-07-25T04:35:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "常设奖学金项目为主，07-23有Rising Stars信息会议，10月有Empirical Methods和Confronting AI Future会议。",
