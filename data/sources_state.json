@@ -4,20 +4,20 @@
     "fetched_at": "2026-07-25T04:35:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "新增07-25竞争分析文章《WorkBuddy 竞争分析》",
-    "fetched_at": "2026-07-25T04:35:00Z"
+    "last_seen_summary": "新增07-25竞争分析、07-22游资系统、07-21用户分享等文章",
+    "fetched_at": "2026-07-26T00:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新07-22发布Plan Mode新功能；07-17客户案例《How Manus became 'James'》；07-14新增PowerPoint Slides功能；07-13新增Auto-Publish功能",
-    "fetched_at": "2026-07-22T12:00:00Z"
+    "last_seen_summary": "最新07-22 Plan Mode；07-24发布三篇2026 AI Agent横评对比文章",
+    "fetched_at": "2026-07-26T00:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05），Python环境回退、会话检索API、SQL注入修复；无新版本发布",
     "fetched_at": "2026-07-19T04:35:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v2.0.1-beta.2（07-23），新增桌面端文件拖拽上传，修复多项稳定性问题；v2.0.0.post4（07-22）优化Agent推理减少冗余思考循环。",
-    "fetched_at": "2026-07-23T12:00:00Z"
+    "last_seen_summary": "最新v2.0.1（07-24）正式版，新增PawApp平台、自定义Agent模式、ReMe记忆系统改进等",
+    "fetched_at": "2026-07-26T00:00:00Z"
   },
   "openclaw_releases": {
     "last_seen_summary": "最新v2026.7.2-beta.3（07-18），新增远程编码会话、移动端自动化、引导式设置、Linux安装包",
@@ -32,7 +32,7 @@
     "fetched_at": "2026-07-23T12:00:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "最新07-23研究：AI帮助政府削减监管繁文缛节；07-20法律AI透明度问题研究；07-14 AI主权悖论报告。",
-    "fetched_at": "2026-07-23T12:00:00Z"
+    "last_seen_summary": "最新07-24心理健康AI治理复杂性；07-23 AI帮助政府削减监管繁文缛节；07-20法律AI透明度；07-14 AI主权悖论报告",
+    "fetched_at": "2026-07-26T00:00:00Z"
   }
 }
