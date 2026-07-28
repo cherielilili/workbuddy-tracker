@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新v5.3.5（07-25），新增Buddy AI国内升配（订阅计费）、扩展插件Hook代理问题修复",
-    "fetched_at": "2026-07-25T04:35:00Z"
+    "fetched_at": "2026-07-28T12:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "新增07-25竞争分析、07-22游资系统、07-21用户分享等文章",
-    "fetched_at": "2026-07-26T00:00:00Z"
+    "fetched_at": "2026-07-28T12:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新07-22 Plan Mode；07-24发布三篇2026 AI Agent横评对比文章",
-    "fetched_at": "2026-07-26T00:00:00Z"
+    "fetched_at": "2026-07-28T12:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05），Python环境回退、会话检索API、SQL注入修复；无新版本发布",
-    "fetched_at": "2026-07-19T04:35:00Z"
+    "fetched_at": "2026-07-28T12:00:00Z"
   },
   "qwenpaw_releases": {
     "last_seen_summary": "最新v2.0.1（07-24）正式版，新增PawApp平台、自定义Agent模式、ReMe记忆系统改进等",
-    "fetched_at": "2026-07-26T00:00:00Z"
+    "fetched_at": "2026-07-28T12:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新v2026.7.2-beta.3（07-18），新增远程编码会话、移动端自动化、引导式设置、Linux安装包",
-    "fetched_at": "2026-07-18T23:16:00Z"
+    "last_seen_summary": "最新v2026.7.2-beta.5（07-28），新增状态安全与恢复、持久化频道投递、会话回退与分叉、交互式MCP应用、Wear OS伴侣、引导设置与本地推理等",
+    "fetched_at": "2026-07-28T12:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新07-23文章《别把聊天记录全塞进知识库》",
-    "fetched_at": "2026-07-25T04:35:00Z"
+    "fetched_at": "2026-07-28T12:00:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "常设奖学金项目为主，07-23有Rising Stars信息会议，10月有Empirical Methods和Confronting AI Future会议。",
-    "fetched_at": "2026-07-23T12:00:00Z"
+    "last_seen_summary": "常设奖学金项目为主，07-23有Rising Stars信息会议，10月有Empirical Methods和Confronting AI Future会议",
+    "fetched_at": "2026-07-28T12:00:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "最新07-24心理健康AI治理复杂性；07-23 AI帮助政府削减监管繁文缛节；07-20法律AI透明度；07-14 AI主权悖论报告",
-    "fetched_at": "2026-07-26T00:00:00Z"
+    "fetched_at": "2026-07-28T12:00:00Z"
   }
 }
