@@ -4,12 +4,12 @@
     "fetched_at": "2026-07-28T12:00:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "新增07-25竞争分析、07-22游资系统、07-21用户分享等文章",
-    "fetched_at": "2026-07-28T12:00:00Z"
+    "last_seen_summary": "新增07-29实战教程；此前有07-25竞争分析、07-22游资系统、07-21用户分享等文章。",
+    "fetched_at": "2026-07-29T04:35:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新07-22 Plan Mode；07-24发布三篇2026 AI Agent横评对比文章",
-    "fetched_at": "2026-07-28T12:00:00Z"
+    "last_seen_summary": "新增07-24 Supabase集成文章；此前有07-22 Plan Mode、07-24三篇AI Agent横评对比。",
+    "fetched_at": "2026-07-29T04:35:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新v0.5.1（2025-02-05），Python环境回退、会话检索API、SQL注入修复；无新版本发布",
@@ -32,7 +32,7 @@
     "fetched_at": "2026-07-28T12:00:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "最新07-24心理健康AI治理复杂性；07-23 AI帮助政府削减监管繁文缛节；07-20法律AI透明度；07-14 AI主权悖论报告",
-    "fetched_at": "2026-07-28T12:00:00Z"
+    "last_seen_summary": "新增07-13心理健康安全测试研究；此前有07-24心理健康AI治理、07-23监管削减、07-20法律透明度、07-14主权悖论报告。",
+    "fetched_at": "2026-07-29T04:35:00Z"
   }
 }
