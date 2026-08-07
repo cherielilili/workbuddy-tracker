@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新v5.3.5（07-25），新增Buddy AI国内升配（订阅计费）、扩展插件Hook代理问题修复",
-    "fetched_at": "2026-07-28T12:00:00Z"
+    "last_seen_summary": "最新v5.3.8（07-30），另有5.3.7/5.3.6；5.3.6新增官网登录拉起桌面端、Ardot占位图模式，其余为大量修复",
+    "fetched_at": "2026-08-07T06:00:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "最新文章07-29实战教程，此前有07-25竞争分析、07-22游资系统、07-21用户分享等。",
-    "fetched_at": "2026-07-30T12:00:00Z"
+    "last_seen_summary": "最新08-05开发者使用感想，07-31 PDF通知单Skill实战；此前有07-29实战教程、07-25竞争分析",
+    "fetched_at": "2026-08-07T06:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "新增07-24 Supabase集成文章；此前有07-22 Plan Mode、07-24三篇AI Agent横评对比。",
-    "fetched_at": "2026-07-29T04:35:00Z"
+    "last_seen_summary": "最新08-03 ElevenLabs语音集成文章；此前有07-24 Supabase集成、07-22 Plan Mode、07-24三篇横评",
+    "fetched_at": "2026-08-07T06:00:00Z"
   },
   "coze_studio_releases": {
-    "last_seen_summary": "最新v0.5.1（2025-02-05），Python环境回退、会话检索API、SQL注入修复；无新版本发布",
-    "fetched_at": "2026-07-28T12:00:00Z"
+    "last_seen_summary": "最新仍为v0.5.1（2025-02-05），无新版本发布",
+    "fetched_at": "2026-08-07T06:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v2.0.1（07-24）正式版，新增PawApp平台、自定义Agent模式、ReMe记忆系统改进等",
-    "fetched_at": "2026-07-28T12:00:00Z"
+    "last_seen_summary": "最新v2.1.0-beta.2（08-07）预发布，含多模态生成套件、DAG调度器、QwenPaw OS Shell、文件工作区、ACP可移植会话、统一应用市场",
+    "fetched_at": "2026-08-07T06:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新v2026.7.2-beta.5（07-28），新增状态安全与恢复、持久化频道投递、会话回退与分叉、交互式MCP应用、Wear OS伴侣、引导设置与本地推理等",
-    "fetched_at": "2026-07-28T12:00:00Z"
+    "last_seen_summary": "最新稳定版2026.7.1-2（08-04）修复npm插件更新；2026.7.1-1修复Codex进度与Memory Core启动；另有2026.7.2-beta.7",
+    "fetched_at": "2026-08-07T06:00:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "最新07-23文章《别把聊天记录全塞进知识库》",
-    "fetched_at": "2026-07-28T12:00:00Z"
+    "last_seen_summary": "最新仍为07-23文章《别把聊天记录全塞进知识库》，无更新",
+    "fetched_at": "2026-08-07T06:00:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "常设奖学金项目为主，07-23有Rising Stars信息会议，10月有Empirical Methods和Confronting AI Future会议",
-    "fetched_at": "2026-07-28T12:00:00Z"
+    "last_seen_summary": "无变化：10月Empirical Methods与Confronting AI Future会议，07-23 Rising Stars信息会议",
+    "fetched_at": "2026-08-07T06:00:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "新增07-13心理健康安全测试研究；此前有07-24心理健康AI治理、07-23监管削减、07-20法律透明度、07-14主权悖论报告。",
-    "fetched_at": "2026-07-29T04:35:00Z"
+    "last_seen_summary": "新增08-04三篇：AI陪伴或加剧孤独研究、开放权重模型评论、世界模型治理政策文章；此前有07-24心理健康AI治理等",
+    "fetched_at": "2026-08-07T06:00:00Z"
   }
 }
