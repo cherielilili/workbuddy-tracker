@@ -1,29 +1,38 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新v5.3.8（07-30），另有5.3.7/5.3.6；5.3.6新增官网登录拉起桌面端、Ardot占位图模式，其余为大量修复"
+    "last_seen_summary": "最新仍为v5.3.8（07-30），另有5.3.7/5.3.6；5.3.6新增官网登录拉起桌面端、Ardot占位图模式；无新版本",
+    "fetched_at": "2026-08-09T04:35:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "最新08-05开发者感想，08-03 WorkBuddy 与 CodeBuddy 对比实测，07-31 PDF 通知单 Skill 实战，此前 07-29 教程等"
+    "last_seen_summary": "最新08-05开发者感想，08-03 WorkBuddy与CodeBuddy对比实测，07-31 PDF通知单Skill实战；无新文章",
+    "fetched_at": "2026-08-09T04:35:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新08-03 ElevenLabs语音集成文章；此前有07-24 Supabase集成、07-22 Plan Mode、07-24三篇横评"
+    "last_seen_summary": "最新08-03 ElevenLabs语音集成文章；此前有07-24 Supabase集成、07-22 Plan Mode、07-24三篇横评；无新发布",
+    "fetched_at": "2026-08-09T04:35:00Z"
   },
   "coze_studio_releases": {
-    "last_seen_summary": "最新仍为v0.5.1（2025-02-05），无新版本发布"
+    "last_seen_summary": "最新仍为v0.5.1（2025-02-05），无新版本发布",
+    "fetched_at": "2026-08-09T04:35:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v2.1.0-beta.2（08-07）预发布，含多模态生成套件、DAG调度器、QwenPaw OS Shell、文件工作区、ACP可移植会话、统一应用市场"
+    "last_seen_summary": "最新v2.1.0-beta.2（08-07）预发布，含多模态生成套件、DAG调度器、OS Shell、文件工作区、ACP可移植会话；无新版本",
+    "fetched_at": "2026-08-09T04:35:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新版2026.6.34（08-08）强化浏览器与网络边界安全；2026.7.1-2（08-04）修复npm插件更新；另有2026.7.2-beta.7"
+    "last_seen_summary": "最新2026.6.34（08-08）强化浏览器与网络边界安全；2026.7.1-2（08-04）修复npm插件更新；另有2026.7.2-beta.7；无新增",
+    "fetched_at": "2026-08-09T04:35:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "最新仍为07-23文章《别把聊天记录全塞进知识库》，无更新"
+    "last_seen_summary": "最新仍为07-23文章《别把聊天记录全塞进知识库》，无更新",
+    "fetched_at": "2026-08-09T04:35:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "无变化：10月Empirical Methods与Confronting AI Future会议，07-23 Rising Stars信息会议"
+    "last_seen_summary": "无变化：10月Empirical Methods与Confronting AI Future会议，07-23 Rising Stars信息会议",
+    "fetched_at": "2026-08-09T04:35:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "新增08-04三篇：AI陪伴或加剧孤独研究、开放权重模型评论、世界模型治理政策文章；此前有07-24心理健康AI治理等"
+    "last_seen_summary": "最新08-04三篇：AI陪伴或加剧孤独研究、开放权重模型评论、世界模型治理政策文章；无新增",
+    "fetched_at": "2026-08-09T04:35:00Z"
   }
 }
