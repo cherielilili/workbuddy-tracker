@@ -1,11 +1,11 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新仍为v5.3.8（07-30），另有5.3.7/5.3.6；5.3.6新增官网登录拉起桌面端、Ardot占位图模式；无新版本",
-    "fetched_at": "2026-08-09T04:35:00Z"
+    "last_seen_summary": "最新v5.3.12（08-12）新增灵感分享口令，优化移动端同步稳定性；v5.3.11（08-07）新增企微/微信流式输出、任务批量管理等；5.3.8及以下未变",
+    "fetched_at": "2026-08-12T04:00:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "最新08-05开发者感想，08-03 WorkBuddy与CodeBuddy对比实测，07-31 PDF通知单Skill实战；无新文章",
-    "fetched_at": "2026-08-09T04:35:00Z"
+    "last_seen_summary": "最新08-12用户分享obsidian对接实战，08-11一人公司效率心得，08-03搭档养成记；更多旧文未变",
+    "fetched_at": "2026-08-12T04:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新08-03 ElevenLabs语音集成文章；此前有07-24 Supabase集成、07-22 Plan Mode、07-24三篇横评；无新发布",
@@ -24,8 +24,8 @@
     "fetched_at": "2026-08-09T04:35:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "最新仍为07-23文章《别把聊天记录全塞进知识库》，无更新",
-    "fetched_at": "2026-08-09T04:35:00Z"
+    "last_seen_summary": "无新文章，仍为07-23《别把聊天记录全塞进知识库》；其余文章未变",
+    "fetched_at": "2026-08-12T04:00:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "无变化：10月Empirical Methods与Confronting AI Future会议，07-23 Rising Stars信息会议",
