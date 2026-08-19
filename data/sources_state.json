@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新v5.3.13（08-13）新增灵感一键做同款，优化多任务流畅度，修复多项问题；v5.3.12（08-12）新增灵感分享口令；更早版本未变。",
-    "fetched_at": "2026-08-18T08:00:00Z"
+    "fetched_at": "2026-08-19T12:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "新增08-18用户分享WorkBuddy对抗幻觉的实操心得；08-12 obsidian对接实战、08-03胖哒对比文仍在列表，其余旧文未变。",
-    "fetched_at": "2026-08-18T08:00:00Z"
+    "fetched_at": "2026-08-19T12:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新08-11官方致用户信A Note to Our Users，官网横幅宣布即将恢复独立公司运营；此前08-03 ElevenLabs语音集成等未变。",
-    "fetched_at": "2026-08-18T08:00:00Z"
+    "fetched_at": "2026-08-19T12:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为v0.5.1（2025-02-05），无新版本发布。",
-    "fetched_at": "2026-08-18T08:00:00Z"
+    "fetched_at": "2026-08-19T12:00:00Z"
   },
   "qwenpaw_releases": {
     "last_seen_summary": "最新v2.1.0正式版（08-13）发布：OS Shell、统一文件工作区、QwenPaw Creator视频Agent、跨harness集成、Computer-use与渠道自定义网关。",
-    "fetched_at": "2026-08-18T08:00:00Z"
+    "fetched_at": "2026-08-19T12:00:00Z"
   },
   "openclaw_releases": {
     "last_seen_summary": "最新为2026.8.1-beta.2预发布（08-15）：密钥出口主机绑定、GPT-5.6 Ultra、SQLite快照、macOS配置隔离等；Latest仍为2026.7.1-2。",
-    "fetched_at": "2026-08-18T08:00:00Z"
+    "fetched_at": "2026-08-19T12:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "无新文章，仍为07-23别把聊天记录全塞进知识库；其余文章未变。",
-    "fetched_at": "2026-08-18T08:00:00Z"
+    "fetched_at": "2026-08-19T12:00:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "无变化：10月Empirical Methods与Confronting AI Future会议，07-23 Rising Stars信息会议。",
-    "fetched_at": "2026-08-18T08:00:00Z"
+    "fetched_at": "2026-08-19T12:00:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "新增08-18 X平台For You算法将愤怒误判为兴趣的研究；08-11数据经纪商隐私研究、08-10全球安全资助项目仍在。",
-    "fetched_at": "2026-08-18T08:00:00Z"
+    "fetched_at": "2026-08-19T12:00:00Z"
   }
 }
