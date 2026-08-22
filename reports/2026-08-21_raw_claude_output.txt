@@ -1,0 +1,2 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-08-21\n\n## 摘要\n\n本次扫描相对上次摘要，腾讯 WorkBuddy 新增 v5.3.14 更新，阿里 QwenPaw 新增 v2.1.1-beta.1 预发布；Manus、OpenClaw、Coze Studio、Stanford HAI 等源未见新动态。\n\n## 重大信号\n\n今日无 severity=major 的重大信号

@@ -1,0 +1,19 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-08-20\n\n## 摘要\n今日赛道动态集中在阿里 QwenPaw 发布 v2.1.1-beta.1 预发布版，带来 DataPaw 原生应用运行时、AnySearch 搜索集成等新能力；其余源无重要更新。\n\n## 阿里 QwenPaw\n- v2.1.1-beta.1 预发布（08-20）：新增原生 DataPaw 应用运行时与持久分析工作区；集成 AnySearch 网络搜索（SearchProvider + MCP）；新增智能邮件管理助手；改进 ReMe 记忆运行时状态仪表盘；插件渠道支持交互式配置器；优化 OneBot 入站媒体本地化、Matrix 组房间会话隔离等。 [source](https://github.com/agentscope-ai/QwenPaw/releases/tag/v2.1.1-beta.1)\n",
+  "signals": [],
+  "new_state": {
+    "workbuddy_changelog": {
+      "last_seen_summary": "页面最新仍为 v5.3.13（08-13），含 v5.3.12、v5.3.11 等版本记录，无新增版本。",
+      "fetched_at": "2026-08-20T00:00:00Z"
+    },
+    "tencent_cloud_workbuddy": {
+      "last_seen_summary": "页面展示多篇用户分享，最新可见 07-21 重度办公场景体验，另有 08-11 自动化流程、08-03 胖哒对比等，无新增官方公告。",
+      "fetched_at": "2026-08-20T00:00:00Z"
+    },
+    "manus_blog": {
+      "last_seen_summary": "最新仍为 08-11《A Note to Our Users》，官网横幅宣布即将恢复独立公司运营，无新文章。",
+      "fetched_at": "2026-08-20T00:00:00Z"
+    },
+    "coze_studio_releases": {
+      "last_seen_summary": "最新仍为 v0.5.1（2025-02-05），无新版本。",
+      "fetched_at": "2026-08-20T00
