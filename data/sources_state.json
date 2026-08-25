@@ -16,8 +16,8 @@
     "fetched_at": "2026-08-24T12:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v2.1.1-beta.2预发布（08-24）：自托管多用户Hub、技能自动更新、token按Agent归因、Creator 1.1.0等。",
-    "fetched_at": "2026-08-24T12:00:00Z"
+    "last_seen_summary": "最新v2.1.1-beta.3预发布（08-25）：测试覆盖扩展、Windows Hub冷启动容错、token用量模型名修复、心跳空转修复、控制台未读提示、依赖升级agentscope 2.0.7。",
+    "fetched_at": "2026-08-25T12:00:00Z"
   },
   "openclaw_releases": {
     "last_seen_summary": "最新2026.8.1-beta.3预发布（08-24）：GPT-5.6全系推理支持、CDP relay、Gateway监管、SQLite备份；Latest仍为2026.7.1-2。",
