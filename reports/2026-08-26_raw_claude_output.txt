@@ -1,0 +1,23 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-08-26\n\n## 摘要\n今日赛道无新动态。",
+  "signals": [],
+  "new_state": {
+    "workbuddy_changelog": {
+      "last_seen_summary": "最新仍为v5.3.14（08-17），Markdown AI编辑快捷键、记忆加载与调度优化等，无新版本。",
+      "fetched_at": "2026-08-26T04:35:00Z"
+    },
+    "tencent_cloud_workbuddy": {
+      "last_seen_summary": "列表无新文章，最新仍为08-18用户分享对抗幻觉心得；旧文未变。",
+      "fetched_at": "2026-08-26T04:35:00Z"
+    },
+    "manus_blog": {
+      "last_seen_summary": "官网仍为数据删除公告：特定辖区用户暂停访问，08-25 08:00（SGT）恢复，筹备独立公司运营，无更新。",
+      "fetched_at": "2026-08-26T04:35:00Z"
+    },
+    "coze_studio_releases": {
+      "last_seen_summary": "最新仍为v0.5.1（2025-02-05），无新版本发布。",
+      "fetched_at": "2026-08-26T04:35:00Z"
+    },
+    "qwenpaw_releases": {
+      "last_seen_summary": "最新v2.1.1-beta.3预发布（08-25）：测试覆盖扩展、Windows Hub冷启动容错、token用量模型名修复、心跳空转修复、控制台未读提示、依赖升级agentscope 2.0.7。",
+      "fetched_at": "2026-08-26T04

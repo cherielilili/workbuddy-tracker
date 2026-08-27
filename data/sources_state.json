@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新仍为v5.3.14（08-17），Markdown AI编辑快捷键、记忆加载与调度优化等，无新版本。",
-    "fetched_at": "2026-08-24T12:00:00Z"
+    "fetched_at": "2026-08-27T06:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "列表无新文章，最新仍为08-18用户分享对抗幻觉心得；旧文未变。",
-    "fetched_at": "2026-08-24T12:00:00Z"
+    "fetched_at": "2026-08-27T06:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "官网仍为数据删除公告：特定辖区用户暂停访问，08-25 08:00（SGT）恢复，筹备独立公司运营，无更新。",
-    "fetched_at": "2026-08-24T12:00:00Z"
+    "last_seen_summary": "博客恢复正常访问，暂停公告以08-11《A Note to Our Users》博文保留，此后无新博文，最新产品更新为08-03 ElevenLabs集成。",
+    "fetched_at": "2026-08-27T06:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为v0.5.1（2025-02-05），无新版本发布。",
-    "fetched_at": "2026-08-24T12:00:00Z"
+    "fetched_at": "2026-08-27T06:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v2.1.1-beta.3预发布（08-25）：测试覆盖扩展、Windows Hub冷启动容错、token用量模型名修复、心跳空转修复、控制台未读提示、依赖升级agentscope 2.0.7。",
-    "fetched_at": "2026-08-25T12:00:00Z"
+    "last_seen_summary": "最新v2.2.0-beta.1预发布（08-27）：火山Agent Plan与MiMo V2.5接入、钉钉群聊共享上下文、Token趋势图、Creator 1.1.1、测试大幅扩充。",
+    "fetched_at": "2026-08-27T06:00:00Z"
   },
   "openclaw_releases": {
     "last_seen_summary": "最新2026.8.1-beta.3预发布（08-24）：GPT-5.6全系推理支持、CDP relay、Gateway监管、SQLite备份；Latest仍为2026.7.1-2。",
-    "fetched_at": "2026-08-24T12:00:00Z"
+    "fetched_at": "2026-08-27T06:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "无新文章，最新仍为07-23别把聊天记录全塞进知识库；其余文章未变。",
-    "fetched_at": "2026-08-24T12:00:00Z"
+    "fetched_at": "2026-08-27T06:00:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "无变化：10月Empirical Methods与Confronting AI Future会议，07-23 Rising Stars信息会议。",
-    "fetched_at": "2026-08-24T12:00:00Z"
+    "fetched_at": "2026-08-27T06:00:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "无新增：最新仍为08-18 X平台For You算法研究、08-11数据经纪商隐私研究、08-10全球安全资助项目。",
-    "fetched_at": "2026-08-24T12:00:00Z"
+    "last_seen_summary": "无新研究，最新仍为08-18 X平台For You算法研究等；新增08-25 Marketplace媒体引用加州隐私法报道。",
+    "fetched_at": "2026-08-27T06:00:00Z"
   }
 }
