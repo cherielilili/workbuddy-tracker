@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新仍为v5.3.14（08-17），Markdown AI编辑快捷键、记忆加载与调度优化等，无新版本。",
-    "fetched_at": "2026-08-27T06:00:00Z"
+    "fetched_at": "2026-08-28T16:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "列表无新文章，最新仍为08-18用户分享对抗幻觉心得；旧文未变。",
-    "fetched_at": "2026-08-27T06:00:00Z"
+    "fetched_at": "2026-08-28T16:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "博客恢复正常访问，暂停公告以08-11《A Note to Our Users》博文保留，此后无新博文，最新产品更新为08-03 ElevenLabs集成。",
-    "fetched_at": "2026-08-27T06:00:00Z"
+    "last_seen_summary": "最新博文仍为08-11《A Note to Our Users》，此后无新博文，产品更新停留在08-03 ElevenLabs集成。",
+    "fetched_at": "2026-08-28T16:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为v0.5.1（2025-02-05），无新版本发布。",
-    "fetched_at": "2026-08-27T06:00:00Z"
+    "fetched_at": "2026-08-28T16:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新v2.2.0-beta.1预发布（08-27）：火山Agent Plan与MiMo V2.5接入、钉钉群聊共享上下文、Token趋势图、Creator 1.1.1、测试大幅扩充。",
-    "fetched_at": "2026-08-27T06:00:00Z"
+    "last_seen_summary": "最新v2.2.0-beta.3预发布（08-28）：MCP Streamable-HTTP双协议客户端、钉钉连接与模型发现修复；同日beta.2含prompt cache可观测性。",
+    "fetched_at": "2026-08-28T16:00:00Z"
   },
   "openclaw_releases": {
     "last_seen_summary": "最新2026.8.1-beta.3预发布（08-24）：GPT-5.6全系推理支持、CDP relay、Gateway监管、SQLite备份；Latest仍为2026.7.1-2。",
-    "fetched_at": "2026-08-27T06:00:00Z"
+    "fetched_at": "2026-08-28T16:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "无新文章，最新仍为07-23别把聊天记录全塞进知识库；其余文章未变。",
-    "fetched_at": "2026-08-27T06:00:00Z"
+    "fetched_at": "2026-08-28T16:00:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "无变化：10月Empirical Methods与Confronting AI Future会议，07-23 Rising Stars信息会议。",
-    "fetched_at": "2026-08-27T06:00:00Z"
+    "last_seen_summary": "新增秋季研讨班：09-23 Instacart行业对话、10-07 AI Financial Advice、11-04 Clinical Mind AI、11-18 The AI 100、12-09网红研究；10月两场会议保留。",
+    "fetched_at": "2026-08-28T16:00:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "无新研究，最新仍为08-18 X平台For You算法研究等；新增08-25 Marketplace媒体引用加州隐私法报道。",
-    "fetched_at": "2026-08-27T06:00:00Z"
+    "last_seen_summary": "无新研究，最新仍为08-18 X平台For You算法研究等；媒体引用最新为08-25 Marketplace加州隐私法报道。",
+    "fetched_at": "2026-08-28T16:00:00Z"
   }
 }
