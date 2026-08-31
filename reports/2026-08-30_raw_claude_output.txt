@@ -1,0 +1,30 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-08-30\n\n## 摘要\n今日赛道无新动态。",
+  "signals": [],
+  "new_state": {
+    "workbuddy_changelog": {
+      "last_seen_summary": "最新版本v5.3.14（2026-08-17），包含Markdown AI编辑快捷键、记忆加载优化等，无新版本。",
+      "fetched_at": "2026-08-30T08:00:00Z"
+    },
+    "tencent_cloud_workbuddy": {
+      "last_seen_summary": "最新文章为08-18用户分享WorkBuddy对抗幻觉心得，其余为旧文。",
+      "fetched_at": "2026-08-30T08:00:00Z"
+    },
+    "manus_blog": {
+      "last_seen_summary": "最新博文仍为08-11《A Note to Our Users》，产品更新停留在08-03 ElevenLabs集成。",
+      "fetched_at": "2026-08-30T08:00:00Z"
+    },
+    "coze_studio_releases": {
+      "last_seen_summary": "最新release仍为v0.5.1（2025-02-05），无新版本发布。",
+      "fetched_at": "2026-08-30T08:00:00Z"
+    },
+    "qwenpaw_releases": {
+      "last_seen_summary": "最新预发布仍为v2.2.0-beta.3（08-28），含MCP双协议客户端、钉钉连接与模型发现修复。",
+      "fetched_at": "2026-08-30T08:00:00Z"
+    },
+    "openclaw_releases": {
+      "last_seen_summary": "最新预发布为2026.9.1-beta.1（08-28），含Gateway重启恢复、配置写入可靠性、Codex 0.150.1、Linux Node24安装修复、Worker恢复；稳定版仍2026.7.1-2。",
+      "fetched_at": "2026-08-30T08:00:00Z"
+    },
+    "53ai_openclaw": {
+      "last_seen_summary": "最新文章仍为07-23《别把

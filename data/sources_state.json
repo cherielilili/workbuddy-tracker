@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新仍为v5.3.14（08-17），Markdown AI编辑快捷键、记忆加载与调度优化等，无新版本。",
-    "fetched_at": "2026-08-29T00:00:00Z"
+    "fetched_at": "2026-08-31T14:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "列表无新文章，最新仍为08-18用户分享对抗幻觉心得；其余旧文未变。",
-    "fetched_at": "2026-08-29T00:00:00Z"
+    "fetched_at": "2026-08-31T14:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新博文仍为08-11《A Note to Our Users》，无新博文；产品更新停留在08-03 ElevenLabs集成。",
-    "fetched_at": "2026-08-29T00:00:00Z"
+    "fetched_at": "2026-08-31T14:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为v0.5.1（2025-02-05），无新版本发布。",
-    "fetched_at": "2026-08-29T00:00:00Z"
+    "fetched_at": "2026-08-31T14:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新仍为v2.2.0-beta.3预发布（08-28）：MCP双协议客户端、钉钉连接与模型发现修复，无更新版本。",
-    "fetched_at": "2026-08-29T00:00:00Z"
+    "last_seen_summary": "最新v2.2.0-beta.5预发布（08-31）：渠道契约检查、记忆embedding重建索引显式化；同日另发beta.4修复多项。",
+    "fetched_at": "2026-08-31T14:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "新增2026.9.1-beta.1预发布（08-28）：Gateway重启恢复、配置写入可靠性、Codex 0.150.1、Linux Node24安装修复、Worker恢复；稳定版仍2026.7.1-2。",
-    "fetched_at": "2026-08-29T00:00:00Z"
+    "last_seen_summary": "新增2026.8.1稳定版（08-31）：会话检索、跨设备会话、私密凭据、自动化权限、两项破坏性迁移；预发布2026.9.1-beta.1。",
+    "fetched_at": "2026-08-31T14:00:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "无新文章，最新仍为07-23别把聊天记录全塞进知识库；其余文章未变。",
-    "fetched_at": "2026-08-29T00:00:00Z"
+    "last_seen_summary": "08-31连发三篇OpenClaw 2.0/2026.8.1发布解读；此前最新为07-23 AI记忆分层文章。",
+    "fetched_at": "2026-08-31T14:00:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "活动列表未变：09-23 Instacart研讨、10-07 AI Financial Advice、10月两场会议、11-04 Clinical Mind AI、11-18 AI 100、12-09网红研究。",
-    "fetched_at": "2026-08-29T00:00:00Z"
+    "last_seen_summary": "活动列表未变：09-23 Instacart研讨、10-02与10-28两场会议、10-07 AI Financial Advice、11-04 Clinical Mind AI、11-18 AI 100、12-09网红研究。",
+    "fetched_at": "2026-08-31T14:00:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "无新研究，最新仍为08-18 X平台For You算法研究；媒体引用最新为08-25 Marketplace加州隐私法报道。",
-    "fetched_at": "2026-08-29T00:00:00Z"
+    "fetched_at": "2026-08-31T14:00:00Z"
   }
 }
