@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新仍为 v5.3.14（08-17），Markdown AI 编辑快捷键、记忆加载与调度优化等，无新版本。",
-    "fetched_at": "2026-09-02T00:00:00Z"
+    "last_seen_summary": "最新 v5.5.2（09-03）。v5.5.0 新增行业 Buddy 应用、图片处理与微信记录转发；v5.4.0 起支持 Worktree 并行开发，两周共发约十版。",
+    "fetched_at": "2026-09-03T08:00:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "列表无新文章，最新仍为 08-18 用户分享对抗幻觉心得；其余旧文未变。",
-    "fetched_at": "2026-09-02T00:00:00Z"
+    "last_seen_summary": "无新文章，最新仍为 08-18 用户分享对抗幻觉心得，其余旧文未变。",
+    "fetched_at": "2026-09-03T08:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新仍为 09-01《Manus Resumes Independent Operations》恢复独立运营公告，无新增博文。",
-    "fetched_at": "2026-09-02T00:00:00Z"
+    "last_seen_summary": "最新仍为 09-01 恢复独立运营公告 Manus Resumes Independent Operations，无新增博文。",
+    "fetched_at": "2026-09-03T08:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为 v0.5.1（2025-02-05），无新版本发布。",
-    "fetched_at": "2026-09-02T00:00:00Z"
+    "fetched_at": "2026-09-03T08:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "新增 v2.2.0-beta.7 预发布（09-02）：记忆 embedding 维度归一化、MCP 暗色模式、PyInstaller hook 修复。",
-    "fetched_at": "2026-09-02T00:00:00Z"
+    "last_seen_summary": "最新 v2.2.0 稳定版（09-03）：自托管 Hub、QwenPaw Data、QwenPaw Mail、统一模型供应商路由、Token 用量观测扩展。",
+    "fetched_at": "2026-09-03T08:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新仍为 2026.8.2 稳定版（09-01）：Home 停靠、Linux 桌面端、后台会话、升级安全、四款新主题。",
-    "fetched_at": "2026-09-02T00:00:00Z"
+    "last_seen_summary": "最新 2026.9.1（09-03）：Mermaid 全端渲染、快速安装引导、个人技能库、升级回滚、Gateway 高可用与审批持久化。",
+    "fetched_at": "2026-09-03T08:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新仍为 08-31 三篇 OpenClaw 2.0/2026.8.1 发布解读，无新文章。",
-    "fetched_at": "2026-09-02T00:00:00Z"
+    "fetched_at": "2026-09-03T08:00:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "新增 09-30 世界模型与空间智能治理研讨会；其余活动未变：09-23 Instacart、10-02 会议、10-07 金融建议等。",
-    "fetched_at": "2026-09-02T00:00:00Z"
+    "last_seen_summary": "新增 10-28 AI 未来会议、11-04 Clinical Mind AI、11-18 AI 100 报告解读、12-09 创作者研究研讨班；原有 09-23 至 10-07 活动未变。",
+    "fetched_at": "2026-09-03T08:00:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "无新研究，最新仍为 08-18 X 平台算法研究；媒体引用最新为 08-25 Marketplace 加州隐私法报道。",
-    "fetched_at": "2026-09-02T00:00:00Z"
+    "last_seen_summary": "无新研究，最新仍为 08-18 X 平台算法研究；媒体引用更新为 08-31 华盛顿邮报聊天机器人隐私报道。",
+    "fetched_at": "2026-09-03T08:00:00Z"
   }
 }
