@@ -1,0 +1,23 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-09-11\n\n## 摘要\n今日赛道动态集中在版本迭代：腾讯 WorkBuddy 连续发布 5.5.5 与 5.5.6 两个版本，新增创意设计（图片/视频生成、品牌设计）与资料库引用能力；阿里 QwenPaw 发布 v2.2.1 正式版，引入 Agent 级模型路由、主动记忆审查与 Creator 1.2.0；开源 OpenClaw 发布 2026.9.4，带来统一插件工作区、预备云会话与更新失败回滚机制。\n\n## 重大信号\n- [Tencent / WorkBuddy] 5.5.5 与 5.5.6 相继发布，正式引入创意设计能力（图片生成、视频生成、品牌设计），并支持将资料库文档/空间作为任务参考、后台任务查看终端输出：https://www.codebuddy.cn/docs/workbuddy/Changelog\n- [Alibaba / QwenPaw] v2.2.1 正式版发布，支持为每个 Agent 单独配置模型路由（provider 偏好与回退）、新增 PowerContext 长期记忆后端、Make Skill 升级与 MCP 连接超时配置：https://github.com/agentscope-ai/QwenPaw/releases\n- [Open Source / OpenClaw] 发布 2026.9.4，新增统一插件工作区、预备云会话与可复用快照、终端交互式问答、GPT Image 2.5 变体，并提供更新失败自动回滚：https://github.com/openclaw/openclaw/releases\n\n## 腾讯 WorkBuddy\n- 5.5.6（2026-09-10）：优化自动化任务重试，失败后可在当前会话继续，避免创建重复的任务会话；修复重试成功后运行历史状态不准确、切换任务后旧错误再次出现的问题；优化错误提示，不再展示无意义的内部错误码与失效操作指引；提升插件推荐的主动性与准确度，可按任务需要更恰当地推荐连接器、专家或专家团队。\n- 5.5.5（2026-09-10）：新增创意设计能力，支持图片生成、视频生成和品牌设计等场景；发起任务时可直接添加资料库中的文档或空间作为参考内容；后台任务支持查看详情和终端输出，并可随时取消运行；数据管理—应用支持直接发布或取消发布应用；从企业微信转发的聊天记录可自动读取其中的文档、微盘文件、日程、待办、会议和智能纪要；优化复杂 Mermaid 图表的 Markdown 预览与超长会话流式显示，提升休眠唤醒后的恢复能力；修复部分本地 PPT 与特殊 HTML 内容预览白屏的问题。\n- 版本节奏：自 09-08 的 5.5.4 起，两天内连续推送三个版本，重点集中在自动化（定时任务）稳定性与应用生态（插件推荐、应用发布）。\n- 来源：https://www.codebuddy.cn/docs/workbuddy/Changelog\n\n## 阿里 QwenPaw\n- 发布 v2.2.1 正式版（2026-09-11），主要变更：\n- 模型、Agent 与记忆：可为每个 Agent 单独配置模型路由，包括 provider 偏好与回退行为；新增 Auto Fin 主动记忆审查并升级 ReMe，提升长期记忆处理的可靠性；新增 PowerContext 作为可选长期记忆后端并支持在 Console 中配置；强化内置 Agent 在请求范围、不可信内容、确认流程、工具调用与任务完成判定上的行为。\n- Creator 1.2.0：新增蓝图工作台、多时间线对比、可复用视频模板、MiniMax H3 支持、项目快照回滚、更清晰的 Agent 进度与 Docker 部署。\n- Console 与工作区：新增统一环境变量设置页，由 Agent、MCP 服务、工具与本地模型共享；可检测插件与 PawApp 更新并一键安装；重设计侧栏与设置体验，支持自定义导航；会话项目目录恢复直接路径输入；Agent 看板新增中英文本地化。\n- 技能与 MCP：选中技能可预加载完整指令，无需额外激活步骤；Make Skill 升级为引导式起草、校验、行为测试与发布工具链；展示技能版本并在使用前校验声明的依赖；HTTP 与 SSE 类型 MCP 客户端支持配置连接超时。\n- 变更与其他：自动记忆后端统一生命周期与动作接口，ADBPG 与 PowerContext 改为插件交付；标准化 Console 明暗主题配色与组件状态；优化小屏下的 Agent 选择器。\n- 安全与兼容：关键安全发现需审批，除非策略明确拒绝；在 Agent 运行时路径强制执行每个 MCP 服务的工具白名单；将托管 Chromium 安装移出启动路径，避免阻塞 QwenPaw 启动；修复流式输出、快速切换会话时的陈旧状态与排队发送竞态。\n- 来源：https://github.com/agentscope-ai/QwenPaw/releases\n\n## 开源 OpenClaw\n- 发布 2026.9.4（2026-09-11），核心亮点：\n- 更新失败可恢复：在模式与配置校验证明回滚安全时，保留上一版本包并连同旧配置与服务一起恢复；涉及数据库迁移的升级仍需经验证的升级前备份。\n- 插件统一工作区：可发现内置与 ClawHub 插件，在 Control UI 中安装，并统一管理其配置、设置与访问权限；支持按类别浏览、短链接（如 /reports）与统一搜索。\n- 预备云会话：可从已准备的本地项目或公开 GitHub 仓库启动符合条件的 Linux 会话，并在 Control UI 中预先构建可复用快照；默认每个项目/配置保留一个预备 worker，Gateway 全局上限四个，预备 worker 在删除前会持续产生 provider 运行费用。\n- 终端问答：支持键盘驱动选择、自由文本回答与多问题提示，覆盖 Gateway 连接的会话与本地 TUI 会话，可用 /question 重新打开待处理提示。\n- GPT Image 2.5：可在不更改现有默认模型的前提下，选择新增的 Flare 与 Sunburst 变体用于图像生成与编辑。\n- 会话历史更可靠：中断的流式回复后可恢复最终答案，超时提示在重新加载后保留，避免实时聊天交接给历史记录时出现重复最终答案。\n- 语音交付与委派：子 Agent 结果可返回 Talk，并在多轮委派后仍给出最终答复。\n- 外部托管配置：设置 OPENCLAW_CONFIG_READONLY=1 可阻止 OpenClaw 重写由部署方管理的配置，同时保留只读诊断与普通运行时状态。\n- 来源：https://github.com/openclaw/openclaw/releases",
+  "signals": [
+    {
+      "title": "WorkBuddy 发布 5.5.5 与 5.5.6，新增创意设计与资料库引用",
+      "vendor": "Tencent",
+      "severity": "major",
+      "summary": "2026-09-10 连发两个版本：5.5.5 新增创意设计能力（图片生成、视频生成、品牌设计），支持将资料库文档或空间直接作为任务参考，后台任务可查看终端输出并随时取消；5.5.6 优化自动化任务重试与错误提示，提升插件推荐准确度。",
+      "source": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+    },
+    {
+      "title": "QwenPaw v2.2.1 正式版发布",
+      "vendor": "Alibaba",
+      "severity": "major",
+      "summary": "2026-09-11 发布正式版：支持为每个 Agent 独立配置模型路由与回退、新增 Auto Fin 主动记忆审查与 PowerContext 长期记忆后端、Creator 1.2.0 增加蓝图工作台与项目快照回滚、Make Skill 升级并支持技能依赖校验、MCP 客户端可配连接超时。",
+      "source": "https://github.com/agentscope-ai/QwenPaw/releases"
+    },
+    {
+      "title": "OpenClaw 发布 2026.9.4",
+      "vendor": "Open Source",
+      "severity": "major",
+      "summary": "2026-09-11 发布：新增更新失败回滚恢复、统一插件工作区（内置与 ClawHub 插件集中安装管理）、预备云会话与可复用快照、终端交互式问答、GPT Image 2.5 的 Flare/Sunburst 变体，并提升流式会话历史与语音委派交付的可靠性。",
+      "source": "https://github.com/openclaw/openclaw/releases"

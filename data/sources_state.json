@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新 v5.5.4（09-08）：锁屏运行三模式、自动化更名定时任务、上下文窗口档位记忆及多项修复，无更新",
-    "fetched_at": "2026-09-10T11:00:00Z"
+    "last_seen_summary": "最新 5.5.6/5.5.5（09-10）：新增创意设计图片视频生成、资料库参考、后台任务终端输出，自动化重试可当前会话继续",
+    "fetched_at": "2026-09-12T04:30:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "无新文章，最新仍为 08-18 用户分享对抗幻觉心得，其余为 08-12 Obsidian 对接、07-29 周报教程等旧帖",
-    "fetched_at": "2026-09-10T11:00:00Z"
+    "last_seen_summary": "无新文章，最新仍为 08-18 用户分享对抗幻觉心得，其余为 08-12 Obsidian 对接、07-29 教程等旧帖",
+    "fetched_at": "2026-09-12T04:30:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新为 09-09 客户案例 She Built Her Brother a Voice，产品侧仍为 09-01 恢复独立运营公告，无更新",
-    "fetched_at": "2026-09-10T11:00:00Z"
+    "fetched_at": "2026-09-12T04:30:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为 v0.5.1（2025-02-05），含 NATS EventBus、knowledge openapi 等变更，无新版本发布",
-    "fetched_at": "2026-09-10T11:00:00Z"
+    "fetched_at": "2026-09-12T04:30:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新 v2.2.1-beta.2（09-10）：移动端 Agent 选择器、技能版本与依赖校验、MCP 超时配置、ADBPG 与 PowerContext 迁为插件",
-    "fetched_at": "2026-09-10T11:00:00Z"
+    "last_seen_summary": "最新 v2.2.1 正式版（09-11）：按 Agent 独立模型路由、Auto Fin 主动记忆、PowerContext 记忆后端、Creator 1.2.0",
+    "fetched_at": "2026-09-12T04:30:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新 2026.6.35（09-10）：六月扩展稳定线 LTS 收官版，聚焦 provider 与渠道边界、长任务投递与插件韧性安全加固",
-    "fetched_at": "2026-09-10T11:00:00Z"
+    "last_seen_summary": "最新 2026.9.4（09-11）：统一插件工作区、预备云会话与快照、终端交互问答、GPT Image 2.5、失败更新可回滚",
+    "fetched_at": "2026-09-12T04:30:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新仍为 08-31 三篇 OpenClaw 2.0 与 2026.8.1 发布解读文章，无新文章",
-    "fetched_at": "2026-09-10T11:00:00Z"
+    "fetched_at": "2026-09-12T04:30:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "活动列表无变化：09-23 Instacart 起，含 10-02 实证方法会议、11-04 医学教育研讨会等既有安排",
-    "fetched_at": "2026-09-10T11:00:00Z"
+    "last_seen_summary": "活动列表无变化：09-23 Instacart 起，含 10-02 实证方法会议、10-07 AI 财务建议研讨会等既有安排",
+    "fetched_at": "2026-09-12T04:30:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "最新研究为 09-08 AI 法律审查揭示地方歧视性法规，媒体引用最新为 08-31 华盛顿邮报聊天机器人隐私报道，无更新",
-    "fetched_at": "2026-09-10T11:00:00Z"
+    "last_seen_summary": "最新研究为 09-08 AI 法律审查揭示地方歧视性法规，媒体引用最新为 08-31 聊天机器人隐私报道，无更新",
+    "fetched_at": "2026-09-12T04:30:00Z"
   }
 }
