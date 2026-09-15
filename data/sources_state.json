@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新 5.5.6/5.5.5（09-10）：创意设计图片视频生成、资料库参考、后台任务终端输出，自动化重试可在当前会话继续",
-    "fetched_at": "2026-09-13T04:00:00Z"
+    "last_seen_summary": "最新 5.5.6/5.5.5（09-10）：创意设计图片视频生成、资料库参考、后台任务终端输出，自动重试可在当前会话继续",
+    "fetched_at": "2026-09-15T04:30:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "无新文章，最新仍为 08-18 用户分享对抗幻觉心得，另有 08-12 Obsidian 对接、08-11 一人公司心得等旧帖",
-    "fetched_at": "2026-09-13T04:00:00Z"
+    "last_seen_summary": "无新文章，综合排序首位仍为 07-21 重度办公短板讨论，最新日期文章为 08-18 对抗幻觉心得",
+    "fetched_at": "2026-09-15T04:30:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新为 09-09 客户案例 She Built Her Brother a Voice，产品侧仍为 09-01 恢复独立运营公告，无更新",
-    "fetched_at": "2026-09-13T04:00:00Z"
+    "last_seen_summary": "最新仍为 09-09 客户案例 She Built Her Brother a Voice，产品侧为 09-01 恢复独立运营公告，无更新",
+    "fetched_at": "2026-09-15T04:30:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为 v0.5.1（2025-02-05），含 NATS EventBus、knowledge openapi 等变更，无新版本发布",
-    "fetched_at": "2026-09-13T04:00:00Z"
+    "fetched_at": "2026-09-15T04:30:00Z"
   },
   "qwenpaw_releases": {
     "last_seen_summary": "最新 v2.2.1 正式版（09-11）：按 Agent 独立模型路由、Auto Fin 主动记忆、PowerContext 记忆后端、Creator 1.2.0",
-    "fetched_at": "2026-09-13T04:00:00Z"
+    "fetched_at": "2026-09-15T04:30:00Z"
   },
   "openclaw_releases": {
     "last_seen_summary": "最新 2026.9.4（09-11）：统一插件工作区、预备云会话与快照、GPT Image 2.5、失败更新可回滚",
-    "fetched_at": "2026-09-13T04:00:00Z"
+    "fetched_at": "2026-09-15T04:30:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新仍为 08-31 三篇 OpenClaw 2.0 与 2026.8.1 发布解读文章，无新文章",
-    "fetched_at": "2026-09-13T04:00:00Z"
+    "fetched_at": "2026-09-15T04:30:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "活动列表无变化：09-23 Instacart 起，含 09-24 世行报告、10-02 实证方法会议、10-07 AI 财务建议研讨会等既有安排",
-    "fetched_at": "2026-09-13T04:00:00Z"
+    "fetched_at": "2026-09-15T04:30:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "最新研究为 09-08 AI 法律审查揭示地方歧视性法规，媒体引用最新为 08-31 聊天机器人隐私报道",
-    "fetched_at": "2026-09-13T04:00:00Z"
+    "fetched_at": "2026-09-15T04:30:00Z"
   }
 }
