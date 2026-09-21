@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新为 5.6.0（2026-09-19）：新增应用管理与一键撤销授权、消息引用输入、葡语与印尼语界面、恢复 MCP 直接编辑，并含大量稳定性修复",
-    "fetched_at": "2026-09-20T04:00:00Z"
+    "last_seen_summary": "最新仍为 5.6.0（2026-09-19）：应用管理与一键撤销授权、消息引用输入、葡语与印尼语界面、恢复 MCP 直接编辑，并含大量稳定性修复",
+    "fetched_at": "2026-09-21T12:00:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "综合排序首位仍为 07-21 重度办公短板讨论，新增 09-20 薅积分自动化实测文，另有教育营销续费报告与教程类旧文",
-    "fetched_at": "2026-09-20T04:00:00Z"
+    "last_seen_summary": "综合排序首位仍为 07-21 重度办公短板讨论，另有 09-20 薅积分自动化实测、09-19 AI 搭档养成记与教育续费报告等旧文",
+    "fetched_at": "2026-09-21T12:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "产品侧头条仍为 09-01 恢复独立运营公告，另有 09-09 客户案例，最新 Other 类为 09-16 客户服务 Agent 横评，无产品更新",
-    "fetched_at": "2026-09-20T04:00:00Z"
+    "last_seen_summary": "产品侧头条仍为 09-01 恢复独立运营公告，09-09 客户案例，最新 Other 为 09-16 客服 Agent 横评，无产品更新",
+    "fetched_at": "2026-09-21T12:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为 V0.5.1（2025-02-05），含 NATS EventBus 与 knowledge openapi，无新版本发布",
-    "fetched_at": "2026-09-20T04:00:00Z"
+    "fetched_at": "2026-09-21T12:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新为 v2.2.2-beta.3（09-20）：修复控制台回复操作、飞书可折叠推理面板、技能批量广播与本地运行时 CLI 问题",
-    "fetched_at": "2026-09-20T04:00:00Z"
+    "last_seen_summary": "最新仍为 v2.2.2-beta.3（09-20）：修复控制台回复操作、飞书可折叠推理面板、技能批量广播与本地运行时 CLI 问题",
+    "fetched_at": "2026-09-21T12:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新仍为 2026.9.5（09-19）：64 直接提交、4179 PR、503 贡献者，无新 release 条目",
-    "fetched_at": "2026-09-20T04:00:00Z"
+    "last_seen_summary": "新增 2026.7.35（09-21）为 7 月维护线首个 GitHub Release，含 7.33/7.34 完整变更与安全加固；线上最新正式版仍为 2026.9.5",
+    "fetched_at": "2026-09-21T12:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新仍为 08-31 三篇 OpenClaw 2.0 与 2026.8.1 发布解读文章，无新文章",
-    "fetched_at": "2026-09-20T04:00:00Z"
+    "fetched_at": "2026-09-21T12:00:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "排期含 09-21 Prompt Response、09-23 Instacart、09-24 世行报告、09-30 世界模型治理、10-02 实证方法会议、10-07 AI 理财与 10-28 AI Future 会议",
-    "fetched_at": "2026-09-20T04:00:00Z"
+    "last_seen_summary": "新增 Marlowe AI + Data for Science 系列（09-23 起六场）、10-20 湾区科技经济学研讨与 10-02 AIMS 测量科学研讨；原有 09-21 至 10-28 排期不变",
+    "fetched_at": "2026-09-21T12:00:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "媒体引用仍为 09-13 KTVU 与 09-16 SF Examiner、美联社三条，研究最新仍为 09-08 AI 法律审查，无变化",
-    "fetched_at": "2026-09-20T04:00:00Z"
+    "fetched_at": "2026-09-21T12:00:00Z"
   }
 }
