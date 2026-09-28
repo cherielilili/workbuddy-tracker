@@ -1,0 +1,15 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-09-25\n\n## 摘要\n过去 24 小时赛道更新集中在桌面客户端与开源 Agent 运行时：腾讯 WorkBuddy 更新日志推进至 5.6.2，以文档预览、连接器授权与多端稳定性修复为主；OpenClaw 发布 2026.9.6，并因 macOS 构建启动崩溃在 24 小时内完成重建与重发。斯坦福 HAI 新增 Prompt Response 系列安全治理讨论文章，并排定 09-30 世界模型治理研讨会、10-07 AI 财务建议研讨等多场公开活动。\n\n## 重大信号\n- [Tencent] WorkBuddy 5.6.2 正式发布（2026-09-21），围绕文档预览、连接器授权、技能安装与定时任务做集中修复。\n- [OpenClaw] OpenClaw 2026.9.6 发布（2026-09-23），macOS 构建崩溃问题于 09-24 重建并重新公证分发。\n- [Stanford HAI] 09-30 公开研讨会《The World Model and Spatial Intelligence Era: Governing AI Beyond Language》，聚焦语言之外的世界模型与空间智能治理。\n- [Stanford HAI] 10-07 研讨会《AI Financial Advice: Supply, Demand, and Life Cycle Implications》，由 Tim de Silva 主讲，直指 AI 与个人理财/生命周期决策。\n\n## 腾讯 WorkBuddy\n- 更新日志新增 5.6.2（2026-09-21）：优化文档预览窗口的打开、保存、主题与关闭，未登录也可预览 PPT；优化连接器授权与开关，授权完成后才显示图标，关闭后对话中不再残留可用工具。\n- 技能侧优化安装、更新检测与闲置提醒，不同来源的同名技能不再误标已安装，套件内技能不再被误关；减少对话中反复确认专家身份的追问。\n- 修复项覆盖：项目新建本地任务长时间停在准备中、超长本地会话「查看更多」无法翻页、历史会话专家身份丢失、任务结束后仍显示处理中、工作空间选择丢失、输入框模型名空白、连接器授权成功后一直显示连接中、定时任务企业微信通知延迟或漏发、购买积分弹窗无法打开、取消发布的应用从列表消失、网页端偶发退出登录等。\n- 参考：https://www.codebuddy.cn/docs/workbuddy/Changelog\n\n## OpenClaw\n- 发布 2026.9.6（2026-09-23 23:21 UTC），规模为 178 direct commits、2,614 pull requests、351 contributors，属于月度主线正式版本。\n- 关键运维信息：原始 2026.9.6 macOS 构建在启动即崩溃（#156861），官方于 09-24 09:52 UTC 替换为已公证重建版本（#156881）；npm 包未变更，已安装旧构建且无法启动的用户需重新安装一次 DMG。\n- Release 列表中 2026.7.35 仍保留为 7 月维护线版本，2026.9.5 为其前序正式版，本次为 9 月线首次迭代。\n- 参考：https://github.com/openclaw/openclaw/releases\n\n## Stanford HAI\n- 新闻侧新增 09-22 文章《Can AI Be Slowed Down? Stanford HAI Experts Weigh the Risks, Rules and Race Ahead》，属新推出的 Prompt Response 系列，Surya Ganguli、Diyi Yang 与 Rob Reich 讨论涌现式 Agent 行为、递归自我改进、独立评估以及 kill switch 能否提升前沿模型安全性。\n- 媒体引用新增 Good Morning America 09-21《AI Chatbots And Privacy: How To Keep Personal Info Secure》；SF Examiner 09-16 与美联社 09-16 两条仍保留。\n- 活动侧新增 09-30 HAI Orientation 与 Orientation Mixer（面向斯坦福社区，含教师分享与网络环节）。\n- 活动侧新增 09-30 研讨会《The World Model and Spatial Intelligence Era: Governing AI Beyond Language》，讲者为 Daniel Zhang、Caroline Meinhardt、Jiajun Wu、Russell Wald，切入监管、政策与治理议题。\n- 活动侧新增 10-07 Tim de Silva 研讨会《AI Financial Advice: Supply, Demand, and Life Cycle Implications》，归属 Finance, Business 主题，对应本赛道 AI 经济/投资追踪重点。\n- 活动侧新增 10-07 NVIDIA 与 Marlowe 联合课程《GPU Computing Foundations》，由 Amanda Butler 主讲，地点 CoDa W401，内容覆盖 GPU 架构与 Marlowe SuperPod 入门。\n- 参考：https://hai.stanford.edu/news 与 https://hai.stanford.edu/events",
+  "signals": [
+    {
+      "title": "WorkBuddy 5.6.2 发布：文档预览、连接器授权与多端稳定性集中修复",
+      "vendor": "Tencent",
+      "severity": "major",
+      "summary": "更新日志新增 5.6.2（2026-09-21）。优化文档预览窗口打开/保存/主题/关闭，未登录也可预览 PPT；连接器授权完成后才显示图标、关闭后不再残留工具；优化技能安装与闲置提醒。修复本地任务卡在准备中、超长会话无法翻页、专家身份丢失、定时任务企微通知延迟漏发、积分弹窗打不开等问题。",
+      "source": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+    },
+    {
+      "title": "OpenClaw 2026.9.6 发布，macOS 构建崩溃当日重建重发",
+      "vendor": "OpenClaw",
+      "severity": "major",
+      "summary": "2026.9.6 于 2026-09-23 发布，含 178 commits、2,614 PR、351 贡献者。原始 macOS 构建启动即崩溃（#156861），官方于 09

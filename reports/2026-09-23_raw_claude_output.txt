@@ -1,0 +1,8 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-09-23\n\n## 摘要\n今日赛道增量有限：腾讯 WorkBuddy 官方更新日志新增 5.6.2 维护版（2026-09-21），集中优化文档预览、连接器授权、技能安装检测与专家交互，并批量修复定时任务、会话恢复、微信转发等稳定性问题；斯坦福 HAI 发布 09-22 关于 Agent 风险与治理的分析文章，并新增一条 09-21 媒体引用。\n\n## 重大信号\n- 今日无 major 级信号。\n\n## 腾讯 WorkBuddy\n- 官方更新日志新增 **5.6.2（2026-09-21）**：优化文档预览窗口的打开、保存、主题与关闭，未登录也可预览 PPT；连接器授权完成后才显示图标，关闭后对话中不再残留可用工具；优化技能安装、更新检测与闲置提醒，不同来源同名技能不再误标已安装，套件内技能不再被误关；减少对话中反复确认专家身份的追问。\n- 5.6.2 修复项覆盖：项目新建本地任务长时间停在准备中、删除会话后本地助理打不开；超长本地会话「查看更多」无法翻到更早记录；历史会话专家身份丢失、任务结束后仍显示处理中；企业微信与微信转发聊天记录识别失败、卡片一直显示「准备中」；连接器授权成功后一直显示「连接中」、解除授权后无法重连；定时任务企微通知延迟或漏发、无运行记录却反复执行；购买积分弹窗无法打开、取消发布的应用从列表消失、腾讯文档创建 PPT 失败；对话无回复后会话卡住与网页端偶发退出登录。\n- 来源：https://www.codebuddy.cn/docs/workbuddy/Changelog\n\n## Stanford HAI\n- 09-22 新增文章《Can AI Be Slowed Down? Stanford HAI Experts Weigh the Risks, Rules and Race Ahead》：在 Prompt Response 系列中，Surya Ganguli、Diyi Yang 与 Rob Reich 讨论了 Agent 涌现行为、递归自我改进、独立评估，以及 kill switch 能否让先进 AI 更安全，属较系统的 Agent 风险治理讨论。https://hai.stanford.edu/news\n- 媒体引用新增 09-21 Good Morning America《AI Chatbots And Privacy: How To Keep Personal Info Secure》，此前最新为 09-16 SF Examiner 与美联社两条。https://hai.stanford.edu/news",
+  "signals": [
+    {
+      "title": "WorkBuddy 发布 5.6.2 维护版",
+      "vendor": "Tencent",
+      "severity": "minor",
+      "summary": "官方更新日志新增 5.6.2（2026-09-21）：优化文档预览与未
