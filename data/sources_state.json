@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新 5.6.2（2026-09-21）：优化文档预览、连接器授权与技能管理，修复企微/微信转发识别、定时任务通知、购买积分弹窗等大量稳定性问题",
-    "fetched_at": "2026-09-28T00:00:00Z"
+    "last_seen_summary": "最新仍为 5.6.2（2026-09-21）：优化文档预览、连接器授权与技能管理，修复企微/微信转发、定时任务通知等大量稳定性问题，无新版本",
+    "fetched_at": "2026-10-01T04:35:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "综合排序首位仍为 07-21 重度办公短板讨论，另有 09-20 薅积分自动化实测等旧文，无新内容",
-    "fetched_at": "2026-09-28T00:00:00Z"
+    "fetched_at": "2026-10-01T04:35:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "09-28 发布 Manus 2.0：Cascade agent harness、Cloud Computer 与 Automations、Manus Studio、个人 Agent 应用 Cue；Other 新增 09-16 AI 学习资源文",
-    "fetched_at": "2026-09-28T00:00:00Z"
+    "last_seen_summary": "09-29 新增 Manus Flex（工作区自带 API Key）；此前 09-28 Manus 2.0：Cascade、Cloud Computer、Automations、Studio、Cue",
+    "fetched_at": "2026-10-01T04:35:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为 V0.5.1（2025-02-05），含 NATS EventBus 与 knowledge openapi，无新版本发布",
-    "fetched_at": "2026-09-28T00:00:00Z"
+    "fetched_at": "2026-10-01T04:35:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新仍为 v2.2.2-beta.3（09-20）：修复控制台回复操作、飞书可折叠推理面板、技能批量广播与本地运行时 CLI 问题",
-    "fetched_at": "2026-09-28T00:00:00Z"
+    "last_seen_summary": "最新 v2.2.2-beta.4（09-30）：统一模型发现/定价/思考控制、Telegram 富消息、多标签终端、KaTeX 渲染及大量修复",
+    "fetched_at": "2026-10-01T04:35:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新正式版 2026.9.6（09-23）：178 commits、351 位贡献者；macOS 版启动崩溃后于 09-24 重打包替换，npm 包不变",
-    "fetched_at": "2026-09-28T00:00:00Z"
+    "last_seen_summary": "最新 2026.9.7（09-30）：518 commits、334 位贡献者，新增 Linux 更新通道，macOS arm64 资产齐备",
+    "fetched_at": "2026-10-01T04:35:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新仍为 08-31 三篇 OpenClaw 2.0 与 2026.8.1 发布解读文章，无新文章",
-    "fetched_at": "2026-09-28T00:00:00Z"
+    "fetched_at": "2026-10-01T04:35:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "新增 09-30 世界模型与空间智能治理研讨、HAI Orientation、10-07 AI 金融建议研讨与 NVIDIA GPU 基础课；Marlowe 系列等原有排期不变",
-    "fetched_at": "2026-09-28T00:00:00Z"
+    "last_seen_summary": "新增 10-12 Neil Thompson AI 与劳动力、10-26 Daniel Rock AI 与科学瓶颈、10-28 Confronting Our AI Future 全天会议",
+    "fetched_at": "2026-10-01T04:35:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "新增 09-25 AI 基准测试有效性研究、09-22 Prompt Response 系列专家谈 AI 减速与 kill switch；媒体引用新增 09-21 GMA 隐私报道",
-    "fetched_at": "2026-09-28T00:00:00Z"
+    "last_seen_summary": "10-01 公告 15 位新数据科学学者；09-25 AI 基准测试有效性研究、09-22 Prompt Response 系列谈 AI 减速",
+    "fetched_at": "2026-10-01T04:35:00Z"
   }
 }
