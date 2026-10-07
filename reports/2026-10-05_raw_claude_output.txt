@@ -1,0 +1,46 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-10-05\n\n## 摘要\n今日赛道新动态主要来自 Manus 与 OpenClaw。Manus 2.0 于 10-01 连续上线视频编辑器与游戏开发两项创作能力，继续向通用内容生产延伸；OpenClaw 发布 2026.10.1-beta.1，重点修复会话内存、媒体回复、更新诊断与 Windows 工作区等稳定性问题，并集中提示多项插件 SDK 弃用。Stanford HAI 新增 AI 金融顾问等经济相关研讨会，与 AI 对劳动力与科学瓶颈的研究主线衔接。\n\n## 重大信号\n- [Manus] Manus 2.0 新增视频编辑器，主打任何人都能制作值得发布的视频（https://manus.im/blog）\n- [Manus] Manus 2.0 新增 Game Dev，主打人人可做想玩的游戏（https://manus.im/blog）\n- [OpenClaw] 发布 2026.10.1-beta.1，覆盖会话内存、媒体回复、更新诊断、Windows 工作区、云 worker 与插件/MCP 大量修复（https://github.com/openclaw/openclaw/releases）\n- [Stanford HAI] 新增 AI Financial Advice: Supply, Demand, and Life Cycle Implications 研讨会，10-07 由 Tim de Silva 主讲（https://hai.stanford.edu/events）\n\n## Manus\n- 10-01 发布《Introducing Video Editor in Manus 2.0: Anyone Can Now Make A Video Worth Posting》，在 Manus 2.0 框架内上线视频编辑器，定位为普通用户可直接产出可发布级视频（https://manus.im/blog）\n- 10-01 发布《Introducing Game Dev: Enabling Everyone to Make the Games They Want to Play》，新增游戏开发能力，强调非专业用户也能完成可玩游戏的制作（https://manus.im/blog）\n- 上述两项均为 09-28 Manus 2.0（Cascade、Cloud Computer、Automations、Studio、Cue）与 09-29 Manus Flex 之后的延续性产品发布，Manus 2.0 的内容生产矩阵进一步扩张（https://manus.im/blog）\n\n## OpenClaw\n- 10-05 发布 2026.10.1-beta.1。会话与内存：跨注册表变更保留用量、远程工作区下发 worker 附件、避免排队取消与 transcript 别名阻塞活跃轮次、对齐 continuation 签名，并按批次迁移 embedding 缓存并上报超大行（https://github.com/openclaw/openclaw/releases）\n- 回复与媒体：恢复本地视频内联播放、以有用错误替代被拒媒体链接、Telegram 进度更新不再附带预览卡、修复开启 reasoning 时纯语音回复异常（https://github.com/openclaw/openclaw/releases）\n- 更新与 Doctor：改进服务判定恢复指引、只读托管配置下仍可修复、减少重复的配置/备份/元数据/pnpm-root 探测、将成功清理作为进度上报而不污染 JSON 输出、Gateway 仍启动中按警告处理（https://github.com/openclaw/openclaw/releases）\n- Windows 工作区与浏览器启动：修复空与嵌套 Windows worktree 创建、改进 Linux Chromium 发现、在 ARM64 上自动启动 Playwright Chromium（https://github.com/openclaw/openclaw/releases）\n- 云 worker 与 Crabbox：暴露真实云 worker 失败、强制 Linux 租约、将 worker bundle 下载与 bootstrap 重叠、移除无关 warm-image 清理等待、避免慢读或不支持后端阻塞 worker（https://github.com/openclaw/openclaw/releases）\n- 插件/Codex/MCP：保留 Bun 包导入捕获、减少预发布元数据请求、防止过期远程执行审批污染认证档案、恢复 node 策略钩子、同步 MCP 表单/文件/上下文，并将后台技能评审走 Workshop proposals（https://github.com/openclaw/openclaw/releases）\n- 变化项：为 incognito actor memory 与 Codex 历史路由加入 inactive-foundation 支持；将现有 agents 迁移到本地 Claws；通过 serving prepared facts、按 store revision 复用卡片 payload、生命周期变更移出主线程等降低 Sessions 面板与状态路径开销（https://github.com/openclaw/openclaw/releases）\n- 弃用提示：channel-webhook-listener-config-inputs（09-26 起告警，迁移至 legacyWebhook）、session-manager-sync-persistence 与 extension-session-sync-persistence、provider-replay-sync-persistence（均 10-01 起告警，改用 Async 后缀方法）、memory-session-sync-inventory、workspace-mutation-guard-callback 与 gateway-placement-sync-results（10-02 起告警）（https://github.com/openclaw/openclaw/releases）\n\n## Stanford HAI\n- 活动日历新增 10-07 12:00-13:15 研讨会《AI Financial Advice: Supply, Demand, and Life Cycle Implications》，由 Tim de Silva 主讲，标签为 Finance、Business，属 AI 与金融投资方向的重点新增（https://hai.stanford.edu/events）\n- 新增 10-05 16:00-17:30《Andrew Shen | Unlocking LLM Creativity in Science through Analogical Reasoning》，隶属 Center for Neural Data Science Seminar Series（https://hai.stanford.edu/events）\n- 新增 10-07《NVIDIA & Marlowe | GPU Computing Foundations - Amanda Butler》与 10-07《Marlowe | AI + Data for Science with Olivier Gevaert》，后者本周改至 David Packard 电气工程楼 101 室（https://hai.stanford.edu/events）\n- 新增 10-20 18:30-20:30《Bay Area Tech Economics Seminar with Rehan Khan》，标签 Economy、Markets、Data Science（https://hai.stanford.edu/events）\n- 新增 10-19《Nicholas Branigan | Non-ergodicity and Simpson paradox in neural correlates》、10-14 Curtis Langlotz、10-21 Anshul Kundaje、10-28 Dan Yamins 等 Marlowe AI + Data for Science 系列场次（https://hai.stanford.edu/events）",
+  "signals": [
+    {
+      "title": "Manus 2.0 新增视频编辑器",
+      "vendor": "Manus",
+      "severity": "major",
+      "summary": "10-01 官方博客发布 Video Editor in Manus 2.0，在 Manus 2.0 框架内上线视频编辑器，定位普通人也能产出可发布级视频，是继 Manus 2.0 与 Manus Flex 之后的又一产品级能力扩充。",
+      "source": "https://manus.im/blog"
+    },
+    {
+      "title": "Manus 2.0 新增 Game Dev",
+      "vendor": "Manus",
+      "severity": "major",
+      "summary": "10-01 官方博客发布 Game Dev，主打让每个人都能制作自己想玩的游戏，与同日视频编辑器共同构成 Manus 2.0 的创作能力扩展。",
+      "source": "https://manus.im/blog"
+    },
+    {
+      "title": "OpenClaw 发布 2026.10.1-beta.1",
+      "vendor": "OpenClaw",
+      "severity": "major",
+      "summary": "10-05 发布 2026.10.1-beta.1，覆盖会话与内存、回复与媒体、更新与 Doctor、Windows 工作区与浏览器启动、云 worker 与 Crabbox、插件/Codex/MCP 等模块的批量修复与优化，并集中提示多项插件 SDK 弃用迁移。",
+      "source": "https://github.com/openclaw/openclaw/releases"
+    },
+    {
+      "title": "Stanford HAI 新增 AI 金融顾问研讨会",
+      "vendor": "Stanford HAI",
+      "severity": "major",
+      "summary": "HAI 活动日历新增 10-07 研讨会 AI Financial Advice: Supply, Demand, and Life Cycle Implications，由 Tim de Silva 主讲，聚焦 AI 金融建议的供给、需求与生命周期影响，属 AI 经济与投资方向的重点场次。",
+      "source": "https://hai.stanford.edu/events"
+    }
+  ],
+  "new_state": {
+    "workbuddy_changelog": {
+      "last_seen_summary": "最新仍为 5.6.2（2026-09-21）：优化文档预览、连接器授权与技能管理，修复企微/微信转发、定时任务通知等稳定性问题，无新版本",
+      "fetched_at": "2026-10-05T08:00:00Z"
+    },
+    "tencent_cloud_workbuddy": {
+      "last_seen_summary": "综合排序首位仍为 07-21 重度办公短板讨论，另有教育续费实测、obsidian 对接、游资技能包等旧文，无新内容",
+      "fetched_at": "2026-10-05T08:00:00Z"
+    },
+    "manus_blog": {
+      "last_seen_summary": "10-01 新增 Manus 2.0 视频编辑器与 Game Dev 两篇产品文；此前 09-29 Manus Flex、09-28 Manus 2.0（Cascade、Cloud Computer、Automations、Studio、Cue）",
+      "fetched_at": "2026-10-05T08:00:00Z"
+    },
+    "
