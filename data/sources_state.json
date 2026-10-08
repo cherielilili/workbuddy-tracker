@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新 5.7.6（10-04）海外版 Gmail 连接器；5.7.5 定时任务汇总页与 Outlook 连接器；5.7.0 全局搜索、工作区信任确认、插件技能管理与资产分享",
-    "fetched_at": "2026-10-07T04:35:00Z"
+    "last_seen_summary": "最新仍为 5.7.6（10-04）海外版 Gmail 连接器；5.7.5 定时任务汇总页与 Outlook 连接器；5.7.0 全局搜索、工作区信任确认、插件技能管理",
+    "fetched_at": "2026-10-08T00:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "综合排序首位仍为 07-21 重度办公短板讨论，另有 09-20 薅积分自动化实测等旧文，无新内容",
-    "fetched_at": "2026-10-07T04:35:00Z"
+    "fetched_at": "2026-10-08T00:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "10-01 新增 Video Editor 与 Game Dev 两模块；此前 09-29 Manus Flex、09-28 Manus 2.0（Cascade、Cloud Computer、Automations、Studio、Cue）",
-    "fetched_at": "2026-10-07T04:35:00Z"
+    "last_seen_summary": "最新仍为 10-01 Video Editor 与 Game Dev 两模块；此前 09-29 Manus Flex、09-28 Manus 2.0，无新博文",
+    "fetched_at": "2026-10-08T00:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为 V0.5.1（2025-02-05），含 NATS EventBus 与 knowledge openapi，无新版本发布",
-    "fetched_at": "2026-10-07T04:35:00Z"
+    "fetched_at": "2026-10-08T00:00:00Z"
   },
   "qwenpaw_releases": {
     "last_seen_summary": "最新仍为 v2.2.2-beta.4（09-30）：统一模型发现/定价/思考控制、Telegram 富消息、多标签终端、KaTeX 渲染及大量修复",
-    "fetched_at": "2026-10-07T04:35:00Z"
+    "fetched_at": "2026-10-08T00:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新 2026.10.1-beta.1 预发布（10-05）：会话记忆、媒体回复、Doctor、Windows 工作区、云 Worker 与 MCP 修复；列表含 2026.9.8",
-    "fetched_at": "2026-10-07T04:35:00Z"
+    "last_seen_summary": "10-08 发布稳定版 2026.9.9（Latest）：185 commits、112 PR、92 贡献者，全平台产物；另有 2026.10.1-beta.2 预发布",
+    "fetched_at": "2026-10-08T00:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新仍为 08-31 三篇 OpenClaw 2.0 与 2026.8.1 发布解读文章，无新文章",
-    "fetched_at": "2026-10-07T04:35:00Z"
+    "fetched_at": "2026-10-08T00:00:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "新增 10-07 Tim de Silva AI 金融建议、10-19 Branigan、10-20 Rehan Khan 技术经济、11-04 Clinical Mind AI；保留 10-12 Thompson、10-26 Rock、10-28 全天会议",
-    "fetched_at": "2026-10-07T04:35:00Z"
+    "last_seen_summary": "新增 10-16 Serena Wang 评估研讨、11-06 SC2 会议、11-09 Wurgaft；Marlowe 系列排至 11-11；保留 10-12、10-26、10-28 等活动",
+    "fetched_at": "2026-10-08T00:00:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "10-07 新增员工 AI 采纳评论；10-01 公告 15 位新数据科学学者；09-25 AI 基准有效性研究、09-22 Prompt Response 系列",
-    "fetched_at": "2026-10-07T04:35:00Z"
+    "last_seen_summary": "最新仍为 10-07 员工 AI 采纳评论、10-01 公告 15 位新数据科学学者、09-25 AI 基准研究、09-22 Prompt Response 系列",
+    "fetched_at": "2026-10-08T00:00:00Z"
   }
 }
