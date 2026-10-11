@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-10-11</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-10-11</span>
+      <span class="count-major">重大信号 × 1</span>
+      <span class="count-minor">常规更新 × 0</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 2026.10.1 稳定版发布，2026.10.5-beta.1 预发布上线</span><div class="summary">OpenClaw 发布 2026.10.1 稳定版并推出 2026.10.5-beta.1 预发布：新增 X 频道插件（流式回复+API 成本限额）、语音通话简报与实时干预、Worker 本地推理运行时、Gateway 内集成 ClawHub 插件市场、模型选择器厂商推荐排序，并大幅加固更新与会话重启恢复机制。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-10-11</h1>
+<h2>摘要</h2>
+<p>今日赛道焦点在开源侧：OpenClaw 发布 2026.10.1 稳定版并推出 2026.10.5-beta.1 预发布，带来 X 频道插件、语音通话增强、Worker 本地推理与 ClawHub 网关内集成等重磅能力。腾讯 WorkBuddy 官方版本线无更新，社区出现新的用户实测内容；Stanford HAI 活动日历新增多场研讨会，其中 Bay Area Tech Economics  Seminar 涉及 AI 经济议题。</p>
+<h2>重大信号</h2>
+<ul>
+<li>[OpenClaw] 2026.10.1 稳定版发布，2026.10.5-beta.1 预发布同步上线，含 X 频道、语音通话、本地推理运行时等多项重大能力（https://github.com/openclaw/openclaw/releases）</li>
+</ul>
+<h2>OpenClaw</h2>
+<ul>
+<li>发布稳定版 2026.10.1（接替 10-08 的 2026.9.9 成为新稳定线），同时推出预发布 2026.10.5-beta.1（10-11 打 tag）。</li>
+<li>2026.10.5-beta.1 重点能力：新增 X（Twitter）mentions 频道插件，支持流式回复、仓库问答访客模式及 API 成本限额；语音通话支持每通电话简报、通话报告、实时干预、回拨与语音信箱检测；新增 Worker 本地推理运行时，由 Gateway 调度并做策略校验；Gateway 内可直接浏览搜索 ClawHub 插件与技能；模型选择器按厂商推荐排序，新上架 Claude、ChatGPT、Ollama 模型无需等待 OpenClaw 发版即可显示；更新机制与会话重启恢复全面加固，Gateway 读写迁移至 worker 线程提升响应。（https://github.com/openclaw/openclaw/releases）</li>
+</ul>
+<h2>腾讯 WorkBuddy</h2>
+<ul>
+<li>官方 Changelog 无新版本，最新仍为 5.7.7（10-08）。</li>
+<li>腾讯云开发者社区新增一篇 09-20 用户实测《我让 WorkBuddy 自己去薅 WorkBuddy 的积分》，测试用 Agent 自动检索积分活动并尝试三条自动化领取路径，涉及 URL Scheme 直达与权限墙确认，属社区UGC增量。（https://cloud.tencent.com/developer/search/article?q=WorkBuddy）</li>
+</ul>
+<h2>Stanford HAI</h2>
+<ul>
+<li>活动日历新增：10-20 Bay Area Tech Economics Seminar（Rehan Khan，标签 Economy/Markets，AI 经济相关）；11-04 Marcos Santiago Rojas Pino 与 Thomas Caruso 研讨《Building an International AI Platform for Health Professions Education》（Clinical Mind AI 平台）；另新增 10-14、10-21、10-28、11-04 Marlowe AI+Data for Science 系列场次（Curtis Langlotz、Anshul Kundaje、Dan Yamins、Ruijiang Li）及 10-19 Nicholas Branigan 神经数据科学研讨。此前已披露的 Neil Thompson（10-12）、Daniel Rock（10-26）、Confronting Our AI Future 全天会议（10-28）维持不变。（https://hai.stanford.edu/events）</li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>

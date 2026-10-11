@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>AI Agent 赛道日报 2026-10-10</title>
+<title>AI Agent 赛道日报 2026-10-11</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
@@ -95,7 +95,7 @@
   <header>
     <h1>AI Agent 赛道日报</h1>
     <div class="meta">
-      <span>2026-10-10</span>
+      <span>2026-10-11</span>
       <span class="count-major">重大信号 × 1</span>
       <span class="count-minor">常规更新 × 0</span>
     </div>
@@ -103,26 +103,30 @@
 
   <section class="signals">
     <h2>Signals</h2>
-    <div class="signal pill-major"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 上线 10-28 全天会议 Confronting Our AI Future</span><div class="summary">HAI 活动日历新增 10 月 28 日全天公开会议《Confronting Our AI Future: Hope, Fear, and the Choices Ahead》，聚焦 AI 加速下的社会焦虑、个人价值与劳动力议题，属重要公开活动。</div><a class="src" href="https://hai.stanford.edu/events">来源 →</a></div>
+    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 2026.10.1 稳定版发布，2026.10.5-beta.1 预发布上线</span><div class="summary">OpenClaw 发布 2026.10.1 稳定版并推出 2026.10.5-beta.1 预发布：新增 X 频道插件（流式回复+API 成本限额）、语音通话简报与实时干预、Worker 本地推理运行时、Gateway 内集成 ClawHub 插件市场、模型选择器厂商推荐排序，并大幅加固更新与会话重启恢复机制。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div>
   </section>
 
   <main class="report">
-    <h1>AI Agent 赛道日报 2026-10-10</h1>
+    <h1>AI Agent 赛道日报 2026-10-11</h1>
 <h2>摘要</h2>
-<p>今日赛道整体平静：WorkBuddy、Manus、Coze Studio、QwenPaw、OpenClaw 等主要产品源均无新版本或新公告。唯一增量来自 Stanford HAI 活动日历，新增多场 10 月中下旬讲座与一场全天会议，其中 Daniel Rock 与 Neil Thompson 两场聚焦 AI 经济与劳动力影响，值得从业者关注。</p>
+<p>今日赛道焦点在开源侧：OpenClaw 发布 2026.10.1 稳定版并推出 2026.10.5-beta.1 预发布，带来 X 频道插件、语音通话增强、Worker 本地推理与 ClawHub 网关内集成等重磅能力。腾讯 WorkBuddy 官方版本线无更新，社区出现新的用户实测内容；Stanford HAI 活动日历新增多场研讨会，其中 Bay Area Tech Economics  Seminar 涉及 AI 经济议题。</p>
 <h2>重大信号</h2>
 <ul>
-<li>[Stanford HAI] 10-28 全天会议《Confronting Our AI Future: Hope, Fear, and the Choices Ahead》上线日程，聚焦 AI 加速带来的社会焦虑与劳动力议题（https://hai.stanford.edu/events）</li>
+<li>[OpenClaw] 2026.10.1 稳定版发布，2026.10.5-beta.1 预发布同步上线，含 X 频道、语音通话、本地推理运行时等多项重大能力（https://github.com/openclaw/openclaw/releases）</li>
+</ul>
+<h2>OpenClaw</h2>
+<ul>
+<li>发布稳定版 2026.10.1（接替 10-08 的 2026.9.9 成为新稳定线），同时推出预发布 2026.10.5-beta.1（10-11 打 tag）。</li>
+<li>2026.10.5-beta.1 重点能力：新增 X（Twitter）mentions 频道插件，支持流式回复、仓库问答访客模式及 API 成本限额；语音通话支持每通电话简报、通话报告、实时干预、回拨与语音信箱检测；新增 Worker 本地推理运行时，由 Gateway 调度并做策略校验；Gateway 内可直接浏览搜索 ClawHub 插件与技能；模型选择器按厂商推荐排序，新上架 Claude、ChatGPT、Ollama 模型无需等待 OpenClaw 发版即可显示；更新机制与会话重启恢复全面加固，Gateway 读写迁移至 worker 线程提升响应。（https://github.com/openclaw/openclaw/releases）</li>
+</ul>
+<h2>腾讯 WorkBuddy</h2>
+<ul>
+<li>官方 Changelog 无新版本，最新仍为 5.7.7（10-08）。</li>
+<li>腾讯云开发者社区新增一篇 09-20 用户实测《我让 WorkBuddy 自己去薅 WorkBuddy 的积分》，测试用 Agent 自动检索积分活动并尝试三条自动化领取路径，涉及 URL Scheme 直达与权限墙确认，属社区UGC增量。（https://cloud.tencent.com/developer/search/article?q=WorkBuddy）</li>
 </ul>
 <h2>Stanford HAI</h2>
 <ul>
-<li>新增 10-12 讲座：Neil Thompson《Forecasting AI's Impact on Human Expertise and the Future of Work》，探讨 AI 对知识工作与白领就业的冲击，标签为 Economy/Markets（https://hai.stanford.edu/events）</li>
-<li>新增 10-16 讲座：Serena Wang《From Metric Selection to Metric Discovery in AI Evaluation》，聚焦 AI 评估方法论（https://hai.stanford.edu/events）</li>
-<li>新增 10-26 讲座：Daniel Rock《The Free Hypothesis: AI and Shifted Bottlenecks in Science》，基于 1500 万条 Gemini 交互、2600+ 学科专用模型与 600+ 科学家调研，给出 AI 对科研瓶颈影响的早期数据洞察，标签为 Economy/Markets（https://hai.stanford.edu/events）</li>
-<li>新增 10-28 全天会议《Confronting Our AI Future: Hope, Fear, and the Choices Ahead》，议题覆盖劳动力与社会层面（https://hai.stanford.edu/events）</li>
-<li>新增 11-06《2026 SC2 Student Conference》全天学生会议（https://hai.stanford.edu/events）</li>
-<li>新增 11-09 CNDS  Seminar：Daniel Wurgaft（神经数据科学系列）（https://hai.stanford.edu/events）</li>
-<li>Marlowe 系列新增 11-11 场次：Mohsen Bayati（https://hai.stanford.edu/events）</li>
+<li>活动日历新增：10-20 Bay Area Tech Economics Seminar（Rehan Khan，标签 Economy/Markets，AI 经济相关）；11-04 Marcos Santiago Rojas Pino 与 Thomas Caruso 研讨《Building an International AI Platform for Health Professions Education》（Clinical Mind AI 平台）；另新增 10-14、10-21、10-28、11-04 Marlowe AI+Data for Science 系列场次（Curtis Langlotz、Anshul Kundaje、Dan Yamins、Ruijiang Li）及 10-19 Nicholas Branigan 神经数据科学研讨。此前已披露的 Neil Thompson（10-12）、Daniel Rock（10-26）、Confronting Our AI Future 全天会议（10-28）维持不变。（https://hai.stanford.edu/events）</li>
 </ul>
   </main>
 
