@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-10-14</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-10-14</span>
+      <span class="count-major">重大信号 × 2</span>
+      <span class="count-minor">常规更新 × 2</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-major"><span class="vendor">Manus</span><span class="title">Manus for Business 发布</span><div class="summary">10-13 官方博客发布 Manus for Business，宣称帮助企业成为 AI-native 公司，是 Manus 2.0 后首个明确的 B 端产品动作</div><a class="src" href="https://manus.im/blog">来源 →</a></div><div class="signal pill-major"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 公布 AI 未来大会与 Daniel Rock AI 经济学讲座</span><div class="summary">10-28 全天大会 Confronting Our AI Future 及 10-26 Daniel Rock 基于 1500 万条 Gemini 交互数据的 AI 科学影响讲座上线活动日历</div><a class="src" href="https://hai.stanford.edu/events">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Alibaba</span><span class="title">QwenPaw 单日连发 v2.2.2-beta.5 与 beta.6</span><div class="summary">beta.5 新增 view_audio 音频理解工具、QwenPaw-Flash 9B/27B/35B-A3B 本地模型更新及 UIUX 重构；beta.6 修复历史记录备份与 e2e 测试</div><a class="src" href="https://github.com/agentscope-ai/QwenPaw/releases">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Stanford HAI</span><span class="title">Deb Raji 加盟 Stanford HAI 谈 AI 致害责任</span><div class="summary">10-14 发布政策文章 Who is Responsible When AI Causes Harm，Deb Raji 加入 HAI 研究 AI 责任治理实践路径</div><a class="src" href="https://hai.stanford.edu/news">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-10-14</h1>
+<h2>摘要</h2>
+<p>今日赛道动态集中在海外厂商与学术机构：Manus 发布面向企业的 Manus for Business，标志其正式进军 B 端市场；阿里 QwenPaw 单日连发两个 beta 版本，新增音频理解工具与本地模型更新；Stanford HAI 公布多场 AI 经济主题讲座及一场全天 AI 未来大会，政策线迎来 Deb Raji 加盟后的首篇责任治理文章。</p>
+<h2>重大信号</h2>
+<ul>
+<li>[Manus] Manus for Business 发布，定位 AI-native 企业转型</li>
+<li>[Stanford HAI] 10-28 全天大会《Confronting Our AI Future》及 10-26 Daniel Rock AI 经济学讲座公布</li>
+</ul>
+<h2>Manus</h2>
+<ul>
+<li>发布 Manus for Business（10-13）：官方定位帮助企业成为 AI-native 公司，为 Manus 2.0 发布后首个明确面向 B 端的产品线动作。https://manus.im/blog</li>
+<li>新增客户案例一篇（10-13）：波士顿初创公司利用 Manus 处理建筑拆除废料回收业务。https://manus.im/blog</li>
+<li>此前已记录的 OPPO 手机 Agentic AI 合作（10-13）维持不变。</li>
+</ul>
+<h2>阿里 QwenPaw</h2>
+<ul>
+<li>发布 v2.2.2-beta.6（10-14）：修复 e2e 选择器对齐、历史记录外部数据库路径与便携备份支持。https://github.com/agentscope-ai/QwenPaw/releases</li>
+<li>发布 v2.2.2-beta.5（10-14）：新增 view_audio 音频理解工具、本地模型 QwenPaw-Flash 9B/27B/35B-A3B 更新、creator 2.0.1 受控媒体生产、控制台 UIUX 基础重构、agentscope 升级至 2.0.10，及大量控制台与工具修复。https://github.com/agentscope-ai/QwenPaw/releases</li>
+</ul>
+<h2>Stanford HAI</h2>
+<ul>
+<li>新增文章（10-14）：《Who is Responsible When AI Causes Harm?》，政策专家 Deb Raji 加入 Stanford HAI，聚焦 AI 致害责任归属这一政策难题，从原则走向实践。https://hai.stanford.edu/news</li>
+<li>新增活动：10-26 Daniel Rock 讲座《The Free Hypothesis: AI and Shifted Bottlenecks in Science》，基于 1500 万条 Gemini 交互、2600+ 学科专用模型与 600+ 科学家调研，给出 AI 对科学发现影响的早期数据洞察。https://hai.stanford.edu/events</li>
+<li>新增活动：10-28 全天大会《Confronting Our AI Future: Hope, Fear, and the Choices Ahead》，讨论 AI 加速下的社会焦虑与选择。https://hai.stanford.edu/events</li>
+<li>新增活动：10-20 Bay Area Tech Economics Seminar（Snowflake 的 Rehan Khan），面向技术经济研究者；另有 Marlowe 系列新增 10-28 Dan Yamins、11-04 Ruijiang Li 场次。https://hai.stanford.edu/events</li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>
