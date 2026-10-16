@@ -1,38 +1,38 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新仍为 5.7.7（10-08）优化成长计划体验；5.7.6 海外版 Gmail 连接器；5.7.5 定时任务汇总页与 Outlook 连接器；无新版本",
-    "fetched_at": "2026-10-14T00:00:00Z"
+    "last_seen_summary": "最新 5.8.2（10-16）修复会话打开与企微机器人问题；5.8.1（10-11）备份上限与语音优化；5.8.0（10-09）挂件、独立文件浏览器等大版本",
+    "fetched_at": "2026-10-16T00:00:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "综合排序首位仍为 07-21 重度办公短板讨论；最新文章仍为 09-20 薅积分实测，其余为 6-8 月旧文，无新文章",
-    "fetched_at": "2026-10-14T00:00:00Z"
+    "last_seen_summary": "综合排序首位仍为 07-21 重度办公短板讨论；最新文章仍为 09-20 薅积分实测，无新文章",
+    "fetched_at": "2026-10-16T00:00:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "新增 10-13 Manus for Business 企业版发布及波士顿拆除废料客户案例；10-13 OPPO 合作、10-01 Video Editor 与 Game Dev、09-28 Manus 2.0 维持",
-    "fetched_at": "2026-10-14T00:00:00Z"
+    "last_seen_summary": "最新仍为 10-13 Manus for Business 客户案例与 OPPO 合作，10-01 Video Editor 与 Game Dev，09-28 Manus 2.0，无新文章",
+    "fetched_at": "2026-10-16T00:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为 V0.5.1（2025-02-05），含 NATS EventBus 与 knowledge openapi，无新版本发布",
-    "fetched_at": "2026-10-14T00:00:00Z"
+    "fetched_at": "2026-10-16T00:00:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "新增 v2.2.2-beta.6 与 beta.5（10-14）：view_audio 音频工具、QwenPaw-Flash 9B/27B/35B-A3B 更新、creator 2.0.1、UIUX 重构及大量修复",
-    "fetched_at": "2026-10-14T00:00:00Z"
+    "last_seen_summary": "最新 v2.2.2 稳定版（10-15）：Console 与工作区、PawPort 迁移、Hub 模型网关、view_audio、Flash 27B/35B-A3B、Creator 2.0.1",
+    "fetched_at": "2026-10-16T00:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新仍为 2026.10.5-beta.3 与 2026.10.3 稳定版（10-13）：升级保持 Gateway、Doctor 保护凭证、会话重启恢复、Meta Muse Wonder 1M 模型；无新版本",
-    "fetched_at": "2026-10-14T00:00:00Z"
+    "last_seen_summary": "最新 2026.10.10-beta.1（10-15）：云会话、重启恢复、Gemini 4 Argon 默认、Apple 26.2 要求；另有 10.5-beta.4、10.4、9.33",
+    "fetched_at": "2026-10-16T00:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新仍为 08-31 三篇 OpenClaw 2.0 与 2026.8.1 发布解读文章，无新文章",
-    "fetched_at": "2026-10-14T00:00:00Z"
+    "fetched_at": "2026-10-16T00:00:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "新增 10-20 湾区技术经济研讨、10-26 Daniel Rock AI 科学经济学讲座、10-28 AI 未来大会及 Marlowe 系列新场次；10-19 Carina Hong 等维持",
-    "fetched_at": "2026-10-14T00:00:00Z"
+    "last_seen_summary": "新增 10-16 Serena Wang、10-19 Branigan、10-21 Marlowe Kundaje、11-04 Clinical Mind AI、11-06 SC2、11-09 秋季论坛等场次",
+    "fetched_at": "2026-10-16T00:00:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "新增 10-14 Deb Raji 加盟谈 AI 致害责任文章；10-12 人机协作研究、10-07 员工 AI 采纳评论、10-01 新学者公告维持",
-    "fetched_at": "2026-10-14T00:00:00Z"
+    "last_seen_summary": "最新仍为 10-14 Deb Raji 加盟谈 AI 致害责任；10-12 人机协作研究、10-07 员工 AI 采纳评论、10-01 新学者公告，无新增",
+    "fetched_at": "2026-10-16T00:00:00Z"
   }
 }
