@@ -1,0 +1,19 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-10-19\n\n## 摘要\n今日赛道以版本迭代与学术日程更新为主：腾讯 WorkBuddy 发布 5.8.3 稳定性补丁，集中修复闪屏、账号串号与语音可用性问题；OpenClaw 推出 2026.10.5 稳定版，以 2,704 次提交、2,250 个 PR 的规模完成一次大合并。Stanford HAI 更新 10 月下旬至 11 月讲座日历，AI 与科学发现、AI 经济学成为主线。\n\n## 重大信号\n- **[OpenClaw]** 2026.10.5 稳定版正式发布并置为 Latest（10-18），贡献规模 2,704 commits / 2,250 PR / 638 贡献者，同时开始提供双格式发布说明（人类可读版 + 供 AI Agent 读取的 Markdown changelog）。来源：https://github.com/openclaw/openclaw/releases\n- **[Stanford HAI]** 新增 10-26 Daniel Rock 讲座《The Free Hypothesis: AI and Shifted Bottlenecks in Science》，基于 1,500 万条 Gemini 交互、2,600 余个学科专用模型清单与 600 余名科学家调查，属 AI 经济学方向重要公开讲座。来源：https://hai.stanford.edu/events\n- **[Stanford HAI]** 新增 10-28 全天会议《Confronting Our AI Future: Hope, Fear, and the Choices Ahead》（9:00–18:45），议题覆盖劳动力市场、科研与社会心理预期。来源：https://hai.stanford.edu/events\n\n## 腾讯 WorkBuddy\n- 官方 Changelog 新增 **5.8.3（2026-10-19）**：修复内置运行时随版本切换时同步弹出闪屏；修复账号刷新串号导致的会话错乱，以及企微助理会话结束后入口默认回到本地助理的问题；修复 5.8.3 自身语音功能被异常覆盖导致不可用；优化本地沙箱内存占用、修复长期运行后内存膨胀卡死；优化企业代理与系统证书环境下的连接稳定性，修复切换代理后连接异常。该版本为纯修复型补丁，未引入新功能。来源：https://www.codebuddy.cn/docs/workbuddy/Changelog\n- 上一轮 5.8.2（10-16）修复历史会话打开、企微机器人文件回传、产物栏计数跳变等问题的记录继续保留在页面上。\n- 腾讯云开发者社区新增 10-19 文章《开源 AI 工作台实测：和 WorkBuddy 到底差多少？》，从技能市场运营度、办公生态集成（腾讯文档、腾讯会议、企业微信、邮箱、乐享）、多模态产物与订阅计费四个维度做对比，结论倾向商业工作台在生态打通上仍显著领先，开源平替需等待官方排期补足。当前阅读量 31，属用户侧实测，影响力有限。来源：https://cloud.tencent.com/developer/search/article?q=WorkBuddy\n\n## OpenClaw\n- **2026.10.5 稳定版**发布（10-18 21:47 UTC），已被标记为 Latest，取代此前的 2026.10.10-beta.1。发布说明显示本轮合并 2,704 commits、2,250 PR，涉及 638 名贡献者，属于跨度较大的稳定版合并。\n- 发布说明采用双格式输出：面向人的 Release notes 与面向 AI Agent 的纯 Markdown changelog，便于工具链直接解析。\n- 产物覆盖 Linux AppImage（167 MB）、deb（47.5 MB）、macOS arm64 dmg（227 MB）与 arm64 zip（306 MB），并附带 latest.json、linux.json 及依赖证据包，供应链可验证性继续加强。\n- 版本列表同时出现 2026.10.10-beta.2，说明 10.10 系列 beta 仍在推进。来源：https://github.com/openclaw/openclaw/releases\n\n## Stanford HAI\n- 新增 10-19 Carina Hong（Axiom）讲座《AI That Can Prove It: From Mathematical Discovery to Verified Software》，讨论从数学基准解题到在 Lean 中形式化数学理论的迁移路径。\n- 新增 10-19 Nicholas Branigan 神经数据科学研讨会，主题为非遍历性与神经相关中的辛普森悖论。\n- 新增 10-20 Bay Area Tech Economics Seminar，主讲人 Rehan Khan（Snowflake），面向研究生级别经济学家与量化社会科学研究者，聚焦科技经济分析方法与产业连接。\n- 新增 10-21 Marlowe 系列《AI + Data for Science》，主讲 Anshul Kundaje；10-28 场次主讲 Dan Yamins；11-04 场次主讲 Ruijiang Li；11-11 场次主讲 Mohsen Bayati。\n- 新增 10-26 Daniel Rock 讲座《The Free Hypothesis: AI and Shifted Bottlenecks in Science》，以 1,500 万条 Gemini 交互样本、2,600 余个学科专用 AI 模型清单与 600 余名科学家调查为基础，评估 AI 对科研效率瓶颈的位移效应。\n- 新增 10-28 全天会议《Confronting Our AI Future: Hope, Fear, and the Choices Ahead》，9:00–18:45，覆盖劳动力、科研与社会议题。\n- 新增 11-04 Clinical Mind AI 场次（Marcos Santiago Rojas Pino 与 Thomas Caruso），介绍斯坦福自研的跨专业临床推理教育平台，用 AI 模拟问诊。\n- 新增 11-06 2026 SC2 学生会议、11-09 Center for Decoding the Universe 秋季论坛、11-09 CNDS 研讨会（Daniel Wurgaft）。来源：https://hai.stanford.edu/events\n",
+  "signals": [
+    {
+      "title": "OpenClaw 2026.10.5 稳定版发布并置为 Latest",
+      "vendor": "OpenClaw",
+      "severity": "major",
+      "summary": "10-18 发布 2026.10.5 稳定版，合并 2,704 commits、2,250 PR、638 名贡献者，取代 2026.10.10-beta.1 成为最新正式版；发布说明首次提供面向 AI Agent 的 Markdown changelog，产物含 AppImage、deb、arm64 dmg 与依赖证据包。",
+      "source": "https://github.com/openclaw/openclaw/releases"
+    },
+    {
+      "title": "Stanford HAI 新增 Daniel Rock 讲座：AI 与科学瓶颈转移",
+      "vendor": "Stanford HAI",
+      "severity": "major",
+      "summary": "10-26 12:00 公开讲座《The Free Hypothesis: AI and Shifted Bottlenecks in Science》，基于 1,500 万条 Gemini 交互、2,600 余个学科专用模型清单及 600 余名科学家调查，给出 AI 影响科研效率的早期实证。",
+      "source": "https://hai.stanford.edu/events"
+    },
+    {
+      "title": "

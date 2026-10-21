@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-10-21</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-10-21</span>
+      <span class="count-major">重大信号 × 1</span>
+      <span class="count-minor">常规更新 × 2</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-major"><span class="vendor">Stanford HAI</span><span class="title">AI100 第三份报告《AI Goes Mainstream》定档 11-18</span><div class="summary">Stanford HAI 活动日历新增 11-18 场次，将解读 AI100 第三份报告《AI Goes Mainstream: The Scaling Era and the Rise of Generative AI》，报告由 Michael Wooldridge 领衔的研究小组撰写，计划 2026 年 11 月正式发布，覆盖 Scaling 时代与生成式 AI 主流化议题。</div><a class="src" href="https://hai.stanford.edu/events">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Tencent</span><span class="title">WorkBuddy 发布 5.8.3 补丁版</span><div class="summary">10-19 版本集中修复运行时切换闪屏、账号刷新串号导致会话错乱、企微助理会话结束入口异常与语音功能被覆盖失效，并优化本地沙箱内存膨胀卡死、企业代理与系统证书环境连接稳定性，属稳定性收敛版本。</div><a class="src" href="https://www.codebuddy.cn/docs/workbuddy/Changelog">来源 →</a></div><div class="signal pill-minor"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 推送 2026.10.10-beta.3</span><div class="summary">10-21 beta 版聚焦 Windows 全新状态初始化与 Gateway 启动恢复、强制重装容错、升级后插件与 agent store 收敛、Discord 斜杠命令恢复、CLI 会话工具目录失效修复及冷启动记忆索引优化，同时稳定版 2026.10.5 已上架。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-10-21</h1>
+<h2>摘要</h2>
+<p>腾讯 WorkBuddy 发布 5.8.3 补丁版，集中于运行时闪屏、账号串号与语音功能异常的修复，并优化沙箱内存与代理连接稳定性。OpenClaw 连续推送 2026.10.10-beta.3，主线仍是 Windows 可靠性、升级恢复与 Agent 状态一致性。Stanford HAI 上线医疗 AI 评测方法论长文，并挂出 AI100 第三份报告《AI Goes Mainstream》的 11 月发布场次及多场 AI 经济相关研讨。</p>
+<h2>重大信号</h2>
+<ul>
+<li><strong>[Stanford HAI]</strong> AI100 第三份报告《AI Goes Mainstream: The Scaling Era and the Rise of Generative AI》定档 11-18 公开讲座，研究小组由 Michael Wooldridge 领衔，内容覆盖 Scaling 时代与生成式 AI 主流化路径，属年度旗舰报告级别发布。 https://hai.stanford.edu/events</li>
+</ul>
+<h2>腾讯 WorkBuddy</h2>
+<ul>
+<li>更新日志新增 <strong>5.8.3 版本（2026-10-19）</strong>：修复内置运行时随版本切换弹出的闪屏、账号刷新串号导致会话错乱、企业微信助理会话结束入口回路异常，以及 5.8.3 中语音功能被异常覆盖导致不可用的问题；同时优化本地沙箱内存占用（修复长期运行内存膨胀卡死）、企业代理与系统证书环境下的连接稳定性。 https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
+<li>腾讯云开发者社区 10-19 出现新横评文《开源AI工作台实测：和 WorkBuddy 到底差多少？》，从技能市场、办公生态集成（腾讯文档/会议/企微/邮箱/乐享）、计费模式三个维度对比开源 AI 工作台，认为 WorkBuddy 优势集中在运营化技能市场与国内办公链路整合，短板是定制需求需等官方排期；另有 07-21 老帖阅读量升至 1.6K，仍是重度办公场景短板讨论。 https://cloud.tencent.com/developer/search/article?q=WorkBuddy</li>
+</ul>
+<h2>Open Source / OpenClaw</h2>
+<ul>
+<li>发布 <strong>openclaw 2026.10.10-beta.3（10-21）</strong>：Windows 侧恢复全新状态初始化与 Gateway 启动、隐藏 SQLite 辅助窗口、容忍强制重装的启动器时间戳；升级恢复逻辑收敛 app-owned 插件至升级后核心版本、修复 schema 变更后 agent store（含 held system agents）丢失、迁移回滚备份范围收窄到版本化表。</li>
+<li>功能修复：并发初始化下两个 Agent 争抢同一 agent 数据库、Codex 与原生应用上下文刷新后阻塞回复、Discord 频道与线程的原生斜杠命令恢复、限流重试时保留 prompt cache、Gateway 重启后 CLI 会话工具目录失效导致 exec 等工具不可用、冷启动不再打开全部记忆索引、macOS 长命令 20 秒超时等。 https://github.com/openclaw/openclaw/releases</li>
+<li>发布列表同步出现稳定版 <strong>2026.10.5</strong> 与 <strong>2026.10.10-beta.2</strong>，说明 10.10 系列正从 beta.1 快速迭代走向收敛。</li>
+</ul>
+<h2>Stanford HAI</h2>
+<ul>
+<li>新闻页新增 <strong>10-19《Measuring What Medical AI Can Actually Do》</strong>（Nigam Shah、Jonathan Chen）：总结三年间为医疗 AI 构建的逐级加难、贴近真实临床的 benchmark 体系及其评测结论，属方法论型长文。 https://hai.stanford.edu/news</li>
+<li>活动日历新增 AI 经济与产业相关场次：<strong>10-26 Daniel Rock《The Free Hypothesis: AI and Shifted Bottlenecks in Science》</strong>，基于 1500 万次 Gemini 交互样本、2600+ 专业 AI 模型清单与 600+ 科学家调查，讨论 AI 如何改变科学研究的瓶颈结构与经济增长路径；<strong>11-18《AI Goes Mainstream》AI100 报告专场</strong>。</li>
+<li>其他新增场次：10-28 全天会议《Confronting Our AI Future: Hope, Fear, and the Choices Ahead》、10-28 Dan Yamins、11-04 Ruijiang Li、11-04 Clinical Mind AI 国际健康职业教育平台、11-11 Mohsen Bayati、11-18 Andreas Tolias、12-02 Leonidas Guibas 等 Marlowe 与 CNDS 系列研讨。 https://hai.stanford.edu/events</li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>
