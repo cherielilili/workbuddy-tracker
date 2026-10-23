@@ -1,0 +1,39 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-10-22\n\n## 摘要\n今日赛道以稳定性与安全修补为主：腾讯 WorkBuddy 发布 5.8.3，集中修复闪屏、会话串号与本地沙箱内存膨胀；OpenClaw 上线 2026.10.6 稳定版并强制要求已修补的 Node 运行时，QwenPaw 紧随其后发布 v2.2.2.post1 安全补丁版；Stanford HAI 新增劳动力市场 AI 实时追踪看板。\n\n## 重大信号\n- [OpenClaw] 2026.10.6 稳定版强制升级 Node 运行时：要求 24 线 24.22.1+ 或 26 线 26.12.1+，以拒绝由十月 Node.js 安全公告中受影响证书密钥签署的 TLS 链；旧运行时下 openclaw update 会拒绝安装并给出恢复指引。来源：https://github.com/openclaw/openclaw/releases\n\n## 腾讯 WorkBuddy\n- 5.8.3（2026-10-19）发布：修复内置运行时随版本切换时弹出闪屏、账号刷新串号导致会话错乱、企微助理会话结束后入口默认回到本地助理，以及语音功能被异常覆盖不可用的问题。\n- 同版本优化本地沙箱内存占用，修复长期运行后内存膨胀引发的卡死；优化企业代理与系统证书环境下的连接稳定性，修复切换代理后的连接异常。\n- Changelog 最新条目为 5.8.3，8.0 引入的 Buddy 挂件与独立文件浏览器仍为本季度主线能力，本次无新功能项。来源：https://www.codebuddy.cn/docs/workbuddy/Changelog\n\n## 阿里 QwenPaw\n- v2.2.2.post1（2026-10-22）发布：跨依赖、安装器与构建链修复 emSign CA 信任问题，并将 Node.js 升级至 22.23.4。\n- 该版本为纯安全与构建链补丁，不含功能变更；功能主线仍为 10-15 的 v2.2.2（Console 主题、多标签终端、PawPort 迁移、Hub 模型网关）。来源：https://github.com/agentscope-ai/QwenPaw/releases\n\n## OpenClaw\n- 2026.10.6 稳定版（10-22）发布，官方明确为聚焦可靠性的补丁版本，不引入面向用户的新功能。\n- 运行时安全：Docker 镜像随附 Node 24.22.1，安装器自动选择已修补运行时，源码构建锁定 pnpm 12.15.0。\n- 升级与恢复：包替换拒绝不安全服务状态；Windows/macOS 包管理器更新可从平台特定失败中恢复；冻结的 Gateway 启动属主可被干净清理。\n- 数据保全：Doctor 与迁移路径拒绝损坏或有损的工作区导入，保留异常 Notes 字节，拒绝非 UTF-8 wiki 重写，保留深层嵌套 SQLite 备份与还原取证证据。\n- 渠道与工具调用：WhatsApp 重试与贴纸、Telegram 相册与双栈回复、Slack 中继恢复、Discord 语音通话回复不再丢消息或重复；未完成工具可见超时，上下文溢出在受控工具结果后压缩。来源：https://github.com/openclaw/openclaw/releases\n\n## Stanford HAI\n- 10-21 发布《Tracking AI's Real-Time Footprint On The Labor Market》：由 HAI 数字经济实验室制作的看板，实时度量 AI 采用对就业趋势、岗位增长与更广泛经济指标的影响，可作为 AI 经济与投资侧的高频观察指标。来源：https://hai.stanford.edu/news\n- 其余条目与上次访问一致（10-19 医疗 AI 评测方法论、10-14 Raji 谈 AI 致害责任、10-12 人机协作研究）。",
+  "signals": [
+    {
+      "title": "OpenClaw 2026.10.6 稳定版强制升级 Node 运行时",
+      "vendor": "OpenClaw",
+      "severity": "major",
+      "summary": "官方发布 2026.10.6 稳定补丁，要求 Node 24.22.1+ 或 26.12.1+，以拒绝由十月 Node.js 安全公告中受影响证书密钥签署的 TLS 链；安装器与 Docker 镜像同步选用已修补运行时，openclaw update 在旧运行时下拒绝安装并给出恢复指引。同版本强化包替换安全状态、数据保全迁移与多渠道投递可靠性，不含新用户功能。",
+      "source": "https://github.com/openclaw/openclaw/releases"
+    },
+    {
+      "title": "WorkBuddy 5.8.3 修复闪屏、会话串号与沙箱内存膨胀",
+      "vendor": "Tencent",
+      "severity": "minor",
+      "summary": "5.8.3（10-19）修复内置运行时随版本切换弹出闪屏、账号刷新串号导致会话错乱、企微助理会话结束后入口回落本地助理，以及语音功能被覆盖不可用；优化本地沙箱内存占用与企业代理/系统证书环境下的连接稳定性。",
+      "source": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+    },
+    {
+      "title": "QwenPaw v2.2.2.post1 安全补丁版",
+      "vendor": "Alibaba",
+      "severity": "minor",
+      "summary": "10-22 发布 v2.2.2.post1，跨依赖、安装器与构建链修复 emSign CA 信任问题，并将 Node.js 升级至 22.23.4，无功能变更。",
+      "source": "https://github.com/agentscope-ai/QwenPaw/releases"
+    },
+    {
+      "title": "Stanford HAI 上线劳动力市场 AI 实时追踪看板",
+      "vendor": "Stanford HAI",
+      "severity": "minor",
+      "summary": "10-21 发文介绍 HAI 数字经济实验室制作的看板，实时度量 AI 采用对就业趋势、岗位增长及更广泛经济指标的影响。",
+      "source": "https://hai.stanford.edu/news"
+    }
+  ],
+  "new_state": {
+    "workbuddy_changelog": {
+      "last_seen_summary": "最新 5.8.3（10-19）修复闪屏、账号串号与沙箱内存膨胀；5.8.2（10-16）历史会话与企微机器人文件回传；5.8.0 挂件与独立文件浏览器大版本",
+      "fetched_at": "2026-10-22T09:10:00Z"
+    },
+    "tencent_cloud_workbuddy": {
+      "last_seen_summary": "最新仍为 10-19 开源工作台横评 139 阅读；另见 07-21 重度办公短板帖 1.6K、09-20 积分实测、08-12
