@@ -1,39 +1,39 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新为 5.9.0（10-20 灰度）：独立文件浏览器 HTML 新窗口、自定义模型入口、Buddy One 绑定引导、海外版消息中心；5.8.3（10-19）修复串号与内存膨胀卡死",
-    "fetched_at": "2026-10-23T04:35:00Z"
+    "last_seen_summary": "最新仍为 5.9.0（10-20 灰度）：独立文件浏览器 HTML 新窗口、自定义模型入口、Buddy One 绑定引导、海外版消息中心；5.8.3 修复串号与内存膨胀卡死",
+    "fetched_at": "2026-10-24T10:05:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "搜索结果仍以 07-21 重度办公短板帖（1.6K 阅读）与 08-03 轻量模型省积分为主，另有 09-20 积分自动化实测、09-24 落地复盘短帖，无新增横评长文",
-    "fetched_at": "2026-10-23T04:35:00Z"
+    "last_seen_summary": "最新为 10-19 开源 AIWorkbench 与 WorkBuddy 横评（175 阅读），另见 09-20 积分自动化实测、08-12 Obsidian 对接、08-03 轻量模型省积分",
+    "fetched_at": "2026-10-24T10:05:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新仍为 10-13 波士顿拆建废料案例与 OPPO 合作、10-01 Video Editor 与 Game Dev、09-29 Manus Flex、09-28 Manus 2.0，无新文章",
-    "fetched_at": "2026-10-23T04:35:00Z"
+    "fetched_at": "2026-10-24T10:05:00Z"
   },
   "coze_studio_releases": {
-    "last_seen_summary": "最新仍为 V0.5.1（2025-02-05），含 NATS EventBus 与 knowledge openapi，无新版本发布",
-    "fetched_at": "2026-10-23T04:35:00Z"
+    "last_seen_summary": "最新仍为 V0.5.1（2025-02-05），含 NATS EventBus、knowledge openapi、会话隔离与多项安全修复，无新版本发布",
+    "fetched_at": "2026-10-24T10:05:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新 v2.2.2.post1（10-22）安全修复：emSign CA 信任链修复与 Node 22.23.4；功能基线仍为 v2.2.2（10-15）",
-    "fetched_at": "2026-10-23T04:35:00Z"
+    "last_seen_summary": "最新 v2.2.2.post1（10-22）安全修复：emSign CA 信任链与 Node 22.23.4；功能基线仍为 v2.2.2（10-15）",
+    "fetched_at": "2026-10-24T10:05:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新稳定版 2026.10.6（10-22）：强制 Node 24.22.1+/26.12.1+、升级恢复与迁移备份数据保全、跨重启投递可靠；此前 2026.10.10-beta.3",
-    "fetched_at": "2026-10-23T04:35:00Z"
+    "last_seen_summary": "最新稳定版 2026.10.7（10-24）：会话恢复、更新激活、数据库与备份可靠性修复，新增 Gemini 4 Argon 支持；此前 2026.10.6（10-22）",
+    "fetched_at": "2026-10-24T10:05:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新仍为 08-31 三篇 OpenClaw 2.0 与 v2026.8.1 发布解读，另见 07-23 记忆系统省钱分析；无新文章",
-    "fetched_at": "2026-10-23T04:35:00Z"
+    "fetched_at": "2026-10-24T10:05:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "在列 10-26 Daniel Rock 科学瓶颈研讨、10-28 希望与恐惧会议、11-04 Clinical Mind AI、11-18 AI100 报告场次及多场 Marlowe/CNDS 系列，无新增场次",
-    "fetched_at": "2026-10-23T04:35:00Z"
+    "last_seen_summary": "在列 10-26 Daniel Rock、10-28 希望与恐惧会议、11-04 Clinical Mind AI、11-18 AI100 报告及多场 Marlowe/CNDS，无新增场次",
+    "fetched_at": "2026-10-24T10:05:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "新增 10-21 数字经济实验室劳动力市场实时追踪看板；此前 10-19 医疗 AI 评测方法论、10-14 Raji 责任归属、10-12 人机协作研究",
-    "fetched_at": "2026-10-23T04:35:00Z"
+    "last_seen_summary": "最新仍为 10-21 数字经济实验室劳动力市场实时追踪看板；此前 10-19 医疗 AI 评测、10-14 Raji 责任归属、10-12 人机协作",
+    "fetched_at": "2026-10-24T10:05:00Z"
   },
   "workbuddy_official": {
     "last_seen_summary": "最新 5.8.3（10-19）修复闪屏、账号串号、语音失效与沙箱内存膨胀；5.8.2（10-16）会话与企微机器人修复；5.8.0 挂件与独立文件浏览器大版本",

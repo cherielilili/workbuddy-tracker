@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>AI Agent 赛道日报 2026-10-23</title>
+<title>AI Agent 赛道日报 2026-10-24</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
@@ -95,43 +95,43 @@
   <header>
     <h1>AI Agent 赛道日报</h1>
     <div class="meta">
-      <span>2026-10-23</span>
-      <span class="count-major">重大信号 × 2</span>
-      <span class="count-minor">常规更新 × 0</span>
+      <span>2026-10-24</span>
+      <span class="count-major">重大信号 × 1</span>
+      <span class="count-minor">常规更新 × 1</span>
     </div>
   </header>
 
   <section class="signals">
     <h2>Signals</h2>
-    <div class="signal pill-major"><span class="vendor">Tencent</span><span class="title">WorkBuddy 5.9.0 灰度发布，新增独立文件浏览器新窗口与自定义模型入口</span><div class="summary">10-20 起灰度推送 5.9.0：独立文件浏览器支持 HTML 新窗口打开，模型选择器新增自定义模型配置入口，新增购买成功后 Buddy One 绑定引导与海外版消息中心运营位；修复连接器 Token 失效无修复入口、无效 Key 误提示已连接、专家团任务中断及成员丢失等问题。同步 5.8.3（10-19）修复串号导致会话错乱、语音功能被覆盖不可用与本地沙箱内存膨胀卡死。</div><a class="src" href="https://www.codebuddy.cn/docs/workbuddy/Changelog">来源 →</a></div><div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 2026.10.6 稳定版：强制 Node 安全运行时并强化升级回滚</span><div class="summary">10-22 发布稳定版 2026.10.6，为纯可靠性补丁。强制 Node 24.22.1+ 或 26.12.1+ 以拒绝被入侵证书 keys 签发的 TLS 链，Docker 镜像与安装器同步切换，openclaw update 在旧 Node 上拒绝安装并给出恢复指引；新增数据保全式迁移与备份、跨重启投递不丢不重、供应商与模型韧性修复及多渠道投递正确性修复。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div>
+    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 2026.10.7 稳定版发布并新增 Gemini 4 Argon 支持</span><div class="summary">官方发布 2026.10.7 稳定版，主打会话恢复可重放、更新激活容错、数据库与 worker 连续性、备份与状态持久化四条可靠性主线，并在变更项中新增 Google Gemini 4 Argon 模型支持；同时修复缺少包管理器时的误导演示与 macOS 全新 profile 引导问题。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Tencent</span><span class="title">社区实测对比 WorkBuddy 与开源 AI 工作台</span><div class="summary">10-19 腾讯云开发者社区用户实测贴，对比开源 AIWorkbench 与 WorkBuddy，认为多模态产物能力接近，但技能市场运营与腾讯办公生态集成是 WorkBuddy 的主要差异点，团队规模化下按量订阅成本更优。</div><a class="src" href="https://cloud.tencent.com/developer/search/article?q=WorkBuddy">来源 →</a></div>
   </section>
 
   <main class="report">
-    <h1>AI Agent 赛道日报 2026-10-23</h1>
+    <h1>AI Agent 赛道日报 2026-10-24</h1>
 <h2>摘要</h2>
-<p>腾讯 WorkBuddy 灰度推送 5.9.0，新增独立文件浏览器新窗口打开、自定义模型入口与海外版消息中心，并同步发布 5.8.3 稳定性修复；OpenClaw 正式发布 2026.10.6 稳定版，强制要求修补后的 Node 运行时并大幅强化升级回滚与迁移备份可靠性；阿里 QwenPaw 推送 v2.2.2.post1 安全修复版；Stanford HAI 上线劳动力市场 AI 影响的实时追踪看板。</p>
+<p>OpenClaw 推送 2026.10.7 稳定版，重点在会话恢复可重放、更新激活与备份状态持久化的可靠性闭环，同时新增 Gemini 4 Argon 模型支持。腾讯云开发者社区出现一篇 WorkBuddy 与开源 AI 工作台的横向实测，聚焦技能市场运营与办公生态集成差距。</p>
 <h2>重大信号</h2>
 <ul>
-<li><strong>[Tencent]</strong> WorkBuddy 5.9.0 灰度发布：新增独立文件浏览器 HTML 新窗口打开、模型选择器自定义模型入口、购买成功后 Buddy One 绑定引导、海外版消息中心及运营位；同时修复连接器 Token 失效无修复入口、专家团任务中断及成员丢失等问题。来源：https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
-<li><strong>[OpenClaw]</strong> 2026.10.6 稳定版发布：强制要求 Node 24.22.1+（24 线）或 26.12.1+（26 线）以拒绝被入侵证书签发的 TLS 链，Docker 镜像与安装器同步切换；升级流程在旧 Node 上会拒绝安装并给出恢复指引，同时强化包切换安全性、迁移备份的数据保全与跨重启投递可靠性。来源：https://github.com/openclaw/openclaw/releases</li>
+<li><strong>[OpenClaw]</strong> 2026.10.7 稳定版发布（10-24 09:53），含会话恢复溯源、更新激活容错、数据库与备份持久化多项修复，并在 Changes 中新增 Google Gemini 4 Argon 模型支持 —— https://github.com/openclaw/openclaw/releases</li>
+</ul>
+<h2>OpenClaw（开源）</h2>
+<ul>
+<li>2026.10.7 稳定版发布，定位为可靠性收敛版本，覆盖六个维度：</li>
+<li>会话恢复：中断会话保留恢复溯源与未完成工具结果；停止的会话在接收下一条消息前清理终端恢复残留；被拒绝的 Claude CLI 草稿不再进入最终回复；大批量子任务完成结果保持在请求方上下文内；Codex 预览在上下文刷新后不再阻塞回复。</li>
+<li>更新激活与恢复：已验证激活在后续维护或账本错误后仍成功；被中断的包更新可安全续跑；激活后的 Doctor 等待有上限；Windows 深层路径与 8.3 短路径不再中断引导或迁移。</li>
+<li>数据库与 worker 连续性：维护拒绝时保留对等读取者与借用方；不兼容的保留型 agent 数据库保持隔离；空对话删除跳过归档物化；worker 关闭在清单退役后完成。</li>
+<li>备份与状态持久化：快照保留受支持的旧版 exec-approval 策略；中断的 R2 校验与恢复可安全续跑；配置截断写入时保留最后已知良好快照；多文件补丁失败保留先前文件。</li>
+<li>操作员与集成：原生电脑控制在会话过期后自动恢复；慢速 macOS Talk 运行保留回复；官方插件随应用升级收敛；headless 浏览器点击不再被 passkey 提示阻塞。</li>
+<li>变更项：Google 模型新增 Gemini 4 Argon 支持。</li>
+<li>修复项：缺少包管理器时不再给出无关的数据库修复建议；成功更新后移除过时警告；macOS 全新 profile 可启动 Gateway。</li>
+<li>版本仍为每日迭代节奏，前一稳定版 2026.10.6（10-22）强制 Node 24.22.1+/26.12.1+ 的运行时要求在本版延续。</li>
+<li>来源：https://github.com/openclaw/openclaw/releases</li>
 </ul>
 <h2>腾讯 WorkBuddy</h2>
 <ul>
-<li>5.9.0（2026-10-20，灰度中）为本次主更新：独立文件浏览器支持 HTML 在新窗口打开；新增模型选择器中的自定义模型配置入口；新增购买成功后 Buddy One 绑定引导；新增海外版消息中心与运营位。优化技能分享落地页与弹窗、浏览器操作工具标题展示、连接器失败与模型繁忙提示、Buddy 应用窗场景模板避免覆盖已输入内容、AI native 助理右侧栏加载速度。修复特殊字符路径与 Office 宏格式文件无法打开、连接器 Token 失效无修复入口、无效 Key 误报已连接、频道 IM 删除消息卡片一直显示同步中、资料库按文档类型筛选不显示 docx、频道资料库导出白屏、专家搜索优先级错误、专家团任务中断及成员丢失等问题。来源：https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
-<li>5.8.3（2026-10-19）：修复内置运行时随版本切换弹出闪屏、账号刷新串号导致会话错乱、企微助理会话结束后入口默认回到本地助理、语音功能被异常覆盖不可用；优化本地沙箱内存占用（修复长期运行内存膨胀卡死）与企业代理/系统证书环境下的连接稳定性。来源：https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
-</ul>
-<h2>阿里 QwenPaw</h2>
-<ul>
-<li>v2.2.2.post1（10-22）为安全修复补丁：修复 emSign CA 信任链在依赖、安装器与构建产物中的问题，并将 Node.js 升级至 22.23.4。功能面沿用 10-15 的 v2.2.2（Console 六套主题、多标签终端、PawPort 迁移、Hub 模型网关、view_audio、Flash 27B/35B-A3B、Creator 2.0.1）。来源：https://github.com/agentscope-ai/QwenPaw/releases</li>
-</ul>
-<h2>OpenClaw</h2>
-<ul>
-<li>2026.10.6 稳定版（10-22）：本次为纯可靠性补丁，不引入新面向用户功能。核心为运行时安全基线（Node 24.22.1+/26.12.1+，源码构建锁定 pnpm 12.15.0）、更安全的升级与恢复（拒绝不安全服务状态、Windows/macOS 包管理器更新可从平台特定故障中恢复）、数据保全式迁移与备份（拒绝畸形或有损的工作区导入、保留畸形 Notes 字节、拒绝非 UTF-8 wiki 重写、保留深层嵌套 SQLite 备份）、跨重启可靠投递（队列轮次、子结果监听、死信投递与流式回复不丢失不重复）、供应商与模型韧性（GPT-5.6 工具轮次、OpenRouter DeepSeek 工具调用、LM Studio 溢出恢复、并行推理设置、重试/回退预算）、Windows 与移动端稳定性，以及 Agent 工具调用恢复与各渠道（WhatsApp/Telegram/Slack/Discord）投递正确性修复。来源：https://github.com/openclaw/openclaw/releases</li>
-</ul>
-<h2>Stanford HAI</h2>
-<ul>
-<li>10-21 发布《Tracking AI's Real-Time Footprint On The Labor Market》：由 HAI 数字经济实验室构建的看板，实时量化 AI 采纳如何改变就业趋势、岗位增长及更广泛的经济指标。来源：https://hai.stanford.edu/news</li>
-<li>同期在列：10-19 医疗 AI 评测方法论《Measuring What Medical AI Can Actually Do》（三年逐步加难的更真实基准经验总结）、10-14 责任归属访谈（Deb Raji）、10-12 人机协作研究、10-07 员工 AI 采纳评论。来源：https://hai.stanford.edu/news</li>
+<li>腾讯云开发者社区 10-19 出现一篇《开源版 WorkBuddy 实测：和 WorkBuddy 到底差多少？》，作者以开源 AI 工作台 AIWorkbench 对标 WorkBuddy，结论指两者在多模态产物能力上接近，但 WorkBuddy 的技能市场为官方运营、办公生态打通腾讯文档/腾讯会议/企业微信/邮箱/乐享形成完整链路，开源侧办公集成基本空白；成本侧认为 WorkBuddy 按量或人头长期订阅在团队规模化时更划算。该文阅读量尚低（175），属社区实测而非官方口径。</li>
+<li>来源：https://cloud.tencent.com/developer/search/article?q=WorkBuddy</li>
+<li>WorkBuddy 官方 Changelog 仍以 5.9.0（10-20 灰度）为最新，无新增版本条目。</li>
 </ul>
   </main>
 
