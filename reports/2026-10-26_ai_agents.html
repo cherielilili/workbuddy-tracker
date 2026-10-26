@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-10-26</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-10-26</span>
+      <span class="count-major">重大信号 × 1</span>
+      <span class="count-minor">常规更新 × 2</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-major"><span class="vendor">Tencent</span><span class="title">WorkBuddy 发布 5.9.1：跨设备任务迁移 + Buddy One 会员购买</span><div class="summary">10-22 发布 5.9.1，新增同账号跨设备一键迁移任务/空间/定时任务，新增 Buddy One 会员购买入口与排队提示同步，新增 Gmail 部分授权与补充授权自动回跳，新增 macOS 会话上传 HEIC 图片；同时优化云端记忆对项目内容的记忆、PPT 素材核对与预览窗口行为，并修复专家团状态错乱、历史任务顺序错乱、工作区授信误判等多项缺陷。</div><a class="src" href="https://www.codebuddy.cn/docs/workbuddy/Changelog">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Tencent</span><span class="title">WorkBuddy 发布 5.9.2 修复版</span><div class="summary">10-26 发布 5.9.2，语音识别终稿直接回填输入框、恢复语音组合快捷键，修复欢迎页模式路由、本地文件保存与另存为、云会话回车误发、MCP 面板被空白页替换及深色模式文案不可辨认等问题。</div><a class="src" href="https://www.codebuddy.cn/docs/workbuddy/Changelog">来源 →</a></div><div class="signal pill-minor"><span class="vendor">OpenClaw</span><span class="title">DGX Spark 上以 NemoClaw 沙盒 + vLLM 本地部署 OpenClaw 实操教程</span><div class="summary">53AI 10-26 教程：单条命令用 NemoClaw 将 OpenClaw Agent 部署在内核级沙盒，搭配 vLLM 本地推理实现全本地运行，梳理 NemoClaw/OpenClaw/OpenShell/vLLM 层级关系，推荐 Qwen3.6-35B 并给出易错点。</div><a class="src" href="https://www.53ai.com/news/Openclaw/">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-10-26</h1>
+<h2>摘要</h2>
+<p>腾讯 WorkBuddy 在 24 小时内连发 5.9.1 与 5.9.2 两个版本，5.9.1 带来跨设备任务/空间/定时任务一键迁移、Buddy One 会员购买入口、Gmail 部分授权与云端记忆增强，5.9.2 则以语音识别、快捷键与本地文件保存等修复为主。开源侧出现面向 NVIDIA DGX Spark 的 NemoClaw + vLLM 全流程实操教程，把 OpenClaw Agent 放进内核级沙盒并实现全本地推理，私有化部署门槛进一步降低。</p>
+<h2>重大信号</h2>
+<ul>
+<li>[Tencent] WorkBuddy 发布 5.9.1（2026-10-22）：新增同账号跨设备导入任务、空间与定时任务，新增 Buddy One 会员购买入口，新增 Gmail 部分授权与补充授权后自动回跳客户端，云端记忆可记住项目相关内容，视频生成等高积分工具在完全访问模式下也需二次确认 — https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
+</ul>
+<h2>腾讯 WorkBuddy</h2>
+<ul>
+<li>5.9.2（2026-10-26）：语音识别终稿直接回填输入框、不再二次润色；恢复语音组合快捷键并与双绑定设置同步；修复欢迎页办公/开发模式路由在版本切换后失效、本地文件保存与另存为异常、云会话停止生成后回车误发、无产物时 MCP 应用面板被空白标签页替换，以及深色模式下专家卡片付费标签与 Buddy One 推荐卡背景不可辨认等问题 — https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
+<li>5.9.1（2026-10-22）：新增跨设备一键迁移任务、空间与定时任务；新增 Buddy One 会员购买并同步更新排队提示；新增 Gmail 部分授权流程；新增 macOS 本地会话上传 HEIC 图片；优化云端记忆对项目相关内容的记忆能力；优化 PPT 生成素材核对以减少图文不符；优化本地服务链接与 HTML 预览改在内置浏览器和新页签打开；修复专家团任务完成后显示运行中或已中断、子成员状态错乱、历史任务顺序错乱、Markdown 预览编辑被旧内容覆盖、工作区授信误判导致命令无法执行等多项问题 — https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
+</ul>
+<h2>开源生态 OpenClaw</h2>
+<ul>
+<li>53AI 发布《一条命令之后，你的 DGX Spark 就有了自己的本地 AI 助理：NemoClaw + vLLM 全流程实操》（2026-10-26）：面向 NVIDIA DGX Spark 用户，用单条安装命令通过 NemoClaw 将 OpenClaw Agent 部署在内核级沙盒中，搭配 vLLM 本地推理实现推理不出本机；文中梳理了 NemoClaw、OpenClaw、OpenShell、vLLM 的层级关系，给出官方推荐的 Qwen3.6-35B 模型适配说明与易错点提示 — https://www.53ai.com/news/Openclaw/</li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>
