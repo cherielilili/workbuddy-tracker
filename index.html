@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>AI Agent 赛道日报 2026-10-26</title>
+<title>AI Agent 赛道日报 2026-10-27</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
@@ -95,33 +95,40 @@
   <header>
     <h1>AI Agent 赛道日报</h1>
     <div class="meta">
-      <span>2026-10-26</span>
+      <span>2026-10-27</span>
       <span class="count-major">重大信号 × 1</span>
-      <span class="count-minor">常规更新 × 2</span>
+      <span class="count-minor">常规更新 × 0</span>
     </div>
   </header>
 
   <section class="signals">
     <h2>Signals</h2>
-    <div class="signal pill-major"><span class="vendor">Tencent</span><span class="title">WorkBuddy 发布 5.9.1：跨设备任务迁移 + Buddy One 会员购买</span><div class="summary">10-22 发布 5.9.1，新增同账号跨设备一键迁移任务/空间/定时任务，新增 Buddy One 会员购买入口与排队提示同步，新增 Gmail 部分授权与补充授权自动回跳，新增 macOS 会话上传 HEIC 图片；同时优化云端记忆对项目内容的记忆、PPT 素材核对与预览窗口行为，并修复专家团状态错乱、历史任务顺序错乱、工作区授信误判等多项缺陷。</div><a class="src" href="https://www.codebuddy.cn/docs/workbuddy/Changelog">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Tencent</span><span class="title">WorkBuddy 发布 5.9.2 修复版</span><div class="summary">10-26 发布 5.9.2，语音识别终稿直接回填输入框、恢复语音组合快捷键，修复欢迎页模式路由、本地文件保存与另存为、云会话回车误发、MCP 面板被空白页替换及深色模式文案不可辨认等问题。</div><a class="src" href="https://www.codebuddy.cn/docs/workbuddy/Changelog">来源 →</a></div><div class="signal pill-minor"><span class="vendor">OpenClaw</span><span class="title">DGX Spark 上以 NemoClaw 沙盒 + vLLM 本地部署 OpenClaw 实操教程</span><div class="summary">53AI 10-26 教程：单条命令用 NemoClaw 将 OpenClaw Agent 部署在内核级沙盒，搭配 vLLM 本地推理实现全本地运行，梳理 NemoClaw/OpenClaw/OpenShell/vLLM 层级关系，推荐 Qwen3.6-35B 并给出易错点。</div><a class="src" href="https://www.53ai.com/news/Openclaw/">来源 →</a></div>
+    <div class="signal pill-major"><span class="vendor">Alibaba / QwenPaw</span><span class="title">QwenPaw v2.3.0-beta.1 发布：Advisor Mode、Python Code Mode 与决策模型审批</span><div class="summary">10-27 推出 2.3 系列首个功能版预发布，新增 Advisor Mode、插件 inline OpenUI、Firecrawl 检索源、桌面共享守护进程、实验性 Python Code Mode，并基于决策模型实现工具审批模式；记忆层集成 ReMe 0.4.2.0，工程侧移除 GPL 依赖。</div><a class="src" href="https://github.com/agentscope-ai/QwenPaw/releases">来源 →</a></div>
   </section>
 
   <main class="report">
-    <h1>AI Agent 赛道日报 2026-10-26</h1>
+    <h1>AI Agent 赛道日报 2026-10-27</h1>
 <h2>摘要</h2>
-<p>腾讯 WorkBuddy 在 24 小时内连发 5.9.1 与 5.9.2 两个版本，5.9.1 带来跨设备任务/空间/定时任务一键迁移、Buddy One 会员购买入口、Gmail 部分授权与云端记忆增强，5.9.2 则以语音识别、快捷键与本地文件保存等修复为主。开源侧出现面向 NVIDIA DGX Spark 的 NemoClaw + vLLM 全流程实操教程，把 OpenClaw Agent 放进内核级沙盒并实现全本地推理，私有化部署门槛进一步降低。</p>
+<p>腾讯 WorkBuddy 发布 5.9.3 补丁版本，集中修复跨设备迁移粒度、Windows 升级链路与会话模型回退问题；阿里 QwenPaw 推出 v2.3.0-beta.1，引入 Advisor Mode、实验性 Python Code Mode、桌面共享守护进程与决策模型驱动的工具审批；OpenClaw 迭代 2026.10.10-beta.4，强化网关令牌隔离、记忆 Wiki 人工注释保留与 CLI 配置写入链路。Stanford HAI 活动日历新增多场 10 月末至 12 月的讲座与研讨会排期。</p>
 <h2>重大信号</h2>
 <ul>
-<li>[Tencent] WorkBuddy 发布 5.9.1（2026-10-22）：新增同账号跨设备导入任务、空间与定时任务，新增 Buddy One 会员购买入口，新增 Gmail 部分授权与补充授权后自动回跳客户端，云端记忆可记住项目相关内容，视频生成等高积分工具在完全访问模式下也需二次确认 — https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
+<li><strong>[Alibaba / QwenPaw]</strong> QwenPaw 发布 v2.3.0-beta.1（10-27），为 2.3 系列首个功能版预发布：新增 Advisor Mode、插件 inline OpenUI 支持、Firecrawl 检索源、决策模型驱动的工具审批模式、桌面共享守护进程与实验性 Python Code Mode，记忆层集成 ReMe 0.4.2.0。来源：https://github.com/agentscope-ai/QwenPaw/releases</li>
 </ul>
 <h2>腾讯 WorkBuddy</h2>
 <ul>
-<li>5.9.2（2026-10-26）：语音识别终稿直接回填输入框、不再二次润色；恢复语音组合快捷键并与双绑定设置同步；修复欢迎页办公/开发模式路由在版本切换后失效、本地文件保存与另存为异常、云会话停止生成后回车误发、无产物时 MCP 应用面板被空白标签页替换，以及深色模式下专家卡片付费标签与 Buddy One 推荐卡背景不可辨认等问题 — https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
-<li>5.9.1（2026-10-22）：新增跨设备一键迁移任务、空间与定时任务；新增 Buddy One 会员购买并同步更新排队提示；新增 Gmail 部分授权流程；新增 macOS 本地会话上传 HEIC 图片；优化云端记忆对项目相关内容的记忆能力；优化 PPT 生成素材核对以减少图文不符；优化本地服务链接与 HTML 预览改在内置浏览器和新页签打开；修复专家团任务完成后显示运行中或已中断、子成员状态错乱、历史任务顺序错乱、Markdown 预览编辑被旧内容覆盖、工作区授信误判导致命令无法执行等多项问题 — https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
+<li>更新日志上线 5.9.3（2026-10-27），延续 5.9.x 的稳定性修复节奏，本版无新增功能：跨设备数据迁移支持按分类选择，导入上限提升至 100GB；修复 Windows 因安装目录校验导致的升级检查失败，以及静默升级后新进程未继承完整环境变量、sandbox 初始化失败引发全部工具报错的问题；修复重启后历史会话所用模型被误回退、长会话打开时段崩溃等体验缺陷。https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
 </ul>
-<h2>开源生态 OpenClaw</h2>
+<h2>阿里 QwenPaw</h2>
 <ul>
-<li>53AI 发布《一条命令之后，你的 DGX Spark 就有了自己的本地 AI 助理：NemoClaw + vLLM 全流程实操》（2026-10-26）：面向 NVIDIA DGX Spark 用户，用单条安装命令通过 NemoClaw 将 OpenClaw Agent 部署在内核级沙盒中，搭配 vLLM 本地推理实现推理不出本机；文中梳理了 NemoClaw、OpenClaw、OpenShell、vLLM 的层级关系，给出官方推荐的 Qwen3.6-35B 模型适配说明与易错点提示 — https://www.53ai.com/news/Openclaw/</li>
+<li>v2.3.0-beta.1 预发布（2026-10-27）要点：新增 Advisor Mode；插件支持 inline OpenUI（Intelligent UI）并引入 clean unload 与回滚安全热重载；web_search 增加 Firecrawl provider，Tavily 支持凭据存储的可选 API key；新增 TypeSafe 决策模型配置，并基于决策模型实现工具审批模式（安全侧）；桌面端改为共享守护进程，支持独立窗口与协同更新；实验性 Python Code Mode；记忆层集成 ReMe 0.4.2.0，支持可选决策压缩、图像与标签；ACP 增加 --agent-mode；支持本地 ChatGPT 订阅登录；creator 2.0.3 上线技能、旁白、草稿与脚本导入。工程侧替换 GPL 许可的 html2text 为标准库实现，前端新增 106 个单测文件。https://github.com/agentscope-ai/QwenPaw/releases</li>
+</ul>
+<h2>Open Source / OpenClaw</h2>
+<ul>
+<li>预发布 2026.10.10-beta.4（10-27）主要修复：Automations 在同会话显式定时跟进中保留已认证操作者权限，同时维持角色、会话、取消与工具策略的回收边界；Gateway 安全侧确保被环境变量引用的 hooks.token 不进入 agent host-exec 与 CLI 子环境；Memory Wiki 在 OKF 概念页重导入/移除时保留人工撰写的 Notes；Claude CLI 在 Control UI 启动会话中保持原生上下文不被历史重置；备份恢复保留合法的 exec-approval 允许列表而非替换为全拒；macOS 捆绑 Gateway 正确显示实际安装版本并修复受阻的恢复流程；CLI 的 config set/unset 与 setup 改为经运行中 Gateway 以 config.patch 一次性提交，无需重启；Codex 原生子代理在完成、中断与 Gateway 重启场景下正确解阻父会话并重放孙任务；同时回补修补后的内嵌运行时。https://github.com/openclaw/openclaw/releases</li>
+</ul>
+<h2>Stanford HAI</h2>
+<ul>
+<li>活动日历新增排期（相对上次访问）：10-30 AIMS 研讨会（Olawale Salaudeen，AI 构念效度）、11-06 2026 SC2 学生会议、11-11 Marlowe 系列（Mohsen Bayati）、12-02 Marlowe 系列（Leonidas Guibas）、12-09  seminar（Angèle Christin 与 Hannah Zeavin，网红如何重塑社交媒体）、12-14 CNDS 研讨会（YoungJu Jo，神经计算的数据驱动发现与控制）。均属常规学术讲座，非课程或年度报告级发布。https://hai.stanford.edu/events</li>
 </ul>
   </main>
 
