@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>AI Agent 赛道日报 2026-10-28</title>
+<title>AI Agent 赛道日报 2026-10-29</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
@@ -95,28 +95,30 @@
   <header>
     <h1>AI Agent 赛道日报</h1>
     <div class="meta">
-      <span>2026-10-28</span>
+      <span>2026-10-29</span>
       <span class="count-major">重大信号 × 0</span>
-      <span class="count-minor">常规更新 × 0</span>
+      <span class="count-minor">常规更新 × 2</span>
     </div>
   </header>
 
   <section class="signals">
     <h2>Signals</h2>
-    
+    <div class="signal pill-minor"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 发布稳定版 2026.10.9</span><div class="summary">新稳定版集中修补运行时依赖安全漏洞（fast-uri/Zod/nodemailer/MSAL Node），并强化工作区工具限制、更新失败回滚与数据恢复、磁盘满自愈等可靠性修复。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 活动日历新增多场十一月研讨班</span><div class="summary">新增 NVIDIA&Marlowe GPU 规模化训练、Marlowe AI+Data for Science（Ruijiang Li/Alex Pentland/Andreas Tolias/Leonidas Guibas）、SC2 学生会议、CDF Fall Forum 等，AI100 报告专场定于 11-18。</div><a class="src" href="https://hai.stanford.edu/events">来源 →</a></div>
   </section>
 
   <main class="report">
-    <h1>AI Agent 赛道日报 2026-10-28</h1>
+    <h1>AI Agent 赛道日报 2026-10-29</h1>
 <h2>摘要</h2>
-<p>今日赛道无新动态：各厂商官方发布通道在过去 24 小时内均无新增版本、功能或公告，WorkBuddy、QwenPaw、OpenClaw、Coze Studio 的版本线维持昨日状态，Manus 官方博客与 Stanford HAI 新闻/活动列表也未出现新条目。</p>
+<p>OpenClaw 发布新稳定版 2026.10.9，集中修补运行时依赖安全漏洞，并强化更新回滚、数据恢复与磁盘满后自愈能力；Stanford HAI 活动日历新增多场十一月研讨班，覆盖 GPU 规模化训练、AI+数据科学与 AI100 报告预热。其余厂商今日无新增可读动态。</p>
 <h2>重大信号</h2>
-<p>今日无重大信号。</p>
-<h2>观察</h2>
+<p>今日无 major 级信号，下列为普通增量（minor）。</p>
+<h2>OpenClaw</h2>
 <ul>
-<li>头部通用 Agent 产品（WorkBuddy 5.9.3、QwenPaw 2.3.0-beta.1、OpenClaw 2026.10.10-beta.4）均处于昨日已披露的迭代节点，未见继续推进，属发布节奏中的正常间歇。</li>
-<li>开源侧 Coze Studio 稳定线仍停留在 V0.5.1，自 2 月后无新 tag，与商业版扣子的迭代速度差距持续拉大。</li>
-<li>学术侧可关注 Stanford HAI 今日（10-28）举办的《Confronting Our AI Future: Hope, Fear, and the Choices Ahead》会议，以及 11-18 的 AI100 第三份报告《AI Goes Mainstream: The Scaling Era and the Rise of Generative AI》专场，均为赛道叙事的重要输入。</li>
+<li>稳定版 2026.10.9 发布（10-29）：修补 fast-uri、Zod、nodemailer、MSAL Node 等运行依赖漏洞；将 tools.fs.workspaceOnly 应用到 Gateway 构建的工具，委派改动仍需审批、媒体工具限制在工作区内；更新失败回滚更安全（Git 源保留运维改动、npm 回滚重试并报告恢复路径）；磁盘满后 agent 无需重启即可恢复；修复 ACP 会话工作目录、重叠模型刷新、CLI Node 运行时等大量稳定性问题。URL: https://github.com/openclaw/openclaw/releases</li>
+</ul>
+<h2>Stanford HAI</h2>
+<ul>
+<li>活动日历新增多场十一月及以后活动：11-04 NVIDIA &amp; Marlowe《Scale Training Across GPUs and Nodes》(Zoe Ryan)；11-04 Marlowe《AI+Data for Science》(Ruijiang Li)；11-06 2026 SC2 Student Conference；11-09 Center for Decoding the Universe Fall Forum（仅限校内）；11-09 CNDS 研讨 (Daniel Wurgaft)；11-11 Marlowe (Alex Pentland)；11-18 Marlowe (Andreas Tolias)；12-02 Marlowe (Leonidas Guibas)。URL: https://hai.stanford.edu/events</li>
 </ul>
   </main>
 
