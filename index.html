@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>AI Agent 赛道日报 2026-10-29</title>
+<title>AI Agent 赛道日报 2026-10-31</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
@@ -95,30 +95,44 @@
   <header>
     <h1>AI Agent 赛道日报</h1>
     <div class="meta">
-      <span>2026-10-29</span>
-      <span class="count-major">重大信号 × 0</span>
-      <span class="count-minor">常规更新 × 2</span>
+      <span>2026-10-31</span>
+      <span class="count-major">重大信号 × 1</span>
+      <span class="count-minor">常规更新 × 3</span>
     </div>
   </header>
 
   <section class="signals">
     <h2>Signals</h2>
-    <div class="signal pill-minor"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 发布稳定版 2026.10.9</span><div class="summary">新稳定版集中修补运行时依赖安全漏洞（fast-uri/Zod/nodemailer/MSAL Node），并强化工作区工具限制、更新失败回滚与数据恢复、磁盘满自愈等可靠性修复。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 活动日历新增多场十一月研讨班</span><div class="summary">新增 NVIDIA&Marlowe GPU 规模化训练、Marlowe AI+Data for Science（Ruijiang Li/Alex Pentland/Andreas Tolias/Leonidas Guibas）、SC2 学生会议、CDF Fall Forum 等，AI100 报告专场定于 11-18。</div><a class="src" href="https://hai.stanford.edu/events">来源 →</a></div>
+    <div class="signal pill-major"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 与 AI Governance Lab 举办 AI 治理对话（Jacob Coxon & Rob Reich）</span><div class="summary">11-09 16:30–17:30 举办，线下限斯坦福在校师生、外部以网络研讨会参与，议题指向 AI 治理实务与政策落地，属政策/监管方向的公开讲座。</div><a class="src" href="https://hai.stanford.edu/events">来源 →</a></div><div class="signal pill-minor"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 发布 2026.10.10-beta.5 预发布：安全边界收紧与更新回滚修复</span><div class="summary">预发布版聚焦安全边界（exec 允许列表审批、node invoke 限制、沙箱 fail closed、Teams 允许列表）、凭据掩码与依赖安全升级，同时修复 Node 兼容、网关流式、定时任务补跑与会话恢复问题。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 新增 Clinical Mind AI 医疗教育平台讲座</span><div class="summary">11-04 讲座介绍斯坦福开发的国际协作平台 Clinical Mind AI，以 AI 模拟患者问诊方式强化健康专业教育的临床推理训练。</div><a class="src" href="https://hai.stanford.edu/events">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 新增 12-09 社交媒体创作者研究讲座</span><div class="summary">Angèle Christin 与 Hannah Zeavin 主讲《Gurus, Hucksters, Entertainers: How Influencers Reshaped Social Media》，聚焦内容创作者生态与争议。</div><a class="src" href="https://hai.stanford.edu/events">来源 →</a></div>
   </section>
 
   <main class="report">
-    <h1>AI Agent 赛道日报 2026-10-29</h1>
+    <h1>AI Agent 赛道日报 2026-10-31</h1>
 <h2>摘要</h2>
-<p>OpenClaw 发布新稳定版 2026.10.9，集中修补运行时依赖安全漏洞，并强化更新回滚、数据恢复与磁盘满后自愈能力；Stanford HAI 活动日历新增多场十一月研讨班，覆盖 GPU 规模化训练、AI+数据科学与 AI100 报告预热。其余厂商今日无新增可读动态。</p>
+<p>今日赛道增量集中在开源侧与学术侧：OpenClaw 发布 2026.10.10-beta.5 预发布，重点收紧安全边界并修复更新回滚、网关流式与会话恢复问题；Stanford HAI 活动日历新增多场公开讲座，覆盖医疗教育 AI 平台、AI 治理对话与社交媒体研究。其余厂商官方渠道在过去 24 小时无可读新增内容。</p>
 <h2>重大信号</h2>
-<p>今日无 major 级信号，下列为普通增量（minor）。</p>
-<h2>OpenClaw</h2>
 <ul>
-<li>稳定版 2026.10.9 发布（10-29）：修补 fast-uri、Zod、nodemailer、MSAL Node 等运行依赖漏洞；将 tools.fs.workspaceOnly 应用到 Gateway 构建的工具，委派改动仍需审批、媒体工具限制在工作区内；更新失败回滚更安全（Git 源保留运维改动、npm 回滚重试并报告恢复路径）；磁盘满后 agent 无需重启即可恢复；修复 ACP 会话工作目录、重叠模型刷新、CLI Node 运行时等大量稳定性问题。URL: https://github.com/openclaw/openclaw/releases</li>
+<li><strong>[Stanford HAI]</strong> 11-09 举办 HAI 与 AI Governance Lab 对话（Jacob Coxon 与 Rob Reich），线下限斯坦福在校成员、外部以网络研讨会形式参与，属政策与治理方向的公开讲座，涉及 AI 治理实务讨论。来源：https://hai.stanford.edu/events</li>
+</ul>
+<h2>OpenClaw（开源）</h2>
+<ul>
+<li>发布预发布版 2026.10.10-beta.5（10-30），稳定版仍为 2026.10.9。来源：https://github.com/openclaw/openclaw/releases</li>
+<li>Node 兼容性恢复：安装与更新重新支持 Node &gt;=24.16.0 &lt;25 与 &gt;=26.1.0；Node 24.22.1 / 26.12.1 从硬性要求降为安全建议；Node 26 worker 在 stdin 为文件时不再中止（#186589、#187516）。</li>
+<li>网关流式回复修复：包含类工具调用 XML、疑似工具调用、或在部分标签处截断长 HTML 的回复不再卡住 Gateway（#181397、#183252、#180765）。</li>
+<li>更新与回滚可靠性：npm 回滚失败不再让已安装包陷入异常；即时 Git 回滚保留运维改动；执行器中断的更新可恢复其离线状态。</li>
+<li>定时任务：存储的下次运行时间已过期的错过时段不再被丢弃；重启后的启动补偿运行可正常进入队列。</li>
+<li>安全边界收紧：exec 允许列表模式下 test / [ -v 操作数需审批；拒绝经通用 node invoke 下发的浏览器代理命令；沙箱派生子进程解析 CLI 模型时 fail closed；将 workspaceOnly 传递到 Gateway 构建的代理与媒体工具；Microsoft Teams 允许列表保持限制性并阻止构造 HTML 在发件人校验前拖住 Gateway；拒绝 Android 固定网关连接上的嵌入式 Control UI 认证；审计符号链接形式的工作区技能根目录。</li>
+<li>凭据保护：浏览器配对凭据不再出现在 opener 进程参数中；日志掩码 Google OAuth client secret；MCP CLI 检查与搜索端点错误信息中去除凭据。</li>
+<li>依赖安全：升级 fast-uri，限制 A2UI 与 Discord 输入中 vendored Zod 的遍历边界，Microsoft Teams 改用修补版 MSAL，IMAP 采用 nodemailer 发件人解析修复。</li>
+<li>终端输出加固：camera、channel capability、DNS setup、managed worktree、plugin uninstall、skills library、Gateway discovery、MCP registry、model auth profile、session store、storage location 等 CLI 输出统一转义控制序列。</li>
+<li>会话与回复：空闲重置保留 transcript ID，/new、/reset 后保留关联模型账号，已清除历史不进入 fork；多行 /btw、/loop、/acp 输入不再被截断。</li>
 </ul>
 <h2>Stanford HAI</h2>
 <ul>
-<li>活动日历新增多场十一月及以后活动：11-04 NVIDIA &amp; Marlowe《Scale Training Across GPUs and Nodes》(Zoe Ryan)；11-04 Marlowe《AI+Data for Science》(Ruijiang Li)；11-06 2026 SC2 Student Conference；11-09 Center for Decoding the Universe Fall Forum（仅限校内）；11-09 CNDS 研讨 (Daniel Wurgaft)；11-11 Marlowe (Alex Pentland)；11-18 Marlowe (Andreas Tolias)；12-02 Marlowe (Leonidas Guibas)。URL: https://hai.stanford.edu/events</li>
+<li>11-04 新增讲座：Marcos Santiago Rojas Pino 与 Thomas Caruso 分享 Clinical Mind AI — 一个由斯坦福开发、面向健康专业教育的国际协作平台，通过 AI 模拟患者问诊强化临床推理教学（12:00–13:15）。来源：https://hai.stanford.edu/events</li>
+<li>11-09 新增：HAI 与 AI Governance Lab 对话 Jacob Coxon 与 Rob Reich，线下仅限斯坦福在校教职员工与学生，外部嘉宾以网络研讨会参与（16:30–17:30）。</li>
+<li>12-09 新增：Angèle Christin 与 Hannah Zeavin 讲座《Gurus, Hucksters, Entertainers: How Influencers Reshaped Social Media》，讨论内容创作者的工作、冲突与争议（12:00–13:15）。</li>
+<li>已预告待办：11-04 NVIDIA 与 Marlowe 的 Scale Training Across GPUs and Nodes（Zoe Ryan）、Marlowe AI + Data for Science 系列；11-18 AI100 第三份报告《AI Goes Mainstream》讲座；12-02 Leonidas Guibas 讲座。</li>
 </ul>
   </main>
 

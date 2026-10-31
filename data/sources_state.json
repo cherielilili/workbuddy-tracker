@@ -1,39 +1,39 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新 5.9.3（10-27）迁移分类选择与100GB上限、Windows升级与sandbox修复；5.9.2（10-26）语音回填；5.9.1（10-22）跨设备迁移、Buddy One 会员",
-    "fetched_at": "2026-10-29T04:35:00Z"
+    "last_seen_summary": "最新 5.9.3（10-27）迁移分类选择与100GB上限、Windows升级与sandbox修复；无更新版本",
+    "fetched_at": "2026-10-31T04:35:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "最新仍为 10-19 开源 AIWorkbench 与 WorkBuddy 横评；另有 09-20 积分自动化、08-12 Obsidian 对接、08-03 轻量模型省积分",
-    "fetched_at": "2026-10-29T04:35:00Z"
+    "last_seen_summary": "最新仍为 10-19 开源AIWorkbench 与 WorkBuddy 横评；此前 09-20 积分自动化、08-12 Obsidian 对接",
+    "fetched_at": "2026-10-31T04:35:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新仍为 10-13 波士顿案例与 OPPO 合作、10-01 Video Editor 与 Game Dev、09-29 Manus Flex、09-28 Manus 2.0",
-    "fetched_at": "2026-10-29T04:35:00Z"
+    "fetched_at": "2026-10-31T04:35:00Z"
   },
   "coze_studio_releases": {
-    "last_seen_summary": "最新仍为 V0.5.1（2025-02-05），含 NATS EventBus、knowledge openapi、会话隔离与多项安全修复",
-    "fetched_at": "2026-10-29T04:35:00Z"
+    "last_seen_summary": "最新仍为 V0.5.1（2025-02-05）NATS EventBus、knowledge openapi、会话隔离与安全修复",
+    "fetched_at": "2026-10-31T04:35:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新 v2.3.0-beta.1（10-27）Advisor Mode、inline OpenUI、Firecrawl、共享守护进程、Python Code Mode；稳定线 v2.2.2.post1（10-22）",
-    "fetched_at": "2026-10-29T04:35:00Z"
+    "last_seen_summary": "最新 v2.3.0-beta.1（10-27）Advisor Mode、inline OpenUI、Firecrawl、共享守护进程、Python Code Mode；稳定线 v2.2.2.post1",
+    "fetched_at": "2026-10-31T04:35:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新稳定版 2026.10.9（10-29）安全依赖补丁、回滚与数据恢复修复；预发布 2026.10.10-beta.4（10-27）网关令牌隔离与 Memory Wiki 注释保留",
-    "fetched_at": "2026-10-29T04:35:00Z"
+    "last_seen_summary": "最新预发布 2026.10.10-beta.5（10-30）Node兼容恢复、网关流式、更新回滚、Cron补跑与安全边界收紧；稳定版 2026.10.9",
+    "fetched_at": "2026-10-31T04:35:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "最新为 10-26 NemoClaw+vLLM 部署 DGX Spark 本地助理教程；此前 08-31 OpenClaw 2.0 三篇发布解读、07-23 记忆系统省钱分析",
-    "fetched_at": "2026-10-29T04:35:00Z"
+    "last_seen_summary": "最新仍为 10-26 NemoClaw+vLLM 部署 DGX Spark 本地助理教程；此前 08-31 OpenClaw 2.0 发布解读",
+    "fetched_at": "2026-10-31T04:35:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "新增 11-04 NVIDIA&Marlowe GPU 训练、Marlowe AI+Data 系列、11-06 SC2、11-09 CDF Fall Forum 与 CNDS、11-11 Pentland、11-18 AI100 与 Tolias、12-02 Guibas",
-    "fetched_at": "2026-10-29T04:35:00Z"
+    "last_seen_summary": "新增 11-04 Clinical Mind AI 医疗教育讲座、11-09 AI Governance Lab 对话 Rob Reich、12-09 Christin 与 Zeavin；已知 11-18 AI100、12-02 Guibas",
+    "fetched_at": "2026-10-31T04:35:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "最新 10-21 数字经济实验室劳动力市场实时看板；此前 10-19 医疗 AI 评测、10-14 Raji 责任归属、10-12 人机协作",
-    "fetched_at": "2026-10-29T04:35:00Z"
+    "fetched_at": "2026-10-31T04:35:00Z"
   },
   "workbuddy_official": {
     "last_seen_summary": "最新 5.8.3（10-19）修复闪屏、账号串号、语音失效与沙箱内存膨胀；5.8.2（10-16）会话与企微机器人修复；5.8.0 挂件与独立文件浏览器大版本",
