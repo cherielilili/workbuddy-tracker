@@ -1,0 +1,58 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-11-03\n\n## 摘要\n今日赛道以版本迭代为主：腾讯 WorkBuddy 灰度发布 5.11.0，对首页与定时任务体系做结构性改版；OpenClaw 从 beta.5 收敛出 2026.10.10 正式版，QwenPaw 推进 2.3.0-beta.2，重点在渠道插件化与子进程隔离。Manus 官方发布《Rebuilding Manus with Manus》工程复盘，行业侧开始系统讨论 Agent 向 Super Agent 的演进路径；Stanford HAI 更新了数场 11 月公开研讨，其中包含与美劳工部 O*NET 中心关于 AI 与工作的合作发布。\n\n## 重大信号\n- **[Tencent] WorkBuddy 5.11.0 灰度发布**：首页入口统一、定时任务全生命周期管理、频道 IM 组件化消息卡片上线。[链接](https://www.codebuddy.cn/docs/workbuddy/Changelog)\n- **[OpenClaw] 2026.10.10 正式版落地**：由 10.10-beta.5 收敛为 stable，本版累计 4825 commits / 3028 PR / 454 贡献者，多平台安装包同步更新。[链接](https://github.com/openclaw/openclaw/releases)\n- **[Stanford HAI] 与美劳工部 O*NET 中心合作专场（11-13）**：Phil Lewis 介绍 DOL 数据基础设施与 AI 更新方式，Diyi Yang 与 Erik Brynjolfsson 参与的圆桌宣布 Stanford 与 O*NET 的新合作，直接指向 AI 对劳动力市场与职业数据体系的影响。[链接](https://hai.stanford.edu/events)\n\n## 腾讯 WorkBuddy\n- 5.11.0（2026-11-03，灰度中）发布，首页全新改版：**下线办公／开发／设计入口**，统一任务栏、菜单与顶栏，产品从多入口模式转向单任务流组织。\n- 定时任务能力全面升级：支持立即运行、编辑、重命名、删除与启动／暂停，定时任务由创建型工具转为可运营的任务队列。\n- 独立文件浏览器支持标签页拖出独立窗口、右侧栏预览；创意设计接入图片编辑，图片与视频产物统一在画布打开并默认入库。\n- 频道 IM 新增组件化消息卡片与自定义表情包，消息支持跨端同步，频道与专家支持一键分享，协作侧继续向 IM 化靠拢。\n- 同版本修复云电脑、频道、资料库若干问题，并优化上传、浏览器操作与对话推荐体验。\n- 稳定线仍为 5.9.3（10-27），本周版本节奏明显加快（5.9.x → 5.11.0 跨两档）。\n\n## Manus\n- 10-30 发布官方产品/工程博客《Rebuilding Manus with Manus: What changed, what broke, and how we work now》，复盘用 Manus 自身重构内部工作流的收益与故障点，属自用型 Agent 的一手落地材料。\n- 此前 10-13 为波士顿客户案例与 OPPO 手机端合作，本期官方博客无新版本或定价变化。\n\n## 阿里 QwenPaw\n- 11-02 发布 v2.3.0-beta.2 预发布版，渠道（channels）能力被抽离为插件并采用**子进程隔离**，架构上把消息渠道从内核解耦。\n- 技能链路：改用原生 skills CLI 完成校验与发布，GitHub 导入保留二进制文件，技能池下载支持可取消任务。\n- 控制台体验：新增未读推送消息过滤、按标签浏览记忆文件、工具卡图标裁切修复、会话切换时暂停侧栏轮询。\n- 模型与供应商：刷新非 OpenAI 模型目录与 provider 配置，修复 LLM 启动阶段静默挂起、会话模型设置不生效等问题。\n- 安全与清理：修复 JEV 模式下 Code Mode 误判批准，移除旧版 workspace ZIP 接口。\n- 稳定线维持 v2.2.2.post1，2.3.0 仍在 beta 通道。\n\n## OpenClaw（开源）\n- 11-03 发布 **openclaw 2026.10.10 正式版**，结束 10.10-beta.5 预发布周期；发布说明与 changelog 双格式输出（人类可读版 + 面向 Agent 的纯 Markdown 版）。\n- 版本规模：4825 commits、3028 PR、454 位贡献者；资产含 AppImage、deb、arm64 dmg/zip，以及 dependency-evidence 与 postpublish-evidence 校验文件，供应链可验证性继续加码。\n- 本次抓取未展开具体功能条目，后续需跟进 changelog 明细以判断是否为破坏性变更。\n\n## 行业观察（跨厂商）\n- 53AI 于 11-03 17:41 发布《从OpenClaw，怎么走到了Super Agent？》，作者为腾讯游戏数据团队负责人：梳理 Agent 产品从年初受 OpenClaw 影响的 Bot 形态，到年中桌面／IDE 类 Agent 兴起，再到两类产品互相融合演化为 Super Agent 的路径。\n- 核心论点：驱动力来自 Agent 贴近真实工作场景、用户希望随时调用并共享 Agent 能力；接入完整工作资源可显著提升任务完成质量。\n\n## Stanford HAI\n- 新增 11-04 研讨：Clinical Mind AI（Marcos Santiago Rojas Pino & Thomas Caruso），介绍以 AI 模拟病人问诊强化临床推理教育的国际合作平台。\n- 新增 11-11 Marlowe AI + Data for Science 场次，讲者为 Alex Pentland。\n- 新增 11-13 AIMS 研讨：Khaoula Chehbouni 主讲 LLM as Judges 的使用最佳实践。\n- 新增 11-13 专场：Understanding Work Using AI，美劳工部 O*NET 中心 Phil Lewis 介绍 DOL 数据基础设施与 AI 更新方式，Diyi Yang 与 Erik Brynjolfsson 参与圆桌并宣布 Stanford 与 O*NET 新合作。\n- 新增 11-16 场次：Christopher Ong（OpenAI）主讲 Research Acceleration: The View Inside OpenAI，讨论模型自主执行研究任务与 AI R&D 自我加速。\n- 已知排期仍在：11-18 AI100、12-02 Guibas、12-09 Christin。\n",
+  "signals": [
+    {
+      "title": "WorkBuddy 5.11.0 灰度发布：首页改版与定时任务全面升级",
+      "vendor": "Tencent",
+      "severity": "major",
+      "summary": "官网 Changelog 新增 5.11.0（2026-11-03，灰度中）：首页全新改版下线办公/开发/设计入口，统一任务栏与顶栏；定时任务支持立即运行、编辑、重命名、删除与启停；独立文件浏览器支持标签页拖出独立窗口；频道 IM 新增组件化消息卡片与跨端同步；创意设计接入图片编辑，产物统一在画布打开入库。",
+      "source": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+    },
+    {
+      "title": "OpenClaw 2026.10.10 正式版发布",
+      "vendor": "OpenClaw",
+      "severity": "major",
+      "summary": "开源主仓由 10.10-beta.5 收敛发布 2026.10.10 正式版，累计 4825 commits、3028 PR、454 贡献者；同步提供 AppImage/deb/dmg 多平台资产及 dependency-evidence、postpublish-evidence 校验文件，发布说明同时提供面向 Agent 的 Markdown changelog。",
+      "source": "https://github.com/openclaw/openclaw/releases"
+    },
+    {
+      "title": "Stanford HAI 与美劳工部 O*NET 中心合作专场：Understanding Work Using AI",
+      "vendor": "Stanford HAI",
+      "severity": "major",
+      "summary": "11-13 新增特别研讨与炉边对话，Phil Lewis 介绍美国劳工部 O*NET 数据基础设施及 AI 更新方式，Diyi Yang 与 Erik Brynjolfsson 参与的圆桌宣布 Stanford 与 O*NET 新合作，聚焦 AI 对职业与劳动力市场的测量。",
+      "source": "https://hai.stanford.edu/events"
+    },
+    {
+      "title": "QwenPaw v2.3.0-beta.2：渠道插件化与子进程隔离",
+      "vendor": "Alibaba",
+      "severity": "minor",
+      "summary": "11-02 预发布版将 channels 抽离为插件并采用子进程隔离，技能改用原生 CLI 校验发布、技能池下载可取消，控制台新增未读推送过滤与按标签浏览记忆文件，修复 LLM 启动静默挂起与 JEV 下 Code Mode 误判批准。",
+      "source": "https://github.com/agentscope-ai/QwenPaw/releases"
+    },
+    {
+      "title": "Manus 官方复盘：Rebuilding Manus with Manus",
+      "vendor": "Manus",
+      "severity": "minor",
+      "summary": "10-30 官方博客发布内部重构复盘，说明用 Manus 自身重建工作流的变更点、故障点与新的协作方式，属自用型 Agent 落地的一手材料，本期无新版本或定价调整。",
+      "source": "https://manus.im/blog"
+    },
+    {
+      "title": "行业分析：从 OpenClaw 到 Super Agent 的演进路径",
+      "vendor": "Industry",
+      "severity": "minor",
+      "summary": "53AI 11-03 发布腾讯游戏数据团队负责人撰文，梳理 Agent 从 Bot 形态到桌面/IDE Agent 再到两类融合为 Super Agent 的路径，指出驱动力是贴近真实工作场景与随时调用共享能力，接入完整工作资源可提升任务完成质量。",
+      "source": "https://www.53ai.com/news/Openclaw/"
+    }
+  ],
+  "new_state": {
+    "workbuddy_changelog": {
+      "last_seen_summary": "最新 5.11.0（11-03）灰度：首页改版统一入口、定时任务启停编辑、频道IM消息卡片；稳定线 5.9.3（10-27）迁移与Windows修复",
+      "fetched_at": "2026-11-03T10:00:00Z"
+    },
+    "tencent_cloud_workbuddy": {
+      "last_seen_summary": "最新仍为 10-19 开源AIWorkbench 与 WorkBuddy 横评；此前 09-20 积分自动化、08-12 Obsidian 对接，无新增文章",
+      "fetched_at": "2026-11-03T10:00:00Z"
+    },
+    "manus_blog": {
+      "last_seen_summary": "最新 10-30 Rebuilding Manus with Manus 工程复盘；此前 10-13 波士顿案例与 OPPO 合作、10-01 Video Editor 与 Game Dev、09-29 Manus Flex、09-28 Manus 2.0",
+      "fetched_at": "

@@ -1,0 +1,51 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-11-02\n\n## 摘要\n今日赛道增量有限：阿里 QwenPaw 发布 v2.3.0-beta.2 预发布，把渠道能力插件化并做子进程隔离，同时修复模型启动与 Code Mode 审批等链路问题；Stanford HAI 活动日历新增多场公开讲座，覆盖 OpenAI 内部研究自动化视角、AI 医疗教育平台与 AI100 第三份报告预热。\n\n## 重大信号\n- [Stanford HAI] 11-16 Christopher Ong《Research Acceleration: The View Inside OpenAI》：从 OpenAI 内部视角讨论模型在自主研究任务上的快速进步，以及 R&D 流程被部分自动化的可能性，属从业者阵容的重要公开讲座。（https://hai.stanford.edu/events）\n\n## 阿里 QwenPaw\n- 发布 v2.3.0-beta.2 预发布（11-02 06:08，仍为 beta 线）：将渠道能力抽离为插件并以子进程隔离运行，降低主进程故障面（#8187）。（https://github.com/agentscope-ai/QwenPaw/releases）\n- 控制台体验：新增未读推送消息过滤（#8484）、按标签浏览记忆文件（#8470）、会话选择期间暂停侧栏轮询（#8493）、修复工具卡片图标裁切（#8503）。\n- 技能与插件链路：skill-pool 下载改为可取消任务（#8285）、改用原生 skills CLI 做技能校验与发布（#8344）、GitHub 导入保留二进制文件（#8198）、插件加载容忍缓存刷新失败（#8497）。\n- 模型与运行时：刷新非 OpenAI 模型目录与供应商配置（#8447）、防止 LLM 启动静默挂起（#8468）、跨运行时路径遵循会话模型设置（#8465）、遵循声明的 thinking 关闭开关（#8436）。\n- 稳定性与安全：修复 JEV 模式下 Code Mode 误判审批（#8492）、Windows 安装器准备失败处理（#8455）、历史记录复用工作区自持 SQLite 连接（#8482）、移除遗留 workspace ZIP API（#8508）。\n\n## Stanford HAI\n- 新增 11-04 讲座《Building an International AI Platform for Health Professions Education and the Learning Sciences》，由 Marcos Santiago Rojas Pino 与 Thomas Caruso 主讲，介绍 Stanford 开发的 Clinical Mind AI 如何用 AI 模拟病人对话强化临床推理教学。（https://hai.stanford.edu/events）\n- 新增 11-11 Marlowe《AI + Data for Science》场次，主讲人为 Alex Pentland，延续每周三 CoDa E160 系列。\n- 新增 11-16 Christopher Ong《Research Acceleration: The View Inside OpenAI》，聚焦公开基准上自主研究能力的提升及其对 AI 研发节奏的影响。\n- 新增 11-18 Andreas Tolias 的 Marlowe 场次；同日 AI100 场次将解读第三份报告《AI Goes Mainstream: The Scaling Era and the Rise of Generative AI》（研究小组由 Michael Wooldridge 主持，报告 11 月发布）。\n\n## 其他观察\n- 除上述两处增量外，本轮扫描的厂商官方渠道与行业横评源均未出现新增版本、定价或公告内容，赛道处于发布节奏的间歇期，注意力集中在 11 月 Stanford HAI 的公开讲座与 AI100 报告节点。",
+  "signals": [
+    {
+      "title": "Stanford HAI 11-16 OpenAI 研究加速内部视角讲座",
+      "vendor": "Stanford HAI",
+      "severity": "major",
+      "summary": "活动日历新增 11-16 Christopher Ong 讲座《Research Acceleration: The View Inside OpenAI》，讨论模型在自主研究任务上的进步及 AI R&D 部分自动化的含义，属带从业者阵容的重要公开讲座。",
+      "source": "https://hai.stanford.edu/events"
+    },
+    {
+      "title": "QwenPaw v2.3.0-beta.2 预发布",
+      "vendor": "Alibaba",
+      "severity": "minor",
+      "summary": "11-02 发布 beta.2，渠道插件化并子进程隔离、未读推送过滤、记忆标签浏览、skill-pool 可取消下载，以及模型启动挂起与 Code Mode 审批误判修复。",
+      "source": "https://github.com/agentscope-ai/QwenPaw/releases"
+    },
+    {
+      "title": "Stanford HAI 11-04 Clinical Mind AI 医疗教育平台讲座",
+      "vendor": "Stanford HAI",
+      "severity": "minor",
+      "summary": "新增 11-04 讲座，介绍 Stanford 开发的国际协作平台 Clinical Mind AI，用 AI 模拟病人对话强化健康 professions 的临床推理教学。",
+      "source": "https://hai.stanford.edu/events"
+    },
+    {
+      "title": "Stanford HAI 11-11 Alex Pentland Marlowe 场次",
+      "vendor": "Stanford HAI",
+      "severity": "minor",
+      "summary": "Marlowe AI + Data for Science 系列新增 11-11 场次，由 Alex Pentland 主讲，延续每周三 CoDa E160 的固定节奏。",
+      "source": "https://hai.stanford.edu/events"
+    }
+  ],
+  "new_state": {
+    "workbuddy_changelog": {
+      "last_seen_summary": "最新仍为 5.9.3（10-27）迁移分类选择与100GB上限、Windows升级与sandbox修复；未见更新版本",
+      "fetched_at": "2026-11-02T06:30:00Z"
+    },
+    "tencent_cloud_workbuddy": {
+      "last_seen_summary": "最新仍为 10-19 开源 AIWorkbench 与 WorkBuddy 横评；此前 09-20 积分自动化、08-12 Obsidian 对接，无新增文章",
+      "fetched_at": "2026-11-02T06:30:00Z"
+    },
+    "manus_blog": {
+      "last_seen_summary": "最新仍为 10-13 波士顿案例与 OPPO 合作、10-01 Video Editor 与 Game Dev、09-29 Manus Flex、09-28 Manus 2.0",
+      "fetched_at": "2026-11-02T06:30:00Z"
+    },
+    "coze_studio_releases": {
+      "last_seen_summary": "最新仍为 V0.5.1（02-05）NATS EventBus、knowledge openapi、会话隔离与安全修复，无新版本",
+      "fetched_at": "2026-11-02T06:30:00Z"
+    },
+    "qwenpaw_releases": {
+      "last_seen_summary": "最新 v

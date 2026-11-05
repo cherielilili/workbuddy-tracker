@@ -1,0 +1,36 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-11-04\n\n## 摘要\n腾讯 WorkBuddy 灰度发布 5.11.0，首页架构与定时任务体系重构，产品形态继续向统一任务台收敛；OpenClaw 推出 2026.11.5-beta.1，补齐知识记录、PostgreSQL 数据面与对话内直接产出 PR 的能力。Stanford HAI 公布 11-13 与美劳工部 O*NET 中心的 AI 与工作专题研讨及新合作。Manus、QwenPaw 维持常规更新节奏。\n\n## 重大信号\n- [Tencent] WorkBuddy 5.11.0 灰度发布：首页全新改版并下线办公/开发/设计三入口，定时任务支持启动暂停与完整编辑，文件浏览器支持多窗口 — https://www.codebuddy.cn/docs/workbuddy/Changelog\n- [OpenClaw] 2026.11.5-beta.1 发布：Knowledge Scribes 知识捕获、PostgreSQL 数据面、对话内 PR 全流程、跨设备云执行与决策/媒体模型路由 — https://github.com/openclaw/openclaw/releases\n- [Stanford HAI] 11-13 与美国劳工部 O*NET 中心联合专场：AI 如何更新职业数据基础设施，Brynjolfsson 与 Diyi Yang 参与并讨论 Stanford 与 O*NET 新合作 — https://hai.stanford.edu/events\n\n## 腾讯 WorkBuddy\n- 5.11.0 版本发布（2026-11-03，灰度中）：首页全新改版，下线办公/开发/设计入口，统一任务栏、菜单与顶栏，产品入口进一步收敛为单一任务台 — https://www.codebuddy.cn/docs/workbuddy/Changelog\n- 定时任务全面升级：支持立即运行、编辑、重命名、删除与启动/暂停，自动化能力从创建走向全生命周期管理\n- 独立文件浏览器支持标签页拖出独立窗口与右侧栏预览，多文件并行处理体验对齐桌面工作流\n- 频道 IM 新增组件化消息卡片与自定义表情包，消息支持跨端同步，频道与专家支持一键分享，协作侧向 IM 形态延伸\n- 创意设计接入图片编辑，图片与视频产物统一在画布打开并默认入库；同时修复云电脑、频道、资料库若干问题\n\n## OpenClaw\n- 预发布 2026.11.5-beta.1（2026-11-04）发布，主要亮点为 Knowledge Scribes 知识捕获与可复用抄写工作流、PostgreSQL 支撑的状态与迁移工具、Control UI 移动与桌面端导航重构、对话内直接完成 PR 准备/发布/评审、跨设备与云端执行、决策与媒体模型路由及 ClawRouter 集成 — https://github.com/openclaw/openclaw/releases\n- 该版本同时强化插件发现与运行时集成、备份/恢复/升级回滚路径、Automations 持久流与会话共享访客控制，并修复网关启动恢复、Codex 会话生命周期、回复线程与频道重连等问题\n- 稳定版 2026.10.10 已从 beta.5 转正，预发布线并行推进至 11 月版本\n\n## 阿里 QwenPaw\n- 预发布 v2.3.0-beta.2（2026-11-02）：频道能力抽离为插件并采用子进程隔离，控制台新增未读推送过滤与按标签浏览记忆文件，provider 侧刷新非 OpenAI 模型目录并修复 LLM 启动静默挂起 — https://github.com/agentscope-ai/QwenPaw/releases\n- 技能池下载改为可取消任务，GitHub 导入保留二进制文件；Code Mode 在 JEV 模式下的误判审批问题修复\n\n## Manus\n- 官方博客 2026-10-30 发布《Rebuilding Manus with Manus: What changed, what broke, and how we work now》，复盘团队用 Manus 重建 Manus 的过程与协作方式变化 — https://manus.im/blog\n\n## 行业分析（53AI）\n- 2026-11-03 长文《从OpenClaw，怎么走到了Super Agent？》，由腾讯游戏数据团队负责人梳理 Agent 产品从 Bot → 桌面/IDE Agent → 两类融合为 Super Agent 的演进路径，核心驱动为贴近真实工作场景与随时调用共享能力 — https://www.53ai.com/news/Openclaw/\n\n## Stanford HAI\n- 11-11 Marlowe 系列：Alex Pentland 主讲 AI + Data for Science — https://hai.stanford.edu/events\n- 11-13 AIMS 研讨：Khaoula Chehbouni 讲 LLM as Judges 的最佳实践 — https://hai.stanford.edu/events\n- 11-13 特别研讨与炉边对话《Understanding Work Using AI》：美国劳工部 O*NET 中心的 Phil Lewis 介绍其数据基础设施及 AI 更新方式，Diyi Yang 与 Erik Brynjolfsson 参与讨论 Stanford 与 O*NET 的新合作 — https://hai.stanford.edu/events\n- 11-16 Christopher Ong 主讲《Research Acceleration: The View Inside OpenAI》，聚焦模型在研究任务上的自主能力与 AI R&D 流程自动化 — https://hai.stanford.edu/events",
+  "signals": [
+    {
+      "title": "WorkBuddy 5.11.0 灰度发布：首页改版与定时任务体系重构",
+      "vendor": "Tencent",
+      "severity": "major",
+      "summary": "5.11.0（2026-11-03，灰度中）首页全新改版，下线办公/开发/设计入口，统一任务栏、菜单与顶栏；定时任务支持立即运行、编辑、重命名、删除与启动/暂停；独立文件浏览器支持标签页拖出独立窗口；频道 IM 新增组件化消息卡片与自定义表情包并支持跨端同步；创意设计接入图片编辑。",
+      "source": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+    },
+    {
+      "title": "OpenClaw 2026.11.5-beta.1：Knowledge Scribes 与 PostgreSQL 数据面",
+      "vendor": "OpenClaw",
+      "severity": "major",
+      "summary": "新预发布引入知识捕获与可复用 scribe 工作流、PostgreSQL 支撑的状态与迁移工具、Control UI 导航重构、对话内直接完成 PR 准备与评审、跨设备云执行、决策与媒体模型路由，并加固备份与升级回滚路径；稳定版 2026.10.10 同时转正。",
+      "source": "https://github.com/openclaw/openclaw/releases"
+    },
+    {
+      "title": "Stanford HAI 与劳工部 O*NET 中心 AI 与工作专题研讨",
+      "vendor": "Stanford HAI",
+      "severity": "major",
+      "summary": "11-13 特别研讨与炉边对话《Understanding Work Using AI》，O*NET 中心 Phil Lewis 介绍劳工部职业数据基础设施与 AI 更新方式，Diyi Yang 与 Erik Brynjolfsson 讨论 Stanford 与 O*NET 的新合作，属 AI 经济与劳动力市场方向的重要公开活动。",
+      "source": "https://hai.stanford.edu/events"
+    }
+  ],
+  "new_state": {
+    "workbuddy_changelog": {
+      "last_seen_summary": "最新 5.11.0（11-03）灰度中：首页改版下线办公开发设计入口、定时任务全生命周期、文件浏览器多窗口、频道IM消息卡片；稳定 5.9.3",
+      "fetched_at": "2026-11-04T04:35:00Z"
+    },
+    "tencent_cloud_workbuddy": {
+      "last_seen_summary": "最新仍为 10-19 开源AIWorkbench 与 WorkBuddy 横评；此前 09-20 积分自动化、08-12 Obsidian 对接，无新增文章",
+      "fetched_at": "2026-11-04T04:35:00Z"
+    },
+    "manus_blog": {
+      "last_seen_summary": "最新 10-30 Rebuilding Manus with Manus 工程复盘；此前 10-13 波士顿案例与 OPPO 合作、10-01 Video Editor
