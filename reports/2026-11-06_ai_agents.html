@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-11-06</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-11-06</span>
+      <span class="count-major">重大信号 × 0</span>
+      <span class="count-minor">常规更新 × 4</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-minor"><span class="vendor">Tencent</span><span class="title">WorkBuddy 社区新增 K12 续费分析实操长文</span><div class="summary">11-06 社区出现业务侧落地案例：电销岗用 WorkBuddy 半小时完成学校续费分析报告，含用量趋势、峰谷归因与续费话术方案生成，属用户实测类内容。</div><a class="src" href="https://cloud.tencent.com/developer/search/article?q=WorkBuddy">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Tencent</span><span class="title">WorkBuddy 与 CodeBuddy 社区选型对比</span><div class="summary">11-06 社区文章对比 WorkBuddy 与 CodeBuddy，结论为非研发内容创作场景优先 WorkBuddy，并给出切轻量模型可省 30%~50% 积分的经验。</div><a class="src" href="https://cloud.tencent.com/developer/search/article?q=WorkBuddy">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 新增员工 AI 接纳度观点文章</span><div class="summary">新闻页更新《Want Employees to Embrace AI? Stop Selling It as a Productivity Tool》，讨论管理者引入 AI 的方式决定员工投入或抵触，属组织采用层面的观察文章。</div><a class="src" href="https://hai.stanford.edu/news">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 活动日历新增 11-09 AI 治理对话</span><div class="summary">新增 11-09 HAI 与 AI Governance Lab 对话 Jacob Coxon、Rob Reich（外部可看 webinar），另补 11-06 SC2 学生会议与 11-09 两场校内研讨。</div><a class="src" href="https://hai.stanford.edu/events">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-11-06</h1>
+<h2>摘要</h2>
+<p>今日无厂商级版本或定价动作，增量集中在社区与学术侧：腾讯云开发者社区出现两篇 11-06 的 WorkBuddy 实操长文（K12 续费分析报告、与 CodeBuddy 的选型对比）；Stanford HAI 新闻页新增一篇讨论员工对 AI 接纳度的观点文章，活动日历补齐 11-06 学生会议与 11-09 三场讲座/对话。</p>
+<h2>重大信号</h2>
+<ul>
+<li>今日无重大信号：未发现新产品发布、重大版本更新、价格策略变化或官方公告。</li>
+</ul>
+<h2>腾讯 WorkBuddy</h2>
+<ul>
+<li>社区新文《WorkBuddy 续费报告攻略》（11-06）：K12 在线教育电销岗用 WorkBuddy 半小时产出学校续费分析报告，覆盖月度用量趋势、峰谷归因，以及针对教研主任预算紧张、使用率质疑、竞品替换担忧的话术方案，属业务侧落地案例。 https://cloud.tencent.com/developer/search/article?q=WorkBuddy</li>
+<li>社区新文《WorkBuddy or Codebuddy》（11-06）：内容创作者视角选型对比，结论为写文案、整理数据、生成可视化等非研发场景用 WorkBuddy 即可，并给出在对话框顶部切换混元/GLM-5.1 轻量模型可降低 30%~50% 积分消耗的实测经验。 https://cloud.tencent.com/developer/search/article?q=WorkBuddy</li>
+</ul>
+<h2>Stanford HAI</h2>
+<ul>
+<li>新闻页新增《Want Employees to Embrace AI? Stop Selling It as a Productivity Tool》（Dylan Walsh，10-07）：管理者引入与支持 AI 的方式决定员工是投入还是抵触，仅以生产力工具叙事推广容易适得其反。 https://hai.stanford.edu/news</li>
+<li>活动日历新增 11-06 2026 SC2 Student Conference（08:30-17:00，仅限 Stanford 成员或受邀）。 https://hai.stanford.edu/events</li>
+<li>新增 11-09 Center for Decoding the Universe Fall Forum（12:00-18:00，仅限校内）与 11-09 Daniel Wurgaft 的 Center for Neural Data Science seminar（16:00-17:30，表征的资源理性分析）。 https://hai.stanford.edu/events</li>
+<li>新增 11-09 HAI &amp; AI Governance Lab 对话 Jacob Coxon 与 Rob Reich（16:30-17:30，线下限校内师生，外部可参加 webinar），属治理与监管方向公开对话。 https://hai.stanford.edu/events</li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>
