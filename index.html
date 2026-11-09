@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>AI Agent 赛道日报 2026-11-08</title>
+<title>AI Agent 赛道日报 2026-11-09</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
@@ -95,7 +95,7 @@
   <header>
     <h1>AI Agent 赛道日报</h1>
     <div class="meta">
-      <span>2026-11-08</span>
+      <span>2026-11-09</span>
       <span class="count-major">重大信号 × 1</span>
       <span class="count-minor">常规更新 × 0</span>
     </div>
@@ -103,28 +103,33 @@
 
   <section class="signals">
     <h2>Signals</h2>
-    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 发布稳定版 2026.11.2，强化隐私边界与更新恢复</span><div class="summary">官方 releases 显示 2026.11.2 于 11-08 发布：配置密钥、会话内容、工具错误与渠道载荷不再进入诊断日志，强制所选 provider 与导航信任边界，CLI 预热轮次后释放 MCP 授权；同时修复持久重试下的发送者与账号身份保持、网关阻塞、更新自锁与原生客户端重连等问题。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div>
+    <div class="signal pill-major"><span class="vendor">Alibaba</span><span class="title">QwenPaw v2.3.0-beta.3：AnySearch 成默认搜索、OpenViking 记忆插件、本地 Piccolo 运行时</span><div class="summary">2026-11-09 放出 v2.3.0-beta.3 预发布：web_search 默认提供方切换为 AnySearch；新增长期记忆插件 OpenViking；Piccolo 本地模型支持运行时安装、模型源选择与双向候选打分；桌面端新增审批通知，Matrix 默认安装 E2EE 依赖，钉钉长回复按 markdown 分片；Console 持久化插件市场安装来源并重构依赖检查。</div><a class="src" href="https://github.com/agentscope-ai/QwenPaw/releases">来源 →</a></div>
   </section>
 
   <main class="report">
-    <h1>AI Agent 赛道日报 2026-11-08</h1>
+    <h1>AI Agent 赛道日报 2026-11-09</h1>
 <h2>摘要</h2>
-<p>今日赛道动态集中在开源 Agent 侧：OpenClaw 发布稳定版 2026.11.2，主线是隐私与信任边界收紧、账号安全投递、网关可用性与更新恢复的工程化修复，体现出头部开源 Agent 正从功能竞赛转向生产可用性与诊断数据治理。商业办公类与模型平台侧本周期无可读新增。</p>
+<p>今日可读源中仅阿里 QwenPaw 出现新动作：开源版放出 v2.3.0-beta.3，把 AnySearch 设为默认联网搜索提供方，并首次将本地小模型 Piccolo 做成可安装运行时。其余厂商的官方更新日志与社区页面在过去 24 小时内没有新增条目。</p>
 <h2>重大信号</h2>
 <ul>
-<li><strong>[OpenClaw] 稳定版 2026.11.2 发布</strong>：官方 releases 显示该版本已于 11-08 发布，重点是把配置密钥、会话内容、工具错误与渠道载荷移出诊断日志，强制所选 provider 与导航信任边界，并在 CLI 预热轮次结束后释放 MCP 授权；同时修复持久重试下的账号身份保持、网关阻塞、更新自锁与原生客户端重连等生产问题。（https://github.com/openclaw/openclaw/releases）</li>
+<li><strong>[Alibaba / QwenPaw]</strong> v2.3.0-beta.3 预发布（2026-11-09）：默认联网搜索切换为 AnySearch，新增 OpenViking 记忆插件，本地 Piccolo 模型运行时开始支持安装与模型源选择，桌面端增加审批通知。来源：https://github.com/agentscope-ai/QwenPaw/releases</li>
 </ul>
-<h2>OpenClaw</h2>
+<h2>阿里 QwenPaw</h2>
 <ul>
-<li><strong>隐私与信任边界</strong>：诊断日志不再记录配置密钥、会话内容、工具错误与渠道载荷；强制所选 provider 与导航信任边界；CLI 预热轮次结束后释放 MCP 授权（#191318、#174998、#174544、#172963、#174526、#173422、#191748、#191271、#193438、#191102、#191980）。</li>
-<li><strong>账号安全投递</strong>：在持久重试与定时投递路径中保留发送者与账号身份；恢复 WhatsApp 身份查询；Teams 路由与允许列表设置在重载后保留。</li>
-<li><strong>网关可用性</strong>：降低诊断采集开销，避免插件清理或异常 Telegram 表格阻塞网关；关闭流程中取消渠道启动，并恢复瞬时 schema-lease 冲突。</li>
-<li><strong>更新与恢复</strong>：升级过程中保留已配置插件可执行文件与环境引用；修复 macOS 回收站访问被拒时的服务恢复；避免更新自锁与中断更新挂起。</li>
-<li><strong>原生客户端</strong>：iOS 重连导航保持响应、Android 聊天启动态保留、Apple 模型与 computer-use 资源在瞬时初始化失败后可恢复。</li>
-<li><strong>模型路由与集成</strong>：尊重禁用 reasoning、tier 后缀设置、别名与 catalog readiness；Codex 与 Claude 集成保留导入的登录态与工作区编辑，代理重启后保持原生线程。</li>
-<li><strong>记忆与嵌入</strong>：限制组装后的召回上下文长度，接受 memory-search limit 别名，正确转发 Azure OpenAI embedding API version。</li>
-<li><strong>Agent 执行与诊断</strong>：修复依赖环境的工具重试、流式参数退化、worktree 名校验；更新诊断避免 FIFO 挂起并以 JSON 报告向导失败。</li>
-<li>预发布通道仍为 2026.11.5-beta.1，稳定线由 2026.11.1 升至 2026.11.2。</li>
+<li>发布 v2.3.0-beta.3（2026-11-09 11:44，预发布），承接 beta.2 的 channels 插件化改造，本轮以能力接线与稳定性修复为主：https://github.com/agentscope-ai/QwenPaw/releases</li>
+<li>搜索能力变更：web_search 默认提供方改为 AnySearch，并补充了内置搜索提供方的文档说明，属于对默认工具链的实质性替换。</li>
+<li>本地模型闭环推进：新增长期记忆插件 OpenViking（含前端 lockfile）；Piccolo 本地模型支持运行时安装、模型源选择与双向候选打分，本地侧推理能力继续下沉。</li>
+<li>桌面与协作端：新增审批通知；Matrix 默认安装 E2EE 依赖并修复 Windows 下 crypto store 命名与旧状态迁移；钉钉长回复按 markdown 分片，避免超长消息被截断。</li>
+<li>社区与插件生态：集成 QwenPaw community 与 inbox；Console 侧持久化市场安装来源，使 Update All 覆盖第三方插件，并重构插件依赖检查与 Windows 依赖升级流程。</li>
+<li>稳定性与安全：shell 增加可选的记忆保护并可在 Console 实时配置；上下文摘要兼容慢速模型与统一 token 限制；SSE 关闭 nginx 缓冲；修复 CRLF 行尾被改写、上下文溢出恢复、渠道泄漏自动记忆召回载荷等问题。</li>
+</ul>
+<h2>其余厂商</h2>
+<ul>
+<li>腾讯 WorkBuddy 官方更新日志仍停留在 5.11.0（2026-11-03 灰度），无新版本；腾讯云开发者社区最新投稿仍为 11-06 的两篇实操（K12 续费分析报告、WorkBuddy 与 CodeBuddy 选型），无新增内容。</li>
+<li>Manus 博客最新仍为 10-30 的工程复盘《Rebuilding Manus with Manus》，无新文章。</li>
+<li>字节 Coze Studio releases 最新仍为 V0.5.1（02-05），无新版本。</li>
+<li>OpenClaw 最新稳定版仍为 2026.11.2（11-08），预发布 2026.11.5-beta.1 未推进；53AI 合集最新仍为 11-03 的 Super Agent 演进长文。</li>
+<li>Stanford HAI 新闻页无新增条目，活动日历亦无新增场次。</li>
 </ul>
   </main>
 

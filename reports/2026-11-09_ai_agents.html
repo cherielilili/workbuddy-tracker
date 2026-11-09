@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-11-09</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-11-09</span>
+      <span class="count-major">重大信号 × 1</span>
+      <span class="count-minor">常规更新 × 0</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-major"><span class="vendor">Alibaba</span><span class="title">QwenPaw v2.3.0-beta.3：AnySearch 成默认搜索、OpenViking 记忆插件、本地 Piccolo 运行时</span><div class="summary">2026-11-09 放出 v2.3.0-beta.3 预发布：web_search 默认提供方切换为 AnySearch；新增长期记忆插件 OpenViking；Piccolo 本地模型支持运行时安装、模型源选择与双向候选打分；桌面端新增审批通知，Matrix 默认安装 E2EE 依赖，钉钉长回复按 markdown 分片；Console 持久化插件市场安装来源并重构依赖检查。</div><a class="src" href="https://github.com/agentscope-ai/QwenPaw/releases">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-11-09</h1>
+<h2>摘要</h2>
+<p>今日可读源中仅阿里 QwenPaw 出现新动作：开源版放出 v2.3.0-beta.3，把 AnySearch 设为默认联网搜索提供方，并首次将本地小模型 Piccolo 做成可安装运行时。其余厂商的官方更新日志与社区页面在过去 24 小时内没有新增条目。</p>
+<h2>重大信号</h2>
+<ul>
+<li><strong>[Alibaba / QwenPaw]</strong> v2.3.0-beta.3 预发布（2026-11-09）：默认联网搜索切换为 AnySearch，新增 OpenViking 记忆插件，本地 Piccolo 模型运行时开始支持安装与模型源选择，桌面端增加审批通知。来源：https://github.com/agentscope-ai/QwenPaw/releases</li>
+</ul>
+<h2>阿里 QwenPaw</h2>
+<ul>
+<li>发布 v2.3.0-beta.3（2026-11-09 11:44，预发布），承接 beta.2 的 channels 插件化改造，本轮以能力接线与稳定性修复为主：https://github.com/agentscope-ai/QwenPaw/releases</li>
+<li>搜索能力变更：web_search 默认提供方改为 AnySearch，并补充了内置搜索提供方的文档说明，属于对默认工具链的实质性替换。</li>
+<li>本地模型闭环推进：新增长期记忆插件 OpenViking（含前端 lockfile）；Piccolo 本地模型支持运行时安装、模型源选择与双向候选打分，本地侧推理能力继续下沉。</li>
+<li>桌面与协作端：新增审批通知；Matrix 默认安装 E2EE 依赖并修复 Windows 下 crypto store 命名与旧状态迁移；钉钉长回复按 markdown 分片，避免超长消息被截断。</li>
+<li>社区与插件生态：集成 QwenPaw community 与 inbox；Console 侧持久化市场安装来源，使 Update All 覆盖第三方插件，并重构插件依赖检查与 Windows 依赖升级流程。</li>
+<li>稳定性与安全：shell 增加可选的记忆保护并可在 Console 实时配置；上下文摘要兼容慢速模型与统一 token 限制；SSE 关闭 nginx 缓冲；修复 CRLF 行尾被改写、上下文溢出恢复、渠道泄漏自动记忆召回载荷等问题。</li>
+</ul>
+<h2>其余厂商</h2>
+<ul>
+<li>腾讯 WorkBuddy 官方更新日志仍停留在 5.11.0（2026-11-03 灰度），无新版本；腾讯云开发者社区最新投稿仍为 11-06 的两篇实操（K12 续费分析报告、WorkBuddy 与 CodeBuddy 选型），无新增内容。</li>
+<li>Manus 博客最新仍为 10-30 的工程复盘《Rebuilding Manus with Manus》，无新文章。</li>
+<li>字节 Coze Studio releases 最新仍为 V0.5.1（02-05），无新版本。</li>
+<li>OpenClaw 最新稳定版仍为 2026.11.2（11-08），预发布 2026.11.5-beta.1 未推进；53AI 合集最新仍为 11-03 的 Super Agent 演进长文。</li>
+<li>Stanford HAI 新闻页无新增条目，活动日历亦无新增场次。</li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>
