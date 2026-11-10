@@ -1,39 +1,39 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新仍为 5.11.0（11-03 灰度）：首页改版、定时任务升级、文件浏览器独立窗口、频道消息卡片、图片编辑入库；此前 5.9.3",
-    "fetched_at": "2026-11-09T12:00:00Z"
+    "last_seen_summary": "最新仍为 5.11.0（11-03 灰度）：首页改版、定时任务升级、独立文件浏览器、频道消息卡片、图片编辑入库；此前 5.9.3",
+    "fetched_at": "2026-11-10T20:10:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "最新为 11-06 两篇实操：K12 续费分析报告与 WorkBuddy/CodeBuddy 选型对比；此前 10-19 开源 AIWorkbench 横评",
-    "fetched_at": "2026-11-09T12:00:00Z"
+    "fetched_at": "2026-11-10T20:12:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新 10-30 Rebuilding Manus with Manus 工程复盘；此前 10-13 波士顿案例与 OPPO 合作、10-01 Video Editor 与 Game Dev",
-    "fetched_at": "2026-11-09T12:00:00Z"
+    "last_seen_summary": "最新 11-06 数据 Agent 构建复盘；此前 10-30 Rebuilding Manus、10-13 波士顿案例与 OPPO 合作、10-01 Video Editor",
+    "fetched_at": "2026-11-10T20:15:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为 V0.5.1（02-05）NATS EventBus、knowledge openapi、会话隔离与安全修复，无新版本",
-    "fetched_at": "2026-11-09T12:00:00Z"
+    "fetched_at": "2026-11-10T20:18:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新预发布 v2.3.0-beta.3（11-09）：AnySearch 默认搜索、OpenViking 记忆插件、本地 Piccolo 运行时、审批通知；稳定线 v2.2.2.post1",
-    "fetched_at": "2026-11-09T12:00:00Z"
+    "last_seen_summary": "最新预发布 v2.3.0-beta.4（11-10）：渠道插件依赖保留、依赖安装恢复、社区远程密码登录；beta.3 为 AnySearch 默认搜索与 OpenViking 记忆",
+    "fetched_at": "2026-11-10T20:22:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新稳定 2026.11.2（11-08）诊断日志脱敏、provider 与导航信任边界、账号安全投递、网关可用性与更新恢复；预发布 2026.11.5-beta.1",
-    "fetched_at": "2026-11-09T12:00:00Z"
+    "last_seen_summary": "最新稳定 2026.11.3（11-10）安全与可靠性修复、凭据隔离、沙箱子任务交接加固；预发布 2026.11.5-beta.1",
+    "fetched_at": "2026-11-10T20:26:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新 11-03 从 OpenClaw 到 Super Agent 演进长文（腾讯游戏数据团队）；此前 10-26 NemoClaw+vLLM DGX Spark 教程",
-    "fetched_at": "2026-11-09T12:00:00Z"
+    "fetched_at": "2026-11-10T20:30:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "日历已排至 12-14；11-09 三场、11-11 Pentland、11-13 两场、11-16 OpenAI、11-18 AI100，另有 12-02 Guibas、12-09 Christin、12-14 Jo",
-    "fetched_at": "2026-11-09T12:00:00Z"
+    "last_seen_summary": "日历已排至 12-14；11-11 Pentland、11-13 两场、11-16 OpenAI、11-18 AI100 与 Tolias、12-02 Guibas、12-09 Christin、12-14 Jo",
+    "fetched_at": "2026-11-10T20:36:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "置顶 10-21 数字经济实验室劳动力市场看板，另有 10-19 医疗 AI 评测、10-14 责任归属、10-07 员工 AI 接纳度",
-    "fetched_at": "2026-11-09T12:00:00Z"
+    "last_seen_summary": "置顶 11-10 AI100 第三份报告解读；另有 10-21 劳动力市场看板、10-19 医疗 AI 评测、10-14 责任归属",
+    "fetched_at": "2026-11-10T20:34:00Z"
   },
   "workbuddy_official": {
     "last_seen_summary": "最新仍为 5.9.3（10-27）迁移分类选择与100GB上限、Windows升级与sandbox修复；无更新版本",

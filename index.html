@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>AI Agent 赛道日报 2026-11-09</title>
+<title>AI Agent 赛道日报 2026-11-10</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
@@ -95,41 +95,52 @@
   <header>
     <h1>AI Agent 赛道日报</h1>
     <div class="meta">
-      <span>2026-11-09</span>
-      <span class="count-major">重大信号 × 1</span>
-      <span class="count-minor">常规更新 × 0</span>
+      <span>2026-11-10</span>
+      <span class="count-major">重大信号 × 2</span>
+      <span class="count-minor">常规更新 × 2</span>
     </div>
   </header>
 
   <section class="signals">
     <h2>Signals</h2>
-    <div class="signal pill-major"><span class="vendor">Alibaba</span><span class="title">QwenPaw v2.3.0-beta.3：AnySearch 成默认搜索、OpenViking 记忆插件、本地 Piccolo 运行时</span><div class="summary">2026-11-09 放出 v2.3.0-beta.3 预发布：web_search 默认提供方切换为 AnySearch；新增长期记忆插件 OpenViking；Piccolo 本地模型支持运行时安装、模型源选择与双向候选打分；桌面端新增审批通知，Matrix 默认安装 E2EE 依赖，钉钉长回复按 markdown 分片；Console 持久化插件市场安装来源并重构依赖检查。</div><a class="src" href="https://github.com/agentscope-ai/QwenPaw/releases">来源 →</a></div>
+    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 2026.11.3 稳定版发布</span><div class="summary">11-10 发布 2026.11.3 稳定版，无新增配置项与功能，集中修复安全与可靠性问题：私有子任务结果不再泄露到流式回复、工具失败显式上报、鉴权在运行截止时间强制取消、沙箱图像访问限定允许目录、工作区迁移前校验证书指纹、插件结果按连接凭据隔离、Firecrawl 与 Exa 密钥脱敏、Gateway 启动与更新恢复链路加固。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div><div class="signal pill-major"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 发布第三份 AI100 报告</span><div class="summary">11-10 官网发布《The World Has Changed: Insights From The New AI100 Report》，第三份 AI100 报告《AI Goes Mainstream: The Scaling Era and the Rise of Generative AI》正式面世，覆盖战场目标识别、合成媒体、监管与治理等议题，结论为技术已超出预期与治理节奏；11-18 将举办由 Michael Wooldridge 主讲的配套研讨会。</div><a class="src" href="https://hai.stanford.edu/news">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Alibaba</span><span class="title">QwenPaw v2.3.0-beta.4 预发布</span><div class="summary">11-10 推送 v2.3.0-beta.4，修复渠道插件依赖在升级后丢失与渠道启动失败、恢复被中断的增量依赖安装，并新增社区渠道使用已保存凭据的远程密码登录；2.3.0 正式版仍未发布。</div><a class="src" href="https://github.com/agentscope-ai/QwenPaw/releases">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Manus</span><span class="title">Manus 发布数据 Agent 构建复盘</span><div class="summary">11-06 官方博客发布《How we built a data agent with Manus to help every team make better decisions》，属工程与落地方法论文章，非新功能或版本发布。</div><a class="src" href="https://manus.im/blog">来源 →</a></div>
   </section>
 
   <main class="report">
-    <h1>AI Agent 赛道日报 2026-11-09</h1>
+    <h1>AI Agent 赛道日报 2026-11-10</h1>
 <h2>摘要</h2>
-<p>今日可读源中仅阿里 QwenPaw 出现新动作：开源版放出 v2.3.0-beta.3，把 AnySearch 设为默认联网搜索提供方，并首次将本地小模型 Piccolo 做成可安装运行时。其余厂商的官方更新日志与社区页面在过去 24 小时内没有新增条目。</p>
+<p>今日赛道动态集中在开源 Agent 运行时与学术机构：OpenClaw 发布 2026.11.3 稳定版，重点加固凭据隔离、沙箱图像访问与子任务交接可靠性；阿里 QwenPaw 推送 v2.3.0-beta.4，修复插件依赖与渠道启动问题并新增社区远程密码登录；Stanford HAI 发布第三份 AI100 报告《AI Goes Mainstream》，指出技术发展已超出治理预期；Manus 官方博客补充数据 Agent 的内部构建复盘。</p>
 <h2>重大信号</h2>
 <ul>
-<li><strong>[Alibaba / QwenPaw]</strong> v2.3.0-beta.3 预发布（2026-11-09）：默认联网搜索切换为 AnySearch，新增 OpenViking 记忆插件，本地 Piccolo 模型运行时开始支持安装与模型源选择，桌面端增加审批通知。来源：https://github.com/agentscope-ai/QwenPaw/releases</li>
+<li>[OpenClaw] 2026.11.3 稳定版发布，含私有子任务结果隔离、工具失败可见化、鉴权超时取消、沙箱内图像预览路径约束、工作区连接证书校验等多项安全与可靠性修复 —— https://github.com/openclaw/openclaw/releases</li>
+<li>[Stanford HAI] AI100 第三份报告《AI Goes Mainstream: The Scaling Era and the Rise of Generative AI》于 11-10 发布，覆盖战场目标识别到合成媒体等议题，认为技术已跑在预期与治理之前，并将于 11-18 举办配套研讨会 —— https://hai.stanford.edu/news</li>
+</ul>
+<h2>开源 / OpenClaw</h2>
+<ul>
+<li>发布 2026.11.3 稳定版（11-10 18:53 UTC）。新增能力为零，全部为修复：私有子任务完成结果不再混入流式对话回复；父任务取消子任务后可继续交接替换工作，不再被已取消子任务的完成回执阻塞；未被应答的工具失败会显式上报，而非静默当作成功结束；provider 鉴权在运行截止时间强制中断并向下传播取消；全访问模式下沙箱图像预览仍限制在允许目录内；工作区迁移前校验证书、保留已保存的节点证书指纹。</li>
+<li>凭据隔离面向插件层加固：复用与缓存的插件结果按连接凭据隔离，其他插件的传输钩子限定在 provider 源；Firecrawl 搜索/抓取密钥与 Exa 错误中的密钥均做脱敏；托管 Signal 守护进程与内置语言服务器不再继承无关的 Gateway 密钥。</li>
+<li>Gateway 与更新链路：减少启动期模块文件加载开销，修复中止命令检测遇长标点串时卡顿；profile 更新可识别自身维护锁，包存在性检查超时后需重新确认目录身份才替换并保留回滚；定时任务 cron 存储失败不再导致 Gateway 退出。</li>
+<li>渠道与终端：Twitch IRC 内容不再写入解析错误日志，多笔 Tlon 审批待处理时强制显式请求 ID；终端会话的 /reset soft 改为转发至 Gateway 而非硬重置；Git 修复流程保留不确定失败状态。</li>
+<li>链接：https://github.com/openclaw/openclaw/releases</li>
 </ul>
 <h2>阿里 QwenPaw</h2>
 <ul>
-<li>发布 v2.3.0-beta.3（2026-11-09 11:44，预发布），承接 beta.2 的 channels 插件化改造，本轮以能力接线与稳定性修复为主：https://github.com/agentscope-ai/QwenPaw/releases</li>
-<li>搜索能力变更：web_search 默认提供方改为 AnySearch，并补充了内置搜索提供方的文档说明，属于对默认工具链的实质性替换。</li>
-<li>本地模型闭环推进：新增长期记忆插件 OpenViking（含前端 lockfile）；Piccolo 本地模型支持运行时安装、模型源选择与双向候选打分，本地侧推理能力继续下沉。</li>
-<li>桌面与协作端：新增审批通知；Matrix 默认安装 E2EE 依赖并修复 Windows 下 crypto store 命名与旧状态迁移；钉钉长回复按 markdown 分片，避免超长消息被截断。</li>
-<li>社区与插件生态：集成 QwenPaw community 与 inbox；Console 侧持久化市场安装来源，使 Update All 覆盖第三方插件，并重构插件依赖检查与 Windows 依赖升级流程。</li>
-<li>稳定性与安全：shell 增加可选的记忆保护并可在 Console 实时配置；上下文摘要兼容慢速模型与统一 token 限制；SSE 关闭 nginx 缓冲；修复 CRLF 行尾被改写、上下文溢出恢复、渠道泄漏自动记忆召回载荷等问题。</li>
+<li>预发布 v2.3.0-beta.4（11-10 14:46）为小步修复版：渠道插件依赖在升级后保留、修复渠道启动失败；插件恢复被中断的增量依赖安装；社区渠道支持使用已保存凭据的远程密码登录。</li>
+<li>上一个预发布 v2.3.0-beta.3（11-09）仍为本次 2.3 线主体内容：AnySearch 成为默认网页搜索、OpenViking 记忆插件、本地 Piccolo 运行时安装与模型源选择、桌面端审批通知、Matrix 默认安装 E2EE 依赖、DingTalk 长回复分片等。</li>
+<li>稳定线仍为 v2.2.2.post1，2.3.0 正式版尚未发布。</li>
+<li>链接：https://github.com/agentscope-ai/QwenPaw/releases</li>
 </ul>
-<h2>其余厂商</h2>
+<h2>Stanford HAI</h2>
 <ul>
-<li>腾讯 WorkBuddy 官方更新日志仍停留在 5.11.0（2026-11-03 灰度），无新版本；腾讯云开发者社区最新投稿仍为 11-06 的两篇实操（K12 续费分析报告、WorkBuddy 与 CodeBuddy 选型），无新增内容。</li>
-<li>Manus 博客最新仍为 10-30 的工程复盘《Rebuilding Manus with Manus》，无新文章。</li>
-<li>字节 Coze Studio releases 最新仍为 V0.5.1（02-05），无新版本。</li>
-<li>OpenClaw 最新稳定版仍为 2026.11.2（11-08），预发布 2026.11.5-beta.1 未推进；53AI 合集最新仍为 11-03 的 Super Agent 演进长文。</li>
-<li>Stanford HAI 新闻页无新增条目，活动日历亦无新增场次。</li>
+<li>11-10 发布报告解读文章《The World Has Changed: Insights From The New AI100 Report》：第三份 AI100 报告覆盖从战场目标识别到合成媒体的应用面，结论是这项技术已同时超出外界预期与现有治理框架。</li>
+<li>配套活动已在日历中：11-18 12:00-13:15 由研究 panel 主席 Michael Wooldridge 主讲的《AI100 | AI Goes Mainstream: The Scaling Era and the Rise of Generative AI》。</li>
+<li>链接：https://hai.stanford.edu/news</li>
+</ul>
+<h2>Manus</h2>
+<ul>
+<li>11-06 发布产品/工程文《How we built a data agent with Manus to help every team make better decisions》，讲述如何用 Manus 构建面向团队决策的数据 Agent，属方法论与内部实践复盘，非新功能发布。</li>
+<li>产品线近期主线仍为 9-28 的 Manus 2.0（Cascade agent harness、Cloud Computer、Automations、Studio、Cue）以及 10-01 的 Video Editor 与 Game Dev。</li>
+<li>链接：https://manus.im/blog</li>
 </ul>
   </main>
 

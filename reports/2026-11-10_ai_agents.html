@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-11-10</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-11-10</span>
+      <span class="count-major">重大信号 × 2</span>
+      <span class="count-minor">常规更新 × 2</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 2026.11.3 稳定版发布</span><div class="summary">11-10 发布 2026.11.3 稳定版，无新增配置项与功能，集中修复安全与可靠性问题：私有子任务结果不再泄露到流式回复、工具失败显式上报、鉴权在运行截止时间强制取消、沙箱图像访问限定允许目录、工作区迁移前校验证书指纹、插件结果按连接凭据隔离、Firecrawl 与 Exa 密钥脱敏、Gateway 启动与更新恢复链路加固。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div><div class="signal pill-major"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 发布第三份 AI100 报告</span><div class="summary">11-10 官网发布《The World Has Changed: Insights From The New AI100 Report》，第三份 AI100 报告《AI Goes Mainstream: The Scaling Era and the Rise of Generative AI》正式面世，覆盖战场目标识别、合成媒体、监管与治理等议题，结论为技术已超出预期与治理节奏；11-18 将举办由 Michael Wooldridge 主讲的配套研讨会。</div><a class="src" href="https://hai.stanford.edu/news">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Alibaba</span><span class="title">QwenPaw v2.3.0-beta.4 预发布</span><div class="summary">11-10 推送 v2.3.0-beta.4，修复渠道插件依赖在升级后丢失与渠道启动失败、恢复被中断的增量依赖安装，并新增社区渠道使用已保存凭据的远程密码登录；2.3.0 正式版仍未发布。</div><a class="src" href="https://github.com/agentscope-ai/QwenPaw/releases">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Manus</span><span class="title">Manus 发布数据 Agent 构建复盘</span><div class="summary">11-06 官方博客发布《How we built a data agent with Manus to help every team make better decisions》，属工程与落地方法论文章，非新功能或版本发布。</div><a class="src" href="https://manus.im/blog">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-11-10</h1>
+<h2>摘要</h2>
+<p>今日赛道动态集中在开源 Agent 运行时与学术机构：OpenClaw 发布 2026.11.3 稳定版，重点加固凭据隔离、沙箱图像访问与子任务交接可靠性；阿里 QwenPaw 推送 v2.3.0-beta.4，修复插件依赖与渠道启动问题并新增社区远程密码登录；Stanford HAI 发布第三份 AI100 报告《AI Goes Mainstream》，指出技术发展已超出治理预期；Manus 官方博客补充数据 Agent 的内部构建复盘。</p>
+<h2>重大信号</h2>
+<ul>
+<li>[OpenClaw] 2026.11.3 稳定版发布，含私有子任务结果隔离、工具失败可见化、鉴权超时取消、沙箱内图像预览路径约束、工作区连接证书校验等多项安全与可靠性修复 —— https://github.com/openclaw/openclaw/releases</li>
+<li>[Stanford HAI] AI100 第三份报告《AI Goes Mainstream: The Scaling Era and the Rise of Generative AI》于 11-10 发布，覆盖战场目标识别到合成媒体等议题，认为技术已跑在预期与治理之前，并将于 11-18 举办配套研讨会 —— https://hai.stanford.edu/news</li>
+</ul>
+<h2>开源 / OpenClaw</h2>
+<ul>
+<li>发布 2026.11.3 稳定版（11-10 18:53 UTC）。新增能力为零，全部为修复：私有子任务完成结果不再混入流式对话回复；父任务取消子任务后可继续交接替换工作，不再被已取消子任务的完成回执阻塞；未被应答的工具失败会显式上报，而非静默当作成功结束；provider 鉴权在运行截止时间强制中断并向下传播取消；全访问模式下沙箱图像预览仍限制在允许目录内；工作区迁移前校验证书、保留已保存的节点证书指纹。</li>
+<li>凭据隔离面向插件层加固：复用与缓存的插件结果按连接凭据隔离，其他插件的传输钩子限定在 provider 源；Firecrawl 搜索/抓取密钥与 Exa 错误中的密钥均做脱敏；托管 Signal 守护进程与内置语言服务器不再继承无关的 Gateway 密钥。</li>
+<li>Gateway 与更新链路：减少启动期模块文件加载开销，修复中止命令检测遇长标点串时卡顿；profile 更新可识别自身维护锁，包存在性检查超时后需重新确认目录身份才替换并保留回滚；定时任务 cron 存储失败不再导致 Gateway 退出。</li>
+<li>渠道与终端：Twitch IRC 内容不再写入解析错误日志，多笔 Tlon 审批待处理时强制显式请求 ID；终端会话的 /reset soft 改为转发至 Gateway 而非硬重置；Git 修复流程保留不确定失败状态。</li>
+<li>链接：https://github.com/openclaw/openclaw/releases</li>
+</ul>
+<h2>阿里 QwenPaw</h2>
+<ul>
+<li>预发布 v2.3.0-beta.4（11-10 14:46）为小步修复版：渠道插件依赖在升级后保留、修复渠道启动失败；插件恢复被中断的增量依赖安装；社区渠道支持使用已保存凭据的远程密码登录。</li>
+<li>上一个预发布 v2.3.0-beta.3（11-09）仍为本次 2.3 线主体内容：AnySearch 成为默认网页搜索、OpenViking 记忆插件、本地 Piccolo 运行时安装与模型源选择、桌面端审批通知、Matrix 默认安装 E2EE 依赖、DingTalk 长回复分片等。</li>
+<li>稳定线仍为 v2.2.2.post1，2.3.0 正式版尚未发布。</li>
+<li>链接：https://github.com/agentscope-ai/QwenPaw/releases</li>
+</ul>
+<h2>Stanford HAI</h2>
+<ul>
+<li>11-10 发布报告解读文章《The World Has Changed: Insights From The New AI100 Report》：第三份 AI100 报告覆盖从战场目标识别到合成媒体的应用面，结论是这项技术已同时超出外界预期与现有治理框架。</li>
+<li>配套活动已在日历中：11-18 12:00-13:15 由研究 panel 主席 Michael Wooldridge 主讲的《AI100 | AI Goes Mainstream: The Scaling Era and the Rise of Generative AI》。</li>
+<li>链接：https://hai.stanford.edu/news</li>
+</ul>
+<h2>Manus</h2>
+<ul>
+<li>11-06 发布产品/工程文《How we built a data agent with Manus to help every team make better decisions》，讲述如何用 Manus 构建面向团队决策的数据 Agent，属方法论与内部实践复盘，非新功能发布。</li>
+<li>产品线近期主线仍为 9-28 的 Manus 2.0（Cascade agent harness、Cloud Computer、Automations、Studio、Cue）以及 10-01 的 Video Editor 与 Game Dev。</li>
+<li>链接：https://manus.im/blog</li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>
