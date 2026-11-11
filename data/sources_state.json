@@ -16,8 +16,8 @@
     "fetched_at": "2026-11-10T20:18:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新预发布 v2.3.0-beta.4（11-10）：渠道插件依赖保留、依赖安装恢复、社区远程密码登录；beta.3 为 AnySearch 默认搜索与 OpenViking 记忆",
-    "fetched_at": "2026-11-10T20:22:00Z"
+    "last_seen_summary": "最新稳定 v2.3.0（11-11 转正）：Piccolo 本地决策模型、Advisor Mode、Python Code Mode、ReMe 0.4.2.0、ChatGPT 订阅登录、双语评测页",
+    "fetched_at": "2026-11-11T05:10:00Z"
   },
   "openclaw_releases": {
     "last_seen_summary": "最新稳定 2026.11.3（11-10）安全与可靠性修复、凭据隔离、沙箱子任务交接加固；预发布 2026.11.5-beta.1",
@@ -28,12 +28,12 @@
     "fetched_at": "2026-11-10T20:30:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "日历已排至 12-14；11-11 Pentland、11-13 两场、11-16 OpenAI、11-18 AI100 与 Tolias、12-02 Guibas、12-09 Christin、12-14 Jo",
-    "fetched_at": "2026-11-10T20:36:00Z"
+    "last_seen_summary": "日历延伸至 2027-05-24 PhyStat 2027；11-11 Pentland、11-13 两场、11-16 OpenAI、11-18 AI100 与 Tolias、12-02 Guibas、12-09 Christin、12-14 Jo",
+    "fetched_at": "2026-11-11T05:10:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "置顶 11-10 AI100 第三份报告解读；另有 10-21 劳动力市场看板、10-19 医疗 AI 评测、10-14 责任归属",
-    "fetched_at": "2026-11-10T20:34:00Z"
+    "last_seen_summary": "置顶 11-11 神经科学与 AI 交叉研究资助；此前 11-10 AI100 第三份报告解读、10-21 劳动力市场看板、10-19 医疗 AI 评测",
+    "fetched_at": "2026-11-11T05:10:00Z"
   },
   "workbuddy_official": {
     "last_seen_summary": "最新仍为 5.9.3（10-27）迁移分类选择与100GB上限、Windows升级与sandbox修复；无更新版本",
