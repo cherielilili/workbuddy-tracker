@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>AI Agent 赛道日报 2026-11-11</title>
+<title>AI Agent 赛道日报 2026-11-12</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
@@ -95,40 +95,32 @@
   <header>
     <h1>AI Agent 赛道日报</h1>
     <div class="meta">
-      <span>2026-11-11</span>
-      <span class="count-major">重大信号 × 1</span>
-      <span class="count-minor">常规更新 × 1</span>
+      <span>2026-11-12</span>
+      <span class="count-major">重大信号 × 0</span>
+      <span class="count-minor">常规更新 × 0</span>
     </div>
   </header>
 
   <section class="signals">
     <h2>Signals</h2>
-    <div class="signal pill-major"><span class="vendor">Alibaba</span><span class="title">QwenPaw v2.3.0 正式发布：本地决策模型 + Advisor Mode</span><div class="summary">v2.3.0 由 beta.4 转正，新增 Piccolo 4B/9B/27B 本地决策模型用于工具审查与上下文压缩、Advisor Mode 双模型协作、实验性 Python Code Mode、ReMe 0.4.2.0 图像记忆与自动标签、ChatGPT 订阅登录、Firecrawl/Tavily 检索与双语评测页。</div><a class="src" href="https://github.com/agentscope-ai/QwenPaw/releases">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI：神经科学与 AI 交叉研究再获联合资助</span><div class="summary">11-11 新闻，Wu Tsai Neuro 与 HAI 继续合作资助精神疾病治疗、脑发育与以人类经验改进 AI 模型的研究方向。</div><a class="src" href="https://hai.stanford.edu/news">来源 →</a></div>
+    
   </section>
 
   <main class="report">
-    <h1>AI Agent 赛道日报 2026-11-11</h1>
+    <h1>AI Agent 赛道日报 2026-11-12</h1>
 <h2>摘要</h2>
-<p>今日 QwenPaw 结束 2.3.x 公测、正式发布稳定版 v2.3.0，一次性补齐本地决策模型、Advisor/Python Code 双模式、记忆体系升级与双语评测页，是本轮更新中体量最大的产品级变动。Stanford HAI 方面新增一条神经科学与 AI 交叉研究的资助类新闻，活动日历则延伸至 2027 年的 PhyStat 会议。其余主流 Agent 产品线今日无版本或文档增量。</p>
+<p>今日赛道整体平稳，仅 OpenClaw 推送 2026.11.5-beta.2 预发布版本，重点在长会话历史分页、macOS 凭据保留与多项安全加固。腾讯 WorkBuddy、字节 Coze、阿里 QwenPaw、Manus 均无新版本或官方公告，Stanford HAI 也无新增日程或研究发布。</p>
 <h2>重大信号</h2>
 <ul>
-<li><strong>[Alibaba / QwenPaw]</strong> v2.3.0 正式版发布（由 beta.4 转正），核心增量：Piccolo 4B/9B/27B 本地决策模型用于工具审查与上下文压缩、Advisor Mode（顾问模型 + 执行模型双模协作）、实验性 Python Code Mode、ReMe 0.4.2.0 图像记忆与自动标签、支持以 ChatGPT 订阅登录本地安装、Firecrawl/Tavily 检索接入、AnySearch 成为默认搜索、双语评测页。来源：https://github.com/agentscope-ai/QwenPaw/releases</li>
+<li>今日无重大信号。</li>
 </ul>
-<h2>阿里 QwenPaw</h2>
+<h2>OpenClaw</h2>
 <ul>
-<li>v2.3.0 稳定版发布（11-11），此前为 v2.3.0-beta.4 预发布；本次为功能级大版本，非补丁更新。https://github.com/agentscope-ai/QwenPaw/releases</li>
-<li>本地决策模型：新增 Piccolo 4B / 9B / 27B，用于工具调用审查与上下文压缩，提供 BF16 与 Q8_0 推荐配置，支持运行时安装更新及 Hugging Face / ModelScope 下载；审查与压缩仍为可选项，本地运行时同时只服务一个模型。</li>
-<li>Agent 模式：新增 Advisor Mode，顾问模型与执行模型配对，先出开篇计划、按需咨询顾问，并在工具反复失败后调整计划；新增实验性 Python Code Mode，可在一个脚本内组合已启用工具、并发调用并保序输出文本与媒体（原生工具权限仍生效，不开启沙箱）。</li>
-<li>记忆体系：ReMe 升级至 0.4.2.0，支持图像记忆、自动标签、标签筛选检索与决策模型上下文压缩（保留原始工具输出引用）；ReMe Light 记忆文件支持标签页浏览；新增 OpenViking 记忆插件，支持自动召回与已完结轮次持久化。</li>
-<li>模型与审批：本地安装可使用 ChatGPT 订阅登录并选择账号可用模型（无需 Platform API Key）；TypeSafe/JEV 决策模型可与聊天模型分开配置并用于工具审批，显式拒绝仍强制生效，不确定或服务失败转人工审批。</li>
-<li>检索与渠道：新增 Firecrawl 作为网页检索 provider、Tavily 支持可选 API Key 与无 Key 降级；AnySearch 成为未保存 provider 时的默认检索；Matrix 渠道随安装带入端到端加密依赖。</li>
-<li>控制台与桌面：新增可选 OpenUI 插件在回复内渲染交互表单并保持流式状态；Inbox 增加仅看未读筛选；桌面多窗口共享后台服务，关闭最后一个窗口后任务继续；审批、回复完成与后台任务支持浏览器/桌面通知并可点击跳回会话。</li>
-<li>其他：QwenPaw Community 支持控制台内浏览、排序与评论并同步至收件箱；Creator 升级 2.0.4，Data 升级 1.0.3；新增双语评测页，提供基准分数、成本与运行时对比、可调权重、版本历史与结果下载。</li>
-</ul>
-<h2>Stanford HAI</h2>
-<ul>
-<li>新闻：11-11 发布《Research Teams Mine the Intersection of Neuroscience and AI》，Wu Tsai Neuro 与 HAI 再次联合资助相关研究，方向覆盖精神疾病治疗、脑发育理解以及以人类经验启发 AI 模型。https://hai.stanford.edu/news</li>
-<li>活动：日历新增 2027-05-24 PhyStat 2027 会议（Center for Decoding the Universe，物理与 AI 交叉），活动排期由此从 12 月延伸至次年；11-11 Pentland、11-13 两场（LLM-as-Judge、O*NET 用 AI 理解工作）、11-16 OpenAI 的 Chris Ong、11-18 AI100 与 Tolias 等场次与上次记录一致。https://hai.stanford.edu/events</li>
+<li>发布预发布版本 2026.11.5-beta.2（2026-11-12 00:43），稳定版仍为 2026.11.3。核心变化为超长会话可双向分页浏览历史、显示历史边界，并对归档读取做有界限制，缓解大上下文会话的加载阻塞（#188450、#188483、#190690）。</li>
+<li>可靠性修复：消息投递对已提交输入的重试不再产生重复轮次，内联编辑期间保留排队消息；会话快照补全、压缩过程中保留活跃请求来源，中断后可恢复配置的 fallback 模型。</li>
+<li>安全与认证加固：使用 fast-uri 4.2.3 拒绝畸形 URI 标识符；Discord SDK 提前拒绝超大有界集合；Anthropic setup-token 凭据与 API-key 配置分离；macOS 应用在配置保存失败或关闭 Tailscale 暴露时保留已保存密钥与 Gateway 认证。</li>
+<li>平台层调整：Gemini Flash 在官方端点改用 Interactions API 并保留自定义端点覆盖；Android 结束 Talk 不再取消 Gateway 已接受的工作；Matrix 新线程会话不再复制房间记录；PostgreSQL 会话搜索稳定走文本索引。</li>
+<li>来源：https://github.com/openclaw/openclaw/releases</li>
 </ul>
   </main>
 

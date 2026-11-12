@@ -1,39 +1,39 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新仍为 5.11.0（11-03 灰度）：首页改版、定时任务升级、独立文件浏览器、频道消息卡片、图片编辑入库；此前 5.9.3",
-    "fetched_at": "2026-11-10T20:10:00Z"
+    "fetched_at": "2026-11-12T04:35:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "最新为 11-06 两篇实操：K12 续费分析报告与 WorkBuddy/CodeBuddy 选型对比；此前 10-19 开源 AIWorkbench 横评",
-    "fetched_at": "2026-11-10T20:12:00Z"
+    "fetched_at": "2026-11-12T04:35:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新 11-06 数据 Agent 构建复盘；此前 10-30 Rebuilding Manus、10-13 波士顿案例与 OPPO 合作、10-01 Video Editor",
-    "fetched_at": "2026-11-10T20:15:00Z"
+    "fetched_at": "2026-11-12T04:35:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为 V0.5.1（02-05）NATS EventBus、knowledge openapi、会话隔离与安全修复，无新版本",
-    "fetched_at": "2026-11-10T20:18:00Z"
+    "fetched_at": "2026-11-12T04:35:00Z"
   },
   "qwenpaw_releases": {
     "last_seen_summary": "最新稳定 v2.3.0（11-11 转正）：Piccolo 本地决策模型、Advisor Mode、Python Code Mode、ReMe 0.4.2.0、ChatGPT 订阅登录、双语评测页",
-    "fetched_at": "2026-11-11T05:10:00Z"
+    "fetched_at": "2026-11-12T04:35:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新稳定 2026.11.3（11-10）安全与可靠性修复、凭据隔离、沙箱子任务交接加固；预发布 2026.11.5-beta.1",
-    "fetched_at": "2026-11-10T20:26:00Z"
+    "last_seen_summary": "最新预发布 2026.11.5-beta.2（11-12）：长会话双向分页、消息投递去重、安全与认证加固；稳定版仍 2026.11.3",
+    "fetched_at": "2026-11-12T04:35:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新 11-03 从 OpenClaw 到 Super Agent 演进长文（腾讯游戏数据团队）；此前 10-26 NemoClaw+vLLM DGX Spark 教程",
-    "fetched_at": "2026-11-10T20:30:00Z"
+    "fetched_at": "2026-11-12T04:35:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "日历延伸至 2027-05-24 PhyStat 2027；11-11 Pentland、11-13 两场、11-16 OpenAI、11-18 AI100 与 Tolias、12-02 Guibas、12-09 Christin、12-14 Jo",
-    "fetched_at": "2026-11-11T05:10:00Z"
+    "last_seen_summary": "11-13 LLM as Judges 与 O*NET 工作数据两场研讨会、11-16 OpenAI 研究加速、11-18 AI100 与 Tolias、12-02 NVIDIA 与 Guibas",
+    "fetched_at": "2026-11-12T04:35:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "置顶 11-11 神经科学与 AI 交叉研究资助；此前 11-10 AI100 第三份报告解读、10-21 劳动力市场看板、10-19 医疗 AI 评测",
-    "fetched_at": "2026-11-11T05:10:00Z"
+    "fetched_at": "2026-11-12T04:35:00Z"
   },
   "workbuddy_official": {
     "last_seen_summary": "最新仍为 5.9.3（10-27）迁移分类选择与100GB上限、Windows升级与sandbox修复；无更新版本",
