@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-11-16</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-11-16</span>
+      <span class="count-major">重大信号 × 3</span>
+      <span class="count-minor">常规更新 × 1</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 发布 v2026.11.4 稳定版</span><div class="summary">2026-11-16 发布稳定版 v2026.11.4，含 220 个提交、125 个 PR、90 位贡献者；同步输出面向 Agent 的纯 Markdown changelog、npm 包完整性校验、发布证据链与 AppImage/deb/dmg/zip 等 23 个产物，ClawHub 注册表独立发布；同日另有 2026.11.5-beta.4 预发布。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div><div class="signal pill-major"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 依据 AI Index 发布《The Jagged Edge of the AI Boom》</span><div class="summary">2026-11-15 发布，基于 Stanford AI Index 最新数据指出 AI 投资总额已超过 1 万亿美元，但公众情绪与劳动力市场结果比此前预期更不均衡，属 AI Index 系列年度重要解读。</div><a class="src" href="https://hai.stanford.edu/news">来源 →</a></div><div class="signal pill-major"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 公布 2026 Hoffman-Yee 资助名单</span><div class="summary">2026-11-16 官方公告，7 个跨学科研究团队共获 350 万美元，用于医学、科学、法律与教育领域的人本 AI 研究。</div><a class="src" href="https://hai.stanford.edu/news">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Tencent</span><span class="title">WorkBuddy 发布 5.11.2 / 5.11.3</span><div class="summary">5.11.2（11-10）新增侧栏置顶/最近/分组分区、任务置顶排序、新建会话打开本地文件夹、桌面与移动端侧栏实时同步、Extension Service 声明继承代理；5.11.3（11-15）集中修复分组下拉、未读红点、本地历史会话丢失、浅色/深色主题错显、CE 会话 MCP 工具缺失与 Buddy 应用域名端点等问题。</div><a class="src" href="https://www.codebuddy.cn/docs/workbuddy/Changelog">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-11-16</h1>
+<h2>摘要</h2>
+<p>腾讯 WorkBuddy 连续推送 5.11.2 与 5.11.3，重点在侧栏任务组织（置顶/最近/分组）与多端同步，并集中修复沙箱、会话与主题类问题。开源侧 OpenClaw 发布 2026.11.4 稳定版，含 220 个提交、125 个 PR、90 位贡献者。Stanford HAI 发布 2026 Hoffman-Yee 资助名单，并依据 AI Index 最新数据指出 AI 投资规模已突破 1 万亿美元、公众情绪与就业影响呈不均衡分布。</p>
+<h2>重大信号</h2>
+<ul>
+<li><strong>[OpenClaw]</strong> OpenClaw v2026.11.4 正式版发布（2026-11-16），相较此前稳定版 2026.11.3 累计 220 个提交、125 个 PR、90 位贡献者，并同步更新 ClawHub 插件注册表与多平台构建产物（AppImage / deb / dmg），同日另有 2026.11.5-beta.4 预发布。来源：https://github.com/openclaw/openclaw/releases</li>
+<li><strong>[Stanford HAI]</strong> 发布《The Jagged Edge of the AI Boom》（2026-11-15），基于 Stanford AI Index 最新数据指出 AI 投资总额已超过 1 万亿美元，但公众情绪与劳动力市场结果比此前判断更不均衡，属 AI Index 系列的重要年度解读。来源：https://hai.stanford.edu/news</li>
+<li><strong>[Stanford HAI]</strong> 公布 2026 年度 Hoffman-Yee 资助结果（2026-11-16），7 个跨学科研究团队共获 350 万美元，覆盖医学、科学、法律与教育方向，为官方年度资助公告。来源：https://hai.stanford.edu/news</li>
+</ul>
+<h2>腾讯 WorkBuddy</h2>
+<ul>
+<li><strong>5.11.3（2026-11-15）</strong>：修复任务运行会话顶栏编辑时分组下拉缺少「新建分组」与「选择本地文件夹」选项；修复置顶任务经右键移入分组与拖拽行为不一致、取消置顶后未落到目标分组；修复拖拽任务时侧栏偶现空白置顶区；修复定时任务侧栏入口与聚合页未读红点点击后不消失；修复本地历史会话在特定情况下从侧栏任务列表丢失；修复设置独立窗口在浅色模式下误显示为深色、无外观权限账号被云端外观配置强制切深色、切换新皮肤后主窗口回退浅色；修复 CE 会话缺少项目资源注册导致项目相关 MCP 工具与技能目录不可用；修复 Buddy 应用请求未走正确域名端点。来源：https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
+<li><strong>5.11.2（2026-11-10）</strong>：新增侧栏「置顶 / 最近 / 分组」独立分区展示并支持按类型筛选；新增任务置顶交互与排序管理；新增新建会话时打开本地文件夹入口；新增桌面端与移动端侧栏数据实时同步；新增 Extension Service 支持声明继承 WorkBuddy 代理；优化任务执行时即时展示上一轮产物卡片、沙箱在轮次结束后及时释放以降低峰值占用、连接器只读连接不再抢先取消授权、云端图片识别、定时任务卡片去重；修复侧栏闪烁与未读点异常、产物卡片偶现消失、云端任务被误判失败、部分场景沙箱未释放、思考设置不生效、技能分享失败等。来源：https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
+<li>另可见 5.11.1（2026-11-03）已随灰度转为常规修复版，主要改善云端任务离屏恢复、输入框工具栏稳定性、云电脑连接器与企业微信授权流程。来源：https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
+</ul>
+<h2>OpenClaw</h2>
+<ul>
+<li><strong>v2026.11.4 稳定版（2026-11-16 发布）</strong>：累计 220 个提交、125 个 PR、90 位贡献者，官方同时提供面向人类的 release notes 与面向 AI Agent 的 plain Markdown changelog 两种格式；同步发布 npm 包（含 integrity 与 release SHA）、完整发布校验与发布后证据链，以及 AppImage、deb、arm64 dmg、arm64 zip 等 23 个构建产物，ClawHub 注册表为独立发布。来源：https://github.com/openclaw/openclaw/releases</li>
+<li><strong>2026.11.5-beta.4（2026-11-16 预发布）</strong>：紧随 beta.3 之后推送，延续 2026.11.5 预发布线；此前 beta.2 已包含长会话双向分页、消息投递去重与安全认证加固。来源：https://github.com/openclaw/openclaw/releases</li>
+</ul>
+<h2>Stanford HAI</h2>
+<ul>
+<li><strong>《The Jagged Edge of the AI Boom》（2026-11-15）</strong>：基于 Stanford AI Index 的新发现，指出 AI 投资总额已跨越 1 万亿美元门槛，但公众情绪与劳动力市场结果呈现明显的「锯齿状」不均衡，此前对渗透速度的线性预期需修正。来源：https://hai.stanford.edu/news</li>
+<li><strong>2026 Hoffman-Yee Grants 公布（2026-11-16）</strong>：7 个跨学科团队分享 350 万美元资助，方向涵盖医学、科学、法律与教育，强调以人为中心的 AI 研究方法。来源：https://hai.stanford.edu/news</li>
+<li>已知会议节奏不变：11-16 Christopher Ong（OpenAI）研究加速场次、11-18 AI100 第三份报告《AI Goes Mainstream》与 Tolias 场次、12-02 NVIDIA 与 Guibas 场次、12-09 社媒创作者研讨会、12-14 神经数据科学场次、2027-05-24 PhyStat 会议。来源：https://hai.stanford.edu/events</li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>

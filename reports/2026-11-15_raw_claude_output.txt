@@ -1,0 +1,55 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-11-15\n\n## 摘要\n腾讯 WorkBuddy 于今日发布 5.11.3，新增会话流快速问答入口，并在 11-10 的 5.11.2 中完成侧栏置顶/分组改版与桌面移动端数据实时同步；OpenClaw 推送 2026.11.5-beta.3 预发布，继续聚焦大会话可靠性与重启投递安全；Stanford HAI 发布 AI Index 新分析，指出 AI 投资已突破 1 万亿美元，但公众情绪与劳动力市场影响分布并不均衡。\n\n## 重大信号\n- [Tencent] WorkBuddy 5.11.3 发布（2026-11-15）：对话流新增快速问答入口，可在会话中直接发起推荐问答或切回 Agent 模式；同时修复定时任务云端任务混入本地列表、企业版账号未折叠限频付费线路、CE 会话缺少项目资源注册导致项目相关 MCP 工具与技能目录不可用等十余项问题。https://www.codebuddy.cn/docs/workbuddy/Changelog\n- [Tencent] WorkBuddy 5.11.2（2026-11-10）：侧栏改为置顶 / 最近 / 分组独立分区并支持按类型筛选，任务置顶支持管理与排序，新增新建会话时打开本地文件夹入口，桌面端与移动端侧栏数据实时同步（置顶、最近、分组），并优化沙箱轮次结束及时释放。https://www.codebuddy.cn/docs/workbuddy/Changelog\n- [Stanford HAI] AI Index 新分析《The Jagged Edge of the AI Boom》指出，AI 投资规模已突破 1 万亿美元，但公众情绪与劳动力市场结果比此前认知更不均衡，政策与治理层面存在明显落差。https://hai.stanford.edu/news\n\n## 腾讯 WorkBuddy\n- 5.11.3（11-15）新增会话流快速问答入口，可快速发起推荐问答或切回 Agent 模式；修复置顶任务右键移入分组与拖拽行为不一致、拖拽时侧栏空白置顶区、定时任务未读红点不消失、本地历史会话特定情况下丢失、独立设置窗口在浅色模式下误显示为深色、运行期间切换皮肤后主窗口回退为浅色、企业版账号未折叠限频付费线路、CE 会话缺少项目资源注册导致项目 MCP 工具与技能目录不可用、Buddy 应用请求未走正确域名端点等问题。https://www.codebuddy.cn/docs/workbuddy/Changelog\n- 5.11.2（11-10）侧栏新增置顶 / 最近 / 分组独立分区展示并支持按类型筛选；任务置顶交互优化；新建会话增加打开本地文件夹入口；桌面端与移动端侧栏数据实时同步；Extension Service 支持声明继承 WorkBuddy 代理；优化上一轮产物卡片即时展示、分组展开收起动画、分组内会话按更新时间排序、沙箱释放降低峰值占用、连接器只读连接不再抢先取消授权、云端图片识别与定时任务卡片去重。https://www.codebuddy.cn/docs/workbuddy/Changelog\n- 5.11.1（11-03）优化云端任务离屏恢复、输入框工具栏稳定性、云电脑连接器体验、企业微信授权流程、定时任务表现与安装速度，并修复内容丢失、会话卡死、页面崩溃、产物预览异常、技能分享与海外版显示问题。https://www.codebuddy.cn/docs/workbuddy/Changelog\n\n## OpenClaw\n- 2026.11.5-beta.3 预发布（11-15 00:31）：大会话可靠性改进，降低转写索引、裁剪与压缩过程中的内存压力，仅流式传输选定的 hydration 负载并支持可配置摘要字符上限、对引用摘要内容中的凭据做脱敏；重启与投递安全方面，保留排队消息权限上限与已接受入口、交接前完成最终聊天写入、最终 RPC 结算前保留投递所有权；恢复与安装方面改进冷启动初始化、中断工作区恢复、安装器权限掩码与 iMessage Automation 状态提示；另修复 Z.ai Coding Plan 目录模型保留、并发 provider 目录导入去重、Gemini 非字符串参数 schema 枚举、Windows 状态路径大小写比较、macOS LaunchAgents 权限被拒后的恢复等问题。稳定版仍为 2026.11.3。https://github.com/openclaw/openclaw/releases\n\n## Stanford HAI\n- 11-15 新闻《The Jagged Edge of the AI Boom》：基于 Stanford AI Index 新发现，AI 投资超过 1 万亿美元，但公众态度与劳动力市场影响呈现更不均衡的图景，属经济、市场与政策治理交叉议题。https://hai.stanford.edu/news\n",
+  "signals": [
+    {
+      "title": "WorkBuddy 5.11.3 发布：会话流新增快速问答入口并修复多项企业版与 CE 问题",
+      "vendor": "Tencent",
+      "severity": "major",
+      "summary": "2026-11-15 WorkBuddy 发布 5.11.3，新增会话流快速问答入口（可在对话中发起推荐问答或切回 Agent 模式），并修复定时任务云端任务混入本地列表、企业版账号未折叠限频付费线路、CE 会话项目资源注册缺失导致 MCP 工具与技能目录不可用、Buddy 应用请求域名端点错误等问题。",
+      "source": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+    },
+    {
+      "title": "WorkBuddy 5.11.2：侧栏置顶/最近/分组改版与桌面移动端实时同步",
+      "vendor": "Tencent",
+      "severity": "major",
+      "summary": "2026-11-10 版本新增侧栏置顶 / 最近 / 分组独立分区与按类型筛选、任务置顶管理与排序、新建会话打开本地文件夹入口、桌面端与移动端侧栏数据实时同步；同时支持 Extension Service 声明继承 WorkBuddy 代理，优化沙箱释放与连接器授权体验。",
+      "source": "https://www.codebuddy.cn/docs/workbuddy/Changelog"
+    },
+    {
+      "title": "Stanford HAI：AI Index 新分析显示 AI 投资突破 1 万亿美元但影响分布不均",
+      "vendor": "Stanford HAI",
+      "severity": "major",
+      "summary": "11-15 发布的《The Jagged Edge of the AI Boom》基于 Stanford AI Index 新发现，指出 AI 投资已超 1 万亿美元，公众情绪与劳动力市场结果比此前认知更加不均衡，涉及经济、市场与政策治理议题。",
+      "source": "https://hai.stanford.edu/news"
+    },
+    {
+      "title": "OpenClaw 2026.11.5-beta.3 预发布：大会话内存与投递安全加固",
+      "vendor": "OpenClaw",
+      "severity": "minor",
+      "summary": "11-15 推送的 beta.3 降低大转写索引与压缩过程的内存压力，支持可配置摘要字符上限并脱敏引用摘要中的凭据，改进重启期间的排队消息权限与投递所有权保留，修复冷启动、安装器权限、Z.ai 目录模型保留与 macOS 恢复等问题；稳定版未变。",
+      "source": "https://github.com/openclaw/openclaw/releases"
+    }
+  ],
+  "new_state": {
+    "workbuddy_changelog": {
+      "last_seen_summary": "最新 5.11.3（11-15）：会话流快速问答入口与多项修复；5.11.2（11-10）侧栏置顶分组分区与跨端同步；5.11.1 稳定性优化",
+      "fetched_at": "2026-11-15T03:20:00Z"
+    },
+    "tencent_cloud_workbuddy": {
+      "last_seen_summary": "最新 11-06 K12 续费报告实操与选型文；此前多篇用户实测与轻量模型省积分经验，无新增文章",
+      "fetched_at": "2026-11-15T03:22:00Z"
+    },
+    "manus_blog": {
+      "last_seen_summary": "最新仍为 11-06 数据 Agent 构建复盘；此前 10-30 Rebuilding Manus、10-13 波士顿案例与 OPPO 合作，无新文章",
+      "fetched_at": "2026-11-15T03:24:00Z"
+    },
+    "coze_studio_releases": {
+      "last_seen_summary": "最新仍为 V0.5.1（02-05）NATS EventBus、knowledge openapi、会话隔离与安全修复，无新版本",
+      "fetched_at": "2026-11-15T03:26:00Z"
+    },
+    "qwenpaw_releases": {
+      "last_seen_summary": "最新稳定 v2.3.0（11-11 转正）：Piccolo 本地决策模型、Advisor Mode、Python Code Mode、ReMe 0.4.2.0、双语评测页",
+      "fetched_at": "2026-11-15T03:28:00Z"
+    },
+    "openclaw_releases": {
+      "last_seen_summary": "最新预发布 2026.11.5-beta.3（11-15）：大会话内存与投递安全加固、可配置摘要上限
