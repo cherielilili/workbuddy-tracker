@@ -1,39 +1,39 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新 5.11.3（11-15）稳定性修复；5.11.2（11-10）新增侧栏置顶最近分组分区、任务置顶排序、本地文件夹入口与多端同步；5.11.1 已转常规版",
-    "fetched_at": "2026-11-16T09:00:00Z"
+    "last_seen_summary": "最新仍为 5.11.3（11-15）稳定性修复；5.11.2（11-10）新增侧栏置顶最近分组分区与本地文件夹入口，无新版本",
+    "fetched_at": "2026-11-17T10:40:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "最新仍为 11-13 用户实测 WorkBuddy 与 CodeBuddy 选型，轻量模型省 30-50% 积分；11-06 K12 续费报告与出货明细表教程，无新增",
-    "fetched_at": "2026-11-16T09:00:00Z"
+    "last_seen_summary": "最新仍为 11-13 用户实测 WorkBuddy 与 CodeBuddy 选型，轻量模型省 30-50% 积分；11-06 续费报告与出货明细表教程，无新增",
+    "fetched_at": "2026-11-17T10:41:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新仍为 11-06 数据 Agent 构建复盘；此前 10-30 Rebuilding Manus、10-13 波士顿案例与 OPPO 合作、10-01 Video Editor，无新增",
-    "fetched_at": "2026-11-16T09:00:00Z"
+    "last_seen_summary": "最新仍为 11-06 数据 Agent 构建复盘；此前 10-30 Rebuilding Manus、10-13 波士顿案例与 OPPO 合作，无新增",
+    "fetched_at": "2026-11-17T10:42:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为 V0.5.1（02-05）NATS EventBus、knowledge openapi、会话隔离与安全修复，无新版本",
-    "fetched_at": "2026-11-16T09:00:00Z"
+    "fetched_at": "2026-11-17T10:43:00Z"
   },
   "qwenpaw_releases": {
     "last_seen_summary": "最新稳定 v2.3.0（11-11 转正）：Piccolo 本地决策模型、Advisor Mode、Python Code Mode、ReMe 0.4.2.0、双语评测页",
-    "fetched_at": "2026-11-16T09:00:00Z"
+    "fetched_at": "2026-11-17T10:44:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "稳定版 2026.11.4（11-16，220 提交 125 PR 90 贡献者，23 个产物）；预发布推进至 2026.11.5-beta.4",
-    "fetched_at": "2026-11-16T09:00:00Z"
+    "last_seen_summary": "稳定版 2026.11.5（11-17）发布：重启安全会话、更新回滚、Telegram 交互组件、记忆索引重建、模型回退修复，含 harness 会话控制破坏性变更",
+    "fetched_at": "2026-11-17T10:47:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新仍为 11-03 从 OpenClaw 到 Super Agent 演进长文（腾讯游戏数据团队）；此前 10-26 NemoClaw+vLLM DGX Spark 教程，无新增",
-    "fetched_at": "2026-11-16T09:00:00Z"
+    "fetched_at": "2026-11-17T10:48:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "仍为 11-16 OpenAI、11-18 AI100 与 Tolias、12-02 NVIDIA 与 Guibas、12-09 社媒创作者、12-14 神经数据科学、2027-05-24 PhyStat，无新增场次",
-    "fetched_at": "2026-11-16T09:00:00Z"
+    "last_seen_summary": "新增 11-30 Richard Socher《The Eureka Machine》讲座；另有 11-18 AI100 与 Tolias、12-02 NVIDIA 与 Guibas、12-09 社媒创作者、12-14 神经数据科学场次",
+    "fetched_at": "2026-11-17T10:50:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "新增 11-16 Hoffman-Yee 2026 资助（7 队 350 万美元）与 11-15 AI Index《The Jagged Edge of the AI Boom》；11-11 神经科学与 AI 交叉资助不变",
-    "fetched_at": "2026-11-16T09:00:00Z"
+    "last_seen_summary": "仍为 11-16 Hoffman-Yee 2026 资助 7 队 350 万美元与 11-15 AI Index《The Jagged Edge of the AI Boom》；11-11 神经科学与 AI 交叉资助不变",
+    "fetched_at": "2026-11-17T10:49:00Z"
   },
   "workbuddy_official": {
     "last_seen_summary": "最新仍为 5.9.3（10-27）迁移分类选择与100GB上限、Windows升级与sandbox修复；无更新版本",

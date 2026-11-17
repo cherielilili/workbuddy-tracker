@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-11-17</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-11-17</span>
+      <span class="count-major">重大信号 × 2</span>
+      <span class="count-minor">常规更新 × 0</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 稳定版 2026.11.5 正式发布</span><div class="summary">11-17 发布正式版，主打重启安全会话、更新失败自动回滚、Telegram 交互组件渲染、记忆索引重建与模型回退可靠性；同时引入 harness 与插件会话控制的破坏性变更，第三方集成方需迁移至 runAttempt 回调与授权 Gateway 方法分发。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div><div class="signal pill-major"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 新增 Richard Socher 公开讲座</span><div class="summary">活动日历新增 11-30 12:00-13:00 讲座《The Eureka Machine》，由 Richard Socher 主讲，主张以 AI 自动化科研知识发现流程，属于 AI for Science 方向的公开讲座。</div><a class="src" href="https://hai.stanford.edu/events">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-11-17</h1>
+<h2>摘要</h2>
+<p>今日主要增量集中在 OpenClaw：稳定版 2026.11.5 正式发布，重点强化重启安全会话、更新失败自动回滚、Telegram 交互组件与记忆索引重建的可靠性，同时引入 harness 与插件会话控制的破坏性变更。Stanford HAI 活动日历新增 11-30 Richard Socher 公开讲座。其余厂商本期无新增可读动态。</p>
+<h2>重大信号</h2>
+<ul>
+<li>[OpenClaw] 稳定版 2026.11.5 正式发布（11-17）：重启安全、更新回滚、Telegram 组件化与 harness 会话控制破坏性变更，见 https://github.com/openclaw/openclaw/releases</li>
+<li>[Stanford HAI] 新增 11-30 公开讲座：Richard Socher 主讲《The Eureka Machine》，主张以 AI 自动化科研发现流程，见 https://hai.stanford.edu/events</li>
+</ul>
+<h2>Open Source / OpenClaw</h2>
+<ul>
+<li>稳定版 2026.11.5 于 11-17 10:47 发布，接替 2026.11.4，预发布 beta 线收敛为正式版。来源：https://github.com/openclaw/openclaw/releases</li>
+<li>重启安全会话：排队消息、发送权限与最终聊天写入在 Gateway 重启后保留，减少重启导致的消息丢失与重复发送。</li>
+<li>更新安全性：Doctor 或 Gateway 启动失败时自动回滚已激活的更新；恢复的 npm 包保持非 root 服务可读，降低升级失败导致的不可用风险。</li>
+<li>Telegram 渠道增强：交互式组件可在 Telegram 消息中渲染（含私聊 topic），并修复进度流模式下的 ACP 回复与审批落在私聊/论坛 topic 内的问题；被禁用的按钮渲染为非交互。</li>
+<li>记忆与索引：大体积记忆索引重建可稳定完成，embedding 索引在网关截断批量错误后可恢复；知识页面增加读取预算与分段提取，避免加载超大页面。</li>
+<li>模型回退可靠性：已配置的主账号不再阻断 Claude CLI 回退，OpenAI 会话可从压缩项冲突中恢复。</li>
+<li>安全预设与忙碌会话：新增个人/企业两套安全预设提供一致默认值；个人模式下忙碌会话消息改为引导或静默排队，不再要求手动重发。</li>
+<li>破坏性变更（集成方需迁移）：第三方 harness 必须在 host 的 runAttempt 回调中注册按会话键控的活动运行并保留返回的清理函数；插件 RPC 处理须改用授权 Gateway 方法分发替代 chatAbortControllers/chatQueuedTurns；start-owner 观测改用 startDeadlineAtMs。</li>
+<li>运维类修复：cron 配置热重载不再中止在途任务、保留调度账号选择与重试截止时间；网关配置重载的文件监听竞态、MCP 监听在关机时取消等已修。</li>
+</ul>
+<h2>Stanford HAI</h2>
+<ul>
+<li>活动日历新增 11-30 12:00-13:00 讲座：Richard Socher《The Eureka Machine: Why AI is the Key to Unlocking a New Era of Scientific Discoveries》，核心观点为当前科研发现速度因学科碎片化与单一领域研究者减少而放缓，应把 AI 先指向自身、再指向各领域研发流程以实现知识发现自动化。来源：https://hai.stanford.edu/events</li>
+<li>现有排期不变：11-18 AI100 报告讲座与 Tolias 场次、12-02 NVIDIA Youssef Nashed 与 Guibas 场次、12-09 社媒创作者研究、12-14 神经数据科学研讨会。</li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>
