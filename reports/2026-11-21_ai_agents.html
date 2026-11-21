@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-11-21</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-11-21</span>
+      <span class="count-major">重大信号 × 1</span>
+      <span class="count-minor">常规更新 × 4</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 发布 2026.11.10-beta.1：ClawHub Agent 模板与 OpenClaw ID</span><div class="summary">11-19 预发布新增从 ClawHub 包直接添加 Agent（单 CLAW.md 清单 + 随包技能）、OpenClaw ID 隧道与 Access 审批、Browser 面板无中断接管、运行中下发补充指令与编辑排队消息、可配置自动更新排期与启动时 copy-and-swap 状态迁移，macOS 后台命令跨 Gateway 重启保持运行。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Alibaba</span><span class="title">QwenPaw v2.3.0.post1：第三方 Agent 插件化与频道插件市场</span><div class="summary">11-18 补丁版将第三方 Agent 抽离为插件，频道插件支持更新、版本下限校验与官方市场发布，Creator 2.0.5-2.0.6 更新安全资产与技能市场，Whisper 模型名可配置，并修复飞书/企微/微信通道与桌面升级多项问题。</div><a class="src" href="https://github.com/agentscope-ai/QwenPaw/releases">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Manus</span><span class="title">Manus 成为 Godot 基金会白金赞助商</span><div class="summary">11-16 官方博客宣布成为 Godot 基金会白金赞助商，属开发者生态与品牌层面公告，未涉及产品功能或定价调整。</div><a class="src" href="https://manus.im/blog">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Tencent</span><span class="title">WorkBuddy 社区：用外部技能包搭建个人游资分析系统</span><div class="summary">11-20 腾讯云开发者社区用户文，演示把技能包放入用户级与项目级 .workbuddy/skills 目录，并说明技能需按前缀+场景词+参数+修饰词格式触发。</div><a class="src" href="https://cloud.tencent.com/developer/search/article?q=WorkBuddy">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI：秋季会议综述与司法/医疗 AI 研究更新</span><div class="summary">11-18 秋季会议综述讨论治理、工作与教育；11-19 用幻觉案例基准追踪州法院生成式 AI 使用；11-20 发布 ICU 谵妄视频监测系统研究。</div><a class="src" href="https://hai.stanford.edu/news">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-11-21</h1>
+<h2>摘要</h2>
+<p>过去 24 小时赛道主要变量集中在开源 Agent 运行时：OpenClaw 推出 2026.11.10-beta.1，把 ClawHub 包变成一等 Agent 模板，并补充设备身份隧道与运行中插入指令等控制能力；阿里 QwenPaw 发布 v2.3.0.post1，将第三方 Agent 与频道插件市场正式纳入插件体系。生态侧，Manus 以 Godot 基金会白金赞助商身份加码开发者社区，Stanford HAI 则继续在治理、司法与医疗场景产出研究口径。</p>
+<h2>重大信号</h2>
+<ul>
+<li><strong>[OpenClaw]</strong> 2026.11.10-beta.1 预发布，Agent 模板 + 身份隧道 + 运行中干预三线推进。详见下文。</li>
+</ul>
+<h2>腾讯 WorkBuddy</h2>
+<ul>
+<li>腾讯云开发者社区 11-20 新增用户实操文《如何利用 workbuddy 打造个人游资系统》：将外部技能包分别复制到用户级 <code>\.workbuddy\skills</code> 与项目级 <code>.workbuddy\skills</code> 目录完成安装，并强调技能需以「前缀+场景词+参数+修饰词」格式触发，无前缀不生效。属社区教程增量，非官方能力变更。<a href="https://cloud.tencent.com/developer/search/article?q=WorkBuddy">来源</a></li>
+<li>官方 Changelog 最新仍为 5.11.3（11-15），本期无新版本条目。</li>
+</ul>
+<h2>Manus</h2>
+<ul>
+<li>11-16 官方博客《Manus Joins the Godot Foundation as a Platinum Sponsor》：Manus 成为 Godot 基金会白金赞助商，属开发者生态与品牌层面的官方公告，未涉及产品能力或定价变化。<a href="https://manus.im/blog">来源</a></li>
+</ul>
+<h2>阿里 QwenPaw</h2>
+<ul>
+<li>11-18 发布 <strong>v2.3.0.post1</strong>（v2.3.0 的补丁版，功能增量较多）：</li>
+<li><code>feat(agent)</code>：将第三方 Agent 抽离为插件，接入方式与内置 Agent 解耦；</li>
+<li><code>feat(channels)</code>：频道插件支持更新、版本下限校验（最低 QwenPaw 2.3.0.post1）与官方插件市场发布；</li>
+<li><code>feat(creator)</code>：发布 2.0.5-2.0.6，涵盖安全资产、音频与技能市场更新；</li>
+<li><code>feat(transcription)</code>：Whisper API 模型名可配置；</li>
+<li>修复向：飞书重连守护进程存活、企微上传分片无 body 回执、微信消息去重与工作区隔离、cron 定时 Agent 运行追踪、Office COM 自动化沙箱前置校验、桌面包升级残留清理、控制台首屏体积与平板 Markdown 预览等。<a href="https://github.com/agentscope-ai/QwenPaw/releases">来源</a></li>
+</ul>
+<h2>OpenClaw</h2>
+<ul>
+<li>11-19 发布 <strong>2026.11.10-beta.1</strong>（预发布），主要亮点：</li>
+<li>Agent 模板：可直接从 ClawHub 包添加 Agent，仅需单个 <code>CLAW.md</code> 清单与随包技能目录，走原生信任流程；</li>
+<li>OpenClaw ID：通过 ID 隧道连接节点，在 Access 中审批，并把属主设备绑定到自有身份；</li>
+<li>浏览器接管：可在 Browser 面板直接接管 Agent 的浏览器而不中断其运行；</li>
+<li>聊天控制：运行中下发补充指令、编辑排队消息，应用重启后保留输入草稿；</li>
+<li>更新与状态：支持配置自动更新排期并由待安装版本自行预演；Gateway 状态改为启动时 copy-and-swap 迁移；macOS 上后台命令跨 Gateway 重启保持运行；</li>
+<li>权限与发现：新增沙箱会话工具的 guest 成员角色；可选启用按使用频率排序的工具索引（含 MCP 工具）；</li>
+<li>修复向：OpenClaw ID 成员权限在 HTTP 历史与连接应用面板的一致生效、子 Agent 结果跨重启保留与重投、Slack/Discord/Signal 消息投递边界、冷会话压缩 CPU 与延迟回归等。<a href="https://github.com/openclaw/openclaw/releases">来源</a></li>
+</ul>
+<h2>Stanford HAI</h2>
+<ul>
+<li>11-18 秋季会议综述《AI's Future Is Still a Choice》：围绕治理、工作与教育三个维度讨论如何把 AI 承诺转化为公共收益，属政策与治理口径的会议总结。<a href="https://hai.stanford.edu/news">来源</a></li>
+<li>11-19 研究：团队用基于已记录幻觉案例构建的基准来校准检测器，追踪生成式 AI 在美国四个州法院的出现频率，指出'AI 是否泛滥'难被直接证明。<a href="https://hai.stanford.edu/news">来源</a></li>
+<li>11-20 研究：计算机视觉团队开发 24 小时视频监测系统，用于跟踪 ICU 患者活动并辅助医生识别谵妄早期体征。<a href="https://hai.stanford.edu/news">来源</a></li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>

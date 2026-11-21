@@ -1,0 +1,57 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-11-19\n\n## 摘要\n\n今日动态集中在开源 Agent 侧：OpenClaw 放出 2026.11.10-beta.1，首次引入 ClawHub 包级 Agent 模板、OpenClaw ID 身份隧道与浏览器接管能力；QwenPaw 发布 v2.3.0.post1，将第三方 Agent 抽象为插件并上线渠道插件市场与版本守卫。Manus 宣布以白金赞助商身份加入 Godot 基金会，向游戏与创作生态延伸。学术侧，Stanford HAI 关注生成式 AI 在美国州法院文书中的渗透与检测方法。\n\n## 重大信号\n\n- **[OpenClaw] 发布 2026.11.10-beta.1，Agent 模板与身份体系成型**：新增从 ClawHub 包直接安装 Agent（单一 CLAW.md 清单 + 内置技能目录，走原生信任流）；OpenClaw ID 通过隧道连接节点、在 Access 中审批并绑定自有身份；浏览器接管可在不中断 Agent 的前提下人工接管；支持自动更新排程与预更新演练；Gateway 状态改为启动时 copy-and-swap 迁移；macOS 后台命令跨重启持久执行。修复侧覆盖子 Agent 结果跨重启保留、OpenAI responses 冲突恢复、Slack/Discord/Signal 投递边界等。来源：https://github.com/openclaw/openclaw/releases\n- **[Alibaba / QwenPaw] v2.3.0.post1 发布，第三方 Agent 插件化**：将第三方 Agent 抽取为插件；渠道插件支持更新、版本守卫与官方市场发布；新增回复选区引用进草稿、浏览器标签页跟随会话名、Whisper API 模型名可配置；修复微信/企微/飞书投递与重连、定时任务追踪、Office COM 非沙箱回退安全加固、体积过大的图片降采样等。来源：https://github.com/agentscope-ai/QwenPaw/releases\n- **[Manus] 成为 Godot 基金会白金赞助商**（严重度：minor，不进推送）：官方博客 11-16 发布，属生态与品牌层面的合作公告，暂无对应产品功能说明。来源：https://manus.im/blog\n\n## OpenClaw\n\n- 新预发布版本 2026.11.10-beta.1（11-19 15:45 发布），核心是把 Agent 变成可分发的包：ClawHub 安装、单清单 CLAW.md 与技能目录、原生信任校验打通，配合 OpenClaw ID 隧道实现跨节点身份与权限审批。https://github.com/openclaw/openclaw/releases\n- 交互与执行层：浏览器面板可直接接管 Agent 浏览器而不终止运行；待发送的 steering 消息与排队消息可编辑，草稿跨重启保留；Settings → Talk 可选语音转写模型，Agent 可在交付前自查生成图片。\n- 运维与稳定性：自动更新排程 + 版本自带预更新演练；Gateway 状态迁移改为 copy-and-swap；macOS 后台命令跨 Gateway 重启继续运行；备份显示阶段与字节进度。\n- 修复：Access 成员权限在 HTTP 历史与已连应用面板的一致性、权限被撤销时排队消息显式失败而非静默取消、子 Agent 结果跨重启保留并重试投递、冷会话压缩 CPU 与延迟回退、大知识库扫描写锁缩短。\n- 版本线上稳定标签已推进到 2026.11.6（11-17 的 2026.11.5 之上），具体变更需以 tag 版 CHANGELOG 为准。\n\n## 阿里 QwenPaw\n\n- v2.3.0.post1（11-18）落地第三方 Agent 插件化与渠道插件市场，渠道侧同时引入最低版本守卫，说明其在做插件分发的版本治理。https://github.com/agentscope-ai/QwenPaw/releases\n- Console 体验：回复选区可引用进后续草稿、浏览器标签标题跟随当前会话名、完成会话刷新与 favicon 状态提示、初始包体积下降、平板端 Markdown 预览修复。\n- 连接器修复密集：飞书重连 supervisor 清理异常后仍存活、飞书文件名百分号解码、企微上传分片无 body 的成功确认、微信仅携带 message_id 的发送回执、微信误报机器人冲突与工作区状态隔离。\n- 安全与执行：内联 Office COM 自动化在非沙箱回退前加守卫、禁止在卷根写入 sandbox ACE、插件启用前重试恢复、按选定 PyPI 镜像初始化 venv。\n- 上一条稳定线 v2.3.0（11-11）仍为 Piccolo 4B/9B/27B 本地决策模型 + QwenPaw Community 的主版本基线。\n\n## Manus\n\n- 博客新增 11-16 条目：Manus 以白金赞助商身份加入 Godot 基金会，指向游戏/创作工具链生态。https://manus.im/blog\n- 产品主线无更新，首页仍主推 Manus 2.0（Cascade harness、Cloud Computer、Automations、Manus Studio、Cue）。\n\n## Stanford HAI\n\n- 11-19 新研究：利用记录在案的 AI 幻觉案例构建基准，校准检测器并追踪生成式 AI 在美国四州法院文书中的扩散，属治理与政策相关实证研究。https://hai.stanford.edu/news\n- 11-18 秋季会议综述《AI's Future Is Still a Choice》：围绕治理、工作与教育的决策如何把 AI 承诺转化为公共收益。\n- 活动日历新增 2027-05-24 PhyStat 2027 物理与 AI 会议（Center for Decoding the Universe）；既有 11-30 Richard Socher、12-02 NVIDIA Youssef Nashed 与 Guibas、12-09 社媒创作者、12-14 神经数据科学场次不变。https://hai.stanford.edu/events\n",
+  "signals": [
+    {
+      "title": "OpenClaw 发布 2026.11.10-beta.1：ClawHub Agent 模板与 OpenClaw ID 身份隧道",
+      "vendor": "OpenClaw",
+      "severity": "major",
+      "summary": "预发布版引入从 ClawHub 包直接安装 Agent 的模板机制（单一 CLAW.md 清单与内置技能目录走原生信任流），OpenClaw ID 通过 ID 隧道连接并审批节点、绑定自有身份；浏览器面板可在不停止 Agent 的情况下人工接管；新增自动更新排程与预更新演练、Gateway 状态 copy-and-swap 迁移、macOS 后台命令跨重启持久执行，并修复子 Agent 结果保留、OpenAI responses 冲突恢复与多渠道投递边界问题。",
+      "source": "https://github.com/openclaw/openclaw/releases"
+    },
+    {
+      "title": "QwenPaw 发布 v2.3.0.post1：第三方 Agent 插件化与渠道插件市场",
+      "vendor": "Alibaba / QwenPaw",
+      "severity": "major",
+      "summary": "该版本将第三方 Agent 抽取为插件，渠道侧新增插件更新、版本守卫与官方市场发布，并下调最低兼容版本；同时加入回复选区引用进草稿、标签页标题跟随会话名、Whisper 模型名可配置；集中修复微信/企微/飞书的投递、重连与文件名解码问题，并对 Office COM 非沙箱回退做安全加固、禁止卷根写入 sandbox ACE。",
+      "source": "https://github.com/agentscope-ai/QwenPaw/releases"
+    },
+    {
+      "title": "Manus 成为 Godot 基金会白金赞助商",
+      "vendor": "Manus",
+      "severity": "minor",
+      "summary": "官方博客 11-16 发布生态合作公告，Manus 以白金赞助商身份加入 Godot 基金会，指向游戏与创作工具链场景；同期无产品功能更新，主线仍为 Manus 2.0 体系。",
+      "source": "https://manus.im/blog"
+    }
+  ],
+  "new_state": {
+    "workbuddy_changelog": {
+      "last_seen_summary": "最新仍为 5.11.3（11-15）稳定性修复；5.11.2（11-10）新增侧栏置顶/最近/分组分区与本地文件夹入口，无新版本",
+      "fetched_at": "2026-11-19T16:00:00Z"
+    },
+    "tencent_cloud_workbuddy": {
+      "last_seen_summary": "最新仍为 11-06 续费报告实操文与轻量模型省 30-50% 积分选型文，无新增",
+      "fetched_at": "2026-11-19T16:00:00Z"
+    },
+    "manus_blog": {
+      "last_seen_summary": "新增 11-16 成为 Godot 基金会白金赞助商；此前 11-06 数据 Agent 复盘、10-30 Rebuilding Manus 不变",
+      "fetched_at": "2026-11-19T16:00:00Z"
+    },
+    "coze_studio_releases": {
+      "last_seen_summary": "最新仍为 V0.5.1（02-05）NATS EventBus、knowledge openapi、会话隔离与安全修复，无新版本",
+      "fetched_at": "2026-11-19T16:00:00Z"
+    },
+    "qwenpaw_releases": {
+      "last_seen_summary": "最新 v2.3.0.post1（11-18）：第三方 Agent 插件化、渠道插件市场与版本守卫、多渠道修复；v2.3.0（11-11）含 Piccolo 本地决策模型",
+      "fetched_at": "2026-11-19T16:00:00Z"
+    },
+    "openclaw_releases": {
+      "last_seen_summary": "最新 2026.11.10-beta.1（11-19）：ClawHub Agent 模板、OpenClaw ID、浏览器接管、更新排程；稳定标签已至 2026.11.6",
+      "fetched_at": "2026-11-19T16:00:00Z"
+    },
+    "53ai_openclaw": {
+      "last_seen_summary": "最新仍为 11-03 从 OpenClaw 到 Super Agent 演进长文；此前 10-26 NemoClaw+vLLM 教程，无新增",
+      "fetched_at": "2026-11-19T16:00:00Z"
+    },
+    "stanford_hai_news": {
+      "last_seen_summary": "新增 11-19 州法院生成式 AI 文书检测基准、11-18 秋季会议综述；11-16 Hoffman-Yee 资助与 11-15 AI Index 长文不变",
+      "fetched_at": "2026-11-19T16

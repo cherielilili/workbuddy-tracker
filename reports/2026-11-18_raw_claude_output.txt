@@ -1,0 +1,39 @@
+{
+  "report_md": "# AI Agent 赛道日报 2026-11-18\n\n## 摘要\nOpenClaw 今日推出网关专用扩展稳定版 2026.10.33，首次以 LTS 等价通道运营主仓库；QwenPaw 发布 v2.3.0.post1，将第三方 Agent 抽离为插件并上线渠道插件市场。Manus 以白金赞助商身份加入 Godot 基金会，Stanford HAI 发布秋季会议综述，聚焦治理、劳动与教育的路径选择。\n\n## 重大信号\n- [OpenClaw] 新增扩展稳定版（LTS 等价）发行通道：2026.10.33 于 11-18 发布，仅覆盖 Gateway 与官方插件包，收敛关键安全更新与长会话内存、更新恢复等修复，产品线由单一滚动版扩展为滚动版 + 扩展稳定版双轨。https://github.com/openclaw/openclaw/releases\n- [Alibaba / QwenPaw] v2.3.0.post1 于 11-18 发布，第三方 Agent 抽离为插件、渠道插件支持更新与官方市场上架，同时将主干版本号推进到 2.3.1b1。https://github.com/agentscope-ai/QwenPaw/releases\n\n## OpenClaw\n- 2026.10.33 定位为 gateway-only extended-stable（当前 LTS 等价通道），取自 2026 年 10 月末代码并叠加关键安全更新、可靠性与性能修复及新模型支持；分发覆盖核心 npm 包、对应官方 npm 插件与 Gateway Docker 镜像，不含原生 App。当前最新版仍为 2026.11.5。https://github.com/openclaw/openclaw/releases\n- 长会话与大 session store 改为有界导出与恢复，降低聊天、记忆导出、Doctor 修复与 Gateway 启动过程中的内存溢出。\n- 更新中断可恢复：执行器进程死亡后不再让 Gateway 卡在离线状态；版本偏移校验保护已安装服务仍在使用的状态。\n- 回复在更多重启与重连路径下保留原始 prompt，恢复 Telegram 响应，避免 WhatsApp 回复丢失与 Signal 消息跳过。\n- 共享会话隐私增强：Side chat 仅对查看者可见，内部模型 prompt 不出现在展示输出，压缩摘要中的凭据被脱敏。\n- 自动化能力扩充：可响应轮询条件与 MCP 事件、运行可复用脚本、调用显式放行的 MCP server；已安装 skill 支持按需检索读取，不再整体注入 prompt。\n- 会话可导入既有 Claude Code 或 Codex 记录，并支持在本地与云端环境之间迁移。\n- 交互侧新增会话稍后提醒与自定义唤醒时间、嵌套会话组织与归档、共享对话 emoji 反应与收发策略配置；记忆运行时改为 provider 中立架构。\n\n## 阿里 QwenPaw\n- v2.3.0.post1（11-18）紧随 11-11 转正的 v2.3.0，属带功能的补丁版：将第三方 Agent 抽离为插件；渠道插件支持更新、版本守卫与官方插件市场上架。https://github.com/agentscope-ai/QwenPaw/releases\n- 控制台体验：后续追问草稿可引用回复片段、浏览器标签页标题跟随当前会话名、Safari 消息队列操作图标修复、完成会话刷新与 favicon 状态展示、初次打包体积缩减。\n- Shell 命令卡片增加意图标题；Whisper API 模型名可配置；定时任务可追踪调度触发的 Agent 运行。\n- 安全与沙箱：Office COM 自动化在非沙箱兜底前加守卫、沙箱禁止在卷根写入 ACE、社区版密码登录依赖部署层访问控制。\n- 渠道稳定性：飞书重连 supervisor 在清理异常后仍存活、上传文件名百分比编码解码、微信仅含 message_id 的发送回执兼容、企业微信分片上传空 body 回执兼容、渠道 worker 保留运行时目录上下文。\n- 桌面与安装：早期启动错误持久化并弹原生错误对话框、升级卸载时清理内置 Windows 运行时、venv 初始化使用所选 PyPI 镜像。\n- 版本线同时 bump 至 2.3.1b1，说明 2.3.1 已进入 beta；Creator 包发布 2.0.5-2.0.6，含安全资产、音频与技能市场更新。\n\n## Manus\n- 11-16 官方博客：Manus 以白金赞助商身份加入 Godot 基金会，延续 10-01 上线的 Game Dev 能力，向开源游戏引擎与创作者生态进一步倾斜。https://manus.im/blog\n\n## Stanford HAI\n- 11-18 发布新闻《AI's Future Is Still a Choice》：HAI 秋季会议综述，专家围绕治理、工作与教育的决策如何把 AI 承诺转化为更广泛公共收益展开讨论。https://hai.stanford.edu/news\n- 该综述与 11-15 AI Index 结论形成呼应，强调落地路径仍是选择问题而非技术必然。\n",
+  "signals": [
+    {
+      "title": "OpenClaw 新增扩展稳定版通道 2026.10.33",
+      "vendor": "OpenClaw",
+      "severity": "major",
+      "summary": "11-18 发布 gateway-only extended-stable 版本 2026.10.33，作为当前 LTS 等价通道，基于 10 月末代码叠加关键安全更新与性能修复，含长会话内存治理、更新中断恢复、共享会话隐私与自动化/MCP 事件能力；分发覆盖 npm 核心包、官方插件与 Gateway Docker 镜像。",
+      "source": "https://github.com/openclaw/openclaw/releases"
+    },
+    {
+      "title": "QwenPaw v2.3.0.post1：第三方 Agent 插件化与渠道插件市场上架",
+      "vendor": "Alibaba / QwenPaw",
+      "severity": "major",
+      "summary": "11-18 发布 v2.3.0.post1，将第三方 Agent 抽离为插件，渠道插件支持更新、版本守卫与官方市场上架，控制台支持引用回复片段，并修复 Office COM 自动化、沙箱 ACE 等安全问题；主干同时 bump 至 2.3.1b1。",
+      "source": "https://github.com/agentscope-ai/QwenPaw/releases"
+    },
+    {
+      "title": "Manus 成为 Godot 基金会白金赞助商",
+      "vendor": "Manus",
+      "severity": "minor",
+      "summary": "11-16 官方博客宣布以白金赞助商身份加入 Godot 基金会，与其 10 月上线的 Game Dev 能力形成生态协同，属品牌与生态层公告，暂未涉及产品功能变更。",
+      "source": "https://manus.im/blog"
+    },
+    {
+      "title": "Stanford HAI 秋季会议综述：AI 的未来仍是选择",
+      "vendor": "Stanford HAI",
+      "severity": "minor",
+      "summary": "11-18 新闻《AI's Future Is Still a Choice》汇总秋季会议观点，围绕治理、劳动与教育领域的决策如何决定 AI 收益分配，与 11-15 AI Index 的公众情绪与劳动力市场结论相互印证。",
+      "source": "https://hai.stanford.edu/news"
+    }
+  ],
+  "new_state": {
+    "workbuddy_changelog": {
+      "last_seen_summary": "最新仍为 5.11.3（11-15）稳定性修复；5.11.2 新增侧栏置顶/最近/分组分区与本地文件夹入口，无新版本",
+      "fetched_at": "2026-11-18T09:00:00Z"
+    },
+    "tencent_cloud_workbuddy": {
+      "last_seen_summary": "最新仍为 11-13 用户实测 WorkBuddy 与 CodeBuddy 选型，轻量模型省 30-50% 积分；11-06 续费报告与出货
