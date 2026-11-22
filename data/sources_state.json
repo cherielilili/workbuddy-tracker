@@ -1,39 +1,39 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新仍为 5.11.3（11-15）稳定性修复；5.11.2（11-10）侧栏置顶/最近/分组分区与本地文件夹入口，无新版本",
-    "fetched_at": "2026-11-21T04:35:00Z"
+    "last_seen_summary": "最新仍为 5.11.3（11-15）会话分组、侧栏置顶与沙箱释放修复，无新版本",
+    "fetched_at": "2026-11-22T04:35:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "最新为 11-20 用户文搭建个人游资系统技能包；11-13 实测 WorkBuddy 与 CodeBuddy 选型，轻量模型省 30-50% 积分",
-    "fetched_at": "2026-11-21T04:35:00Z"
+    "last_seen_summary": "搜索列表可见最新为 11-13 用户实测 WorkBuddy 与 CodeBuddy 选型，轻量模型省 30-50% 积分，无新增文章",
+    "fetched_at": "2026-11-22T04:35:00Z"
   },
   "manus_blog": {
-    "last_seen_summary": "最新为 11-16 成为 Godot 基金会白金赞助商；此前 11-06 数据 Agent 复盘、10-30 Rebuilding Manus",
-    "fetched_at": "2026-11-21T04:35:00Z"
+    "last_seen_summary": "最新仍为 11-16 成为 Godot 基金会白金赞助商，此前 11-06 数据 Agent 复盘，无新博文",
+    "fetched_at": "2026-11-22T04:35:00Z"
   },
   "coze_studio_releases": {
-    "last_seen_summary": "最新仍为 V0.5.1（02-05）NATS EventBus、knowledge openapi、会话隔离与安全修复，无新版本",
-    "fetched_at": "2026-11-21T04:35:00Z"
+    "last_seen_summary": "最新仍为 V0.5.1（02-05）NATS EventBus、knowledge openapi 与会话隔离，无新版本",
+    "fetched_at": "2026-11-22T04:35:00Z"
   },
   "qwenpaw_releases": {
-    "last_seen_summary": "最新为 v2.3.0.post1（11-18）第三方 Agent 插件化、频道插件市场、Creator 2.0.6；稳定版 v2.3.0（11-11）含 Piccolo",
-    "fetched_at": "2026-11-21T04:35:00Z"
+    "last_seen_summary": "最新仍为 v2.3.0.post1（11-18）第三方 Agent 插件化、频道插件市场与 Creator 2.0.6，无新版本",
+    "fetched_at": "2026-11-22T04:35:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "最新为 2026.11.10-beta.1（11-19）ClawHub Agent 模板、OpenClaw ID、浏览器接管与聊天中干预；稳定版仍为 2026.11.5（11-17）",
-    "fetched_at": "2026-11-21T04:35:00Z"
+    "last_seen_summary": "最新 beta 为 2026.11.10-beta.1（11-19）；releases 导航新增稳定版标签 2026.11.6，详情未获取",
+    "fetched_at": "2026-11-22T04:35:00Z"
   },
   "53ai_openclaw": {
-    "last_seen_summary": "最新仍为 11-03 从 OpenClaw 到 Super Agent 演进长文；此前 10-26 NemoClaw+vLLM DGX Spark 教程，无新增",
-    "fetched_at": "2026-11-21T04:35:00Z"
+    "last_seen_summary": "最新仍为 11-03 从 OpenClaw 到 Super Agent 演进长文，此前 10-26 NemoClaw 教程，无新增",
+    "fetched_at": "2026-11-22T04:35:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "仍为 11-30 Richard Socher 讲座、12-02 NVIDIA 与 Guibas、12-09 社媒创作者、12-14 神经数据科学，无新增场次",
-    "fetched_at": "2026-11-21T04:35:00Z"
+    "last_seen_summary": "仍为 11-30 Socher、12-02 NVIDIA 与 Guibas、12-09 社媒创作者、12-14 神经数据科学，无新增场次",
+    "fetched_at": "2026-11-22T04:35:00Z"
   },
   "stanford_hai_news": {
-    "last_seen_summary": "最新为 11-20 ICU 谵妄视频监测、11-19 州法院生成式 AI 检测、11-18 秋季会议综述；此前 11-16 Hoffman-Yee 资助",
-    "fetched_at": "2026-11-21T04:35:00Z"
+    "last_seen_summary": "最新仍为 11-20 ICU 谵妄视频监测、11-19 州法院生成式 AI 检测、11-18 秋季会议综述，无新增",
+    "fetched_at": "2026-11-22T04:35:00Z"
   },
   "workbuddy_official": {
     "last_seen_summary": "最新仍为 5.9.3（10-27）迁移分类选择与100GB上限、Windows升级与sandbox修复；无更新版本",
