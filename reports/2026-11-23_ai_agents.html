@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-11-23</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-11-23</span>
+      <span class="count-major">重大信号 × 2</span>
+      <span class="count-minor">常规更新 × 0</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 发布 2026.11.10-beta.2，主打更新恢复与后台任务可靠性</span><div class="summary">11-23 推送 beta.2：包替换中断后仍可运行、崩溃或重启后更新可续；子 Agent 完成结果在 Gateway 重启与父轮次中断后仍能恢复投递；首轮对话在模型目录加载期即可接收消息；Webhook 放宽至 1MiB 并支持批量 Gmail 通知。同时 releases 导航稳定版标签更新至 2026.11.7。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div><div class="signal pill-major"><span class="vendor">Alibaba</span><span class="title">QwenPaw 发布 v2.3.1-beta.1，MCP 与本地模型管理全面插件化</span><div class="summary">11-23 发布预发布版：MCP 抽离为插件、本地模型管理抽离为插件、本地 Whisper 转为 SDK 插件并由框架托管生命周期；shell 发邮件与 HTTP 写操作、文件上传改为需审批；新增 QQ C2C 流式与 QQ 群全量消息、小艺可选流式，并修复钉钉卡片表格分段与 Windows 安装器退出等待。</div><a class="src" href="https://github.com/agentscope-ai/QwenPaw/releases">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-11-23</h1>
+<h2>摘要</h2>
+<p>今日开源 Agent 框架侧更新密集：OpenClaw 推送 2026.11.10-beta.2，重点在更新中断后自恢复、子 Agent 已完成结果的持久化投递与首轮对话时延压缩；QwenPaw 发布 v2.3.1-beta.1，将 MCP、本地模型管理、本地 Whisper 全面插件化，并加严高危操作审批。产品侧 WorkBuddy 无新版本，社区出现 Obsidian 知识库联动与 HY3 免费额度实操；行业侧出现办公 Agent 规模化与 FDE 交付模式的观察长文。</p>
+<h2>重大信号</h2>
+<ul>
+<li>[OpenClaw] 2026.11.10-beta.2 发布：更新恢复机制、后台子 Agent 结果持久化、Webhook 1MiB 与插件侧问题分叉会话 — https://github.com/openclaw/openclaw/releases</li>
+<li>[QwenPaw] v2.3.1-beta.1 发布：MCP / 本地模型管理 / 本地 Whisper 插件化，shell 发邮件与 HTTP 写入需审批 — https://github.com/agentscope-ai/QwenPaw/releases</li>
+</ul>
+<h2>阿里 QwenPaw</h2>
+<ul>
+<li>11-23 发布 v2.3.1-beta.1（Pre-release），核心是能力边界全面插件化：MCP 抽离为插件、本地模型管理抽离为插件、本地 Whisper 转为 SDK 插件并由框架托管生命周期 — https://github.com/agentscope-ai/QwenPaw/releases</li>
+<li>安全侧加严：基于 shell 的邮件发送、HTTP 写操作与文件上传改为需人工审批；同时修复卷根目录写入沙箱 ACE 的问题 — https://github.com/agentscope-ai/QwenPaw/releases</li>
+<li>渠道侧新增 QQ C2C 流式消息、QQ 群全量消息与仅 @ 过滤、小艺可选流式与传输加固、钉钉 AI 卡片 Markdown 表格与正文分段修复 — https://github.com/agentscope-ai/QwenPaw/releases</li>
+<li>客户端与控制台：外部发起的会话可在控制台重连、响应式输入区控件稳定、标签页 favicon 仅显示未读完成；读取工具改为 GBK/CP936 解码，Ollama 按 num_ctx 设置上下文窗口 — https://github.com/agentscope-ai/QwenPaw/releases</li>
+</ul>
+<h2>OpenClaw（开源）</h2>
+<ul>
+<li>11-23 发布 openclaw 2026.11.10-beta.2（Pre-release），主要方向为可靠性：包替换中断后保持可运行、崩溃或重启后下次更新可安全完成 — https://github.com/openclaw/openclaw/releases</li>
+<li>后台任务链路加强：已完成子 Agent 结果在 Gateway 重启、父轮次中断、兄弟任务活跃时仍保留并恢复投递；sessions_send 不再阻塞超时 — https://github.com/openclaw/openclaw/releases</li>
+<li>首轮体验优化：模型目录加载期间即可接受首条消息，长历史压缩不再全量驻留 Gateway 内存 — https://github.com/openclaw/openclaw/releases</li>
+<li>新增插件侧问题分叉：插件可基于会话实时上下文派生后台任务，带自有工具与策略控制的文件/命令权限；Webhook 支持 1MiB 请求体与批量 Gmail 通知扇出 — https://github.com/openclaw/openclaw/releases</li>
+<li>渠道修复覆盖 Telegram、Discord、WhatsApp、Matrix、Slack，以及 Twilio MMS 图片、飞书长流式回复与会议音视频保活 — https://github.com/openclaw/openclaw/releases</li>
+<li>releases 导航中稳定版标签已更新至 openclaw 2026.11.7（此前为 2026.11.6） — https://github.com/openclaw/openclaw/releases</li>
+</ul>
+<h2>腾讯 WorkBuddy</h2>
+<ul>
+<li>官方 Changelog 无新版本，最新仍为 5.11.3（2026-11-15），即会话分组、侧栏置顶与沙箱释放相关修复 — https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
+<li>腾讯云开发者社区 11-20 新增用户实操：将 WorkBuddy 与 Obsidian 指向同一本地目录形成 Wiki 知识库，再通过自动任务完成文件同步、知识编译与索引维护，文中提到 HY3 模型限时免费额度 — https://cloud.tencent.com/developer/search/article?q=WorkBuddy</li>
+</ul>
+<h2>行业观察</h2>
+<ul>
+<li>53AI 11-23 发布长文《代码越来越不值钱，行业软件靠FDE能翻盘吗？》，指出大模型抹平开发门槛后，堆功能与定制化的旧路径失效，伴随 OpenClaw 等框架普及，办公 Agent 已形成规模化态势，企业关注点转向自有业务数据与流程等智能资产的主权 AI — https://www.53ai.com/news/Openclaw/</li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>
