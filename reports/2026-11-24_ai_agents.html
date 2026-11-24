@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-11-24</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-11-24</span>
+      <span class="count-major">重大信号 × 0</span>
+      <span class="count-minor">常规更新 × 0</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-11-24</h1>
+<h2>摘要</h2>
+<p>过去 24 小时赛道官方渠道整体平静，主要变动集中在开源侧：OpenClaw 发布 2026.11.10-beta.3 预发布版，围绕更新恢复、子 Agent 结果持久化与长会话内存占用做可靠性加固，稳定标签同时出现 2026.11.8。商业化厂商（腾讯 WorkBuddy、Manus、字节 Coze、阿里 QwenPaw）官方渠道无新版本或新公告，学术侧亦无新场次。</p>
+<h2>重大信号</h2>
+<p>今日无重大信号：无新产品发布、无重大版本更新、无价格策略变化、无官方公告、无季度横评长文。</p>
+<h2>OpenClaw（开源）</h2>
+<ul>
+<li>2026.11.10-beta.3 预发布（2026-11-24 03:28 UTC）：<a href="https://github.com/openclaw/openclaw/releases">releases</a></li>
+<li>更新恢复：跨 schema 变更或机器重启导致的中断更新保持可恢复，安装目录按发布版本隔离</li>
+<li>委派任务可靠性：子 Agent 的完成结果在 Gateway 重启、父级轮转、兄弟任务仍在运行时仍可取回，投递失败改为显式暴露而非静默丢弃</li>
+<li>子 Agent 指令注入：运行中的子 Agent 能更快接收新指令，重试时保留原始任务说明</li>
+<li>长会话性能：压缩或打开超大历史记录时降低内存与主线程开销</li>
+<li>凭据与附件：编辑设置时保留 SecretRef 凭据，避免下载 Signal 阅后即焚附件</li>
+<li>Provider 登录：可在浏览器完成 OpenCode Console / OpenCode Go 登录并发现账号可用模型，模型清单刷新不再依赖 OpenClaw 发版</li>
+<li>插件侧问答：插件可 fork 实时会话上下文执行隐藏后台轮次，受 session 策略治理的文件访问与执行权限约束</li>
+<li>MCP 配置：CLI 保存的 MCP server 变更无需停止 Gateway 即可生效</li>
+<li>边界修复：管理员权限跨原生客户端保留、已移除的 Discord DM 发送者不再借旧会话绑定继续投递、实时语音流绑定已签名通话、Telegram owner 身份与会话归属保持</li>
+<li>发布标签侧新增 2026.11.8 稳定版（较上次记录的 2026.11.7 前进一版），抓取内容未展开该版本的具体变更说明。</li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>

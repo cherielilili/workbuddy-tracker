@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>AI Agent 赛道日报 2026-11-23</title>
+<title>AI Agent 赛道日报 2026-11-24</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
@@ -95,50 +95,36 @@
   <header>
     <h1>AI Agent 赛道日报</h1>
     <div class="meta">
-      <span>2026-11-23</span>
-      <span class="count-major">重大信号 × 2</span>
+      <span>2026-11-24</span>
+      <span class="count-major">重大信号 × 0</span>
       <span class="count-minor">常规更新 × 0</span>
     </div>
   </header>
 
   <section class="signals">
     <h2>Signals</h2>
-    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 发布 2026.11.10-beta.2，主打更新恢复与后台任务可靠性</span><div class="summary">11-23 推送 beta.2：包替换中断后仍可运行、崩溃或重启后更新可续；子 Agent 完成结果在 Gateway 重启与父轮次中断后仍能恢复投递；首轮对话在模型目录加载期即可接收消息；Webhook 放宽至 1MiB 并支持批量 Gmail 通知。同时 releases 导航稳定版标签更新至 2026.11.7。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div><div class="signal pill-major"><span class="vendor">Alibaba</span><span class="title">QwenPaw 发布 v2.3.1-beta.1，MCP 与本地模型管理全面插件化</span><div class="summary">11-23 发布预发布版：MCP 抽离为插件、本地模型管理抽离为插件、本地 Whisper 转为 SDK 插件并由框架托管生命周期；shell 发邮件与 HTTP 写操作、文件上传改为需审批；新增 QQ C2C 流式与 QQ 群全量消息、小艺可选流式，并修复钉钉卡片表格分段与 Windows 安装器退出等待。</div><a class="src" href="https://github.com/agentscope-ai/QwenPaw/releases">来源 →</a></div>
+    
   </section>
 
   <main class="report">
-    <h1>AI Agent 赛道日报 2026-11-23</h1>
+    <h1>AI Agent 赛道日报 2026-11-24</h1>
 <h2>摘要</h2>
-<p>今日开源 Agent 框架侧更新密集：OpenClaw 推送 2026.11.10-beta.2，重点在更新中断后自恢复、子 Agent 已完成结果的持久化投递与首轮对话时延压缩；QwenPaw 发布 v2.3.1-beta.1，将 MCP、本地模型管理、本地 Whisper 全面插件化，并加严高危操作审批。产品侧 WorkBuddy 无新版本，社区出现 Obsidian 知识库联动与 HY3 免费额度实操；行业侧出现办公 Agent 规模化与 FDE 交付模式的观察长文。</p>
+<p>过去 24 小时赛道官方渠道整体平静，主要变动集中在开源侧：OpenClaw 发布 2026.11.10-beta.3 预发布版，围绕更新恢复、子 Agent 结果持久化与长会话内存占用做可靠性加固，稳定标签同时出现 2026.11.8。商业化厂商（腾讯 WorkBuddy、Manus、字节 Coze、阿里 QwenPaw）官方渠道无新版本或新公告，学术侧亦无新场次。</p>
 <h2>重大信号</h2>
-<ul>
-<li>[OpenClaw] 2026.11.10-beta.2 发布：更新恢复机制、后台子 Agent 结果持久化、Webhook 1MiB 与插件侧问题分叉会话 — https://github.com/openclaw/openclaw/releases</li>
-<li>[QwenPaw] v2.3.1-beta.1 发布：MCP / 本地模型管理 / 本地 Whisper 插件化，shell 发邮件与 HTTP 写入需审批 — https://github.com/agentscope-ai/QwenPaw/releases</li>
-</ul>
-<h2>阿里 QwenPaw</h2>
-<ul>
-<li>11-23 发布 v2.3.1-beta.1（Pre-release），核心是能力边界全面插件化：MCP 抽离为插件、本地模型管理抽离为插件、本地 Whisper 转为 SDK 插件并由框架托管生命周期 — https://github.com/agentscope-ai/QwenPaw/releases</li>
-<li>安全侧加严：基于 shell 的邮件发送、HTTP 写操作与文件上传改为需人工审批；同时修复卷根目录写入沙箱 ACE 的问题 — https://github.com/agentscope-ai/QwenPaw/releases</li>
-<li>渠道侧新增 QQ C2C 流式消息、QQ 群全量消息与仅 @ 过滤、小艺可选流式与传输加固、钉钉 AI 卡片 Markdown 表格与正文分段修复 — https://github.com/agentscope-ai/QwenPaw/releases</li>
-<li>客户端与控制台：外部发起的会话可在控制台重连、响应式输入区控件稳定、标签页 favicon 仅显示未读完成；读取工具改为 GBK/CP936 解码，Ollama 按 num_ctx 设置上下文窗口 — https://github.com/agentscope-ai/QwenPaw/releases</li>
-</ul>
+<p>今日无重大信号：无新产品发布、无重大版本更新、无价格策略变化、无官方公告、无季度横评长文。</p>
 <h2>OpenClaw（开源）</h2>
 <ul>
-<li>11-23 发布 openclaw 2026.11.10-beta.2（Pre-release），主要方向为可靠性：包替换中断后保持可运行、崩溃或重启后下次更新可安全完成 — https://github.com/openclaw/openclaw/releases</li>
-<li>后台任务链路加强：已完成子 Agent 结果在 Gateway 重启、父轮次中断、兄弟任务活跃时仍保留并恢复投递；sessions_send 不再阻塞超时 — https://github.com/openclaw/openclaw/releases</li>
-<li>首轮体验优化：模型目录加载期间即可接受首条消息，长历史压缩不再全量驻留 Gateway 内存 — https://github.com/openclaw/openclaw/releases</li>
-<li>新增插件侧问题分叉：插件可基于会话实时上下文派生后台任务，带自有工具与策略控制的文件/命令权限；Webhook 支持 1MiB 请求体与批量 Gmail 通知扇出 — https://github.com/openclaw/openclaw/releases</li>
-<li>渠道修复覆盖 Telegram、Discord、WhatsApp、Matrix、Slack，以及 Twilio MMS 图片、飞书长流式回复与会议音视频保活 — https://github.com/openclaw/openclaw/releases</li>
-<li>releases 导航中稳定版标签已更新至 openclaw 2026.11.7（此前为 2026.11.6） — https://github.com/openclaw/openclaw/releases</li>
-</ul>
-<h2>腾讯 WorkBuddy</h2>
-<ul>
-<li>官方 Changelog 无新版本，最新仍为 5.11.3（2026-11-15），即会话分组、侧栏置顶与沙箱释放相关修复 — https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
-<li>腾讯云开发者社区 11-20 新增用户实操：将 WorkBuddy 与 Obsidian 指向同一本地目录形成 Wiki 知识库，再通过自动任务完成文件同步、知识编译与索引维护，文中提到 HY3 模型限时免费额度 — https://cloud.tencent.com/developer/search/article?q=WorkBuddy</li>
-</ul>
-<h2>行业观察</h2>
-<ul>
-<li>53AI 11-23 发布长文《代码越来越不值钱，行业软件靠FDE能翻盘吗？》，指出大模型抹平开发门槛后，堆功能与定制化的旧路径失效，伴随 OpenClaw 等框架普及，办公 Agent 已形成规模化态势，企业关注点转向自有业务数据与流程等智能资产的主权 AI — https://www.53ai.com/news/Openclaw/</li>
+<li>2026.11.10-beta.3 预发布（2026-11-24 03:28 UTC）：<a href="https://github.com/openclaw/openclaw/releases">releases</a></li>
+<li>更新恢复：跨 schema 变更或机器重启导致的中断更新保持可恢复，安装目录按发布版本隔离</li>
+<li>委派任务可靠性：子 Agent 的完成结果在 Gateway 重启、父级轮转、兄弟任务仍在运行时仍可取回，投递失败改为显式暴露而非静默丢弃</li>
+<li>子 Agent 指令注入：运行中的子 Agent 能更快接收新指令，重试时保留原始任务说明</li>
+<li>长会话性能：压缩或打开超大历史记录时降低内存与主线程开销</li>
+<li>凭据与附件：编辑设置时保留 SecretRef 凭据，避免下载 Signal 阅后即焚附件</li>
+<li>Provider 登录：可在浏览器完成 OpenCode Console / OpenCode Go 登录并发现账号可用模型，模型清单刷新不再依赖 OpenClaw 发版</li>
+<li>插件侧问答：插件可 fork 实时会话上下文执行隐藏后台轮次，受 session 策略治理的文件访问与执行权限约束</li>
+<li>MCP 配置：CLI 保存的 MCP server 变更无需停止 Gateway 即可生效</li>
+<li>边界修复：管理员权限跨原生客户端保留、已移除的 Discord DM 发送者不再借旧会话绑定继续投递、实时语音流绑定已签名通话、Telegram owner 身份与会话归属保持</li>
+<li>发布标签侧新增 2026.11.8 稳定版（较上次记录的 2026.11.7 前进一版），抓取内容未展开该版本的具体变更说明。</li>
 </ul>
   </main>
 
