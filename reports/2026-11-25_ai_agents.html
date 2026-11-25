@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-11-25</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-11-25</span>
+      <span class="count-major">重大信号 × 1</span>
+      <span class="count-minor">常规更新 × 0</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 发布稳定版 v2026.11.10</span><div class="summary">2026-11-25 05:42 由 tideclaw-bot 签名发布稳定版 v2026.11.10，覆盖 8309 commits、7671 PR、349 贡献者；同步上架 AppImage、deb、release-manifest 与 postpublish-evidence 等资产，2026.11.10 系列由 beta.3 收敛为正式版。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-11-25</h1>
+<h2>摘要</h2>
+<p>今日赛道新增动态集中在开源 Agent 框架侧：OpenClaw 将 beta 线收敛并正式发布稳定版 v2026.11.10，同步上架桌面端二进制产物与发布清单。其余追蹤厂商（腾讯 WorkBuddy、字节 Coze 开源版、Manus、阿里 QwenPaw、Stanford HAI）在本周期内均无可读新增内容。</p>
+<h2>重大信号</h2>
+<ul>
+<li><strong>[OpenClaw] 稳定版 v2026.11.10 正式发布</strong>：该 tag 于 2026-11-25 05:42 由官方机器人签名发布，覆盖 8,309 commits、7,671 PR、349 位贡献者，同时产出 AppImage、deb、release-manifest 与 postpublish-evidence 等发布资产，标志 2026.11.10 系列完成从 beta.3 到稳定版的收敛。来源：https://github.com/openclaw/openclaw/releases</li>
+</ul>
+<h2>开源 OpenClaw</h2>
+<ul>
+<li>稳定通道由此前的 2026.11.8 推进至 <strong>v2026.11.10</strong>（2026-11-25 发布），发布说明与 changelog 采用双格式（面向人的 Release notes + 面向 AI Agent 的 Markdown changelog），延续其面向 Agent 可读性的发布规范。<a href="https://github.com/openclaw/openclaw/releases">链接</a></li>
+<li>发布产物体量显示这是一次大规模集成合流：8,309 commits / 7,671 pulls / 349 contributors，配套 <code>latest.json</code>、<code>openclaw-2026.11.10-release-manifest.json</code>、<code>dependency-evidence.zip</code> 与 <code>stable-main-closeout.json</code>，说明发布流程已形成可审计的供应链证据链。<a href="https://github.com/openclaw/openclaw/releases">链接</a></li>
+<li>桌面端分发覆盖 Linux（AppImage 476MB、deb 403MB）与 <code>linux.json</code> 通道清单，AMD64 为主；版本号已稳定在 2026.11.10，beta.3 之后无新的预发布标签。<a href="https://github.com/openclaw/openclaw/releases">链接</a></li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>

@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>AI Agent 赛道日报 2026-11-24</title>
+<title>AI Agent 赛道日报 2026-11-25</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
@@ -95,36 +95,30 @@
   <header>
     <h1>AI Agent 赛道日报</h1>
     <div class="meta">
-      <span>2026-11-24</span>
-      <span class="count-major">重大信号 × 0</span>
+      <span>2026-11-25</span>
+      <span class="count-major">重大信号 × 1</span>
       <span class="count-minor">常规更新 × 0</span>
     </div>
   </header>
 
   <section class="signals">
     <h2>Signals</h2>
-    
+    <div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 发布稳定版 v2026.11.10</span><div class="summary">2026-11-25 05:42 由 tideclaw-bot 签名发布稳定版 v2026.11.10，覆盖 8309 commits、7671 PR、349 贡献者；同步上架 AppImage、deb、release-manifest 与 postpublish-evidence 等资产，2026.11.10 系列由 beta.3 收敛为正式版。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div>
   </section>
 
   <main class="report">
-    <h1>AI Agent 赛道日报 2026-11-24</h1>
+    <h1>AI Agent 赛道日报 2026-11-25</h1>
 <h2>摘要</h2>
-<p>过去 24 小时赛道官方渠道整体平静，主要变动集中在开源侧：OpenClaw 发布 2026.11.10-beta.3 预发布版，围绕更新恢复、子 Agent 结果持久化与长会话内存占用做可靠性加固，稳定标签同时出现 2026.11.8。商业化厂商（腾讯 WorkBuddy、Manus、字节 Coze、阿里 QwenPaw）官方渠道无新版本或新公告，学术侧亦无新场次。</p>
+<p>今日赛道新增动态集中在开源 Agent 框架侧：OpenClaw 将 beta 线收敛并正式发布稳定版 v2026.11.10，同步上架桌面端二进制产物与发布清单。其余追蹤厂商（腾讯 WorkBuddy、字节 Coze 开源版、Manus、阿里 QwenPaw、Stanford HAI）在本周期内均无可读新增内容。</p>
 <h2>重大信号</h2>
-<p>今日无重大信号：无新产品发布、无重大版本更新、无价格策略变化、无官方公告、无季度横评长文。</p>
-<h2>OpenClaw（开源）</h2>
 <ul>
-<li>2026.11.10-beta.3 预发布（2026-11-24 03:28 UTC）：<a href="https://github.com/openclaw/openclaw/releases">releases</a></li>
-<li>更新恢复：跨 schema 变更或机器重启导致的中断更新保持可恢复，安装目录按发布版本隔离</li>
-<li>委派任务可靠性：子 Agent 的完成结果在 Gateway 重启、父级轮转、兄弟任务仍在运行时仍可取回，投递失败改为显式暴露而非静默丢弃</li>
-<li>子 Agent 指令注入：运行中的子 Agent 能更快接收新指令，重试时保留原始任务说明</li>
-<li>长会话性能：压缩或打开超大历史记录时降低内存与主线程开销</li>
-<li>凭据与附件：编辑设置时保留 SecretRef 凭据，避免下载 Signal 阅后即焚附件</li>
-<li>Provider 登录：可在浏览器完成 OpenCode Console / OpenCode Go 登录并发现账号可用模型，模型清单刷新不再依赖 OpenClaw 发版</li>
-<li>插件侧问答：插件可 fork 实时会话上下文执行隐藏后台轮次，受 session 策略治理的文件访问与执行权限约束</li>
-<li>MCP 配置：CLI 保存的 MCP server 变更无需停止 Gateway 即可生效</li>
-<li>边界修复：管理员权限跨原生客户端保留、已移除的 Discord DM 发送者不再借旧会话绑定继续投递、实时语音流绑定已签名通话、Telegram owner 身份与会话归属保持</li>
-<li>发布标签侧新增 2026.11.8 稳定版（较上次记录的 2026.11.7 前进一版），抓取内容未展开该版本的具体变更说明。</li>
+<li><strong>[OpenClaw] 稳定版 v2026.11.10 正式发布</strong>：该 tag 于 2026-11-25 05:42 由官方机器人签名发布，覆盖 8,309 commits、7,671 PR、349 位贡献者，同时产出 AppImage、deb、release-manifest 与 postpublish-evidence 等发布资产，标志 2026.11.10 系列完成从 beta.3 到稳定版的收敛。来源：https://github.com/openclaw/openclaw/releases</li>
+</ul>
+<h2>开源 OpenClaw</h2>
+<ul>
+<li>稳定通道由此前的 2026.11.8 推进至 <strong>v2026.11.10</strong>（2026-11-25 发布），发布说明与 changelog 采用双格式（面向人的 Release notes + 面向 AI Agent 的 Markdown changelog），延续其面向 Agent 可读性的发布规范。<a href="https://github.com/openclaw/openclaw/releases">链接</a></li>
+<li>发布产物体量显示这是一次大规模集成合流：8,309 commits / 7,671 pulls / 349 contributors，配套 <code>latest.json</code>、<code>openclaw-2026.11.10-release-manifest.json</code>、<code>dependency-evidence.zip</code> 与 <code>stable-main-closeout.json</code>，说明发布流程已形成可审计的供应链证据链。<a href="https://github.com/openclaw/openclaw/releases">链接</a></li>
+<li>桌面端分发覆盖 Linux（AppImage 476MB、deb 403MB）与 <code>linux.json</code> 通道清单，AMD64 为主；版本号已稳定在 2026.11.10，beta.3 之后无新的预发布标签。<a href="https://github.com/openclaw/openclaw/releases">链接</a></li>
 </ul>
   </main>
 

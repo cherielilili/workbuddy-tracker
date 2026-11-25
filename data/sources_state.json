@@ -1,39 +1,39 @@
 {
   "workbuddy_changelog": {
     "last_seen_summary": "最新仍为 5.11.3（11-15）会话分组、侧栏置顶与沙箱释放修复，无新版本",
-    "fetched_at": "2026-11-24T04:10:00Z"
+    "fetched_at": "2026-11-25T09:00:00Z"
   },
   "tencent_cloud_workbuddy": {
     "last_seen_summary": "社区最新仍为 11-20 Obsidian 与 WorkBuddy wiki 联动实操并提 HY3 免费额度，无官方新公告",
-    "fetched_at": "2026-11-24T04:10:00Z"
+    "fetched_at": "2026-11-25T09:00:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新仍为 11-16 成为 Godot 基金会白金赞助商，此前 11-06 数据 Agent 复盘，无新博文",
-    "fetched_at": "2026-11-24T04:10:00Z"
+    "fetched_at": "2026-11-25T09:00:00Z"
   },
   "coze_studio_releases": {
     "last_seen_summary": "最新仍为 V0.5.1（02-05）NATS EventBus、knowledge openapi 与会话隔离，无新版本",
-    "fetched_at": "2026-11-24T04:10:00Z"
+    "fetched_at": "2026-11-25T09:00:00Z"
   },
   "qwenpaw_releases": {
     "last_seen_summary": "最新为 v2.3.1-beta.1（11-23）MCP 与本地模型管理插件化、邮件与 HTTP 写操作需审批；稳定版 v2.3.0.post1",
-    "fetched_at": "2026-11-24T04:10:00Z"
+    "fetched_at": "2026-11-25T09:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "beta 线推进至 2026.11.10-beta.3（11-24）更新恢复、子 Agent 结果持久化与长会话内存优化；稳定标签出现 2026.11.8",
-    "fetched_at": "2026-11-24T04:10:00Z"
+    "last_seen_summary": "稳定版 v2026.11.10 于 11-25 发布，8.3k commits/7.7k PR/349 贡献者，含 AppImage、deb 产物；beta 线止于 11-24 的 beta.3",
+    "fetched_at": "2026-11-25T09:00:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新仍为 11-23 行业软件与 FDE 长文，此前 11-03 OpenClaw 到 Super Agent 演进长文",
-    "fetched_at": "2026-11-24T04:10:00Z"
+    "fetched_at": "2026-11-25T09:00:00Z"
   },
   "stanford_hai_events": {
     "last_seen_summary": "仍为 11-30 Socher、12-02 NVIDIA 与 Guibas、12-09 社媒创作者、12-14 神经数据科学，无新增场次",
-    "fetched_at": "2026-11-24T04:10:00Z"
+    "fetched_at": "2026-11-25T09:00:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "最新仍为 11-20 ICU 谵妄视频监测、11-19 州法院生成式 AI 检测、11-18 秋季会议综述，无新增",
-    "fetched_at": "2026-11-24T04:10:00Z"
+    "fetched_at": "2026-11-25T09:00:00Z"
   },
   "workbuddy_official": {
     "last_seen_summary": "最新仍为 5.9.3（10-27）迁移分类选择与100GB上限、Windows升级与sandbox修复；无更新版本",
