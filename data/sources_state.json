@@ -20,16 +20,16 @@
     "fetched_at": "2026-11-25T09:00:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "稳定版 v2026.11.10 于 11-25 发布，8.3k commits/7.7k PR/349 贡献者，含 AppImage、deb 产物；beta 线止于 11-24 的 beta.3",
-    "fetched_at": "2026-11-25T09:00:00Z"
+    "last_seen_summary": "2026.11.10（11-25）为最新稳定版，11-26 补传 macOS arm64 dmg/zip 与 dSYM 产物；beta 线止于 11-24 的 beta.3",
+    "fetched_at": "2026-11-26T10:30:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新仍为 11-23 行业软件与 FDE 长文，此前 11-03 OpenClaw 到 Super Agent 演进长文",
     "fetched_at": "2026-11-25T09:00:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "仍为 11-30 Socher、12-02 NVIDIA 与 Guibas、12-09 社媒创作者、12-14 神经数据科学，无新增场次",
-    "fetched_at": "2026-11-25T09:00:00Z"
+    "last_seen_summary": "新增 CNDS Symposium 2027（01-19）与 PhyStat 2027（05-24）；近期仍为 11-30 Socher、12-02 NVIDIA 与 Guibas",
+    "fetched_at": "2026-11-26T10:30:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "最新仍为 11-20 ICU 谵妄视频监测、11-19 州法院生成式 AI 检测、11-18 秋季会议综述，无新增",
