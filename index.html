@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
-<title>AI Agent 赛道日报 2026-11-26</title>
+<title>AI Agent 赛道日报 2026-11-27</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   :root {
@@ -95,33 +95,36 @@
   <header>
     <h1>AI Agent 赛道日报</h1>
     <div class="meta">
-      <span>2026-11-26</span>
-      <span class="count-major">重大信号 × 0</span>
+      <span>2026-11-27</span>
+      <span class="count-major">重大信号 × 1</span>
       <span class="count-minor">常规更新 × 0</span>
     </div>
   </header>
 
   <section class="signals">
     <h2>Signals</h2>
-    
+    <div class="signal pill-major"><span class="vendor">Tencent</span><span class="title">WorkBuddy 5.12.0 灰度发布：插件市场统一连接器/技能/专家，新增快速问答模式</span><div class="summary">2026-11-23 灰度推送 5.12.0。核心变动为新增插件市场，把连接器、技能、专家统一整合为「插件」，可在会话「+」号集中安装、开关与授权，旧版已连接连接器升级后自动同步；同时新增快速问答模式（项目/会话独立切换，模型设置与自主工作模式隔离）、资料库皮肤切换、冷归档云端任务查询、海外版邮箱注销账号。另修复侧栏置顶区与本地任务分组消失、云端任务待确认状态异常等十余项问题。</div><a class="src" href="https://www.codebuddy.cn/docs/workbuddy/Changelog">来源 →</a></div>
   </section>
 
   <main class="report">
-    <h1>AI Agent 赛道日报 2026-11-26</h1>
+    <h1>AI Agent 赛道日报 2026-11-27</h1>
 <h2>摘要</h2>
-<p>今日赛道整体平稳，无新产品或版本发布级变动。开源侧 OpenClaw 在 v2026.11.10 发布次日补传 macOS arm64 构建产物，补齐此前缺失的桌面端下载包。学术侧 Stanford HAI 活动日历新增 2027 年度两场跨学科会议，涉及神经数据科学与物理 AI 统计方法。</p>
+<p>腾讯 WorkBuddy 灰度推送 5.12.0，把连接器、技能、专家统一收敛为「插件」概念，并引入与自主工作模式隔离的快速问答模式，是本轮唯一的产品级变动。Stanford HAI 活动日历新增两场公开研讨（12-09 内容创作者研究、12-14 神经计算），其余厂商与开源项目未见新版本或官方公告。</p>
 <h2>重大信号</h2>
-<p>今日无 major 级信号。</p>
-<h2>开源 / OpenClaw</h2>
 <ul>
-<li>v2026.11.10 发布后补传 macOS arm64 产物：OpenClaw-2026.11.10-arm64.dmg（237 MB）、OpenClaw-2026.11.10-arm64.zip（321 MB）与 dSYM 调试符号包，上传时间 2026-11-26T10:06Z；该 tag 首发时仅有 AppImage 与 deb 两类 Linux 包，苹果芯片用户此前处于缺包状态。（https://github.com/openclaw/openclaw/releases）</li>
-<li>版本内容本身无变化，仍为 8,309 commits / 7,671 PR / 349 contributors 的大版本，beta 线止于 2026.11.10-beta.3。</li>
+<li><strong>[Tencent] WorkBuddy 5.12.0 灰度发布，能力入口收敛为「插件」体系</strong>：新增插件市场，将连接器、技能、专家统一整合为插件，可在会话「+」号中集中管理安装、开关与授权；新增快速问答模式，支持在项目与会话中独立切换，且与自主工作模式的模型设置相互隔离；新增资料库外观皮肤切换、冷归档云端任务与历史会话查询；优化旧连接器升级后自动同步安装对应插件。版本发布于 2026-11-23，目前处于灰度。来源：https://www.codebuddy.cn/docs/workbuddy/Changelog</li>
+</ul>
+<h2>腾讯 WorkBuddy</h2>
+<ul>
+<li>5.12.0（2026-11-23，灰度中）重构能力分发逻辑：插件市场统一管理连接器、技能、专家，安装与授权流程合并，关闭插件后对话中不再显示对应选项，旧版已连接连接器升级后自动同步为插件。(<a href="https://www.codebuddy.cn/docs/workbuddy/Changelog">Changelog</a>)</li>
+<li>5.12.0 新增快速问答模式，项目级与会话级均可独立切换，模型设置与自主工作模式互不干扰，避免重启后模型配置回退。(<a href="https://www.codebuddy.cn/docs/workbuddy/Changelog">Changelog</a>)</li>
+<li>5.12.0 其他新增：资料库外观皮肤切换即时生效、支持查询冷归档中的云端任务与历史会话、海外版 PC 端支持邮箱验证注销个人账号；企业专家 Tab 切换时保留搜索关键词。(<a href="https://www.codebuddy.cn/docs/workbuddy/Changelog">Changelog</a>)</li>
+<li>5.12.0 修复项集中在侧栏与云端任务状态：侧边栏升级后置顶区与本地任务分组消失、云端任务待确认时列表状态误显示为加载中、断网后会话失败状态不恢复、Windows 执行命令反复弹出终端窗口等。(<a href="https://www.codebuddy.cn/docs/workbuddy/Changelog">Changelog</a>)</li>
 </ul>
 <h2>Stanford HAI</h2>
 <ul>
-<li>活动日历新增 CNDS Symposium 2027：Neural data science across disciplines，2027-01-19 12:00–18:00，聚焦数据科学对脑科学理解的推进与跨学科方法互鉴。（https://hai.stanford.edu/events）</li>
-<li>新增 2027 Conference on Physics and AI（PhyStat 2027），2027-05-24，由 Center for Decoding the Universe 主办，主题为以先进统计与计算方法处理宇宙学复杂数据。（https://hai.stanford.edu/events）</li>
-<li>上述为新增挂网条目，非本周期发布的讲座内容；近期场次仍为 11-30 Richard Socher、12-02 NVIDIA 与 Leonidas Guibas、12-09 社媒创作者研究、12-14 神经数据科学。</li>
+<li>活动日历新增 12-09 公开研讨《Gurus, Hucksters, Entertainers: How Influencers Reshaped Social Media》，由 Angèle Christin 与 Hannah Zeavin 主讲，聚焦内容创作者生态与平台机制。(<a href="https://hai.stanford.edu/events">Events</a>)</li>
+<li>活动日历新增 12-14 CNDS 系列研讨，YoungJu Jo 主讲《Data-driven Discovery and Control of Neural Computations》。(<a href="https://hai.stanford.edu/events">Events</a>)</li>
 </ul>
   </main>
 
