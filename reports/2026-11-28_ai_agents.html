@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>AI Agent 赛道日报 2026-11-28</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root {
+    --bg: #0e1116;
+    --card: #161b22;
+    --card-hover: #1c2230;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --text-muted: #8b949e;
+    --accent: #6aa3d4;
+    --accent-strong: #4a86c0;
+    --major: #d97757;
+    --minor: #6e7681;
+    --link: #79b8ff;
+    --shadow: 0 1px 3px rgba(0,0,0,0.4);
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei",
+                 "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    margin: 0;
+    padding: 0;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+  .container { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  header { margin-bottom: 40px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  header h1 { font-size: 28px; font-weight: 600; margin: 0 0 8px; letter-spacing: -0.01em; }
+  header .meta { color: var(--text-muted); font-size: 14px; }
+  header .meta span + span { margin-left: 16px; }
+  .count-major { color: var(--major); font-weight: 600; }
+  .count-minor { color: var(--minor); }
+
+  section.signals { margin-bottom: 48px; }
+  section.signals h2 { font-size: 18px; font-weight: 600; margin: 0 0 16px; color: var(--text-muted);
+                       text-transform: uppercase; letter-spacing: 0.08em; font-size: 12px; }
+  .signal {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left-width: 3px;
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow);
+    transition: background 0.15s;
+  }
+  .signal:hover { background: var(--card-hover); }
+  .signal.pill-major { border-left-color: var(--major); }
+  .signal.pill-minor { border-left-color: var(--minor); }
+  .signal .vendor {
+    display: inline-block; font-size: 11px; padding: 2px 8px;
+    border-radius: 3px; background: rgba(106,163,212,0.12); color: var(--accent);
+    margin-right: 10px; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;
+  }
+  .signal .title { font-weight: 600; color: var(--text); }
+  .signal .summary { color: var(--text-muted); font-size: 14px; margin-top: 6px; line-height: 1.55; }
+  .signal .src { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: 8px; display: inline-block; }
+  .signal .src:hover { color: var(--accent-strong); text-decoration: underline; }
+
+  main.report { background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+                padding: 32px 36px; box-shadow: var(--shadow); }
+  main.report h1 { display: none; }
+  main.report h2 { font-size: 20px; font-weight: 600; margin: 32px 0 16px;
+                   padding-bottom: 8px; border-bottom: 1px solid var(--border); }
+  main.report h2:first-child { margin-top: 0; }
+  main.report h3 { font-size: 16px; font-weight: 600; margin: 24px 0 12px; color: var(--accent); }
+  main.report p { margin: 12px 0; }
+  main.report ul, main.report ol { padding-left: 24px; }
+  main.report li { margin: 6px 0; }
+  main.report a { color: var(--link); text-decoration: none; }
+  main.report a:hover { text-decoration: underline; }
+  main.report code { background: rgba(106,163,212,0.1); padding: 2px 6px;
+                     border-radius: 3px; font-size: 0.92em; }
+  main.report blockquote { border-left: 3px solid var(--accent); padding-left: 16px;
+                           color: var(--text-muted); margin: 16px 0; }
+  main.report table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 14px; }
+  main.report th, main.report td { padding: 10px 12px; border: 1px solid var(--border);
+                                    text-align: left; }
+  main.report th { background: rgba(106,163,212,0.08); font-weight: 600; }
+
+  footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border);
+           color: var(--text-muted); font-size: 12px; text-align: center; }
+  footer a { color: var(--accent); text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>AI Agent 赛道日报</h1>
+    <div class="meta">
+      <span>2026-11-28</span>
+      <span class="count-major">重大信号 × 2</span>
+      <span class="count-minor">常规更新 × 2</span>
+    </div>
+  </header>
+
+  <section class="signals">
+    <h2>Signals</h2>
+    <div class="signal pill-major"><span class="vendor">Tencent</span><span class="title">WorkBuddy 5.12.1 灰度发布</span><div class="summary">2026-11-27 发布 5.12.1 灰度版：新增发现入口插件引导与 + 菜单插件更新标识，优化命令执行单次授权不再重复弹窗，修复大体积 Markdown 预览卡死、连接器授权后任务被误判取消、文档引用读取为空等十余项问题；稳定线仍为 5.11.3。</div><a class="src" href="https://www.codebuddy.cn/docs/workbuddy/Changelog">来源 →</a></div><div class="signal pill-major"><span class="vendor">OpenClaw</span><span class="title">OpenClaw 2026.12.1-beta.1 预发布</span><div class="summary">11-28 推出新 beta：跨路由提示缓存复用与 85% 上下文自动压缩、Session Share 跨端共享会话、ClawHub 技能目录分类检索、按角色共享项目，接入 Nano Banana 2.1，Codex 运行时升至 0.172.0。</div><a class="src" href="https://github.com/openclaw/openclaw/releases">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Tencent</span><span class="title">WorkBuddy 外贸出货明细表实操教程上线社区</span><div class="summary">腾讯云开发者社区 11-28 新增用户实操文，展示上传表格后自动识别结构、逐项检索规格并按《数据来源》列标注查证与估算，无官方公告。</div><a class="src" href="https://cloud.tencent.com/developer/search/article?q=WorkBuddy">来源 →</a></div><div class="signal pill-minor"><span class="vendor">Stanford HAI</span><span class="title">Stanford HAI 新增 AI + Data for Science 研讨</span><div class="summary">活动日历新增 12-02 Marlowe 系列 Leonidas Guibas 场次（CoDa E160，周三 16:30-17:30），其余 11-30 Socher、12-02 NVIDIA、12-09 内容创作者等排期不变。</div><a class="src" href="https://hai.stanford.edu/events">来源 →</a></div>
+  </section>
+
+  <main class="report">
+    <h1>AI Agent 赛道日报 2026-11-28</h1>
+<h2>摘要</h2>
+<p>腾讯 WorkBuddy 灰度发布 5.12.1，重点在插件入口引导、命令授权流程与连接器/文档引用等一批稳定性修复；OpenClaw 推出 2026.12.1-beta.1，带来跨路由提示缓存复用、会话分享与 ClawHub 技能目录等能力。其余厂商官方侧无新增动向，社区侧以用户实操教程为主。</p>
+<h2>重大信号</h2>
+<ul>
+<li>[Tencent] WorkBuddy 5.12.1 灰度发布（2026-11-27）：新增《发现》入口插件引导与《+》菜单插件能力更新标识，修复大体积 Markdown 预览卡死、连接器授权后任务被误判取消等关键问题（https://www.codebuddy.cn/docs/workbuddy/Changelog）</li>
+<li>[OpenClaw] 2026.12.1-beta.1 预发布（2026-11-28）：提示缓存复用与 85% 上下文自动压缩、Session Share 跨端拉取共享会话、ClawHub 技能目录分类检索，接入 Nano Banana 2.1 与 Bedrock Converse 经 ClawRouter 路由（https://github.com/openclaw/openclaw/releases）</li>
+</ul>
+<h2>腾讯 WorkBuddy</h2>
+<ul>
+<li>5.12.1 版本发布（2026-11-27，灰度中）：新增《发现》入口插件引导气泡，《+》菜单以更新标识提示插件能力；优化命令执行授权，选择《单次允许》后不再重复弹出相同确认；优化 Windows 安装完成页，不再展示开机自启动选项（首次启动仍默认开启）（https://www.codebuddy.cn/docs/workbuddy/Changelog）</li>
+<li>同版本修复项密集：大体积 Markdown 预览不渲染并导致主窗口无响应、连接器授权后任务被误判为已取消、会话中引用腾讯文档/资料库/ima 文档列表为空或读不到正文、图片与视频生成工具偶发不可用、超长历史会话无法继续、定时任务提示重复堆叠及企微推送被自动开启等十余项（https://www.codebuddy.cn/docs/workbuddy/Changelog）</li>
+<li>版本线现状：稳定线仍为 5.11.3（11-15），5.12.0（11-23，插件市场统一连接器/技能/专家、快速问答模式）继续灰度中（https://www.codebuddy.cn/docs/workbuddy/Changelog）</li>
+<li>社区侧：腾讯云开发者社区 11-28 新增外贸出货明细表实操教程（自动识别表格结构并新增《数据来源》列标注查证与估算），11-20 有作者用 WorkBuddy 自动搜罗积分活动的复盘，均为用户实测内容，无官方公告（https://cloud.tencent.com/developer/search/article?q=WorkBuddy）</li>
+</ul>
+<h2>OpenClaw</h2>
+<ul>
+<li>2026.12.1-beta.1 预发布（2026-11-28 00:21）：更新流程改造，Git 安装使用预置 release 与常驻 launcher，包更新不再中断正在服务的 Gateway（https://github.com/openclaw/openclaw/releases）</li>
+<li>提示缓存与压缩策略升级：压缩复用跨路由的暖缓存，只读预热保持空闲缓存，上下文窗口占用达 85% 自动触发压缩（https://github.com/openclaw/openclaw/releases）</li>
+<li>协作能力：可从菜单分享 agent、不展开文件即可预览 Template、在会话卡片中管理计划自动化；Session Share 支持通过出站 WSS 拉取已授权共享会话并在来源 Control UI 打开；管理员可按受限角色共享指定项目并在会话中分配 profile 角色（https://github.com/openclaw/openclaw/releases）</li>
+<li>模型与生态：Nano Banana 2.1 图像生成，合格的 Bedrock Converse 流经 ClawRouter 路由；Codex 打包 app-server 及 ACP 运行时升级至 0.172.0；OpenCode Console 支持浏览器登录；Knowledge 支持列出 Slack 频道并从中学习；GBrain 支持 Apple Silicon 与 x86-64 Linux 原生安装（https://github.com/openclaw/openclaw/releases）</li>
+<li>稳定线仍为 2026.11.10，beta 线由此前 11-24 的 beta.3 直接跃至 12.1-beta.1（https://github.com/openclaw/openclaw/releases）</li>
+</ul>
+<h2>Stanford HAI</h2>
+<ul>
+<li>活动日历新增 12-02《Marlowe | AI + Data for Science with Leonidas Guibas》研讨（CoDa E160，每周三 16:30-17:30）（https://hai.stanford.edu/events）</li>
+<li>既有排期维持：11-30 Richard Socher《The Eureka Machine：为何 AI 是开启科学发现新时代的钥匙》、12-02 NVIDIA Youssef Nashed 蛋白质设计与 RFdiffusion4-Proteína 讲座、12-09 Christin 与 Zeavin 内容创作者研究、12-14 YoungJu Jo 神经计算研讨，以及 CNDS 2027 与 PhyStat 2027（https://hai.stanford.edu/events）</li>
+</ul>
+  </main>
+
+  <footer>
+    自动生成 · <a href="https://github.com/cherielilili/workbuddy-tracker">github.com/cherielilili/workbuddy-tracker</a>
+  </footer>
+</div>
+</body>
+</html>

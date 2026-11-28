@@ -1,11 +1,11 @@
 {
   "workbuddy_changelog": {
-    "last_seen_summary": "最新为 5.12.0（11-23，灰度中）插件市场统一连接器/技能/专家、快速问答模式、资料库皮肤与冷归档查询；稳定线仍为 5.11.3",
-    "fetched_at": "2026-11-27T04:10:00Z"
+    "last_seen_summary": "最新为 5.12.1（11-27，灰度中）发现入口插件引导、授权弹窗优化与十余项修复；5.12.0 仍灰度，稳定线 5.11.3",
+    "fetched_at": "2026-11-28T02:10:00Z"
   },
   "tencent_cloud_workbuddy": {
-    "last_seen_summary": "社区最新仍为 11-20 开源 AI 工作台与 WorkBuddy 横评、11-13 表格数据溯源实操，无官方新公告",
-    "fetched_at": "2026-11-27T04:10:00Z"
+    "last_seen_summary": "社区 11-28 新增外贸出货明细表实操、11-20 积分自动化与 11-13 表格溯源教程，无官方新公告",
+    "fetched_at": "2026-11-28T02:12:00Z"
   },
   "manus_blog": {
     "last_seen_summary": "最新仍为 11-16 成为 Godot 基金会白金赞助商，此前 11-06 数据 Agent 复盘，无新博文",
@@ -20,16 +20,16 @@
     "fetched_at": "2026-11-27T04:10:00Z"
   },
   "openclaw_releases": {
-    "last_seen_summary": "2026.11.10（11-25）为最新稳定版，11-26 补传 macOS arm64 dmg/zip 与 dSYM 产物；beta 线止于 11-24 beta.3",
-    "fetched_at": "2026-11-27T04:10:00Z"
+    "last_seen_summary": "2026.12.1-beta.1（11-28）提示缓存复用、会话分享、ClawHub 技能目录；稳定线 2026.11.10",
+    "fetched_at": "2026-11-28T02:15:00Z"
   },
   "53ai_openclaw": {
     "last_seen_summary": "最新仍为 11-23 行业软件与 FDE 长文，此前 11-03 OpenClaw 到 Super Agent 演进长文",
     "fetched_at": "2026-11-27T04:10:00Z"
   },
   "stanford_hai_events": {
-    "last_seen_summary": "新增 12-09 内容创作者研讨（Christin/Zeavin）与 12-14 CNDS 神经计算研讨；已列 CNDS 2027、PhyStat 2027、11-30 Socher、12-02 NVIDIA",
-    "fetched_at": "2026-11-27T04:10:00Z"
+    "last_seen_summary": "新增 12-02 Marlowe AI+Data 研讨 Guibas；已列 11-30 Socher、12-02 NVIDIA、12-09 创作者、12-14 神经计算与 2027 两场会议",
+    "fetched_at": "2026-11-28T02:18:00Z"
   },
   "stanford_hai_news": {
     "last_seen_summary": "最新仍为 11-20 ICU 谵妄视频监测、11-19 州法院生成式 AI 检测、11-18 秋季会议综述，无新增",
